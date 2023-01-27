@@ -1,0 +1,55 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "sourceType": "module",
+        "project": "./tsconfig.json",
+        "extraFileExtensions": [".scss"],
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "useJSXTextNode": true
+    },
+    "plugins": [
+        "@typescript-eslint",
+        "react-hooks",
+        "react"
+    ],
+    "rules": {
+        "semi": "off",
+        "@typescript-eslint/semi": ["error"],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "prefer-const": [
+            "warn",
+            {
+                "ignoreReadBeforeAssign": true
+            }
+        ],
+        "no-use-before-define": ["error", { "functions": false }],
+        "getter-return": ["error"],
+        "no-debugger": ["error"],
+        "no-extra-semi": ["error"],
+        "no-extra-boolean-cast": ["error"],
+        "no-unexpected-multiline": ["error"],
+        "no-unneeded-ternary": ["error"],
+        "object-curly-newline": ["error"],
+        "object-curly-spacing": ["error", "always"],
+        "object-property-newline": ["error", { "allowAllPropertiesOnSameLine": true }],
+        "no-var": ["error"],
+        "prefer-arrow-callback": ["error"],
+        "new-parens": ["error", "always"],
+        "no-lonely-if": ["error"],
+        "no-multiple-empty-lines": ["error", { "max": 1 }],
+        "no-mixed-spaces-and-tabs": ["error"],
+        "no-whitespace-before-property": ["error"],
+        "brace-style": ["error"],
+        "@typescript-eslint/member-delimiter-style": ["error"],
+        "indent": ["error", 4],
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "react/jsx-max-props-per-line": ["error", { "when": "multiline" }],
+        "react/jsx-first-prop-new-line": ["error", "multiline"]
+    }
+}

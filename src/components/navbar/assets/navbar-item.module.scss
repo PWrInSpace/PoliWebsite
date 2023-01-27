@@ -1,0 +1,14 @@
+@import '../../../../src/scss/fonts.module';
+
+.link {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $beVietnamPro;
+    font-size: 13px;
+    margin-left: 30px
+}
+
+

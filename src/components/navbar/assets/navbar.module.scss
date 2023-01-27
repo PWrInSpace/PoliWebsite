@@ -1,0 +1,22 @@
+.headerContainer {
+    display: flex;
+    width: 100vw;
+    justify-content: center;    
+
+    .headerWrapper {
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        width: 100%;
+        max-width: 1112px;
+        margin-top: 32px;
+        justify-content: space-between;
+    }
+
+    .linksWrapper{
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+

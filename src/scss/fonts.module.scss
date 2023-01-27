@@ -1,0 +1,13 @@
+
+$beVietnamPro: 'Be Vietnam Pro', sans-serif;
+
+@font-face {
+    font-family: $beVietnamPro;
+    src: url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+    font-weight: normal;
+  }
+
+
+:export {
+    beVietnamPro: $beVietnamPro
+}
