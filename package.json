@@ -12,6 +12,7 @@
         "lint": "eslint src/**/*.tsx --format junit --o lint-results.xml",
         "lintFix": "eslint src/**/*.tsx --fix",
         "production": "cross-env NODE_ENV=production npm run lintstylish && tsc --noEmit && vite build --mode production",
+        "ghPages": "cross-env NODE_ENV=ghPages npm run lintstylish && tsc --noEmit && vite build --mode production",
         "test": "jest",
         "e2e-dev": "cypress open",
         "e2e-local": "cypress run"

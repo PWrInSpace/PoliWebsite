@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 import NavBar from './components/navbar/NavBar';
 import { NavMenuItem } from './Contract';
 import MainPage from './pages/main-page/MainPage';
@@ -36,8 +36,9 @@ function App() {
         getNavMenuModel(__('navbar.contact'), '/contact', DummyComp()),
     ];
 
+    const Router = process.env.NODE_ENV === 'ghPages' ? HashRouter : BrowserRouter;
     return (
-        <BrowserRouter>
+        <Router>
             <div>
                 <NavBar menuItems={menuItems}/>
                 <ReactCustomScrollbars autoHeight autoHeightMin={'100vh'} autoHide>
@@ -48,7 +49,7 @@ function App() {
                 </ReactCustomScrollbars>
 
             </div>
-        </BrowserRouter>
+        </Router>
     );
 }
 

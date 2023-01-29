@@ -31,7 +31,7 @@ jobs:
         run: mv ./vite.local.config.ts.ghPages ./vite.local.config.ts
 
       - name: Build project
-        run: npm run production
+        run: npm run ghPages
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
