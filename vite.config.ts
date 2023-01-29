@@ -31,11 +31,10 @@ export default defineConfig((params) => ({
         rollupOptions: {
             input: {
                 index: path.resolve(path.join(__dirname, 'index.html')),
-                bundle: path.resolve(path.join(__dirname, 'src', 'main.tsx')),
             },
             output: {
                 assetFileNames: asset => asset.name.includes('main') ? '[name].[ext]' : '[name].[hash].[ext]',
-                entryFileNames: '[name].js',
+                entryFileNames: '[name].[hash].js',
                 format: 'commonjs',
             },
         }

@@ -36,9 +36,10 @@ function App() {
         getNavMenuModel(__('navbar.contact'), '/contact', DummyComp()),
     ];
 
-    const Router = process.env.NODE_ENV === 'ghPages' ? HashRouter : BrowserRouter;
+    const isGhPages = process.env.NODE_ENV === 'ghPages';
+    const Router = isGhPages ? HashRouter : BrowserRouter;
     return (
-        <Router>
+        <Router basename={isGhPages ? '/PoliWebsite' : ''}>
             <div>
                 <NavBar menuItems={menuItems}/>
                 <ReactCustomScrollbars autoHeight autoHeightMin={'100vh'} autoHide>
