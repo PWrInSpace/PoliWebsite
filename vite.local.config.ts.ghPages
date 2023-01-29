@@ -3,6 +3,7 @@ export default {
     apiURL: 'http://localhost:4032',
 
     base: '/PoliWebsite/',
+    ghPages: true,
     // Specifies whether the page should be refreshed on any file change.
     reloadOnChange: false
 }

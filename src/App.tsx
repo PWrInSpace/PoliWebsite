@@ -5,10 +5,13 @@ import NavBar from './components/navbar/NavBar';
 import { NavMenuItem } from './Contract';
 import MainPage from './pages/main-page/MainPage';
 import ReactCustomScrollbars from 'react-custom-scrollbars-2';
+import localConfig from './../vite.local.config';
 
 interface NavMenuModel extends NavMenuItem {
     component: () => JSX.Element;
 }
+
+const config = localConfig as any;
 
 function App() {
     const getNavMenuModel = (name: string, url: string, component: JSX.Element) : NavMenuModel =>  {
@@ -36,12 +39,11 @@ function App() {
         getNavMenuModel(__('navbar.contact'), '/contact', DummyComp()),
     ];
 
-    const isGhPages = process.env.NODE_ENV === 'ghPages';
+    const isGhPages = config.ghPages === true;
     const Router = isGhPages ? HashRouter : BrowserRouter;
-    console.log(process.env.NODE_ENV);
     console.log(isGhPages);
     return (
-        <Router >
+        <Router>
             <div>
                 <NavBar menuItems={menuItems}/>
                 <ReactCustomScrollbars autoHeight autoHeightMin={'100vh'} autoHide>
