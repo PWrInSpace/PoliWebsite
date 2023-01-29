@@ -38,8 +38,10 @@ function App() {
 
     const isGhPages = process.env.NODE_ENV === 'ghPages';
     const Router = isGhPages ? HashRouter : BrowserRouter;
+    console.log(process.env.NODE_ENV);
+    console.log(isGhPages);
     return (
-        <Router basename={isGhPages ? '/PoliWebsite' : ''}>
+        <Router >
             <div>
                 <NavBar menuItems={menuItems}/>
                 <ReactCustomScrollbars autoHeight autoHeightMin={'100vh'} autoHide>
