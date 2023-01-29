@@ -2,9 +2,13 @@ name: Deploy
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: 
+    - main
+    - develop
   pull_request:
-    brnaches: [ main, develop ]
+    brnaches:
+    - main
+    - develop
 
 jobs:
   build:
@@ -24,7 +28,7 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: Rename file 
-        run: mv ./vite.local.config.ts.sample ./vite.local.config.ts
+        run: mv ./vite.local.config.ts.ghPages ./vite.local.config.ts
 
       - name: Build project
         run: npm run production
