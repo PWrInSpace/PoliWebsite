@@ -25,7 +25,7 @@ export default defineConfig((params) => ({
         target: ['es2021', 'chrome100', 'safari13'],
         minify: params.mode === 'production' ? 'terser' : 'esbuild',
         sourcemap: params.mode !== 'production',
-        outDir: '../wwwroot/dist',
+        outDir: './dist',
         emptyOutDir: true,
         assetsDir: '.',
         rollupOptions: {

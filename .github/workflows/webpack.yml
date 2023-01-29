@@ -2,8 +2,9 @@ name: Deploy
 
 on:
   push:
-    branches:
-      - develop
+    branches: [ main, develop ]
+  pull_request:
+    brnaches: [ main, develop ]
 
 jobs:
   build:
@@ -22,6 +23,9 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
+      - name: Rename file 
+        run: mv ./vite.local.config.ts.sample ./vite.local.config.ts
+
       - name: Build project
         run: npm run production
 
@@ -35,7 +39,7 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/develop'
 
     steps:
       - name: Download artifact
