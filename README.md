@@ -13,6 +13,9 @@
     - ESLint
     - i18n Ally
 
+- Recommended Chrome plugins:
+    - React Developer Tools
+
 # Install
 
 Run `yarn install` in root project directory to download packages. \
