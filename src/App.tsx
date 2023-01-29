@@ -41,7 +41,7 @@ function App() {
 
     const isGhPages = config.ghPages === true;
     const Router = isGhPages ? HashRouter : BrowserRouter;
-    console.log(isGhPages);
+
     return (
         <Router>
             <div>
