@@ -27,6 +27,7 @@ function initi18n() {
     });
 
     window.__ = (str: string) => i18n.t(str);
+    window.classes = (...args: string[]) => args.join(' ');
 }
 
 function loadPage() {

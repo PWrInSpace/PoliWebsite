@@ -1,3 +1,5 @@
+@import '../../../../src/scss/breakpoints.module';
+
 .headerContainer {
     display: flex;
     width: 100vw;
@@ -7,15 +9,41 @@
         position: fixed;
         z-index: 999;
         display: flex;
-        width: 100%;
+        width: calc(100% - 60px);
         max-width: 1112px;
-        margin-top: 32px;
+        margin:  32px 30px 0px 30px;
         justify-content: space-between;
     }
 
-    .linksWrapper{
+    .linksWrapper {
         display: flex;
         align-items: flex-end;
+
+        .menu {
+            display: none;
+        }
+        
+
+        @include breakpoint-md {
+            flex-direction: column;
+
+            .menu {
+                display: block;
+            }
+
+            * > a {
+                padding: 8px;
+            }
+        }        
+    }
+
+    @include breakpoint-md {
+        .linksHidden {
+            * > a {
+               display: none;
+               height: 0;
+            }
+       }
     }
 }
 
