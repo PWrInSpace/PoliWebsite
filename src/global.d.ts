@@ -5,7 +5,12 @@ declare module '*.scss' {
 
 declare module '*.svg';
 declare module '*.png';
+
+interface ApplicationContext {
+    baseUrl: string;
+}
 interface Window {
+    appContext: ApplicationContext;
     __: (str: string, ...args: any) => string;
     classes: (...args: string[]) => string;
 }

@@ -17,7 +17,7 @@ export default function NavBar(props: ISelfProps) {
     return (
         <div className={styles.headerContainer}>
             <div className={styles.headerWrapper}>
-                <IconLogo onClick={() => window.location.href = '/'}/> 
+                <IconLogo onClick={() => window.location.href = window.appContext.baseUrl}/> 
                 <div className={classes(styles.linksWrapper, !menuOpen && styles.linksHidden)}>
                     <div className={styles.menu} onClick={() => setMenuOpen(!menuOpen)}>
                         {!menuOpen && <IconMenu size={42} color={'white'}/>}
