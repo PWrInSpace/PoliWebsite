@@ -1,0 +1,8 @@
+@import '../../../../src/scss/breakpoints.module';
+
+.sectionContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
