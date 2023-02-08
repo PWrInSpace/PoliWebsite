@@ -3,6 +3,7 @@
 .footerContainer {
   display: grid;
   grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 30% 55% 15%;
   height: 20vw;
 
   .footerBackground {
@@ -20,9 +21,10 @@
       align-items: center;
       margin-top: 32px;
       flex-wrap: wrap;
+      grid-row: 1 / 2;
 
       * > a {
-        margin: 0 20px 0 20px;
+        margin: 0 15px 0 15px;
       }
 
       @include breakpoint-md {
@@ -35,6 +37,24 @@
     .footerDivider {
       margin: 20px 20px 0 20px;
       border: 0.5px solid #FFF;
+      grid-row: 1 / 2;
+    }
+  }
+
+  .footerContent {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+
+    .footerContentText {
+
+      font-size: 14px;
+      color: #FFF;
+      text-align: center;
     }
   }
 }
