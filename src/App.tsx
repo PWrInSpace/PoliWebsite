@@ -53,7 +53,7 @@ function App() {
                         <Route path={'/'} element={<MainPage/>} />
                         {menuItems.map(item => <Route path={item.url} element={item.component()} />)}
                     </Routes>
-                    <Footer/>
+                    <Footer menuItems={menuItems}/>
                 </ReactCustomScrollbars>
             </div>
         </Router>
