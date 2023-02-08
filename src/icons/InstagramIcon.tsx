@@ -1,6 +1,7 @@
 import React from 'react';
+import { IconProps } from '../Contract';
 
-export default function InstagramIcon() {
+export default function InstagramIcon(props: IconProps) {
     return(
         <a href="https://www.instagram.com/poliwrocket/">
             <svg width={33} height={34} viewBox="0 0 33 34" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './assets/social-media-component.module.scss';
-import FacebookIcon from './assets/FacebookIcon';
-import InstagramIcon from './assets/InstagramIcon';
+import FacebookIcon from '../../icons/FacebookIcon';
+import InstagramIcon from '../../icons/InstagramIcon';
 
 export default function SocialMediaComponent() {
     return(
