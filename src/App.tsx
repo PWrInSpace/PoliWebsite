@@ -6,6 +6,7 @@ import MainPage from './pages/main-page/MainPage';
 import ReactCustomScrollbars from 'react-custom-scrollbars-2';
 import localConfig from './../vite.local.config';
 import SocialMediaComponent from './components/social-media-component/SocialMediaComponent';
+import Footer from './components/footer/Footer';
 
 interface NavMenuModel extends NavMenuItem {
     component: () => JSX.Element;
@@ -52,6 +53,7 @@ function App() {
                         <Route path={'/'} element={<MainPage/>} />
                         {menuItems.map(item => <Route path={item.url} element={item.component()} />)}
                     </Routes>
+                    <Footer/>
                 </ReactCustomScrollbars>
             </div>
         </Router>
