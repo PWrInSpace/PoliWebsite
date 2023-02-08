@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 import NavBar from './components/navbar/NavBar';
@@ -6,6 +5,7 @@ import { NavMenuItem } from './Contract';
 import MainPage from './pages/main-page/MainPage';
 import ReactCustomScrollbars from 'react-custom-scrollbars-2';
 import localConfig from './../vite.local.config';
+import SocialMediaComponent from './components/social-media-component/SocialMediaComponent';
 
 interface NavMenuModel extends NavMenuItem {
     component: () => JSX.Element;
@@ -46,13 +46,13 @@ function App() {
         <Router>
             <div>
                 <NavBar menuItems={menuItems}/>
+                <SocialMediaComponent/>
                 <ReactCustomScrollbars autoHeight autoHeightMin={'100vh'} autoHide>
                     <Routes>
                         <Route path={'/'} element={<MainPage/>} />
                         {menuItems.map(item => <Route path={item.url} element={item.component()} />)}
-                    </Routes>                
+                    </Routes>
                 </ReactCustomScrollbars>
-
             </div>
         </Router>
     );
