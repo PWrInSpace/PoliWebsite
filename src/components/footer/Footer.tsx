@@ -16,6 +16,7 @@ export default function Footer(props: ISelfProps) {
                 <div className={styles.footerNav}>
                     {props.menuItems.map(item => <NavBarItem item={item} />)}
                 </div>
+                <div className={styles.footerDivider}></div>
             </div>
         </footer>
     );

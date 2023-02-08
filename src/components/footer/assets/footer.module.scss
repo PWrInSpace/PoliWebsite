@@ -1,12 +1,14 @@
+@import '../../../../src/scss/breakpoints.module';
+
 .footerContainer {
   display: grid;
-  grid-template-columns: 10% 80% 10%;
+  grid-template-columns: 20% 60% 20%;
   height: 20vw;
 
   .footerBackground {
     position: absolute;
     width: 100vw;
-    z-index: -10;
+    z-index: -1;
   }
 
   .footerWrapper {
@@ -14,7 +16,25 @@
 
     .footerNav {
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 32px;
+      flex-wrap: wrap;
+
+      * > a {
+        margin: 0 20px 0 20px;
+      }
+
+      @include breakpoint-md {
+        * > a {
+          margin: 10px 15px 10px 15px;
+        }
+      }
+    }
+
+    .footerDivider {
+      margin: 20px 20px 0 20px;
+      border: 0.5px solid #FFF;
     }
   }
 }
