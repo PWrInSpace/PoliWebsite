@@ -5,6 +5,7 @@ import NavBarItem from './NavBarItem';
 import styles from './assets/navbar.module.scss';
 import IconMenu from '../../../src/icons/IconMenu';
 import IconClose from '../../../src/icons/IconClose';
+import SocialMediaComponentNoBackground from '../social-media-component/SocialMediaComponentNoBackground';
 
 interface ISelfProps {
     menuItems: NavMenuItem[];
@@ -24,6 +25,7 @@ export default function NavBar(props: ISelfProps) {
                         {menuOpen && <IconClose size={42} color={'white'}/>}
                     </div>
                     {props.menuItems.map(item => <NavBarItem item={item} />)}
+                    {menuOpen && <SocialMediaComponentNoBackground/>}
                 </div>
             </div>
         </div>
