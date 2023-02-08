@@ -21,9 +21,13 @@ export default function Footer(props: ISelfProps) {
             </div>
             <div className={styles.footerContent}>
                 <IconLogo onClick={() => window.location.href = window.appContext.baseUrl}/>
-                <div className={styles.footerContentText}>
-                    NAPISZ DO NAS MAILA!<br></br>
-                    <b>pwrinspace@pwr.edu.pl</b>
+                <div>
+                    <div className={styles.footerContentText}>
+                    NAPISZ DO NAS MAILA!
+                    </div>
+                    <div className={styles.footerMailText}>
+                        pwrinspace@pwr.edu.pl
+                    </div>
                 </div>
             </div>
         </footer>

@@ -1,4 +1,5 @@
 @import '../../../../src/scss/breakpoints.module';
+@import '../../../../src/scss/fonts.module';
 
 .footerContainer {
   display: grid;
@@ -51,10 +52,19 @@
     height: 100%;
 
     .footerContentText {
-
-      font-size: 14px;
+      font-family: $alata;
+      font-size: 1.25rem;
+      letter-spacing: 0.4rem;
       color: #FFF;
-      text-align: center;
+    }
+
+    .footerMailText {
+      margin-top: 20px;
+      font-family: $beVietnamPro;
+      font-size: 1.25rem;
+      letter-spacing: 0.25rem;
+      font-weight: bold;
+      color: #FFF;
     }
   }
 }
