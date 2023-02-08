@@ -1,0 +1,13 @@
+@import '../../../../src/scss/breakpoints.module';
+
+.socialMediaContainerNoBackground {
+  display: none;
+
+  @include breakpoint-md {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    justify-content: space-around;
+    margin-right: 5px;
+  }
+}
