@@ -27,7 +27,7 @@ export default function Footer(props: ISelfProps) {
                 <IconLogo width={232} height={84} onClick={() => window.location.href = window.appContext.baseUrl}/>
                 <div>
                     <div className={styles.footerContentText}>
-                    NAPISZ DO NAS MAILA!
+                        {__('footer.mailUs')}
                     </div>
                     <div className={styles.footerMailText} onClick={() => window.location.href = 'mailto:pwrinspace@pwr.edu.pl'}>
                         pwrinspace@pwr.edu.pl
