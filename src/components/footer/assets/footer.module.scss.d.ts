@@ -3,11 +3,12 @@ declare const classNames: {
   readonly alata: "alata";
   readonly footerContainer: "footerContainer";
   readonly footerBackground: "footerBackground";
-  readonly footerWrapper: "footerWrapper";
+  readonly footerNavWrapper: "footerNavWrapper";
   readonly footerNav: "footerNav";
   readonly footerDivider: "footerDivider";
   readonly footerContent: "footerContent";
   readonly footerContentText: "footerContentText";
   readonly footerMailText: "footerMailText";
+  readonly footerSocialWrapper: "footerSocialWrapper";
 };
 export = classNames;

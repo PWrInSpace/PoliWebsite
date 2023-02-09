@@ -4,7 +4,7 @@
 .footerContainer {
   display: grid;
   grid-template-columns: 20% 60% 20%;
-  grid-template-rows: 30% 55% 15%;
+  grid-template-rows: 30% 50% 20%;
   height: 20vw;
 
   .footerBackground {
@@ -13,7 +13,7 @@
     z-index: -1;
   }
 
-  .footerWrapper {
+  .footerNavWrapper {
     grid-column: 2 / 3;
 
     .footerNav {
@@ -65,6 +65,19 @@
       letter-spacing: 0.25rem;
       font-weight: bold;
       color: #FFF;
+    }
+  }
+
+  .footerSocialWrapper {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      margin: 0 10px 0 10px;
+      opacity: 0.7;
     }
   }
 }

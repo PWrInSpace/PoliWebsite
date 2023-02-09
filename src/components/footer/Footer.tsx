@@ -4,6 +4,10 @@ import footerBackground from '../../assets/footerBackground.png';
 import { NavMenuItem } from '../../Contract';
 import NavBarItem from '../navbar/NavBarItem';
 import IconLogo from '../../icons/IconLogo';
+import FacebookIcon from '../../icons/FacebookIcon';
+import InstagramIcon from '../../icons/InstagramIcon';
+import TikTokIcon from '../../icons/TikTokIcon';
+import YouTubeIcon from '../../icons/YouTubeIcon';
 
 interface ISelfProps {
     menuItems: NavMenuItem[];
@@ -13,7 +17,7 @@ export default function Footer(props: ISelfProps) {
     return(
         <footer className={styles.footerContainer}>
             <img src={footerBackground} alt="footer background" className={styles.footerBackground}/>
-            <div className={styles.footerWrapper}>
+            <div className={styles.footerNavWrapper}>
                 <div className={styles.footerNav}>
                     {props.menuItems.map(item => <NavBarItem item={item} />)}
                 </div>
@@ -29,6 +33,12 @@ export default function Footer(props: ISelfProps) {
                         pwrinspace@pwr.edu.pl
                     </div>
                 </div>
+            </div>
+            <div className={styles.footerSocialWrapper}>
+                <FacebookIcon color={'black'} secondaryColor={'white'}/>
+                <InstagramIcon color={'black'} secondaryColor={'white'}/>
+                <TikTokIcon/>
+                <YouTubeIcon/>
             </div>
         </footer>
     );
