@@ -54,7 +54,7 @@
     .footerContentText {
       font-family: $alata;
       font-size: 1.25rem;
-      letter-spacing: 0.4rem;
+      letter-spacing: 0.33rem;
       color: #FFF;
     }
 
@@ -62,9 +62,18 @@
       margin-top: 20px;
       font-family: $beVietnamPro;
       font-size: 1.25rem;
-      letter-spacing: 0.25rem;
+      letter-spacing: 0.3rem;
       font-weight: bold;
       color: #FFF;
+    }
+
+    .footerMailText:hover {
+      cursor: pointer;
+      opacity: 0.7;
+    }
+
+    svg:hover {
+      cursor: pointer;
     }
   }
 
@@ -78,6 +87,11 @@
     svg {
       margin: 0 10px 0 10px;
       opacity: 0.7;
+    }
+
+    svg:hover {
+      opacity: 1;
+      cursor: pointer;
     }
   }
 }

@@ -23,6 +23,11 @@
     align-items: center;
   }
 
+  svg:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
   @include breakpoint-xl {
     top: 94px;
     transition-property: top;

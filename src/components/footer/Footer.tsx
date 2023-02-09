@@ -29,7 +29,7 @@ export default function Footer(props: ISelfProps) {
                     <div className={styles.footerContentText}>
                     NAPISZ DO NAS MAILA!
                     </div>
-                    <div className={styles.footerMailText}>
+                    <div className={styles.footerMailText} onClick={() => window.location.href = 'mailto:pwrinspace@pwr.edu.pl'}>
                         pwrinspace@pwr.edu.pl
                     </div>
                 </div>
