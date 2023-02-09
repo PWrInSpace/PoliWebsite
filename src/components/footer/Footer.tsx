@@ -35,10 +35,10 @@ export default function Footer(props: ISelfProps) {
                 </div>
             </div>
             <div className={styles.footerSocialWrapper}>
-                <FacebookIcon color={'black'} secondaryColor={'white'}/>
-                <InstagramIcon color={'black'} secondaryColor={'white'}/>
-                <TikTokIcon/>
-                <YouTubeIcon/>
+                <FacebookIcon onClick={() => window.location.href = 'https://www.facebook.com/pwrinspace'} color={'black'} secondaryColor={'white'}/>
+                <InstagramIcon onClick={() => window.location.href = 'https://www.instagram.com/poliwrocket/'} color={'black'} secondaryColor={'white'}/>
+                <TikTokIcon onClick={() => window.location.href = 'https://www.tiktok.com/@poliwrocket'}/>
+                <YouTubeIcon onClick={() => window.location.href = 'https://www.youtube.com/@poliwrocket1294'}/>
             </div>
         </footer>
     );
