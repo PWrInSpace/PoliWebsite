@@ -5,12 +5,23 @@
   display: grid;
   grid-template-columns: 20% 60% 20%;
   grid-template-rows: 30% 50% 20%;
-  height: 20vw;
+  height: 300px;
+
+  @include breakpoint-xl {
+    height: 460px;
+  }
 
   .footerBackground {
     position: absolute;
-    width: 100vw;
-    z-index: -1;
+    height: 300px;
+    width: 100%;
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
+    z-index: -5;
+
+    @include breakpoint-xl {
+      height: 460px;
+    }
   }
 
   .footerNavWrapper {
@@ -28,7 +39,7 @@
         margin: 0 15px 0 15px;
       }
 
-      @include breakpoint-md {
+      @include breakpoint-xl {
         * > a {
           margin: 10px 15px 10px 15px;
         }
@@ -50,6 +61,10 @@
     align-content: center;
     align-items: center;
     height: 100%;
+
+    @include breakpoint-xl {
+      flex-flow: column;
+    }
 
     .footerContentText {
       font-family: $alata;
