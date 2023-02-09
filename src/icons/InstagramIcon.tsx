@@ -1,11 +1,11 @@
 import React from 'react';
-import { IconProps } from '../Contract';
+import { AdvancedIconPropsWithColor } from '../Contract';
 
-export default function InstagramIcon(props: IconProps) {
-    const width = props.width ?? 33;
-    const height = props.height ?? 34;
-    const color = props.color ?? 'white';
-    const secondaryColor = props.secondaryColor ?? 'black';
+export default function InstagramIcon(props: AdvancedIconPropsWithColor) {
+    const width = props.size?.width ?? 33;
+    const height = props.size?.height ?? 34;
+    const color = props.color?.primaryColor ?? 'white';
+    const secondaryColor = props.color?.secondaryColor ?? 'black';
 
     return(
         <svg width={width} height={height} viewBox="0 0 33 34" fill="none" xmlns="http://www.w3.org/2000/svg" onClick={props.onClick}>

@@ -24,7 +24,7 @@ export default function Footer(props: ISelfProps) {
                 <div className={styles.footerDivider}></div>
             </div>
             <div className={styles.footerContent}>
-                <IconLogo width={232} height={84} onClick={() => window.location.href = window.appContext.baseUrl}/>
+                <IconLogo size={{ width: 232, height: 84 }} onClick={() => window.location.href = window.appContext.baseUrl}/>
                 <div>
                     <div className={styles.footerContentText}>
                         {__('footer.mailUs')}
@@ -35,8 +35,8 @@ export default function Footer(props: ISelfProps) {
                 </div>
             </div>
             <div className={styles.footerSocialWrapper}>
-                <FacebookIcon onClick={() => window.location.href = 'https://www.facebook.com/pwrinspace'} color={'black'} secondaryColor={'white'}/>
-                <InstagramIcon onClick={() => window.location.href = 'https://www.instagram.com/poliwrocket/'} color={'black'} secondaryColor={'white'}/>
+                <FacebookIcon onClick={() => window.location.href = 'https://www.facebook.com/pwrinspace'} color={{ primaryColor: 'black', secondaryColor: 'white' }}/>
+                <InstagramIcon onClick={() => window.location.href = 'https://www.instagram.com/poliwrocket/'} color={{ primaryColor: 'black', secondaryColor: 'white' }}/>
                 <TikTokIcon onClick={() => window.location.href = 'https://www.tiktok.com/@poliwrocket'}/>
                 <YouTubeIcon onClick={() => window.location.href = 'https://www.youtube.com/@poliwrocket1294'}/>
             </div>
