@@ -4,7 +4,8 @@ export interface NavMenuItem {
 }
 
 export interface IconProps {
-    size?: number;
+    height?: number;
+    width?: number;
     color?: string;
     onClick?: () => void;
 }

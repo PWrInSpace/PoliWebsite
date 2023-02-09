@@ -21,8 +21,8 @@ export default function NavBar(props: ISelfProps) {
                 <IconLogo onClick={() => window.location.href = window.appContext.baseUrl}/> 
                 <div className={classes(styles.linksWrapper, !menuOpen && styles.linksHidden)}>
                     <div className={styles.menu} onClick={() => setMenuOpen(!menuOpen)}>
-                        {!menuOpen && <IconMenu size={42} color={'white'}/>}
-                        {menuOpen && <IconClose size={42} color={'white'}/>}
+                        {!menuOpen && <IconMenu height={42} width={42} color={'white'}/>}
+                        {menuOpen && <IconClose height={42} width={42} color={'white'}/>}
                     </div>
                     {props.menuItems.map(item => <NavBarItem item={item} />)}
                     {menuOpen && <SocialMediaComponentNoBackground/>}

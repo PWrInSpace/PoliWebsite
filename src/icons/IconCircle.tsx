@@ -2,7 +2,8 @@ import React from 'react';
 import { IconProps } from '../../src/Contract';
 
 export default function IconCircle(props: IconProps) {
-    const size = props.size ?? 310;
+    const height = props.height ?? 24;
+    const width = props.width ?? 24;
     const color = props.color ?? 'white';
 
     return (
