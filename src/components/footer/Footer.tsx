@@ -20,7 +20,7 @@ export default function Footer(props: ISelfProps) {
                 <div className={styles.footerDivider}></div>
             </div>
             <div className={styles.footerContent}>
-                <IconLogo onClick={() => window.location.href = window.appContext.baseUrl}/>
+                <IconLogo width={232} height={84} onClick={() => window.location.href = window.appContext.baseUrl}/>
                 <div>
                     <div className={styles.footerContentText}>
                     NAPISZ DO NAS MAILA!
