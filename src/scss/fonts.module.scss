@@ -1,13 +1,19 @@
-
 $beVietnamPro: 'Be Vietnam Pro', sans-serif;
+$alata: 'Alata', sans-serif;
 
 @font-face {
     font-family: $beVietnamPro;
     src: url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
     font-weight: normal;
-  }
+}
 
+@font-face {
+  font-family: $alata;
+  src: url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+  font-weight: normal;
+}
 
 :export {
-    beVietnamPro: $beVietnamPro
+    beVietnamPro: $beVietnamPro;
+    alata: $alata;
 }

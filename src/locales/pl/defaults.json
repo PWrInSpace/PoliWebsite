@@ -9,5 +9,8 @@
         "sponsors": "Sponsorzy",
         "nwes": "Aktualności",
         "contact": "Kontakt"
+    },
+    "footer": {
+        "mailUs": "NAPISZ DO NAS MAILA!"
     }
 }

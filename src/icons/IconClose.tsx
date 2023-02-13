@@ -1,9 +1,9 @@
 import React from 'react';
-import { IconProps } from '../../src/Contract';
+import { IconProps } from '../Contract';
 
 export default function IconClose(props: IconProps) {
     const size = props.size ?? 24;
-    const color = props.color ?? '#000000';
+    const color = props.color ?? 'black';
 
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 20 20" fill={color} >
