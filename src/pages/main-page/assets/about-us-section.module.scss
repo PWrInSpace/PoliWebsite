@@ -14,6 +14,7 @@
         max-height: unset;
         min-height: 900px;
         height: 90vh;
+        grid-template-columns: 10% 80% 10%;
     }
 
     @include breakpoint-sm {
@@ -56,11 +57,11 @@
             margin-top: 60px;
 
             @include breakpoint-lg {
-                width: 80%;
+                width: 70%;
             }
 
             @include breakpoint-sm {
-                width: 100%;
+                width: 80%;
             }
         }
     }
