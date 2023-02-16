@@ -6,9 +6,9 @@ declare const classNames: {
   readonly footerNavWrapper: "footerNavWrapper";
   readonly footerNav: "footerNav";
   readonly footerContent: "footerContent";
+  readonly footerSocialWrapper: "footerSocialWrapper";
   readonly footerDivider: "footerDivider";
   readonly footerContentText: "footerContentText";
   readonly footerMailText: "footerMailText";
-  readonly footerSocialWrapper: "footerSocialWrapper";
 };
 export = classNames;

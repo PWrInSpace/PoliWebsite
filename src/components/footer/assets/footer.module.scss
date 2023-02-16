@@ -8,7 +8,7 @@
   height: 300px;
 
   @include breakpoint-xl {
-    height: 460px;
+    height: 520px;
   }
 
   .footerBackground {
@@ -20,7 +20,7 @@
     z-index: -5;
 
     @include breakpoint-xl {
-      height: 460px;
+      height: 520px;
     }
   }
 
@@ -64,6 +64,7 @@
 
     @include breakpoint-xl {
       flex-flow: column;
+      margin-top: 30px;
     }
 
     .footerContentText {
@@ -98,6 +99,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @include breakpoint-xl {
+      margin-top: 50px;
+    }
 
     svg {
       margin: 0 10px 0 10px;
