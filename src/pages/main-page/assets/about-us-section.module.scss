@@ -1,8 +1,47 @@
 @import '../../../../src/scss/breakpoints.module';
+@import '../../../../src/scss/fonts.module';
 
 .sectionContainer {
-    height: 100vh;
-    display: flex;
+    height: 90vh;
     justify-content: center;
-    background-color: white;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+
+    .sectionWrapper {
+        display: flex;
+        flex-direction: column;
+        grid-column: 2 / 3;
+        justify-content: center;
+        align-items: center;
+
+        .sectionTitle {
+            color: white;
+            font-family: $alata;
+            font-size: 1.5rem;
+        }
+
+        .sectionDivider {
+            margin: 20px 20px 40px 20px;
+            border: 0.5px solid #FFF;
+            width: 40%;
+        }
+
+        .sectionContent {
+            color: white;
+            font-family: $beVietnamPro;
+            font-size: 1rem;
+            text-align: center;
+            letter-spacing: 0.09rem;
+            line-height: 2.45rem;
+        }
+
+        .sectionPlanets{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 60%;
+            margin-top: 60px;
+        }
+    }
 }
