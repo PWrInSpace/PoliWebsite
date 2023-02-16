@@ -3,6 +3,7 @@ $breakpointSM: 768px;
 $breakpointMD: 896px;
 $breakpointLG: 1152px;
 $breakpointXL: 1280px;
+$breakpointXXL: 1800px;
 
 @mixin breakpoint-xs {
     @media (max-width: $breakpointXS) {
@@ -30,6 +31,12 @@ $breakpointXL: 1280px;
  
  @mixin breakpoint-xl {
     @media (max-width: $breakpointXL) {
+        @content;
+    }
+ }
+
+@mixin breakpoint-xxl {
+    @media (max-width: $breakpointXXL) {
         @content;
     }
  }

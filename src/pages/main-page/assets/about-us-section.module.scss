@@ -2,11 +2,23 @@
 @import '../../../../src/scss/fonts.module';
 
 .sectionContainer {
-    height: 90vh;
+    height: 80vh;
     justify-content: center;
     background-color: black;
     display: grid;
     grid-template-columns: 20% 60% 20%;
+    min-height: 700px;
+    max-height: 800px;
+
+    @include breakpoint-xl {
+        max-height: unset;
+        min-height: 900px;
+        height: 90vh;
+    }
+
+    @include breakpoint-sm {
+        height: 95vh;
+    }
 
     .sectionWrapper {
         display: flex;
@@ -42,6 +54,14 @@
             align-items: center;
             width: 60%;
             margin-top: 60px;
+
+            @include breakpoint-lg {
+                width: 80%;
+            }
+
+            @include breakpoint-sm {
+                width: 100%;
+            }
         }
     }
 }
