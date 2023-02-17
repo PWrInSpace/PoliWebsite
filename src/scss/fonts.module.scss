@@ -1,5 +1,7 @@
 $beVietnamPro: 'Be Vietnam Pro', sans-serif;
 $alata: 'Alata', sans-serif;
+$kronaOne: 'Krona One', sans-serif;
+$alegreyaSans: 'Alegreya Sans SC', sans-serif;
 
 @font-face {
     font-family: $beVietnamPro;
@@ -13,7 +15,21 @@ $alata: 'Alata', sans-serif;
   font-weight: normal;
 }
 
+@font-face {
+  font-family: $kronaOne;
+  src: url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: $alegreyaSans;
+  src: url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+  font-weight: normal;
+}
+
 :export {
     beVietnamPro: $beVietnamPro;
     alata: $alata;
+    kronaOne: $kronaOne;
+    alegreyaSans: $alegreyaSans;
 }
