@@ -4,7 +4,7 @@
 .sectionContainer {
     height: 100vh;
     display: grid;
-    grid-template-columns: 30% 40% 30%;
+    grid-template-columns: 25% 50% 25%;
     justify-content: center;
 
     .background {
@@ -53,13 +53,16 @@
         .sectionTitle {
             font-family: $kronaOne;
             font-size: 2.625rem;
+            letter-spacing: 0.9rem;
             color: white;
         }
 
         .sectionDescription {
             font-family: $alegreyaSans;
             font-size: 1.5rem;
+            letter-spacing: 0.5rem;
             color: white;
+            margin: 25px 0 40px 0;
         }
 
         .sectionButtons {
@@ -67,7 +70,7 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            width: 100%;
+            width: 80%;
 
             .sectionButton {
                 font-family: $alata;
