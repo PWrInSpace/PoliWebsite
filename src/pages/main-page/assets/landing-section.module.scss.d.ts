@@ -1,4 +1,8 @@
 declare const classNames: {
+  readonly bevietnampro: "bevietnampro";
+  readonly alata: "alata";
+  readonly kronaone: "kronaone";
+  readonly alegreyasans: "alegreyasans";
   readonly sectionContainer: "sectionContainer";
   readonly background: "background";
   readonly overlay: "overlay";
@@ -7,12 +11,14 @@ declare const classNames: {
   readonly sectionDescription: "sectionDescription";
   readonly sectionButtons: "sectionButtons";
   readonly sectionButton: "sectionButton";
+  readonly sectionSponsorButton: "sectionSponsorButton";
+  readonly sectionProjectButton: "sectionProjectButton";
   readonly sectionNumberContainer: "sectionNumberContainer";
-  readonly sectionNumber: "sectionNumber";
   readonly sectionNumberTitle: "sectionNumberTitle";
   readonly sectionMemberNumber: "sectionMemberNumber";
   readonly sectionYearNumber: "sectionYearNumber";
   readonly sectionStartNumber: "sectionStartNumber";
+  readonly sectionNumber: "sectionNumber";
   readonly sectionArrow: "sectionArrow";
 };
 export = classNames;

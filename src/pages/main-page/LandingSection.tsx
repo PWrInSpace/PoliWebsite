@@ -3,6 +3,7 @@ import styles from './assets/landing-section.module.scss';
 import mainBackground from '../../assets/mainBackground.png';
 import mainBackgroundOverlay from '../../assets/mainBackgroundOverlay.png';
 import IconCircle from '../../../src/icons/IconCircle';
+import ArrowIcon from '../../icons/ArrowIcon';
 
 export default function LandingSection(props: any) {
     
@@ -21,27 +22,27 @@ export default function LandingSection(props: any) {
                     {__('landingSection.description')}
                 </div>
                 <div className={styles.sectionButtons}>
-                    <div className={styles.sectionButton}>
+                    <button className={classes(styles.sectionButton, styles.sectionProjectButton)}>
                         {__('landingSection.buttons.projects')}
-                    </div>
-                    <div className={classes('styles.sectionButton', 'styles.sectionProjectButton')}>
+                    </button>
+                    <button className={classes(styles.sectionButton, styles.sectionSponsorButton)}>
                         {__('landingSection.buttons.sponsors')}
-                    </div>
+                    </button>
                 </div>
                 <div className={styles.sectionNumberContainer}>
-                    <div className={classes('styles.sectionMemberNumber', 'styles.sectionNumberTitle')}>
+                    <div className={classes(styles.sectionMemberNumber, styles.sectionNumberTitle)}>
                         <div className={styles.sectionNumber}>
                             60
                         </div>
                         {__('landingSection.numbers.members')}
                     </div>
-                    <div className={classes('styles.sectionYearNumber', 'styles.sectionNumberTitle')}>
+                    <div className={classes(styles.sectionYearNumber, styles.sectionNumberTitle)}>
                         <div className={styles.sectionNumber}>
                             2017
                         </div>
                         {__('landingSection.numbers.year')}
                     </div>
-                    <div className={classes('styles.sectionStartNumber', 'styles.sectionNumberTitle')}>
+                    <div className={classes(styles.sectionStartNumber, styles.sectionNumberTitle)}>
                         <div className={styles.sectionNumber}>
                             12
                         </div>
@@ -49,7 +50,7 @@ export default function LandingSection(props: any) {
                     </div>
                 </div>
                 <div className={styles.sectionArrow}>
-
+                    {/*<ArrowIcon/>*/}
                 </div>
             </div>
         </div>
