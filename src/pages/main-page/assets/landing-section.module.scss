@@ -2,7 +2,7 @@
 @import '../../../../src/scss/fonts.module';
 
 .sectionContainer {
-    height: 950px;
+    height: 900px;
     display: grid;
     grid-template-columns: 25% 50% 25%;
     justify-content: center;
@@ -47,8 +47,9 @@
         grid-column: 2 / 3;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
+        margin-top: 230px;
 
         .sectionTitle {
             font-family: $kronaOne;
@@ -66,7 +67,7 @@
         }
 
         .sectionButtons {
-            margin: 50px 0 130px 0;
+            margin: 50px 0 100px 0;
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -124,7 +125,10 @@
         }
 
         .sectionArrow {
-            display: flex;
+            position: relative;
+            height: 90px;
+            width: 90px;
+            margin-top: 70px;
         }
     }
 }

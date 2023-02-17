@@ -50,7 +50,7 @@ export default function LandingSection(props: any) {
                     </div>
                 </div>
                 <div className={styles.sectionArrow}>
-                    {/*<ArrowIcon/>*/}
+                    <ArrowIcon/>
                 </div>
             </div>
         </div>
