@@ -4,6 +4,7 @@ import mainBackground from '../../assets/mainBackground.png';
 import mainBackgroundOverlay from '../../assets/mainBackgroundOverlay.png';
 import IconCircle from '../../../src/icons/IconCircle';
 import ArrowIcon from '../../icons/ArrowIcon';
+import { Link } from 'react-router-dom';
 
 export default function LandingSection(props: any) {
     
@@ -22,12 +23,12 @@ export default function LandingSection(props: any) {
                     {__('landingSection.description')}
                 </div>
                 <div className={styles.sectionButtons}>
-                    <button className={classes(styles.sectionButton, styles.sectionProjectButton)}>
+                    <Link to={'/projects'} className={classes(styles.sectionButton, styles.sectionProjectButton)}>
                         {__('landingSection.buttons.projects')}
-                    </button>
-                    <button className={classes(styles.sectionButton, styles.sectionSponsorButton)}>
+                    </Link>
+                    <Link to={'/sponsors'} className={classes(styles.sectionButton, styles.sectionSponsorButton)}>
                         {__('landingSection.buttons.sponsors')}
-                    </button>
+                    </Link>
                 </div>
                 <div className={styles.sectionNumberContainer}>
                     <div className={classes(styles.sectionMemberNumber, styles.sectionNumberTitle)}>
