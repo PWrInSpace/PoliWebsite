@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './assets/about-us-section.module.scss';
-import FirstPlanet from '../../components/planets/FirstPlanet';
-import SecondPlanet from '../../components/planets/SecondPlanet';
-import ThirdPlanet from '../../components/planets/ThirdPlanet';
+import FirstPlanet from '../../icons/FirstPlanet';
+import SecondPlanet from '../../icons/SecondPlanet';
+import ThirdPlanet from '../../icons/ThirdPlanet';
 
 export default function AboutUsSection(props: any) {
     return (
@@ -16,9 +16,18 @@ export default function AboutUsSection(props: any) {
                     {__('aboutUs.text')}
                 </div>
                 <div className={styles.sectionPlanets}>
-                    <FirstPlanet text={__('aboutUs.planet1')}/>
-                    <SecondPlanet text={__('aboutUs.planet2')}/>
-                    <ThirdPlanet text={__('aboutUs.planet3')}/>
+                    <div className={styles.planetContainer}>
+                        <FirstPlanet/>
+                        {__('aboutUs.planet1')}
+                    </div>
+                    <div className={styles.planetContainer}>
+                        <SecondPlanet/>
+                        {__('aboutUs.planet2')}
+                    </div>
+                    <div className={styles.planetContainer}>
+                        <ThirdPlanet/>
+                        {__('aboutUs.planet3')}
+                    </div>
                 </div>
             </div>
         </div>
