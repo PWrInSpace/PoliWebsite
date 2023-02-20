@@ -7,10 +7,10 @@ declare const classNames: {
   readonly background: "background";
   readonly overlay: "overlay";
   readonly sectionWrapper: "sectionWrapper";
-  readonly sectionTitle: "sectionTitle";
-  readonly sectionDescription: "sectionDescription";
   readonly sectionButtons: "sectionButtons";
   readonly sectionButton: "sectionButton";
+  readonly sectionTitle: "sectionTitle";
+  readonly sectionDescription: "sectionDescription";
   readonly sectionSponsorButton: "sectionSponsorButton";
   readonly sectionProjectButton: "sectionProjectButton";
   readonly sectionNumberContainer: "sectionNumberContainer";
