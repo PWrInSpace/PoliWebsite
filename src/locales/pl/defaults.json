@@ -12,5 +12,21 @@
     },
     "footer": {
         "mailUs": "NAPISZ DO NAS MAILA!"
+    },
+    "ourProjects": {
+        "title": "NASZE PROJEKTY",
+        "rockets": {
+            "r4v2": {
+                "number": "R4V2",
+                "name": "PINK PANTHERA",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
+            },
+            "specs": {
+                "length": "Długość rakiety",
+                "thrust": "Ciąg rakiety",
+                "weight": "Waga rakiety",
+                "velocity": "Prędkość rakiety"
+            }
+        }
     }
 }

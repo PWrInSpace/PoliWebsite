@@ -1,0 +1,38 @@
+@import '../../../../src/scss/fonts.module';
+
+.sectionContainer {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  height: 1000px;
+  width: 100%;
+
+  .sectionWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    grid-column: 2 / 3;
+
+    .sectionBackground {
+      position: absolute;
+      height: 1000px;
+      width: 100%;
+      z-index: -5;
+    }
+
+    .sectionTitle {
+      grid-column: 2 / 3;
+      font-family: $alata;
+      font-size: 1.5rem;
+      color: #FFFFFF;
+      letter-spacing: 0.25rem;
+      margin: 60px 0 30px 0;
+    }
+
+    .sectionDivider {
+      grid-column: 2 / 3;
+      border: 0.5px solid #FFF;
+      width: 45%;
+    }
+  }
+}
