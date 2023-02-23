@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './assets/rocket-panel.module.scss';
+import RocketSpecs from './RocketSpecs';
 
 interface IProps {
     rocket: string;
@@ -22,6 +23,7 @@ export default function RocketPanel(props: IProps) {
                 <div className={styles.rocketDescription}>
                     {__('ourProjects.rockets.' + props.rocket + '.description')}
                 </div>
+                <RocketSpecs length={props.length} thrust={props.thrust} weight={props.weight} velocity={props.velocity}/>
             </div>
         </div>
     );
