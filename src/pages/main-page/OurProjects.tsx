@@ -14,14 +14,30 @@ const rockets = [
 ];
 
 export default function OurProjects() {
+    const [selectedButton, setSelectedButton] = React.useState<string>('R4V2');
+
+    const handleButtonChange = (rocket) => {
+        if (rocket === selectedButton) {
+            return styles.sectionButtonSelected;
+        } else {
+            return styles.sectionButton;
+        }
+    };
+
     const createButtons = () => {
         return rockets.map(rocket => {
             return (
-                <button className={styles.sectionButton}>
+                <button className={handleButtonChange(rocket)} onClick={() => setSelectedButton(rocket)}>
                     {rocket}
                 </button>
             );
         });
+    };
+
+    const chooseRocketPanel = () => {
+        switch (selectedButton) {
+
+        }
     };
 
     return (

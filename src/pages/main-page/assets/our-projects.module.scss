@@ -46,12 +46,17 @@
   }
 }
 
-.sectionButton {
+.sectionButton, .sectionButtonSelected {
   text-decoration: none;
   font-family: $alata;
   font-size: 1.125rem;
   color: #FFFFFF;
   background-color: transparent;
   padding: 15px 50px;
-  border: 0.5px solid #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+
+.sectionButtonSelected {
+  background-color: #FFFFFF;
+  color: #000000;
 }

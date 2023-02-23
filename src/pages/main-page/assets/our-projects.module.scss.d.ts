@@ -8,5 +8,6 @@ declare const classNames: {
   readonly sectionDivider: "sectionDivider";
   readonly sectionButtonContainer: "sectionButtonContainer";
   readonly sectionButton: "sectionButton";
+  readonly sectionButtonSelected: "sectionButtonSelected";
 };
 export = classNames;
