@@ -32,9 +32,9 @@ export default function LandingSection(props: any) {
                     </Link>
                 </div>
                 <div className={styles.sectionNumberContainer}>
-                    <NumberContainerComponent customClasses={[styles.sectionMemberNumber, styles.sectionNumberTitle]} number={60} title={'landingSection.numbers.members'}/>
-                    <NumberContainerComponent customClasses={[styles.sectionYearNumber, styles.sectionNumberTitle]} number={2017} title={'landingSection.numbers.year'}/>
-                    <NumberContainerComponent customClasses={[styles.sectionStartNumber, styles.sectionNumberTitle]} number={12} title={'landingSection.numbers.starts'}/>
+                    <NumberContainerComponent customClasses={styles.sectionMemberNumber} number={60} title={__('landingSection.numbers.members')}/>
+                    <NumberContainerComponent customClasses={styles.sectionYearNumber} number={2017} title={__('landingSection.numbers.year')}/>
+                    <NumberContainerComponent customClasses={styles.sectionStartNumber} number={12} title={__('landingSection.numbers.starts')}/>
                 </div>
                 <div className={styles.sectionArrow}>
                     <ArrowIcon/>

@@ -1,5 +1,12 @@
 @import '../../../../src/scss/fonts.module';
 
+.sectionNumberTitle {
+    justify-content: center;
+    font-family: $alata;
+    font-size: 1.2rem;
+    color: white; 
+}
+
 .sectionNumber {
     font-family: $kronaOne;
     font-size: 3rem;

@@ -130,23 +130,16 @@
             grid-template-columns: 40% 50% 10%;
             width: 80%;
 
-            .sectionNumberTitle {
-                justify-content: center;
-                font-family: $alata;
-                font-size: 1.2rem;
-                color: white;
+            .sectionMemberNumber {
+                grid-column: 1 / 2;
+            }
 
-                .sectionMemberNumber {
-                    grid-column: 1 / 2;
-                }
+            .sectionYearNumber {
+                grid-column: 2 / 3;
+            }
 
-                .sectionYearNumber {
-                    grid-column: 2 / 3;
-                }
-
-                .sectionStartNumber {
-                    grid-column: 3 / 4;
-                }
+            .sectionStartNumber {
+                grid-column: 3 / 4;
             }
         }
 

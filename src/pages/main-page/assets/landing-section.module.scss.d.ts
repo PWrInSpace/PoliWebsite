@@ -3,7 +3,6 @@ declare const classNames: {
   readonly alata: "alata";
   readonly kronaone: "kronaone";
   readonly alegreyasans: "alegreyasans";
-  readonly green123: "green123";
   readonly mainblue: "mainblue";
   readonly sectionContainer: "sectionContainer";
   readonly background: "background";
@@ -16,7 +15,6 @@ declare const classNames: {
   readonly sectionSponsorButton: "sectionSponsorButton";
   readonly sectionProjectButton: "sectionProjectButton";
   readonly sectionNumberContainer: "sectionNumberContainer";
-  readonly sectionNumberTitle: "sectionNumberTitle";
   readonly sectionMemberNumber: "sectionMemberNumber";
   readonly sectionYearNumber: "sectionYearNumber";
   readonly sectionStartNumber: "sectionStartNumber";
