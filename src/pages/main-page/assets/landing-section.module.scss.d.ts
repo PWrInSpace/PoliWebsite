@@ -3,6 +3,8 @@ declare const classNames: {
   readonly alata: "alata";
   readonly kronaone: "kronaone";
   readonly alegreyasans: "alegreyasans";
+  readonly green123: "green123";
+  readonly mainblue: "mainblue";
   readonly sectionContainer: "sectionContainer";
   readonly background: "background";
   readonly overlay: "overlay";
@@ -18,7 +20,6 @@ declare const classNames: {
   readonly sectionMemberNumber: "sectionMemberNumber";
   readonly sectionYearNumber: "sectionYearNumber";
   readonly sectionStartNumber: "sectionStartNumber";
-  readonly sectionNumber: "sectionNumber";
   readonly sectionArrow: "sectionArrow";
 };
 export = classNames;

@@ -5,6 +5,7 @@ import mainBackgroundOverlay from '../../assets/mainBackgroundOverlay.png';
 import IconCircle from '../../../src/icons/IconCircle';
 import ArrowIcon from '../../icons/ArrowIcon';
 import { Link } from 'react-router-dom';
+import NumberContainerComponent from '../../components/number-container-component/NumberContainerComponent';
 
 export default function LandingSection(props: any) {
     
@@ -31,24 +32,9 @@ export default function LandingSection(props: any) {
                     </Link>
                 </div>
                 <div className={styles.sectionNumberContainer}>
-                    <div className={classes(styles.sectionMemberNumber, styles.sectionNumberTitle)}>
-                        <div className={styles.sectionNumber}>
-                            60
-                        </div>
-                        {__('landingSection.numbers.members')}
-                    </div>
-                    <div className={classes(styles.sectionYearNumber, styles.sectionNumberTitle)}>
-                        <div className={styles.sectionNumber}>
-                            2017
-                        </div>
-                        {__('landingSection.numbers.year')}
-                    </div>
-                    <div className={classes(styles.sectionStartNumber, styles.sectionNumberTitle)}>
-                        <div className={styles.sectionNumber}>
-                            12
-                        </div>
-                        {__('landingSection.numbers.starts')}
-                    </div>
+                    <NumberContainerComponent customClasses={[styles.sectionMemberNumber, styles.sectionNumberTitle]} number={60} title={'landingSection.numbers.members'}/>
+                    <NumberContainerComponent customClasses={[styles.sectionYearNumber, styles.sectionNumberTitle]} number={2017} title={'landingSection.numbers.year'}/>
+                    <NumberContainerComponent customClasses={[styles.sectionStartNumber, styles.sectionNumberTitle]} number={12} title={'landingSection.numbers.starts'}/>
                 </div>
                 <div className={styles.sectionArrow}>
                     <ArrowIcon/>
