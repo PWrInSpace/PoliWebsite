@@ -10,7 +10,7 @@ export default function PlanetComponent(props: IProps) {
     return (
         <div className={styles.planetContainer}>
             {props.icon}
-            {__(props.text)}
+            {props.text}
         </div>
     );
 }

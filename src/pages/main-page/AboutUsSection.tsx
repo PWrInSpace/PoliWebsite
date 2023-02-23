@@ -17,9 +17,9 @@ export default function AboutUsSection() {
                     {__('aboutUs.text')}
                 </div>
                 <div className={styles.sectionPlanets}>
-                    <PlanetComponent icon={<FirstPlanet/>} text={'aboutUs.planet1'}/>
-                    <PlanetComponent icon={<SecondPlanet/>} text={'aboutUs.planet2'}/>
-                    <PlanetComponent icon={<ThirdPlanet/>} text={'aboutUs.planet3'}/>
+                    <PlanetComponent icon={<FirstPlanet/>} text={__('aboutUs.planet1')}/>
+                    <PlanetComponent icon={<SecondPlanet/>} text={__('aboutUs.planet2')}/>
+                    <PlanetComponent icon={<ThirdPlanet/>} text={__('aboutUs.planet3')}/>
                 </div>
             </div>
         </div>
