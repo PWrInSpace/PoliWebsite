@@ -3,8 +3,9 @@ import styles from './assets/about-us-section.module.scss';
 import FirstPlanet from '../../icons/FirstPlanet';
 import SecondPlanet from '../../icons/SecondPlanet';
 import ThirdPlanet from '../../icons/ThirdPlanet';
+import PlanetComponent from '../../components/planet-component/PlanetComponent';
 
-export default function AboutUsSection(props: any) {
+export default function AboutUsSection() {
     return (
         <div className={styles.sectionContainer}>
             <div className={styles.sectionWrapper}>
@@ -16,18 +17,9 @@ export default function AboutUsSection(props: any) {
                     {__('aboutUs.text')}
                 </div>
                 <div className={styles.sectionPlanets}>
-                    <div className={styles.planetContainer}>
-                        <FirstPlanet/>
-                        {__('aboutUs.planet1')}
-                    </div>
-                    <div className={styles.planetContainer}>
-                        <SecondPlanet/>
-                        {__('aboutUs.planet2')}
-                    </div>
-                    <div className={styles.planetContainer}>
-                        <ThirdPlanet/>
-                        {__('aboutUs.planet3')}
-                    </div>
+                    <PlanetComponent icon={<FirstPlanet/>} text={'aboutUs.planet1'}/>
+                    <PlanetComponent icon={<SecondPlanet/>} text={'aboutUs.planet2'}/>
+                    <PlanetComponent icon={<ThirdPlanet/>} text={'aboutUs.planet3'}/>
                 </div>
             </div>
         </div>

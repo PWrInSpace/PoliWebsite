@@ -7,6 +7,5 @@ declare const classNames: {
   readonly sectionTitle: "sectionTitle";
   readonly sectionDivider: "sectionDivider";
   readonly sectionContent: "sectionContent";
-  readonly planetContainer: "planetContainer";
 };
 export = classNames;
