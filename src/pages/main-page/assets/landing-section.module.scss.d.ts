@@ -1,6 +1,23 @@
 declare const classNames: {
+  readonly bevietnampro: "bevietnampro";
+  readonly alata: "alata";
+  readonly kronaone: "kronaone";
+  readonly alegreyasans: "alegreyasans";
+  readonly mainblue: "mainblue";
   readonly sectionContainer: "sectionContainer";
   readonly background: "background";
   readonly overlay: "overlay";
+  readonly sectionWrapper: "sectionWrapper";
+  readonly sectionButtons: "sectionButtons";
+  readonly sectionButton: "sectionButton";
+  readonly sectionTitle: "sectionTitle";
+  readonly sectionDescription: "sectionDescription";
+  readonly sectionSponsorButton: "sectionSponsorButton";
+  readonly sectionProjectButton: "sectionProjectButton";
+  readonly sectionNumberContainer: "sectionNumberContainer";
+  readonly sectionMemberNumber: "sectionMemberNumber";
+  readonly sectionYearNumber: "sectionYearNumber";
+  readonly sectionStartNumber: "sectionStartNumber";
+  readonly sectionArrow: "sectionArrow";
 };
 export = classNames;
