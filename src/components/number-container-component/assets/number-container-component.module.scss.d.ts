@@ -3,7 +3,7 @@ declare const classNames: {
   readonly alata: "alata";
   readonly kronaone: "kronaone";
   readonly alegreyasans: "alegreyasans";
-  readonly link: "link";
-  readonly active: "active";
+  readonly sectionNumberTitle: "sectionNumberTitle";
+  readonly sectionNumber: "sectionNumber";
 };
 export = classNames;
