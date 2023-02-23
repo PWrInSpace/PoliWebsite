@@ -2,7 +2,7 @@
 
 .sectionContainer {
   display: grid;
-  grid-template-columns: 25% 50% 25%;
+  grid-template-columns: 20% 60% 20%;
   height: 1000px;
   width: 100%;
 
@@ -31,8 +31,27 @@
 
     .sectionDivider {
       grid-column: 2 / 3;
-      border: 0.5px solid #FFF;
+      border: 0.5px solid #FFFFFF;
       width: 45%;
     }
+
+    .sectionButtonContainer {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      margin-top: 60px;
+      flex-wrap: wrap;
+    }
   }
+}
+
+.sectionButton {
+  text-decoration: none;
+  font-family: $alata;
+  font-size: 1.125rem;
+  color: #FFFFFF;
+  background-color: transparent;
+  padding: 15px 50px;
+  border: 0.5px solid #FFFFFF;
 }

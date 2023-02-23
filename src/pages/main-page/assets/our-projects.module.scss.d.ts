@@ -6,5 +6,7 @@ declare const classNames: {
   readonly sectionBackground: "sectionBackground";
   readonly sectionTitle: "sectionTitle";
   readonly sectionDivider: "sectionDivider";
+  readonly sectionButtonContainer: "sectionButtonContainer";
+  readonly sectionButton: "sectionButton";
 };
 export = classNames;
