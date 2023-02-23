@@ -1,4 +1,4 @@
 declare const classNames: {
-  readonly green123: "green123";
+  readonly mainblue: "mainblue";
 };
 export = classNames;

@@ -2,8 +2,8 @@ import React from 'react';
 import { AdvancedIconProps } from '../Contract';
 
 export default function SmallThrustIcon(props: AdvancedIconProps) {
-    const height = props.size?.height ?? 46;
-    const width = props.size?.width ?? 32;
+    const height = props.size?.height ?? 42;
+    const width = props.size?.width ?? 28;
     const color = props.color ?? 'white';
 
     return (

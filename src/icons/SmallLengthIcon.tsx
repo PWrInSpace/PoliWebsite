@@ -1,9 +1,9 @@
 import React from 'react';
 import { AdvancedIconProps } from '../Contract';
 
-export default function SmallRocketIcon(props: AdvancedIconProps) {
-    const height = props.size?.height ?? 47;
-    const width = props.size?.width ?? 33;
+export default function SmallLengthIcon(props: AdvancedIconProps) {
+    const height = props.size?.height ?? 43;
+    const width = props.size?.width ?? 29;
     const color = props.color ?? 'white';
 
     return (
