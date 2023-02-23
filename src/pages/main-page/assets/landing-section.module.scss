@@ -1,5 +1,6 @@
 @import '../../../../src/scss/breakpoints.module';
 @import '../../../../src/scss/fonts.module';
+@import '../../../../src/scss/variables.module';
 
 .sectionContainer {
     min-height: 900px;
@@ -119,8 +120,8 @@
             }
 
             .sectionProjectButton {
-                border: 1px solid #018EDF;
-                background-color: #018EDF;
+                border: 1px solid $mainBlue;
+                background-color: $mainBlue;
             }
         }
 
