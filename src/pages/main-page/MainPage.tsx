@@ -8,7 +8,7 @@ export default function MainPage(props: any) {
     return (
         <div className={styles.pageContainer}>
             <LandingSection/>
-            {/*<AboutUsSection/>*/}
+            <AboutUsSection/>
             <OurProjects/>
         </div>
     );
