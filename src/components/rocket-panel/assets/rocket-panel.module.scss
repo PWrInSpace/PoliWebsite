@@ -1,0 +1,39 @@
+@import '../../../../src/scss/breakpoints.module';
+@import '../../../../src/scss/fonts.module';
+
+.panelContainer {
+  display: grid;
+  grid-template-columns: 5% 65% 30%;
+  width: 100%;
+
+  .panelWrapper {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    .rocketTitle {
+      font-family: $beVietnamPro;
+      font-size: 1.375rem;
+      letter-spacing: 0.1rem;
+      color: #FFFFFF;
+      margin: 70px 0 10px 0;
+    }
+
+    .rocketSubtitle {
+      font-family: $alata;
+      font-size: 1.75rem;
+      letter-spacing: 0.2rem;
+      color: #FFFFFF;
+    }
+
+    .rocketDescription {
+      font-family: $mulish;
+      font-size: 1rem;
+      letter-spacing: 0.1rem;
+      color: #FFFFFF;
+      margin: 30px 0;
+    }
+  }
+}
