@@ -2,6 +2,11 @@ import React from 'react';
 import styles from './assets/our-projects.module.scss';
 import background from '../../assets/ourProjectsBackground.png';
 import RocketPanel from '../../components/rocket-panel/RocketPanel';
+import r1 from '../../assets/rockets/r1.png';
+import r2 from '../../assets/rockets/r2.png';
+import r3 from '../../assets/rockets/r3.png';
+import r4 from '../../assets/rockets/r4.png';
+import r4v2 from '../../assets/rockets/r4v2.png';
 
 const rockets = [
     'R1',
@@ -38,21 +43,21 @@ export default function OurProjects() {
     const chooseRocketPanel = () => {
         switch (selectedButton) {
         case 'R1':
-            break;
+            return <RocketPanel rocket={selectedButton} length={'750 MM'} thrust={'210 N'} weight={'0.8 KG'} velocity={'120 M/S'} image={r1}/>;
         case 'R2':
-            break;
+            return <RocketPanel rocket={selectedButton} length={'1900 MM'} thrust={'450 N'} weight={'5.5 KG'} velocity={'160 M/S'} image={r2}/>;
         case 'R3':
-            break;
+            return <RocketPanel rocket={selectedButton} length={'3050 MM'} thrust={'1600 N'} weight={'20 KG'} velocity={'260 M/S'} image={r3}/>;
         case 'R2S':
-            break;
+            return <RocketPanel rocket={selectedButton} length={'... MM'} thrust={'... N'} weight={'... KG'} velocity={'... M/S'} image={r4v2}/>;
         case 'R4S':
-            break;
+            return <RocketPanel rocket={selectedButton} length={'... MM'} thrust={'... N'} weight={'... KG'} velocity={'... M/S'} image={r4v2}/>;
         case 'R4':
-            break;
+            return <RocketPanel rocket={selectedButton} length={'... MM'} thrust={'... N'} weight={'... KG'} velocity={'... M/S'} image={r4}/>;
         case 'R4V2':
-            return <RocketPanel rocket={selectedButton} length={'4084 MM'} thrust={'2500 N'} weight={'35 KG'} velocity={'272 M/S'}/>;
+            return <RocketPanel rocket={selectedButton} length={'4084 MM'} thrust={'2500 N'} weight={'35 KG'} velocity={'272 M/S'} image={r4v2}/>;
         case 'R5':
-            break;
+            return <RocketPanel rocket={selectedButton} length={'... MM'} thrust={'... N'} weight={'... KG'} velocity={'... M/S'} image={r4v2}/>;
         }
     };
 

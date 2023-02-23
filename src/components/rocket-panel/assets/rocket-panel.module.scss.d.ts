@@ -9,5 +9,6 @@ declare const classNames: {
   readonly rocketTitle: "rocketTitle";
   readonly rocketSubtitle: "rocketSubtitle";
   readonly rocketDescription: "rocketDescription";
+  readonly rocketImage: "rocketImage";
 };
 export = classNames;
