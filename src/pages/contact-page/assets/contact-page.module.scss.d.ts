@@ -11,5 +11,6 @@ declare const classNames: {
   readonly title: "title";
   readonly contactWrapper: "contactWrapper";
   readonly textWrapper: "textWrapper";
+  readonly subtitle: "subtitle";
 };
 export = classNames;

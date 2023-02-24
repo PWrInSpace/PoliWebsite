@@ -24,7 +24,9 @@ export default function ContactPage() {
                 <div className={styles.contactWrapper}>
                     <PersonPicture image={WiktoriaMrowiec} title={'Lider Marketingu'} name={'Wiktoria Mrowiec'} mail={'wiktoriamrowiec@gmail.com'}/>
                     <div className={styles.textWrapper}>
-                        {__('contactPage.subtitle')}
+                        <div className={styles.subtitle}>
+                            {__('contactPage.subtitle')}
+                        </div>
                         <ContactLink text={'pwrinspace@pwr.edu.pl'} icon={<MailIcon/>} onClick={() => window.location.href = 'mailto:pwrinspace@pwr.edu.pl'}/>
                         <ContactLink text={'PWr in Space'} icon={<FacebookIcon color={{ primaryColor: 'black', secondaryColor: 'white' }}/>} onClick={() => window.location.href = 'https://www.facebook.com/pwrinspace'}/>
                         <ContactLink text={'@poliwrocket'} icon={<InstagramIcon color={{ primaryColor: 'black', secondaryColor: 'white' }}/>} onClick={() => window.location.href = 'https://www.instagram.com/poliwrocket/'}/>
