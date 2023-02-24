@@ -32,5 +32,10 @@
             "year": "ROK ZAŁOŻENIA",
             "starts": "STARTÓW"
         }
+    },
+    "contactPage": {
+        "header": "KONTAKT",
+        "title": "NAPISZ DO NAS!",
+        "subtitle": "Skontaktuj się z nami przez naszego maila lub social media!",
     }
 }

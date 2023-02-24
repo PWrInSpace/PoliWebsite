@@ -1,0 +1,74 @@
+@import '../../../../src/scss/breakpoints.module';
+@import '../../../../src/scss/fonts.module';
+
+body {
+  background-color: #000000;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  min-height: 1500px;
+
+  @include breakpoint-xxl {
+    grid-template-columns: 10% 80% 10%;
+  }
+
+  @include breakpoint-xl {
+    grid-template-columns: 5% 90% 5%;
+  }
+
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .wrapper {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+
+    .title {
+      font-family: $alata;
+      font-size: 1.5rem;
+      color: #FFFFFF;
+      margin-top: 50px;
+    }
+
+    .header {
+      font-family: $kronaOne;
+      font-size: 2rem;
+      color: #FFFFFF;
+      margin: 150px 0 20px 0;
+    }
+
+    .divider {
+      border: 0.5px solid #FFFFFF;
+      width: 40%;
+    }
+
+    .contactWrapper {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      align-items: center;
+      justify-content: space-around;
+
+      .textWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: $beVietnamPro;
+        font-size: 1.125rem;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
