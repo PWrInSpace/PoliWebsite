@@ -34,13 +34,6 @@ body {
     align-items: center;
     width: 100%;
 
-    .title {
-      font-family: $alata;
-      font-size: 1.5rem;
-      color: #FFFFFF;
-      margin-top: 50px;
-    }
-
     .header {
       font-family: $kronaOne;
       font-size: 2rem;
@@ -51,6 +44,14 @@ body {
     .divider {
       border: 0.5px solid #FFFFFF;
       width: 40%;
+    }
+
+    .title {
+      font-family: $alata;
+      font-size: 1.5rem;
+      letter-spacing: 0.1rem;
+      color: #FFFFFF;
+      margin-top: 50px;
     }
 
     .contactWrapper {
@@ -67,6 +68,7 @@ body {
         justify-content: center;
         font-family: $beVietnamPro;
         font-size: 1.125rem;
+        letter-spacing: 0.1rem;
         color: #FFFFFF;
       }
     }
