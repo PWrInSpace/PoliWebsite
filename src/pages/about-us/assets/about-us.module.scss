@@ -1,0 +1,54 @@
+@import '../../../../src/scss/breakpoints.module';
+@import '../../../../src/scss/fonts.module';
+
+body {
+  background-color: #000000;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  min-height: 1500px;
+
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .firstIconCircle {
+    position: absolute;
+    left: calc(100% - 800px);
+    overflow: hidden;
+    z-index: -1;
+    width: 800px;
+
+    svg {
+      width: 1000px;
+    }
+  }
+
+  .secondIconCircle {
+    position: absolute;
+    left: calc(0% - 200px);
+    top: calc(0% + 600px);
+    overflow: hidden;
+    z-index: -5;
+
+    svg {
+      width: 1000px;
+      transform: rotate(180deg);
+    }
+  }
+
+  .wrapper {
+    grid-column: 2 / 3;
+
+    .title {
+      font-family: $kronaOne;
+      font-size: 2rem;
+      color: #FFFFFF;
+    }
+  }
+}
