@@ -22,7 +22,7 @@ export default function ContactPage() {
                     {__('contactPage.title')}
                 </div>
                 <div className={styles.contactWrapper}>
-                    <PersonPicture image={WiktoriaMrowiec} title={'Lider Marketingu'} name={'Wiktoria Mrowiec'} mail={'wiktoriamrowiec@gmail.com'}/>
+                    <PersonPicture image={WiktoriaMrowiec} title={__('contactPage.prPresident')} name={'Wiktoria Mrowiec'} mail={'wiktoriamrowiec@gmail.com'}/>
                     <div className={styles.textWrapper}>
                         <div className={styles.subtitle}>
                             {__('contactPage.subtitle')}
@@ -31,7 +31,7 @@ export default function ContactPage() {
                         <ContactLink text={'PWr in Space'} icon={<FacebookIcon color={{ primaryColor: 'black', secondaryColor: 'white' }}/>} onClick={() => window.location.href = 'https://www.facebook.com/pwrinspace'}/>
                         <ContactLink text={'@poliwrocket'} icon={<InstagramIcon color={{ primaryColor: 'black', secondaryColor: 'white' }}/>} onClick={() => window.location.href = 'https://www.instagram.com/poliwrocket/'}/>
                     </div>
-                    <PersonPicture image={LiliyaSizhuk} title={'Prezes Koła'} name={'Liliya Sizhuk'} mail={'liliyasizhuk@gmail.com'}/>
+                    <PersonPicture image={LiliyaSizhuk} title={__('contactPage.president')} name={'Liliya Sizhuk'} mail={'liliyasizhuk@gmail.com'}/>
                 </div>
             </div>
         </div>
