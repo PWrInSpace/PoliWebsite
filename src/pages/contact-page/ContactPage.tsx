@@ -4,6 +4,10 @@ import subpageBackground from '../../assets/subpageBackground.png';
 import PersonPicture from '../../components/person-picture/PersonPicture';
 import WiktoriaMrowiec from '../../assets/contact/wiktoria-mrowiec.png';
 import LiliyaSizhuk from '../../assets/contact/liliya-sizhuk.png';
+import ContactLink from '../../components/contact-link/ContactLink';
+import MailIcon from '../../icons/MailIcon';
+import FacebookIcon from '../../icons/FacebookIcon';
+import InstagramIcon from '../../icons/InstagramIcon';
 
 export default function ContactPage() {
     return(
@@ -21,6 +25,9 @@ export default function ContactPage() {
                     <PersonPicture image={WiktoriaMrowiec} title={'Lider Marketingu'} name={'Wiktoria Mrowiec'} mail={'wiktoriamrowiec@gmail.com'}/>
                     <div className={styles.textWrapper}>
                         {__('contactPage.subtitle')}
+                        <ContactLink text={'pwrinspace@pwr.edu.pl'} icon={<MailIcon/>} onClick={() => window.location.href = 'mailto:pwrinspace@pwr.edu.pl'}/>
+                        <ContactLink text={'PWr in Space'} icon={<FacebookIcon color={{ primaryColor: 'black', secondaryColor: 'white' }}/>} onClick={() => window.location.href = 'https://www.facebook.com/pwrinspace'}/>
+                        <ContactLink text={'@poliwrocket'} icon={<InstagramIcon color={{ primaryColor: 'black', secondaryColor: 'white' }}/>} onClick={() => window.location.href = 'https://www.instagram.com/poliwrocket/'}/>
                     </div>
                     <PersonPicture image={LiliyaSizhuk} title={'Prezes Koła'} name={'Liliya Sizhuk'} mail={'liliyasizhuk@gmail.com'}/>
                 </div>
