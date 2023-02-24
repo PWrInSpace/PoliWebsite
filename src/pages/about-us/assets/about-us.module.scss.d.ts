@@ -8,6 +8,12 @@ declare const classNames: {
   readonly firstIconCircle: "firstIconCircle";
   readonly secondIconCircle: "secondIconCircle";
   readonly wrapper: "wrapper";
-  readonly title: "title";
+  readonly paragraph: "paragraph";
+  readonly firstWrapper: "firstWrapper";
+  readonly secondWrapper: "secondWrapper";
+  readonly numbersContainer: "numbersContainer";
+  readonly header: "header";
+  readonly divider: "divider";
+  readonly paragraphImage: "paragraphImage";
 };
 export = classNames;
