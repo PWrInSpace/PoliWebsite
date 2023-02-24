@@ -1,0 +1,9 @@
+@import '../../../../src/scss/fonts.module';
+
+.container {
+  display: flex;
+  gap: 15px;
+  font-family: $beVietnamPro;
+  font-size: 1.125rem;
+  color: #FFFFFF;
+}
