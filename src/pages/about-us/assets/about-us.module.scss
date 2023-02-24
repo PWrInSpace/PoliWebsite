@@ -131,6 +131,7 @@ body {
     align-items: center;
     width: 80%;
     gap: 30px;
+    margin-top: 90px;
 
     @include breakpoint-lg {
       margin-bottom: 30px;
