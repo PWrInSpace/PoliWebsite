@@ -32,5 +32,23 @@
             "year": "ROK ZAŁOŻENIA",
             "starts": "STARTÓW"
         }
+    },
+    "aboutUsPage": {
+        "header": "O NAS",
+        "firstParagraph": {
+            "title": "INTRO",
+            "subtitle": "HISTORIA POWSTANIA",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio. Integer porta porttitor varius. Curabitur tempor ligula venenatis tempus feugiat. Maecenas dapibus tellus a nisl pulvinar sagittis id vitae odio. Cras vitae nunc velit. Etiam ex ipsum, dapibus nec posuere vitae, mollis eget enim. Nullam feugiat ullamcorper massa, nec egestas justo varius ac. Nunc pulvinar, nunc et lacinia consequat."
+        },
+        "secondParagraph": {
+            "title": "O NAS",
+            "subtitle": "KIM JESTEŚMY",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio. Integer porta porttitor varius. Curabitur tempor ligula venenatis tempus feugiat. Maecenas dapibus tellus a nisl pulvinar sagittis id vitae odio. Cras vitae nunc velit. Etiam ex ipsum, dapibus nec posuere vitae, mollis eget enim. Nullam feugiat ullamcorper massa, nec egestas justo varius ac. Nunc pulvinar, nunc et lacinia consequat."
+        },
+        "numbers": {
+            "firstNumber": "LOREM",
+            "secondNumber": "IPSUM",
+            "thirdNumber": "DOLOR"
+        }
     }
 }
