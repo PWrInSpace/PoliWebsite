@@ -7,6 +7,8 @@ import ReactCustomScrollbars from 'react-custom-scrollbars-2';
 import localConfig from './../vite.local.config';
 import SocialMediaComponent from './components/social-media-component/SocialMediaComponent';
 import Footer from './components/footer/Footer';
+import AboutUs from './pages/about-us/AboutUs';
+import './app.module.scss';
 
 interface NavMenuModel extends NavMenuItem {
     component: () => JSX.Element;
@@ -30,7 +32,7 @@ function App() {
     };
 
     const menuItems: NavMenuModel[] = [
-        getNavMenuModel(__('navbar.aboutUs'), '/about-us', <MainPage/>),
+        getNavMenuModel(__('navbar.aboutUs'), '/about-us', <AboutUs/>),
         getNavMenuModel(__('navbar.awards'), '/awards', DummyComp()),
         getNavMenuModel(__('navbar.projects'), '/projects', DummyComp()),
         getNavMenuModel(__('navbar.departments'), '/departments', DummyComp()),
