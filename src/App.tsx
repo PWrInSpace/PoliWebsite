@@ -7,6 +7,7 @@ import ReactCustomScrollbars from 'react-custom-scrollbars-2';
 import localConfig from './../vite.local.config';
 import SocialMediaComponent from './components/social-media-component/SocialMediaComponent';
 import Footer from './components/footer/Footer';
+import SponsorsPage from './pages/sponsors-page/SponsorsPage';
 
 interface NavMenuModel extends NavMenuItem {
     component: () => JSX.Element;
@@ -35,7 +36,7 @@ function App() {
         getNavMenuModel(__('navbar.projects'), '/projects', DummyComp()),
         getNavMenuModel(__('navbar.departments'), '/departments', DummyComp()),
         getNavMenuModel(__('navbar.joinUs'), '/join-us', DummyComp()),
-        getNavMenuModel(__('navbar.sponsors'), '/sponsors', DummyComp()),
+        getNavMenuModel(__('navbar.sponsors'), '/sponsors', <SponsorsPage/>),
         getNavMenuModel(__('navbar.nwes'), '/news', DummyComp()),
         getNavMenuModel(__('navbar.contact'), '/contact', DummyComp()),
     ];
@@ -51,6 +52,7 @@ function App() {
                 <ReactCustomScrollbars autoHeight autoHeightMin={'100vh'} autoHide>
                     <Routes>
                         <Route path={'/'} element={<MainPage/>} />
+                        <Route path={'/sponsors'} element={<SponsorsPage/>} />
                         {menuItems.map(item => <Route path={item.url} element={item.component()} />)}
                     </Routes>
                     <Footer menuItems={menuItems}/>
