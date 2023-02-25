@@ -5,12 +5,12 @@ declare const classNames: {
   readonly alegreyasans: "alegreyasans";
   readonly footerContainer: "footerContainer";
   readonly footerBackground: "footerBackground";
-  readonly footerNavWrapper: "footerNavWrapper";
+  readonly footerWrapper: "footerWrapper";
   readonly footerNav: "footerNav";
   readonly footerContent: "footerContent";
-  readonly footerSocialWrapper: "footerSocialWrapper";
   readonly footerDivider: "footerDivider";
   readonly footerContentText: "footerContentText";
   readonly footerMailText: "footerMailText";
+  readonly footerSocialWrapper: "footerSocialWrapper";
 };
 export = classNames;
