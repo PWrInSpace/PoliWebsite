@@ -8,6 +8,7 @@ import localConfig from './../vite.local.config';
 import SocialMediaComponent from './components/social-media-component/SocialMediaComponent';
 import Footer from './components/footer/Footer';
 import AboutUs from './pages/about-us/AboutUs';
+import './app.module.scss';
 
 interface NavMenuModel extends NavMenuItem {
     component: () => JSX.Element;
