@@ -9,7 +9,46 @@ import mitutoyo from '../../assets/sponsors/mitutoyo.png';
 import solidexpert from '../../assets/sponsors/solidexpert.png';
 import wenagroup from '../../assets/sponsors/wenagroup.png';
 
+const images = {
+    'airproducts': {
+        src: airproducts,
+        alt: 'Air Products logo'
+    },
+    'ataszek': {
+        src: ataszek,
+        alt: 'Ataszek logo'
+    },
+    'computercontrols': {
+        src: computercontrols,
+        alt: 'Computer Controls logo'
+    },
+    'ilot': {
+        src: ilot,
+        alt: 'ILot logo'
+    },
+    'mitutoyo': {
+        src: mitutoyo,
+        alt: 'Mitutoyo logo'
+    },
+    'solidexpert': {
+        src: solidexpert,
+        alt: 'Solid Expert logo'
+    },
+    'wenagroup': {
+        src: wenagroup,
+        alt: 'Wena Group logo'
+    }
+};
+
 export default function SponsorsPage() {
+    const createLogo = () => {
+        return Object.keys(images).map(logo => {
+            return(
+                <img src={images[logo].src} alt={images[logo].alt} className={styles.logo}/>
+            );
+        });
+    };
+
     return(
         <div className={styles.container}>
             <img src={subpageBackground} alt="subpage background" className={styles.background}/>
@@ -19,13 +58,7 @@ export default function SponsorsPage() {
                 </div>
                 <div className={styles.divider}></div>
                 <div className={styles.logoContainer}>
-                    <img src={airproducts} alt={'Air Products logo'} className={styles.logo}/>
-                    <img src={ataszek} alt={'Ataszek logo'} className={styles.logo}/>
-                    <img src={computercontrols} alt={'Computer Controls logo'} className={styles.logo}/>
-                    <img src={ilot} alt={'ILot logo'} className={styles.logo}/>
-                    <img src={mitutoyo} alt={'Mitutoyo logo'} className={styles.logo}/>
-                    <img src={solidexpert} alt={'Solid Expert logo'} className={styles.logo}/>
-                    <img src={wenagroup} alt={'Wena Group logo'} className={styles.logo}/>
+                    {createLogo()}
                 </div>
             </div>
         </div>
