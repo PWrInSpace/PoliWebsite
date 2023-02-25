@@ -8,16 +8,64 @@ import r3 from '../../assets/rockets/r3.png';
 import r4 from '../../assets/rockets/r4.png';
 import r4v2 from '../../assets/rockets/r4v2.png';
 
-const rockets = [
-    'R1',
-    'R2',
-    'R3',
-    'R2S',
-    'R4S',
-    'R4',
-    'R4V2',
-    'R5'
-];
+const rockets = {
+    'R1': {
+        'length': '750 MM',
+        'thrust': '210 N',
+        'weight': '0.8 KG',
+        'velocity': '120 M/S',
+        'image': r1
+    },
+    'R2': {
+        'length': '1900 MM',
+        'thrust': '450 N',
+        'weight': '5.5 KG',
+        'velocity': '160 M/S',
+        'image': r2
+    },
+    'R3': {
+        'length': '3050 MM',
+        'thrust': '1600 N',
+        'weight': '20 KG',
+        'velocity': '260 M/S',
+        'image': r3
+    },
+    'R2S': {
+        'length': '... MM',
+        'thrust': '... N',
+        'weight': '... KG',
+        'velocity': '... M/S',
+        'image': r4v2
+    },
+    'R4S': {
+        'length': '... MM',
+        'thrust': '... N',
+        'weight': '... KG',
+        'velocity': '... M/S',
+        'image': r4v2
+    },
+    'R4': {
+        'length': '... MM',
+        'thrust': '... N',
+        'weight': '... KG',
+        'velocity': '... M/S',
+        'image': r4
+    },
+    'R4V2': {
+        'length': '4084 MM',
+        'thrust': '2500 N',
+        'weight': '35 KG',
+        'velocity': '272 M/S',
+        'image': r4v2
+    },
+    'R5': {
+        'length': '... MM',
+        'thrust': '... N',
+        'weight': '... KG',
+        'velocity': '... M/S',
+        'image': r4v2
+    }
+};
 
 export default function OurProjects() {
     const [selectedButton, setSelectedButton] = React.useState<string>('R4V2');
@@ -31,7 +79,7 @@ export default function OurProjects() {
     };
 
     const createButtons = () => {
-        return rockets.map(rocket => {
+        return Object.keys(rockets).map(rocket => {
             return (
                 <button className={handleButtonChange(rocket)} onClick={() => setSelectedButton(rocket)}>
                     {rocket}
@@ -41,23 +89,10 @@ export default function OurProjects() {
     };
 
     const chooseRocketPanel = () => {
-        switch (selectedButton) {
-        case 'R1':
-            return <RocketPanel rocket={selectedButton} length={'750 MM'} thrust={'210 N'} weight={'0.8 KG'} velocity={'120 M/S'} image={r1}/>;
-        case 'R2':
-            return <RocketPanel rocket={selectedButton} length={'1900 MM'} thrust={'450 N'} weight={'5.5 KG'} velocity={'160 M/S'} image={r2}/>;
-        case 'R3':
-            return <RocketPanel rocket={selectedButton} length={'3050 MM'} thrust={'1600 N'} weight={'20 KG'} velocity={'260 M/S'} image={r3}/>;
-        case 'R2S':
-            return <RocketPanel rocket={selectedButton} length={'... MM'} thrust={'... N'} weight={'... KG'} velocity={'... M/S'} image={r4v2}/>;
-        case 'R4S':
-            return <RocketPanel rocket={selectedButton} length={'... MM'} thrust={'... N'} weight={'... KG'} velocity={'... M/S'} image={r4v2}/>;
-        case 'R4':
-            return <RocketPanel rocket={selectedButton} length={'... MM'} thrust={'... N'} weight={'... KG'} velocity={'... M/S'} image={r4}/>;
-        case 'R4V2':
-            return <RocketPanel rocket={selectedButton} length={'4084 MM'} thrust={'2500 N'} weight={'35 KG'} velocity={'272 M/S'} image={r4v2}/>;
-        case 'R5':
-            return <RocketPanel rocket={selectedButton} length={'... MM'} thrust={'... N'} weight={'... KG'} velocity={'... M/S'} image={r4v2}/>;
+        for (const rocket in rockets) {
+            if (rocket === selectedButton) {
+                return <RocketPanel rocket={rocket} length={rockets[rocket].length} thrust={rockets[rocket].thrust} weight={rockets[rocket].weight} velocity={rockets[rocket].velocity} image={rockets[rocket].image}/>;
+            }
         }
     };
 
