@@ -9,6 +9,21 @@ import MailIcon from '../../icons/MailIcon';
 import FacebookIcon from '../../icons/FacebookIcon';
 import InstagramIcon from '../../icons/InstagramIcon';
 
+const crew = {
+    firstPerson: {
+        image: WiktoriaMrowiec,
+        title: 'contactPage.prPresident',
+        name: 'Wiktoria Mrowiec',
+        mail: 'wiktoriamrowiec@gmail.com'
+    },
+    secondPerson: {
+        image: LiliyaSizhuk,
+        title: 'contactPage.president',
+        name: 'Liliya Sizhuk',
+        mail: 'liliyasizhuk@gmail.com'
+    },
+};
+
 export default function ContactPage() {
     return(
         <div className={styles.container}>
@@ -22,7 +37,7 @@ export default function ContactPage() {
                     {__('contactPage.title')}
                 </div>
                 <div className={styles.contactWrapper}>
-                    <PersonPicture image={WiktoriaMrowiec} title={__('contactPage.prPresident')} name={'Wiktoria Mrowiec'} mail={'wiktoriamrowiec@gmail.com'}/>
+                    <PersonPicture image={crew.firstPerson.image} title={__(crew.firstPerson.title)} name={crew.firstPerson.name} mail={crew.firstPerson.mail}/>
                     <div className={styles.textWrapper}>
                         <div className={styles.subtitle}>
                             {__('contactPage.subtitle')}
@@ -31,7 +46,7 @@ export default function ContactPage() {
                         <ContactLink text={'PWr in Space'} icon={<FacebookIcon color={{ primaryColor: 'black', secondaryColor: 'white' }}/>} onClick={() => window.location.href = 'https://www.facebook.com/pwrinspace'}/>
                         <ContactLink text={'@poliwrocket'} icon={<InstagramIcon color={{ primaryColor: 'black', secondaryColor: 'white' }}/>} onClick={() => window.location.href = 'https://www.instagram.com/poliwrocket/'}/>
                     </div>
-                    <PersonPicture image={LiliyaSizhuk} title={__('contactPage.president')} name={'Liliya Sizhuk'} mail={'liliyasizhuk@gmail.com'}/>
+                    <PersonPicture image={crew.secondPerson.image} title={__(crew.secondPerson.title)} name={crew.secondPerson.name} mail={crew.secondPerson.mail}/>
                 </div>
             </div>
         </div>
