@@ -3,6 +3,7 @@ declare const classNames: {
   readonly alata: "alata";
   readonly kronaone: "kronaone";
   readonly alegreyasans: "alegreyasans";
+  readonly mulish: "mulish";
   readonly mainblue: "mainblue";
   readonly sectionContainer: "sectionContainer";
   readonly background: "background";
