@@ -4,11 +4,18 @@
 .footerContainer {
   display: grid;
   grid-template-columns: 20% 60% 20%;
-  grid-template-rows: 30% 50% 20%;
   height: 300px;
 
   @include breakpoint-xl {
-    height: 520px;
+    height: 400px;
+  }
+
+  @include breakpoint-lg {
+    grid-template-columns: 10% 80% 10%;
+  }
+
+  @include breakpoint-md {
+    height: 550px;
   }
 
   .footerBackground {
@@ -16,16 +23,24 @@
     height: 300px;
     width: 100%;
     grid-column: 1 / 4;
-    grid-row: 1 / 4;
     z-index: -5;
 
     @include breakpoint-xl {
-      height: 520px;
+      height: 400px;
+    }
+
+    @include breakpoint-md {
+      height: 550px;
     }
   }
 
-  .footerNavWrapper {
+  .footerWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     grid-column: 2 / 3;
+    width: 100%;
 
     .footerNav {
       display: flex;
@@ -33,7 +48,6 @@
       align-items: center;
       margin-top: 32px;
       flex-wrap: wrap;
-      grid-row: 1 / 2;
 
       * > a {
         margin: 0 15px 0 15px;
@@ -49,69 +63,70 @@
     .footerDivider {
       margin: 20px 20px 0 20px;
       border: 0.5px solid #FFF;
-      grid-row: 1 / 2;
-    }
-  }
-
-  .footerContent {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    height: 100%;
-
-    @include breakpoint-xl {
-      flex-flow: column;
-      margin-top: 30px;
     }
 
-    .footerContentText {
-      font-family: $alata;
-      font-size: 1.25rem;
-      letter-spacing: 0.33rem;
-      color: #FFF;
+    .footerContent {
+      display: flex;
+      justify-content: space-around;
+      align-content: center;
+      align-items: center;
+      width: 100%;
+
+      @include breakpoint-md {
+        flex-flow: column;
+        gap: 20px;
+      }
+
+      .footerContentText {
+        margin-top: 20px;
+        font-family: $alata;
+        font-size: 1.25rem;
+        letter-spacing: 0.33rem;
+        color: #FFFFFF;
+
+        @include breakpoint-sm {
+          font-size: 1rem;
+        }
+      }
+
+      .footerMailText {
+        margin-top: 20px;
+        font-family: $beVietnamPro;
+        font-size: 1.25rem;
+        letter-spacing: 0.3rem;
+        font-weight: bold;
+        color: #FFFFFF;
+
+        @include breakpoint-sm {
+          font-size: 1rem;
+        }
+      }
+
+      .footerMailText:hover {
+        cursor: pointer;
+        opacity: 0.7;
+      }
+
+      svg:hover {
+        cursor: pointer;
+      }
     }
 
-    .footerMailText {
-      margin-top: 20px;
-      font-family: $beVietnamPro;
-      font-size: 1.25rem;
-      letter-spacing: 0.3rem;
-      font-weight: bold;
-      color: #FFF;
-    }
+    .footerSocialWrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
 
-    .footerMailText:hover {
-      cursor: pointer;
-      opacity: 0.7;
-    }
+      svg {
+        margin: 0 10px 0 10px;
+        opacity: 0.7;
+      }
 
-    svg:hover {
-      cursor: pointer;
-    }
-  }
-
-  .footerSocialWrapper {
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    @include breakpoint-xl {
-      margin-top: 50px;
-    }
-
-    svg {
-      margin: 0 10px 0 10px;
-      opacity: 0.7;
-    }
-
-    svg:hover {
-      opacity: 1;
-      cursor: pointer;
+      svg:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
     }
   }
 }
