@@ -76,6 +76,9 @@
             "starts": "STARTÓW"
         }
     },
+    "sponsorsPage": {
+        "header": "SPONSORZY"
+    },
     "aboutUsPage": {
         "header": "O NAS",
         "firstParagraph": {
