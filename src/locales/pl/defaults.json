@@ -88,6 +88,9 @@
             "location": "Nasza lokalizacja"
         }
     },
+    "sponsorsPage": {
+        "header": "SPONSORZY"
+    },
     "aboutUsPage": {
         "header": "O NAS",
         "firstParagraph": {
