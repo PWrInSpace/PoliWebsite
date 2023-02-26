@@ -25,9 +25,6 @@ const crew = {
     },
 };
 
-// Use to create Google Maps preview:
-// https://www.maps.ie/create-google-map/
-
 const locations = {
     'workshop': {
         'header': 'contactPage.locations.workshop',

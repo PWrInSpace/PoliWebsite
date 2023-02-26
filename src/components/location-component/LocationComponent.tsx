@@ -18,6 +18,9 @@ export default function LocationComponent(props: IProps) {
         });
     };
 
+    // Use to create Google Maps preview:
+    // https://www.maps.ie/create-google-map/
+
     const createMap = () => {
         if (props.map === 'workshop') {
             return <iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=ul.%20Fabryczna%2016,%20Wroc%C5%82aw,%20Poland+(Warsztat)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>;
