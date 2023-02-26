@@ -25,6 +25,9 @@ const crew = {
     },
 };
 
+// Use to create Google Maps preview:
+// https://www.maps.ie/create-google-map/
+
 const locations = {
     'workshop': {
         'header': 'contactPage.locations.workshop',
@@ -33,7 +36,8 @@ const locations = {
             '53-609 Wrocław',
             'ACADEMIC BOX',
             'Wrocławski Park Technologiczny'
-        ]
+        ],
+        'map': 'workshop'
     },
     'location': {
         'header': 'contactPage.locations.location',
@@ -43,6 +47,7 @@ const locations = {
             'Wydział Mechaniczny',
             'Politechnika Wrocławska'
         ],
+        'map': 'location'
     }
 };
 
@@ -74,8 +79,8 @@ export default function ContactPage() {
                     {__('contactPage.findUs')}
                 </div>
                 <div className={styles.contactLocation}>
-                    <LocationComponent header={__(locations.location.header)} text={locations.location.text}/>
-                    <LocationComponent header={__(locations.workshop.header)} text={locations.workshop.text}/>
+                    <LocationComponent header={__(locations.location.header)} text={locations.location.text} map={locations.location.map}/>
+                    <LocationComponent header={__(locations.workshop.header)} text={locations.workshop.text} map={locations.workshop.map}/>
                 </div>
             </div>
         </div>

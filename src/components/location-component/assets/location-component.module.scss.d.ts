@@ -5,6 +5,7 @@ declare const classNames: {
   readonly alegreyasans: "alegreyasans";
   readonly mulish: "mulish";
   readonly container: "container";
+  readonly wrapper: "wrapper";
   readonly header: "header";
   readonly text: "text";
 };
