@@ -81,7 +81,12 @@
         "title": "NAPISZ DO NAS!",
         "subtitle": "Skontaktuj się z nami przez naszego maila lub social media!",
         "president": "Prezes Koła",
-        "prPresident": "Lider Marketingu"
+        "prPresident": "Lider Marketingu",
+        "findUs": "GDZIE NAS ZNALEŹĆ?",
+        "locations": {
+            "workshop": "Nasz warsztat",
+            "location": "Nasza lokalizacja"
+        }
     },
     "aboutUsPage": {
         "header": "O NAS",

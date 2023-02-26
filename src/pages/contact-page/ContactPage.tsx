@@ -8,6 +8,7 @@ import ContactLink from '../../components/contact-link/ContactLink';
 import MailIcon from '../../icons/MailIcon';
 import FacebookIcon from '../../icons/FacebookIcon';
 import InstagramIcon from '../../icons/InstagramIcon';
+import LocationComponent from '../../components/location-component/LocationComponent';
 
 const crew = {
     firstPerson: {
@@ -22,6 +23,27 @@ const crew = {
         name: 'Liliya Sizhuk',
         mail: 'liliyasizhuk@gmail.com'
     },
+};
+
+const locations = {
+    'workshop': {
+        'header': 'contactPage.locations.workshop',
+        'text': [
+            'ul. Fabryczna 16H',
+            '53-609 Wrocław',
+            'ACADEMIC BOX',
+            'Wrocławski Park Technologiczny'
+        ]
+    },
+    'location': {
+        'header': 'contactPage.locations.location',
+        'text': [
+            'ul. Łukasiewicza 5/7',
+            '50-370 Wrocław',
+            'Wydział Mechaniczny',
+            'Politechnika Wrocławska'
+        ],
+    }
 };
 
 export default function ContactPage() {
@@ -47,6 +69,13 @@ export default function ContactPage() {
                         <ContactLink text={'@poliwrocket'} icon={<InstagramIcon color={{ primaryColor: 'black', secondaryColor: 'white' }}/>} onClick={() => window.location.href = 'https://www.instagram.com/poliwrocket/'}/>
                     </div>
                     <PersonPicture image={crew.secondPerson.image} title={__(crew.secondPerson.title)} name={crew.secondPerson.name} mail={crew.secondPerson.mail}/>
+                </div>
+                <div className={styles.title}>
+                    {__('contactPage.findUs')}
+                </div>
+                <div className={styles.contactLocation}>
+                    <LocationComponent header={__(locations.location.header)} text={locations.location.text}/>
+                    <LocationComponent header={__(locations.workshop.header)} text={locations.workshop.text}/>
                 </div>
             </div>
         </div>

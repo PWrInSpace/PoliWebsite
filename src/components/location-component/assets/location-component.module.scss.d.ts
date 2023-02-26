@@ -4,11 +4,8 @@ declare const classNames: {
   readonly kronaone: "kronaone";
   readonly alegreyasans: "alegreyasans";
   readonly mulish: "mulish";
-  readonly textWrapper: "textWrapper";
-  readonly title: "title";
-  readonly subtitle: "subtitle";
+  readonly container: "container";
+  readonly header: "header";
   readonly text: "text";
-  readonly firstWrapper: "firstWrapper";
-  readonly secondWrapper: "secondWrapper";
 };
 export = classNames;
