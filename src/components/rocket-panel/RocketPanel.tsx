@@ -14,7 +14,6 @@ interface IProps {
 export default function RocketPanel(props: IProps) {
     return(
         <div className={styles.panelContainer}>
-            <img src={props.image} className={styles.rocketImage} alt={props.rocket} />
             <div className={styles.panelWrapper}>
                 <div className={styles.rocketTitle}>
                     {props.rocket}
@@ -27,6 +26,7 @@ export default function RocketPanel(props: IProps) {
                 </div>
                 <RocketSpecs length={props.length} thrust={props.thrust} weight={props.weight} velocity={props.velocity}/>
             </div>
+            <img src={props.image} className={styles.rocketImage} alt={props.rocket}/>
         </div>
     );
 }
