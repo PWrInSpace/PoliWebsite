@@ -24,6 +24,7 @@
     width: 100%;
     grid-column: 1 / 4;
     z-index: -5;
+    object-fit: cover;
 
     @include breakpoint-xl {
       height: 400px;
