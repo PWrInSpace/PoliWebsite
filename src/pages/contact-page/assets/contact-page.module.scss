@@ -1,0 +1,109 @@
+@import '../../../../src/scss/breakpoints.module';
+@import '../../../../src/scss/fonts.module';
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  min-height: 800px;
+
+  @include breakpoint-xxl {
+    grid-template-columns: 10% 80% 10%;
+  }
+
+  @include breakpoint-xl {
+    grid-template-columns: 5% 90% 5%;
+  }
+
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .wrapper {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+
+    .header {
+      font-family: $kronaOne;
+      font-size: 2rem;
+      color: #FFFFFF;
+      margin: 150px 0 20px 0;
+    }
+
+    .divider {
+      border: 0.5px solid #FFFFFF;
+      width: 40%;
+    }
+
+    .title {
+      font-family: $alata;
+      font-size: 1.5rem;
+      letter-spacing: 0.1rem;
+      color: #FFFFFF;
+      margin-top: 90px;
+    }
+
+    .contactWrapper {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      margin: 60px 0;
+
+      @include breakpoint-md {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+      }
+
+      .textWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 20px;
+        width: 30%;
+        font-family: $beVietnamPro;
+        font-size: 1.125rem;
+        letter-spacing: 0.1rem;
+        color: #FFFFFF;
+        text-align: center;
+
+        @include breakpoint-md {
+          width: 40%;
+        }
+
+        @include breakpoint-sm {
+          width: 50%;
+        }
+
+        @include breakpoint-s {
+          width: 80%;
+        }
+
+        .subtitle {
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .contactLocation {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      align-items: center;
+      justify-content: space-around;
+      margin: 60px 0;
+      gap: 40px
+    }
+  }
+}

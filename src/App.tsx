@@ -7,6 +7,7 @@ import ReactCustomScrollbars, { positionValues } from 'react-custom-scrollbars-2
 import localConfig from './../vite.local.config';
 import SocialMediaComponent from './components/social-media-component/SocialMediaComponent';
 import Footer from './components/footer/Footer';
+import ContactPage from './pages/contact-page/ContactPage';
 import SponsorsPage from './pages/sponsors-page/SponsorsPage';
 import AboutUs from './pages/about-us/AboutUs';
 import './app.module.scss';
@@ -42,7 +43,7 @@ function App() {
         getNavMenuModel(__('navbar.joinUs'), '/join-us', DummyComp()),
         getNavMenuModel(__('navbar.sponsors'), '/sponsors', <SponsorsPage/>),
         getNavMenuModel(__('navbar.nwes'), '/news', DummyComp()),
-        getNavMenuModel(__('navbar.contact'), '/contact', DummyComp()),
+        getNavMenuModel(__('navbar.contact'), '/contact', <ContactPage/>),
     ];
 
     const isGhPages = config.ghPages === true;
