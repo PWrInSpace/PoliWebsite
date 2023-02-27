@@ -35,9 +35,10 @@
 
     .header {
       font-family: $kronaOne;
-      font-size: 2rem;
+      font-size: 2.5rem;
       color: #FFFFFF;
       margin: 150px 0 20px 0;
+      text-align: center;
     }
 
     .divider {
@@ -50,7 +51,8 @@
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
-      gap: 20px;
+      gap: 60px;
+      margin: 100px 0;
     }
   }
 }
