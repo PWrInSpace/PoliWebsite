@@ -13,67 +13,72 @@
     "footer": {
         "mailUs": "NAPISZ DO NAS MAILA!"
     },
-    "ourProjects": {
-        "title": "NASZE PROJEKTY",
-        "rockets": {
-            "R1": {
-                "name": "MICRO",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
+    "mainPage": {
+        "landingSection": {
+            "title": "PWR IN SPACE",
+            "description": "Koło Naukowe Politechniki Wrocławskiej",
+            "buttons": {
+                "projects": "NASZE PROJEKTY",
+                "sponsors": "NASI SPONSORZY"
             },
-            "R2": {
-                "name": "SETKA",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
-            },
-            "R3": {
-                "name": "DZIEWIĘDZIESIĄTKA DZIEWIĄTKA",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
-            },
-            "R2S": {
-                "name": "PINK PANTHERA",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
-            },
-            "R4S": {
-                "name": "PINK PANTHERA",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
-            },
-            "R4": {
-                "name": "LYNX",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
-            },
-            "R4V2": {
-                "name": "PINK PANTHERA",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
-            },
-            "R5": {
-                "name": "PINK PANTHERA",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
-            },
-            "specs": {
-                "length": "DŁUGOŚĆ RAKIETY",
-                "thrust": "CIĄG RAKIETY",
-                "weight": "WAGA RAKIETY",
-                "velocity": "PRĘDKOŚĆ RAKIETY"
+            "numbers": {
+                "members": "CZŁONKÓW",
+                "year": "ROK ZAŁOŻENIA",
+                "starts": "STARTÓW"
             }
-        }
-    },
-    "aboutUs": {
-        "header": "O NAS",
-        "text": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R4, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2021 w Stanach Zjednoczonych. To nie tylko studencki konkurs, ale także konferencja naukowa i możliwość nawiązania znajomości z członkami drużyn z całego świata.",
-        "planet1": "LOREM",
-        "planet2": "IPSUM",
-        "planet3": "DOLOR"
-    },
-    "landingSection": {
-        "title": "PWR IN SPACE",
-        "description": "Koło Naukowe Politechniki Wrocławskiej",
-        "buttons": {
-            "projects": "NASZE PROJEKTY",
-            "sponsors": "NASI SPONSORZY"
         },
-        "numbers": {
-            "members": "CZŁONKÓW",
-            "year": "ROK ZAŁOŻENIA",
-            "starts": "STARTÓW"
+        "aboutUs": {
+            "header": "O NAS",
+            "text": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R4, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2021 w Stanach Zjednoczonych. To nie tylko studencki konkurs, ale także konferencja naukowa i możliwość nawiązania znajomości z członkami drużyn z całego świata.",
+            "planet1": "LOREM",
+            "planet2": "IPSUM",
+            "planet3": "DOLOR"
+        },
+        "ourProjects": {
+            "title": "NASZE PROJEKTY",
+            "rockets": {
+                "R1": {
+                    "name": "MICRO",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
+                },
+                "R2": {
+                    "name": "SETKA",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
+                },
+                "R3": {
+                    "name": "DZIEWIĘDZIESIĄTKA DZIEWIĄTKA",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
+                },
+                "R2S": {
+                    "name": "PINK PANTHERA",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
+                },
+                "R4S": {
+                    "name": "PINK PANTHERA",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
+                },
+                "R4": {
+                    "name": "LYNX",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
+                },
+                "R4V2": {
+                    "name": "PINK PANTHERA",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
+                },
+                "R5": {
+                    "name": "PINK PANTHERA",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
+                },
+                "specs": {
+                    "length": "DŁUGOŚĆ RAKIETY",
+                    "thrust": "CIĄG RAKIETY",
+                    "weight": "WAGA RAKIETY",
+                    "velocity": "PRĘDKOŚĆ RAKIETY"
+                }
+            }
+        },
+        "ourSponsors": {
+            "header": "NASI SPONSORZY"
         }
     },
     "contactPage": {

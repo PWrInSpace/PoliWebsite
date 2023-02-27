@@ -15,7 +15,7 @@
   }
 
   @include breakpoint-md {
-    height: 550px;
+    height: 350px;
   }
 
   .footerBackground {
@@ -24,13 +24,14 @@
     width: 100%;
     grid-column: 1 / 4;
     z-index: -5;
+    object-fit: cover;
 
     @include breakpoint-xl {
       height: 400px;
     }
 
     @include breakpoint-md {
-      height: 550px;
+      height: 350px;
     }
   }
 
@@ -42,27 +43,33 @@
     grid-column: 2 / 3;
     width: 100%;
 
-    .footerNav {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      margin-top: 32px;
-      flex-wrap: wrap;
+    .footerNavWrapper {
+      .footerNav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 32px;
+        flex-wrap: wrap;
 
-      * > a {
-        margin: 0 15px 0 15px;
-      }
-
-      @include breakpoint-xl {
         * > a {
-          margin: 10px 15px 10px 15px;
+          margin: 0 15px 0 15px;
+        }
+
+        @include breakpoint-xl {
+          * > a {
+            margin: 10px 15px 10px 15px;
+          }
         }
       }
-    }
 
-    .footerDivider {
-      margin: 20px 20px 0 20px;
-      border: 0.5px solid #FFF;
+      .footerDivider {
+        margin: 20px 20px 0 20px;
+        border: 0.5px solid #FFF;
+      }
+
+      @include breakpoint-md {
+        display: none;
+      }
     }
 
     .footerContent {
@@ -75,6 +82,13 @@
       @include breakpoint-md {
         flex-flow: column;
         gap: 20px;
+        justify-content: center;
+        height: 100%;
+      }
+
+      .footerLogo:hover {
+        opacity: 0.7;
+        cursor: pointer;
       }
 
       .footerContentText {

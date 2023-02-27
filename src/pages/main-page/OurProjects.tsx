@@ -101,7 +101,7 @@ export default function OurProjects() {
             <div className={styles.sectionWrapper}>
                 <img src={background} alt="our projects background" className={styles.sectionBackground}/>
                 <div className={styles.sectionTitle}>
-                    {__('ourProjects.title')}
+                    {__('mainPage.ourProjects.title')}
                 </div>
                 <div className={styles.sectionDivider}></div>
                 <div className={styles.sectionButtonContainer}>

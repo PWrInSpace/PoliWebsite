@@ -7,9 +7,11 @@ declare const classNames: {
   readonly footerContainer: "footerContainer";
   readonly footerBackground: "footerBackground";
   readonly footerWrapper: "footerWrapper";
+  readonly footerNavWrapper: "footerNavWrapper";
   readonly footerNav: "footerNav";
   readonly footerContent: "footerContent";
   readonly footerDivider: "footerDivider";
+  readonly footerLogo: "footerLogo";
   readonly footerContentText: "footerContentText";
   readonly footerMailText: "footerMailText";
   readonly footerSocialWrapper: "footerSocialWrapper";

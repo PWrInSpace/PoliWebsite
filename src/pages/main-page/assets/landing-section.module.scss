@@ -26,10 +26,12 @@
         left: 0;
         z-index: -3;
         width: 100vw;
+        height: 100%;
+        min-height: 900px;
+        object-fit: cover;
 
-        @include breakpoint-xxl {
-            position: relative;
-            width: unset;
+        @include breakpoint-s {
+            min-height: 1400px;
         }
     }
 
@@ -41,9 +43,12 @@
         width: 100vw;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 70.52%, rgba(0, 0, 0, 0.5) 86.67%, #000000 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        height: 100%;
+        object-fit: cover;
+        min-height: 900px;
 
-        @include breakpoint-xxl {
-            width: unset;
+        @include breakpoint-s {
+            min-height: 1400px;
         }
     }
 
@@ -62,7 +67,7 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        margin-top: 230px;
+        margin: 230px 20px 0 20px;
 
         @include breakpoint-md {
             margin-top: 200px;
@@ -74,6 +79,11 @@
             letter-spacing: 0.9rem;
             color: white;
             text-align: center;
+
+            @include breakpoint-md {
+                font-size: 2.4rem;
+                letter-spacing: 0.8rem;
+            }
         }
 
         .sectionDescription {
@@ -83,6 +93,10 @@
             color: white;
             margin: 25px 0 40px 0;
             text-align: center;
+
+            @include breakpoint-md {
+                font-size: 1.2rem;
+            }
         }
 
         .sectionButtons {
@@ -91,6 +105,8 @@
             justify-content: space-around;
             align-items: center;
             width: 80%;
+            flex-wrap: wrap;
+            gap: 20px;
 
             .sectionButton {
                 font-family: $alata;
@@ -100,18 +116,16 @@
                 z-index: 2;
                 color: white;
                 text-decoration: none;
+                width: 180px;
 
                 @include breakpoint-md {
-                    padding: 12px 40px;
-                }
-
-                @include breakpoint-sm {
                     padding: 12px 30px;
                 }
+            }
 
-                @include breakpoint-s {
-                    padding: 12px 20px;
-                }
+            .sectionButton:hover {
+                cursor: pointer;
+                opacity: 0.9;
             }
 
             .sectionSponsorButton {
@@ -126,28 +140,23 @@
         }
 
         .sectionNumberContainer {
-            display: grid;
-            grid-template-columns: 40% 50% 10%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
             width: 80%;
-
-            .sectionMemberNumber {
-                grid-column: 1 / 2;
-            }
-
-            .sectionYearNumber {
-                grid-column: 2 / 3;
-            }
-
-            .sectionStartNumber {
-                grid-column: 3 / 4;
-            }
         }
 
         .sectionArrow {
             position: relative;
             height: 90px;
             width: 90px;
-            margin-top: 90px;
+            margin: 90px 0;
+
+            @include breakpoint-sm {
+                margin: 40px 0;
+            }
         }
     }
 }

@@ -4,11 +4,11 @@ declare const classNames: {
   readonly kronaone: "kronaone";
   readonly alegreyasans: "alegreyasans";
   readonly mulish: "mulish";
-  readonly sectionContainer: "sectionContainer";
+  readonly container: "container";
   readonly sectionWrapper: "sectionWrapper";
   readonly sectionTitle: "sectionTitle";
   readonly sectionDivider: "sectionDivider";
-  readonly sectionContent: "sectionContent";
-  readonly sectionPlanets: "sectionPlanets";
+  readonly logoContainer: "logoContainer";
+  readonly logo: "logo";
 };
 export = classNames;

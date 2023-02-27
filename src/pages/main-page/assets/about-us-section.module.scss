@@ -2,23 +2,14 @@
 @import '../../../../src/scss/fonts.module';
 
 .sectionContainer {
-    height: 80vh;
-    justify-content: center;
-    background-color: black;
     display: grid;
     grid-template-columns: 20% 60% 20%;
+    justify-content: center;
+    background-color: black;
     min-height: 700px;
-    max-height: 800px;
 
     @include breakpoint-xl {
-        max-height: unset;
-        min-height: 900px;
-        height: 90vh;
         grid-template-columns: 10% 80% 10%;
-    }
-
-    @include breakpoint-sm {
-        height: 95vh;
     }
 
     .sectionWrapper {
@@ -27,6 +18,7 @@
         grid-column: 2 / 3;
         justify-content: center;
         align-items: center;
+        margin: 50px 0;
 
         .sectionTitle {
             color: white;
@@ -51,7 +43,9 @@
 
         .sectionPlanets{
             display: flex;
-            justify-content: space-between;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 25px;
             align-items: center;
             width: 60%;
             margin-top: 60px;

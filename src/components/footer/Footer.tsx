@@ -19,14 +19,16 @@ export default function Footer(props: ISelfProps) {
         <footer className={styles.footerContainer}>
             <img src={footerBackground} alt="footer background" className={styles.footerBackground}/>
             <div className={styles.footerWrapper}>
-                <div>
+                <div className={styles.footerNavWrapper}>
                     <div className={styles.footerNav}>
                         {props.menuItems.map(item => <NavBarItem item={item} />)}
                     </div>
                     <div className={styles.footerDivider}></div>
                 </div>
                 <div className={styles.footerContent}>
-                    <IconLogo size={{ width: 232, height: 84 }} onClick={() => window.location.href = window.appContext.baseUrl}/>
+                    <div className={styles.footerLogo}>
+                        <IconLogo size={{ width: 232, height: 84 }} onClick={() => window.location.href = window.appContext.baseUrl}/>
+                    </div>
                     <div>
                         <div className={styles.footerContentText}>
                             {__('footer.mailUs')}

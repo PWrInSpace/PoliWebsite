@@ -9,16 +9,13 @@ declare const classNames: {
   readonly background: "background";
   readonly overlay: "overlay";
   readonly sectionWrapper: "sectionWrapper";
-  readonly sectionButtons: "sectionButtons";
-  readonly sectionButton: "sectionButton";
   readonly sectionTitle: "sectionTitle";
   readonly sectionDescription: "sectionDescription";
+  readonly sectionButtons: "sectionButtons";
+  readonly sectionButton: "sectionButton";
   readonly sectionSponsorButton: "sectionSponsorButton";
   readonly sectionProjectButton: "sectionProjectButton";
   readonly sectionNumberContainer: "sectionNumberContainer";
-  readonly sectionMemberNumber: "sectionMemberNumber";
-  readonly sectionYearNumber: "sectionYearNumber";
-  readonly sectionStartNumber: "sectionStartNumber";
   readonly sectionArrow: "sectionArrow";
 };
 export = classNames;
