@@ -19,7 +19,7 @@ export default function Footer(props: ISelfProps) {
         <footer className={styles.footerContainer}>
             <img src={footerBackground} alt="footer background" className={styles.footerBackground}/>
             <div className={styles.footerWrapper}>
-                <div>
+                <div className={styles.footerNavWrapper}>
                     <div className={styles.footerNav}>
                         {props.menuItems.map(item => <NavBarItem item={item} />)}
                     </div>
