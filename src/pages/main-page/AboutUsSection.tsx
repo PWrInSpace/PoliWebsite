@@ -10,16 +10,16 @@ export default function AboutUsSection() {
         <div className={styles.sectionContainer}>
             <div className={styles.sectionWrapper}>
                 <div className={styles.sectionTitle}>
-                    {__('aboutUs.header')}
+                    {__('mainPage.aboutUs.header')}
                 </div>
                 <div className={styles.sectionDivider}></div>
                 <div className={styles.sectionContent}>
-                    {__('aboutUs.text')}
+                    {__('mainPage.aboutUs.text')}
                 </div>
                 <div className={styles.sectionPlanets}>
-                    <PlanetComponent icon={<FirstPlanet/>} text={__('aboutUs.planet1')}/>
-                    <PlanetComponent icon={<SecondPlanet/>} text={__('aboutUs.planet2')}/>
-                    <PlanetComponent icon={<ThirdPlanet/>} text={__('aboutUs.planet3')}/>
+                    <PlanetComponent icon={<FirstPlanet/>} text={__('mainPage.aboutUs.planet1')}/>
+                    <PlanetComponent icon={<SecondPlanet/>} text={__('mainPage.aboutUs.planet2')}/>
+                    <PlanetComponent icon={<ThirdPlanet/>} text={__('mainPage.aboutUs.planet3')}/>
                 </div>
             </div>
         </div>

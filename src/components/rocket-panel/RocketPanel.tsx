@@ -20,10 +20,10 @@ export default function RocketPanel(props: IProps) {
                     {props.rocket}
                 </div>
                 <div className={styles.rocketSubtitle}>
-                    {__('ourProjects.rockets.' + props.rocket + '.name')}
+                    {__('mainPage.ourProjects.rockets.' + props.rocket + '.name')}
                 </div>
                 <div className={styles.rocketDescription}>
-                    {__('ourProjects.rockets.' + props.rocket + '.description')}
+                    {__('mainPage.ourProjects.rockets.' + props.rocket + '.description')}
                 </div>
                 <RocketSpecs length={props.length} thrust={props.thrust} weight={props.weight} velocity={props.velocity}/>
             </div>

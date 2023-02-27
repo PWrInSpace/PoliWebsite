@@ -18,23 +18,23 @@ export default function LandingSection(props: any) {
             </div>
             <div className={styles.sectionWrapper}>
                 <div className={styles.sectionTitle}>
-                    {__('landingSection.title')}
+                    {__('mainPage.landingSection.title')}
                 </div>
                 <div className={styles.sectionDescription}>
-                    {__('landingSection.description')}
+                    {__('mainPage.landingSection.description')}
                 </div>
                 <div className={styles.sectionButtons}>
                     <Link to={'/projects'} className={classes(styles.sectionButton, styles.sectionProjectButton)}>
-                        {__('landingSection.buttons.projects')}
+                        {__('mainPage.landingSection.buttons.projects')}
                     </Link>
                     <Link to={'/sponsors'} className={classes(styles.sectionButton, styles.sectionSponsorButton)}>
-                        {__('landingSection.buttons.sponsors')}
+                        {__('mainPage.landingSection.buttons.sponsors')}
                     </Link>
                 </div>
                 <div className={styles.sectionNumberContainer}>
-                    <NumberContainerComponent customClasses={styles.sectionMemberNumber} number={60} title={__('landingSection.numbers.members')}/>
-                    <NumberContainerComponent customClasses={styles.sectionYearNumber} number={2017} title={__('landingSection.numbers.year')}/>
-                    <NumberContainerComponent customClasses={styles.sectionStartNumber} number={12} title={__('landingSection.numbers.starts')}/>
+                    <NumberContainerComponent customClasses={styles.sectionMemberNumber} number={60} title={__('mainPage.landingSection.numbers.members')}/>
+                    <NumberContainerComponent customClasses={styles.sectionYearNumber} number={2017} title={__('mainPage.landingSection.numbers.year')}/>
+                    <NumberContainerComponent customClasses={styles.sectionStartNumber} number={12} title={__('mainPage.landingSection.numbers.starts')}/>
                 </div>
                 <div className={styles.sectionArrow}>
                     <ArrowIcon/>

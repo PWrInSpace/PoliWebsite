@@ -16,10 +16,10 @@ interface IProps {
 export default function RocketSpecs(props: IProps) {
     return(
         <div className={styles.specsContainer}>
-            <RocketSpecsWrapper icon={<SmallLengthIcon/>} text={__('ourProjects.rockets.specs.length')} value={props.length}/>
-            <RocketSpecsWrapper icon={<SmallThrustIcon/>} text={__('ourProjects.rockets.specs.thrust')} value={props.thrust}/>
-            <RocketSpecsWrapper icon={<SmallWeightIcon/>} text={__('ourProjects.rockets.specs.weight')} value={props.weight}/>
-            <RocketSpecsWrapper icon={<SmallVelocityIcon/>} text={__('ourProjects.rockets.specs.velocity')} value={props.velocity}/>
+            <RocketSpecsWrapper icon={<SmallLengthIcon/>} text={__('mainPage.ourProjects.rockets.specs.length')} value={props.length}/>
+            <RocketSpecsWrapper icon={<SmallThrustIcon/>} text={__('mainPage.ourProjects.rockets.specs.thrust')} value={props.thrust}/>
+            <RocketSpecsWrapper icon={<SmallWeightIcon/>} text={__('mainPage.ourProjects.rockets.specs.weight')} value={props.weight}/>
+            <RocketSpecsWrapper icon={<SmallVelocityIcon/>} text={__('mainPage.ourProjects.rockets.specs.velocity')} value={props.velocity}/>
         </div>
     );
 }
