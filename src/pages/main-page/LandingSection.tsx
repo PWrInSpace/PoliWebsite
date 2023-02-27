@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom';
 import NumberContainerComponent from '../../components/number-container-component/NumberContainerComponent';
 
 export default function LandingSection(props: any) {
-    
     return (
         <div className={styles.sectionContainer}>
             <div>

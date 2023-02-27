@@ -86,6 +86,11 @@
         height: 100%;
       }
 
+      .footerLogo:hover {
+        opacity: 0.7;
+        cursor: pointer;
+      }
+
       .footerContentText {
         margin-top: 20px;
         font-family: $alata;

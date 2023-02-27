@@ -123,6 +123,11 @@
                 }
             }
 
+            .sectionButton:hover {
+                cursor: pointer;
+                opacity: 0.9;
+            }
+
             .sectionSponsorButton {
                 border: 1px solid #FFFFFF;
                 background-color: transparent;
