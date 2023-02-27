@@ -6,9 +6,9 @@ declare const classNames: {
   readonly mulish: "mulish";
   readonly sectionContainer: "sectionContainer";
   readonly sectionWrapper: "sectionWrapper";
-  readonly sectionPlanets: "sectionPlanets";
   readonly sectionTitle: "sectionTitle";
   readonly sectionDivider: "sectionDivider";
   readonly sectionContent: "sectionContent";
+  readonly sectionPlanets: "sectionPlanets";
 };
 export = classNames;
