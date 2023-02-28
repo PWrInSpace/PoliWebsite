@@ -37,12 +37,12 @@ function App() {
 
     const menuItems: NavMenuModel[] = [
         getNavMenuModel(__('navbar.aboutUs'), '/about-us', <AboutUs/>),
-        getNavMenuModel(__('navbar.awards'), '/awards', DummyComp()),
-        getNavMenuModel(__('navbar.projects'), '/projects', DummyComp()),
-        getNavMenuModel(__('navbar.departments'), '/departments', DummyComp()),
+        // getNavMenuModel(__('navbar.awards'), '/awards', DummyComp()),
+        // getNavMenuModel(__('navbar.projects'), '/projects', DummyComp()),
+        // getNavMenuModel(__('navbar.departments'), '/departments', DummyComp()),
         getNavMenuModel(__('navbar.joinUs'), '/join-us', <JoinUs/>),
         getNavMenuModel(__('navbar.sponsors'), '/sponsors', <SponsorsPage/>),
-        getNavMenuModel(__('navbar.news'), '/news', DummyComp()),
+        // getNavMenuModel(__('navbar.news'), '/news', DummyComp()),
         getNavMenuModel(__('navbar.contact'), '/contact', <ContactPage/>),
     ];
 
