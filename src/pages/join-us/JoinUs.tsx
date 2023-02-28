@@ -55,6 +55,19 @@ const departments = {
 };
 
 export default function JoinUs(){
+    const createParagraphs = () => {
+        let i = 0;
+        return Object.keys(departments).map((department) => {
+            if (i % 2 === 0) {
+                i++;
+                return <JoinDepartmentContainer image={__(departments[department].image)} header={__(departments[department].header)} text={__(departments[department].text)} imageOnLeft={true}/>
+            } else {
+                i++;
+                return <JoinDepartmentContainer image={__(departments[department].image)} header={__(departments[department].header)} text={__(departments[department].text)} imageOnLeft={false}/>
+            }
+        });
+    };
+
     return(
         <div className={styles.container}>
             <img src={subpageBackground} alt="subpage background" className={styles.background}/>
@@ -64,8 +77,7 @@ export default function JoinUs(){
                 </div>
                 <div className={styles.divider}></div>
                 <div className={styles.textContainer}>
-                    <JoinDepartmentContainer image={__(departments.pr.image)} header={__(departments.pr.header)} text={__(departments.pr.text)} imageOnLeft={true}/>
-                    <JoinDepartmentContainer image={__(departments.silniki.image)} header={__(departments.silniki.header)} text={__(departments.silniki.text)} imageOnLeft={false}/>
+                    {createParagraphs()}
                 </div>
             </div>
         </div>
