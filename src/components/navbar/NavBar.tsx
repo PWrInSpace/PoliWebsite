@@ -27,7 +27,7 @@ export default function NavBar(props: ISelfProps) {
                         {!menuOpen && <IconMenu color='white' size={42}/>}
                         {menuOpen && <IconClose color='white' size={42}/>}
                     </div>
-                    {props.menuItems.map(item => <NavBarItem item={item} />)}
+                    {props.menuItems.map((item, key) => <NavBarItem item={item} key={key}/>)}
                     {menuOpen && <SocialMediaComponentNoBackground/>}
                 </div>
             </div>

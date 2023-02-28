@@ -21,7 +21,7 @@ export default function Footer(props: ISelfProps) {
             <div className={styles.footerWrapper}>
                 <div className={styles.footerNavWrapper}>
                     <div className={styles.footerNav}>
-                        {props.menuItems.map(item => <NavBarItem item={item} />)}
+                        {props.menuItems.map((item, key) => <NavBarItem item={item} key={key}/>)}
                     </div>
                     <div className={styles.footerDivider}></div>
                 </div>

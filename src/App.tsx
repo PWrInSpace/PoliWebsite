@@ -65,7 +65,7 @@ function App() {
                     <ReactCustomScrollbars autoHeight autoHeightMin={'100vh'} autoHide onScrollFrame={setWndowScroll}>
                         <Routes>
                             <Route path={'/'} element={<MainPage/>} />
-                            {menuItems.map(item => <Route path={item.url} element={item.component()} />)}
+                            {menuItems.map((item, key) => <Route path={item.url} element={item.component()} key={key}/>)}
                         </Routes>
                         <Footer menuItems={menuItems}/>
                     </ReactCustomScrollbars>

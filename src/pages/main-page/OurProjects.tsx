@@ -81,9 +81,9 @@ export default function OurProjects() {
     };
 
     const createButtons = () => {
-        return Object.keys(rockets).map(rocket => {
+        return Object.keys(rockets).map((rocket, key) => {
             return (
-                <button className={handleButtonChange(rocket)} onClick={() => setSelectedButton(rocket)}>
+                <button className={handleButtonChange(rocket)} onClick={() => setSelectedButton(rocket)} key={key}>
                     {rocket}
                 </button>
             );
