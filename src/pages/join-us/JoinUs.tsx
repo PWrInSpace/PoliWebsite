@@ -56,15 +56,8 @@ const departments = {
 
 export default function JoinUs(){
     const createParagraphs = () => {
-        let i = 0;
-        return Object.keys(departments).map((department) => {
-            if (i % 2 === 0) {
-                i++;
-                return <JoinDepartmentContainer image={__(departments[department].image)} header={__(departments[department].header)} text={__(departments[department].text)} imageOnLeft={true} onClick={() => window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSf-aeTqPVKXVolgZyAsSVKhb2wuBDK5Izzq-5-eBxqQi-xKTw/viewform'}/>;
-            } else {
-                i++;
-                return <JoinDepartmentContainer image={__(departments[department].image)} header={__(departments[department].header)} text={__(departments[department].text)} imageOnLeft={false} onClick={() => window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSf-aeTqPVKXVolgZyAsSVKhb2wuBDK5Izzq-5-eBxqQi-xKTw/viewform'}/>;
-            }
+        return Object.keys(departments).map((department, index) => {
+            return <JoinDepartmentContainer image={__(departments[department].image)} header={__(departments[department].header)} text={__(departments[department].text)} imageOnLeft={index % 2 === 0} onClick={() => window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSf-aeTqPVKXVolgZyAsSVKhb2wuBDK5Izzq-5-eBxqQi-xKTw/viewform'}/>;
         });
     };
 
