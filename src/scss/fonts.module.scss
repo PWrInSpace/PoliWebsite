@@ -1,17 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
 
-$beVietnamPro: 'Be Vietnam Pro', sans-serif;
 $alata: 'Alata', sans-serif;
 $kronaOne: 'Krona One', sans-serif;
 $alegreyaSans: 'Alegreya Sans SC', sans-serif;
 $mulish: 'Mulish', sans-serif;
 
 :export {
-    beVietnamPro: $beVietnamPro;
     alata: $alata;
     kronaOne: $kronaOne;
     alegreyaSans: $alegreyaSans;
