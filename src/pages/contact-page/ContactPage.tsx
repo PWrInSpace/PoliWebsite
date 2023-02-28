@@ -21,7 +21,7 @@ const crew = {
         image: LiliyaSizhuk,
         title: 'contactPage.president',
         name: 'Liliya Sizhuk',
-        mail: 'liliyasizhuk@gmail.com'
+        mail: 'liliya.sizhuk@gmail.com'
     },
 };
 

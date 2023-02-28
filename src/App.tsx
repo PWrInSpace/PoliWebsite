@@ -11,8 +11,8 @@ import ContactPage from './pages/contact-page/ContactPage';
 import SponsorsPage from './pages/sponsors-page/SponsorsPage';
 import AboutUs from './pages/about-us/AboutUs';
 import './app.module.scss';
-import useWindowScroll from './hooks/useWindowScroll';
 import AppWindowScrollContext, { IAppWindowScrollContext } from './context/AppWindowScrollContext';
+import JoinUs from './pages/join-us/JoinUs';
 
 interface NavMenuModel extends NavMenuItem {
     component: () => JSX.Element;
@@ -40,7 +40,7 @@ function App() {
         getNavMenuModel(__('navbar.awards'), '/awards', DummyComp()),
         getNavMenuModel(__('navbar.projects'), '/projects', DummyComp()),
         getNavMenuModel(__('navbar.departments'), '/departments', DummyComp()),
-        getNavMenuModel(__('navbar.joinUs'), '/join-us', DummyComp()),
+        getNavMenuModel(__('navbar.joinUs'), '/join-us', <JoinUs/>),
         getNavMenuModel(__('navbar.sponsors'), '/sponsors', <SponsorsPage/>),
         getNavMenuModel(__('navbar.nwes'), '/news', DummyComp()),
         getNavMenuModel(__('navbar.contact'), '/contact', <ContactPage/>),
