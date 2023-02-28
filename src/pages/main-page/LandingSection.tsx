@@ -8,6 +8,11 @@ import { Link } from 'react-router-dom';
 import NumberContainerComponent from '../../components/number-container-component/NumberContainerComponent';
 
 export default function LandingSection(props: any) {
+    const scroll = () => {
+        const section = document.querySelector( '#about-us' );
+        section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+    };
+
     return (
         <div className={styles.sectionContainer}>
             <div>
@@ -35,7 +40,7 @@ export default function LandingSection(props: any) {
                     <NumberContainerComponent number={2017} title={__('mainPage.landingSection.numbers.year')}/>
                     <NumberContainerComponent number={12} title={__('mainPage.landingSection.numbers.starts')}/>
                 </div>
-                <div className={styles.sectionArrow}>
+                <div className={styles.sectionArrow} onClick={scroll}>
                     <ArrowIcon/>
                 </div>
             </div>
