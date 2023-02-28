@@ -16,6 +16,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     width: 70%;
+    height: 100%;
 
     @include breakpoint-md {
       margin-left: 40px;
