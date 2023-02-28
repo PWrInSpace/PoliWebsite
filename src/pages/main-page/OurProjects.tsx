@@ -4,9 +4,11 @@ import background from '../../assets/ourProjectsBackground.png';
 import RocketPanel from '../../components/rocket-panel/RocketPanel';
 import r1 from '../../assets/rockets/r1.png';
 import r2 from '../../assets/rockets/r2.png';
+import r2s from '../../assets/rockets/r2s.png';
 import r3 from '../../assets/rockets/r3.png';
 import r4 from '../../assets/rockets/r4.png';
 import r4v2 from '../../assets/rockets/r4v2.png';
+import r5 from '../../assets/rockets/r5.png';
 
 const rockets = {
     'R1': {
@@ -24,46 +26,46 @@ const rockets = {
         'image': r2
     },
     'R3': {
-        'length': '3050 MM',
+        'length': '3000 MM',
         'thrust': '1600 N',
         'weight': '20 KG',
         'velocity': '260 M/S',
         'image': r3
     },
     'R2S': {
-        'length': '... MM',
-        'thrust': '... N',
-        'weight': '... KG',
-        'velocity': '... M/S',
-        'image': r4v2
+        'length': '2500 MM',
+        'thrust': '1500 N',
+        'weight': '10 KG',
+        'velocity': '300 M/S',
+        'image': r2s
     },
     'R4S': {
-        'length': '... MM',
-        'thrust': '... N',
-        'weight': '... KG',
-        'velocity': '... M/S',
-        'image': r4v2
-    },
-    'R4': {
-        'length': '... MM',
-        'thrust': '... N',
-        'weight': '... KG',
-        'velocity': '... M/S',
+        'length': '2600 MM',
+        'thrust': '1500 N',
+        'weight': '15 KG',
+        'velocity': '130 M/S',
         'image': r4
     },
-    'R4V2': {
-        'length': '4084 MM',
+    'R4': {
+        'length': '4000 MM',
         'thrust': '2500 N',
         'weight': '35 KG',
         'velocity': '272 M/S',
+        'image': r4
+    },
+    'R4V2': {
+        'length': '4007 MM',
+        'thrust': '2550 N',
+        'weight': '36 KG',
+        'velocity': '240 M/S',
         'image': r4v2
     },
     'R5': {
-        'length': '... MM',
-        'thrust': '... N',
-        'weight': '... KG',
-        'velocity': '... M/S',
-        'image': r4v2
+        'length': '??? MM',
+        'thrust': '??? N',
+        'weight': '??? KG',
+        'velocity': '??? M/S',
+        'image': r5
     }
 };
 
