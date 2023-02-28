@@ -69,9 +69,9 @@ export default function AboutUs() {
                 <div className={styles.divider}></div>
                 {createParagraph()}
                 <div className={styles.numbersContainer}>
-                    <NumberContainerComponent number={1234} title={__('aboutUsPage.numbers.firstNumber')} />
-                    <NumberContainerComponent number={1234} title={__('aboutUsPage.numbers.secondNumber')} />
-                    <NumberContainerComponent number={1234} title={__('aboutUsPage.numbers.thirdNumber')} />
+                    <NumberContainerComponent number={60} title={__('aboutUsPage.numbers.firstNumber')} />
+                    <NumberContainerComponent number={2017} title={__('aboutUsPage.numbers.secondNumber')} />
+                    <NumberContainerComponent number={12} title={__('aboutUsPage.numbers.thirdNumber')} />
                 </div>
             </div>
         </div>
