@@ -2,18 +2,25 @@ import React from 'react';
 import styles from './assets/join-us.module.scss';
 import subpageBackground from '../../assets/subpageBackground.png';
 import JoinDepartmentContainer from '../../components/join-department-container/JoinDepartmentContainer';
+import acs from '../../assets/join-us-images/acs.png';
+import elektronika from '../../assets/join-us-images/elektronika.png';
+import odzysk from '../../assets/join-us-images/odzysk.png';
+import payload from '../../assets/join-us-images/payload.png';
+import polifloater from '../../assets/join-us-images/polifloater.png';
 import pr from '../../assets/join-us-images/pr.png';
+import silniki from '../../assets/join-us-images/silniki.png';
+import struktura from '../../assets/join-us-images/struktura.png';
 
 const departments = {
     'struktura': {
         'header': 'joinUsPage.departments.struktura.header',
         'text': 'joinUsPage.departments.struktura.text',
-        'image': pr
+        'image': struktura
     },
     'silniki': {
         'header': 'joinUsPage.departments.silniki.header',
         'text': 'joinUsPage.departments.silniki.text',
-        'image': pr
+        'image': silniki
     },
     'pr': {
         'header': 'joinUsPage.departments.pr.header',
@@ -23,27 +30,27 @@ const departments = {
     'payload': {
         'header': 'joinUsPage.departments.payload.header',
         'text': 'joinUsPage.departments.payload.text',
-        'image': pr
+        'image': payload
     },
     'odzysk': {
         'header': 'joinUsPage.departments.odzysk.header',
         'text': 'joinUsPage.departments.odzysk.text',
-        'image': pr
+        'image': odzysk
     },
     'elektronika': {
         'header': 'joinUsPage.departments.elektronika.header',
         'text': 'joinUsPage.departments.elektronika.text',
-        'image': pr
+        'image': elektronika
     },
     'acs': {
         'header': 'joinUsPage.departments.acs.header',
         'text': 'joinUsPage.departments.acs.text',
-        'image': pr
+        'image': acs
     },
     'polifloater': {
         'header': 'joinUsPage.departments.polifloater.header',
         'text': 'joinUsPage.departments.polifloater.text',
-        'image': pr
+        'image': polifloater
     }
 };
 
