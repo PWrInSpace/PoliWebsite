@@ -7,8 +7,8 @@ export default function SocialMediaComponent() {
     return(
         <div className={styles.socialMediaContainer}>
             <div className={styles.socialMediaWrapper}>
-                <FacebookIcon onClick={() => window.location.href = 'https://www.facebook.com/pwrinspace'}/>
-                <InstagramIcon onClick={() => window.location.href = 'https://www.instagram.com/poliwrocket/'}/>
+                <FacebookIcon onClick={() => window.open('https://www.facebook.com/pwrinspace', '_blank')}/>
+                <InstagramIcon onClick={() => window.open('https://www.instagram.com/poliwrocket/', '_blank')}/>
             </div>
         </div>
     );

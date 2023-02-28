@@ -39,11 +39,11 @@ export default function Footer(props: ISelfProps) {
                     </div>
                 </div>
                 <div className={styles.footerSocialWrapper}>
-                    <FacebookIcon onClick={() => window.location.href = 'https://www.facebook.com/pwrinspace'} color={{ primaryColor: 'black', secondaryColor: 'white' }}/>
-                    <InstagramIcon onClick={() => window.location.href = 'https://www.instagram.com/poliwrocket/'} color={{ primaryColor: 'black', secondaryColor: 'white' }}/>
-                    <TikTokIcon onClick={() => window.location.href = 'https://www.tiktok.com/@poliwrocket'}/>
-                    <YouTubeIcon onClick={() => window.location.href = 'https://www.youtube.com/@poliwrocket1294'}/>
-                    <LinkedInIcon onClick={() => window.location.href = 'https://www.linkedin.com/company/pwr-in-space/'}/>
+                    <FacebookIcon onClick={() => window.open('https://www.facebook.com/pwrinspace', '_blank')} color={{ primaryColor: 'black', secondaryColor: 'white' }}/>
+                    <InstagramIcon onClick={() => window.open('https://www.instagram.com/poliwrocket/', '_blank')} color={{ primaryColor: 'black', secondaryColor: 'white' }}/>
+                    <TikTokIcon onClick={() => window.open('https://www.tiktok.com/@poliwrocket', '_blank')}/>
+                    <YouTubeIcon onClick={() => window.open('https://www.youtube.com/@poliwrocket1294', '_blank')}/>
+                    <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/company/pwr-in-space/', '_blank')}/>
                 </div>
             </div>
         </footer>
