@@ -6,12 +6,13 @@ interface IProps {
     header: string;
     text: string;
     imageOnLeft: boolean;
+    onClick: () => void;
 }
 
 export default function JoinDepartmentContainer(props: IProps){
     return(
         <div className={styles.container}>
-            { props.imageOnLeft ? <img src={props.image} alt="Join us image" className={styles.image}/> : null }
+            { props.imageOnLeft ? <img src={props.image} alt="Join us image" className={styles.image} onClick={props.onClick}/> : null }
             <div className={styles.textWrapper}>
                 <div className={ props.imageOnLeft ? classes(styles.header, styles.textLeft) : classes(styles.header, styles.textRight) }>
                     {props.header}
@@ -20,7 +21,7 @@ export default function JoinDepartmentContainer(props: IProps){
                     {props.text}
                 </div>
             </div>
-            { props.imageOnLeft ? null : <img src={props.image} alt="Join us image" className={styles.image}/> }
+            { props.imageOnLeft ? null : <img src={props.image} alt="Join us image" className={styles.image} onClick={props.onClick}/> }
         </div>
     );
 }
