@@ -35,23 +35,6 @@
         }
     }
 
-    .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -2;
-        width: 100vw;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 70.52%, rgba(0, 0, 0, 0.5) 86.67%, #000000 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-        height: 100%;
-        object-fit: cover;
-        min-height: 900px;
-
-        @include breakpoint-s {
-            min-height: 1400px;
-        }
-    }
-
     * > svg {
         position: absolute;
         top: 0;

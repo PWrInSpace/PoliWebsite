@@ -6,7 +6,6 @@ declare const classNames: {
   readonly mainblue: "mainblue";
   readonly sectionContainer: "sectionContainer";
   readonly background: "background";
-  readonly overlay: "overlay";
   readonly sectionWrapper: "sectionWrapper";
   readonly sectionTitle: "sectionTitle";
   readonly sectionDescription: "sectionDescription";

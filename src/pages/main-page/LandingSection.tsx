@@ -1,8 +1,6 @@
 import React from 'react';
 import styles from './assets/landing-section.module.scss';
 import mainBackground from '../../assets/mainBackground.png';
-import mainBackgroundOverlay from '../../assets/mainBackgroundOverlay.png';
-import IconCircle from '../../../src/icons/IconCircle';
 import ArrowIcon from '../../icons/ArrowIcon';
 import { Link } from 'react-router-dom';
 import NumberContainerComponent from '../../components/number-container-component/NumberContainerComponent';
@@ -15,11 +13,7 @@ export default function LandingSection(props: any) {
 
     return (
         <div className={styles.sectionContainer}>
-            <div>
-                <img src={mainBackground} className={styles.background}/>
-                <img src={mainBackgroundOverlay} className={styles.overlay}/>
-                <IconCircle/>
-            </div>
+            <img src={mainBackground} className={styles.background}/>
             <div className={styles.sectionWrapper}>
                 <div className={styles.sectionTitle}>
                     {__('mainPage.landingSection.title')}
