@@ -36,6 +36,7 @@ function App() {
     };
 
     const menuItems: NavMenuModel[] = [
+        getNavMenuModel(__('navbar.home'), '/', <MainPage/>),
         getNavMenuModel(__('navbar.aboutUs'), '/about-us', <AboutUs/>),
         // getNavMenuModel(__('navbar.awards'), '/awards', DummyComp()),
         // getNavMenuModel(__('navbar.projects'), '/projects', DummyComp()),
