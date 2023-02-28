@@ -27,6 +27,11 @@
     font-family: $mulish;
     font-size: 1rem;
     line-height: 1.6rem;
+
+    @include breakpoint-xs {
+      text-align: left;
+      line-height: 1.8rem;
+    }
   }
 }
 
