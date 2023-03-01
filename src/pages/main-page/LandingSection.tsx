@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './assets/landing-section.module.scss';
-import mainBackground from '../../assets/mainBackground.png';
+import mainBackground from '../../assets/mainBackground.jpeg';
 import ArrowIcon from '../../icons/ArrowIcon';
 import { Link } from 'react-router-dom';
 import NumberContainerComponent from '../../components/number-container-component/NumberContainerComponent';

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './assets/our-projects.module.scss';
-import background from '../../assets/ourProjectsBackground.png';
+import background from '../../assets/ourProjectsBackground.jpeg';
 import RocketPanel from '../../components/rocket-panel/RocketPanel';
 import r1 from '../../assets/rockets/r1.png';
 import r2 from '../../assets/rockets/r2.png';

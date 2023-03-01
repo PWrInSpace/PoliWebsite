@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './assets/footer.module.scss';
-import footerBackground from '../../assets/footerBackground.png';
+import footerBackground from '../../assets/footerBackground.jpeg';
 import { NavMenuItem } from '../../Contract';
 import NavBarItem from '../navbar/NavBarItem';
 import IconLogo from '../../icons/IconLogo';
