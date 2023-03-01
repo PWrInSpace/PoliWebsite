@@ -22,7 +22,7 @@ export default function LandingSection(props: any) {
                     {__('mainPage.landingSection.description')}
                 </div>
                 <div className={styles.sectionButtons}>
-                    <Link to={'/projects'} className={classes(styles.sectionButton, styles.sectionProjectButton)}>
+                    <Link to={'/contact'} className={classes(styles.sectionButton, styles.sectionProjectButton)}>
                         {__('mainPage.landingSection.buttons.projects')}
                     </Link>
                     <Link to={'/sponsors'} className={classes(styles.sectionButton, styles.sectionSponsorButton)}>
