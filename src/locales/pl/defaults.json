@@ -1,5 +1,6 @@
 {
     "navbar": {
+        "home": "Strona główna",
         "aboutUs": "O nas",
         "awards": "Osiągnięcia",
         "projects": "Projekty",
@@ -7,7 +8,7 @@
         "team": "Zespół",
         "joinUs": "Dołącz do nas",
         "sponsors": "Sponsorzy",
-        "nwes": "Aktualności",
+        "news": "Aktualności",
         "contact": "Kontakt"
     },
     "footer": {
@@ -30,44 +31,44 @@
         "aboutUs": {
             "header": "O NAS",
             "text": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R4, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2021 w Stanach Zjednoczonych. To nie tylko studencki konkurs, ale także konferencja naukowa i możliwość nawiązania znajomości z członkami drużyn z całego świata.",
-            "planet1": "LOREM",
-            "planet2": "IPSUM",
-            "planet3": "DOLOR"
+            "planet1": "ŁĄCZY",
+            "planet2": "NAS",
+            "planet3": "PASJA"
         },
         "ourProjects": {
             "title": "NASZE PROJEKTY",
             "rockets": {
                 "R1": {
                     "name": "MICRO",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
+                    "description": "Pierwsza rakieta stworzona przez koło. Konstrukcja była mieszanką kartonu w włóknem szklanym na korpusach i węglowym na lotkach. Głowica była stworzona przez drukarkę 3D. Celem tej rakiety była nauka tworzenia rakiet - projektowania, wykonywania oraz składania, z tego względu silnik został zakupiony."
                 },
                 "R2": {
                     "name": "SETKA",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
+                    "description": "Rakieta testowa, stworzona z myślą o tanim i szybkim testowaniu komponentów do większej rakiety R3. Do rakiety został zaprojektowany oraz wykonany pierwszy silnik koła “Silnik A” o ciągu 450 N, długości 354 mm oraz średnicy 45 mm. W rakiecie testowane były różne systemy odzysku i elektroniczne."
                 },
                 "R3": {
-                    "name": "DZIEWIĘDZIESIĄTKA DZIEWIĄTKA",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
+                    "name": "DZIEWIĘĆDZIESIĄTKA DZIEWIĄTKA",
+                    "description": "Pierwsza rakieta stworzona pod zawody Spaceport America CUP 2019. Rakieta wyposażona była w “Silnik B” - hybrydowy silnik rakietowy o ciągu 1600 N, którego utleniaczem był podtlenek azotu, a paliwem polipropylen. Został wykonany dwustopniowy system odzysku, dzięki któremu rakieta bezpiecznie wróciła na Ziemię, pozwalając drużynie zająć 5 miejsce z apogeum 4200 m."
                 },
                 "R2S": {
-                    "name": "PINK PANTHERA",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
+                    "name": "BLUE DRAGON",
+                    "description": "Kolejna rakieta testowa, oraz szansa dla nowych osób na naukę budowy rakiety od początku do końca. Konstrukcja bazowana na rakiecie R2, natomiast do stworzenia jej korpusów użyliśmy niewykorzystane korpusy zapasowe R3. Wyposażona w silnik na paliwo stałe. Rakieta poleciała na wydarzeniu “Loty Rakiet Eksperymentalnych” organizowanych co roku przez Polskie Towarzystwo."
                 },
                 "R4S": {
-                    "name": "PINK PANTHERA",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
+                    "name": "LYNX (testowa)",
+                    "description": "Rakieta testowa, stworzona aby testować moduły i rozwiązania do kolejnej rakiety R4. Rakieta pozwoliła na testy modułu aktywnej kontroli lotu ACS, jak również nowej elektroniki i systemu odzysku. Rakieta odbyła dwa loty - na LRE oraz Festiwalu Meteor."
                 },
                 "R4": {
                     "name": "LYNX",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
+                    "description": "Rakieta z silnikiem hybrydowym “Silnik C”, napędzanym na podtlenek azotu oraz żywicę epoksydową z aluminium. Lynx leciała na zawodach European Rocketry Challenge 2021 w Portugalii. Przy osiągnięciu apogeum około 2700 m drużyna zdobyła 2 miejsce w kategorii 3k Hybrid SRAD oraz nagrodę “Best Design” za najlepszą implementację projektu ze wszystkich drużyn na zawodach."
                 },
                 "R4V2": {
                     "name": "PINK PANTHERA",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
+                    "description": "Rakieta była ulepszeniem swojej poprzedniczki R4, dostając ten sam silnik hybrydowy. Zostały poprawione poprzednie błędy konstrukcyjne, a także zoptymalizowane rozwiązania. Rakieta brała udział w zawodach Spaceport America CUP 2022 w Nowym Meksyku, gdzie nasza drużyna zdobyła 2 miejsce w swojej kategorii 10k Hybrid, Liquid&Others."
                 },
                 "R5": {
-                    "name": "PINK PANTHERA",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio."
+                    "name": "AURORA",
+                    "description": "[coming soon]"
                 },
                 "specs": {
                     "length": "DŁUGOŚĆ RAKIETY",
@@ -100,18 +101,18 @@
         "header": "O NAS",
         "firstParagraph": {
             "title": "INTRO",
-            "subtitle": "HISTORIA POWSTANIA",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio. Integer porta porttitor varius. Curabitur tempor ligula venenatis tempus feugiat. Maecenas dapibus tellus a nisl pulvinar sagittis id vitae odio. Cras vitae nunc velit. Etiam ex ipsum, dapibus nec posuere vitae, mollis eget enim. Nullam feugiat ullamcorper massa, nec egestas justo varius ac. Nunc pulvinar, nunc et lacinia consequat."
+            "subtitle": "HISTORIA KOŁA",
+            "text": "Koło Naukowe “PWr in Space” powstało w 2017 roku, kiedy to kilkanaście osób połączyło wspólne zamiłowanie do kosmosu. Pierwszą rakietą wykonaną przez założycielski zespół była R1 Micro - która miała zaledwie 750 mm i 0,8kg. Oprócz pracy technicznej wykonywanej w kole, studenci od początku działalności chętnie brali udział w konferencjach, warsztatach i szkoleniach, dzięki którym mieli okazję poznać nowe firmy, organizacje i ich nowoczesne rozwiązania produkcyjne. Dzięki zaangażowaniu członków koła, udało się zainteresować sponsorów i zachęcić ich do współpracy. Już po dwóch latach żmudnej pracy  i zdobywania potrzebnej wiedzy, udało nam się pojechać na pierwsze zawody Spaceport America Cup w Stanach Zjednoczonych, w których zajęliśmy 5. miejsce. Dla tak młodego zespołu było to ogromne wyróżnienie. Tak zaczęła się przygoda koła z zawodami i rywalizacją z drużynami z całego świata."
         },
         "secondParagraph": {
             "title": "O NAS",
             "subtitle": "KIM JESTEŚMY",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis lorem sed diam sodales posuere eget a erat. Phasellus quis leo et neque volutpat aliquet nec ac tellus. Maecenas at sapien quis ex venenatis laoreet in vehicula magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet arcu vitae tincidunt ornare. Pellentesque sed bibendum odio. Integer porta porttitor varius. Curabitur tempor ligula venenatis tempus feugiat. Maecenas dapibus tellus a nisl pulvinar sagittis id vitae odio. Cras vitae nunc velit. Etiam ex ipsum, dapibus nec posuere vitae, mollis eget enim. Nullam feugiat ullamcorper massa, nec egestas justo varius ac. Nunc pulvinar, nunc et lacinia consequat."
+            "text": "Obecnie w PWr in Space działa aktywnie kilkadziesiąt osób, realizując trzy projekty: PoliWrocket, PoliFloater i PoliPlane. Wykorzystują w nich  nowoczesne technologie w zakresie oprogramowania, materiałów kompozytowych, druku 3D oraz spiekania materiałów. Koło naukowe wypracowało przez te kilka lat działalności innowacyjne rozwiązania, które doceniają sędziowie na międzynarodowych zawodach czy firmy z branży kosmicznej. Są nimi silnik hybrydowy, system aktywnego sterowania trajektorią rakiety w locie czy zastosowanie nawijarki do wykonania brył obrotowych. Mimo, iż samo koło działa na Wydziale Mechanicznym, zrzesza studentów z całej Politechniki Wrocławskiej. Naszym najnowszym, a zarazem najbardziej ambitnym przedsięwzięciem była budowa rakiety R4 o napędzie hybrydowym, zdolnej do osiągnięcia apogeum 3048 metrów (10000 stóp) oraz wyniesienia ładunku o masie przynajmniej 4 kilogramów. Liczby te nie są przypadkowe, a odwołują się do konkurencji w której rakieta R4 startowała i odnosiła sukcesy, jak przykładowo 3 miejsce na wspomnianym już konkursie SA Cup 2021 czy nagroda za najlepszy design na konkursie EUROC 2021. Wszystkie moduły i elementy rakiety, włącznie z silnikiem, elektroniką krytyczną, strukturą nośną czy modułem odzysku zostały przez nas starannie zaprojektowane i wykonane."
         },
         "numbers": {
-            "firstNumber": "LOREM",
-            "secondNumber": "IPSUM",
-            "thirdNumber": "DOLOR"
+            "firstNumber": "CZŁONKÓW",
+            "secondNumber": "ROK ZAŁOŻENIA",
+            "thirdNumber": "STARTÓW"
         }
     },
     "joinUsPage": {

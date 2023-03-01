@@ -1,20 +1,19 @@
 import React from 'react';
 import styles from './assets/landing-section.module.scss';
-import mainBackground from '../../assets/mainBackground.png';
-import mainBackgroundOverlay from '../../assets/mainBackgroundOverlay.png';
-import IconCircle from '../../../src/icons/IconCircle';
+import mainBackground from '../../assets/mainBackground.jpeg';
 import ArrowIcon from '../../icons/ArrowIcon';
 import { Link } from 'react-router-dom';
 import NumberContainerComponent from '../../components/number-container-component/NumberContainerComponent';
 
 export default function LandingSection(props: any) {
+    const scroll = () => {
+        const section = document.querySelector( '#about-us' );
+        section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+    };
+
     return (
         <div className={styles.sectionContainer}>
-            <div>
-                <img src={mainBackground} className={styles.background}/>
-                <img src={mainBackgroundOverlay} className={styles.overlay}/>
-                <IconCircle/>
-            </div>
+            <img src={mainBackground} className={styles.background}/>
             <div className={styles.sectionWrapper}>
                 <div className={styles.sectionTitle}>
                     {__('mainPage.landingSection.title')}
@@ -35,7 +34,7 @@ export default function LandingSection(props: any) {
                     <NumberContainerComponent number={2017} title={__('mainPage.landingSection.numbers.year')}/>
                     <NumberContainerComponent number={12} title={__('mainPage.landingSection.numbers.starts')}/>
                 </div>
-                <div className={styles.sectionArrow}>
+                <div className={styles.sectionArrow} onClick={scroll}>
                     <ArrowIcon/>
                 </div>
             </div>

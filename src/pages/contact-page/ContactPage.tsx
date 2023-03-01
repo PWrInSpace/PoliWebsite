@@ -15,7 +15,7 @@ const crew = {
         image: WiktoriaMrowiec,
         title: 'contactPage.prPresident',
         name: 'Wiktoria Mrowiec',
-        mail: 'wiktoriamrowiec@gmail.com'
+        mail: 'mrowiec.w.wm@gmail.com'
     },
     secondPerson: {
         image: LiliyaSizhuk,
@@ -67,8 +67,8 @@ export default function ContactPage() {
                             {__('contactPage.subtitle')}
                         </div>
                         <ContactLink text={'pwrinspace@pwr.edu.pl'} icon={<MailIcon/>} onClick={() => window.location.href = 'mailto:pwrinspace@pwr.edu.pl'}/>
-                        <ContactLink text={'PWr in Space'} icon={<FacebookIcon color={{ primaryColor: 'black', secondaryColor: 'white' }}/>} onClick={() => window.location.href = 'https://www.facebook.com/pwrinspace'}/>
-                        <ContactLink text={'@poliwrocket'} icon={<InstagramIcon color={{ primaryColor: 'black', secondaryColor: 'white' }}/>} onClick={() => window.location.href = 'https://www.instagram.com/poliwrocket/'}/>
+                        <ContactLink text={'PWr in Space'} icon={<FacebookIcon color={{ primaryColor: 'black', secondaryColor: 'white' }}/>} onClick={() => window.open('https://www.facebook.com/pwrinspace', '_blank')}/>
+                        <ContactLink text={'@poliwrocket'} icon={<InstagramIcon color={{ primaryColor: 'black', secondaryColor: 'white' }}/>} onClick={() => window.open('https://www.instagram.com/poliwrocket/', '_blank')}/>
                     </div>
                     <PersonPicture image={crew.secondPerson.image} title={__(crew.secondPerson.title)} name={crew.secondPerson.name} mail={crew.secondPerson.mail}/>
                 </div>

@@ -9,9 +9,9 @@ interface IProps {
 
 export default function LocationComponent(props: IProps) {
     const createText = () => {
-        return props.text.map(line => {
+        return props.text.map((line, key) => {
             return (
-                <div className={styles.text}>
+                <div className={styles.text} key={key}>
                     {line}
                 </div>
             );

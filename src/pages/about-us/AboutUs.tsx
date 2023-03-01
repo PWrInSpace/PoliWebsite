@@ -32,17 +32,17 @@ const paragraphs = {
 
 export default function AboutUs() {
     const createParagraph = () => {
-        return Object.keys(paragraphs).map((paragraph) => {
+        return Object.keys(paragraphs).map((paragraph, key) => {
             if (paragraphs[paragraph].image.position === 'right') {
                 return (
-                    <div className={styles.paragraph}>
+                    <div className={styles.paragraph} key={key}>
                         <AboutUsParagraph title={__(paragraphs[paragraph].title)} subtitle={__(paragraphs[paragraph].subtitle)} text={__(paragraphs[paragraph].text)} wrapper={styles.firstWrapper}/>
                         <img src={paragraphs[paragraph].image.src} alt={paragraphs[paragraph].image.alt} className={styles.paragraphImage}/>
                     </div>
                 );
             } else if (paragraphs[paragraph].image.position === 'left') {
                 return (
-                    <div className={styles.paragraph}>
+                    <div className={styles.paragraph} key={key}>
                         <img src={paragraphs[paragraph].image.src} alt={paragraphs[paragraph].image.alt} className={styles.paragraphImage}/>
                         <AboutUsParagraph title={__(paragraphs[paragraph].title)} subtitle={__(paragraphs[paragraph].subtitle)} text={__(paragraphs[paragraph].text)} wrapper={styles.secondWrapper}/>
                     </div>
@@ -69,9 +69,9 @@ export default function AboutUs() {
                 <div className={styles.divider}></div>
                 {createParagraph()}
                 <div className={styles.numbersContainer}>
-                    <NumberContainerComponent number={1234} title={__('aboutUsPage.numbers.firstNumber')} />
-                    <NumberContainerComponent number={1234} title={__('aboutUsPage.numbers.secondNumber')} />
-                    <NumberContainerComponent number={1234} title={__('aboutUsPage.numbers.thirdNumber')} />
+                    <NumberContainerComponent number={60} title={__('aboutUsPage.numbers.firstNumber')} />
+                    <NumberContainerComponent number={2017} title={__('aboutUsPage.numbers.secondNumber')} />
+                    <NumberContainerComponent number={12} title={__('aboutUsPage.numbers.thirdNumber')} />
                 </div>
             </div>
         </div>

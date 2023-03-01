@@ -72,13 +72,14 @@
     .divider {
       border: 0.5px solid #FFFFFF;
       width: 40%;
+      margin-bottom: 50px;
     }
 
     .paragraph {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       color: #FFFFFF;
       margin: 70px 0;
 
@@ -128,9 +129,10 @@
     width: 80%;
     gap: 30px;
     margin-top: 90px;
+    margin-bottom: 150px;
 
     @include breakpoint-lg {
-      margin-bottom: 30px;
+      margin-bottom: 100px;
     }
 
     @include breakpoint-md {

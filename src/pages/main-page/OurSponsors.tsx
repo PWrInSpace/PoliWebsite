@@ -42,9 +42,9 @@ const images = {
 
 export default function OurSponsors() {
     const createLogo = () => {
-        return Object.keys(images).map(logo => {
+        return Object.keys(images).map((logo, key) => {
             return(
-                <img src={images[logo].src} alt={images[logo].alt} className={styles.logo}/>
+                <img src={images[logo].src} alt={images[logo].alt} className={styles.logo} key={key}/>
             );
         });
     };

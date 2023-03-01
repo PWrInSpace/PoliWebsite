@@ -7,7 +7,7 @@ import PlanetComponent from '../../components/planet-component/PlanetComponent';
 
 export default function AboutUsSection() {
     return (
-        <div className={styles.sectionContainer}>
+        <div className={styles.sectionContainer} id="about-us">
             <div className={styles.sectionWrapper}>
                 <div className={styles.sectionTitle}>
                     {__('mainPage.aboutUs.header')}

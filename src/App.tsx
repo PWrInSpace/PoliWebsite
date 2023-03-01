@@ -36,13 +36,14 @@ function App() {
     };
 
     const menuItems: NavMenuModel[] = [
+        getNavMenuModel(__('navbar.home'), '/', <MainPage/>),
         getNavMenuModel(__('navbar.aboutUs'), '/about-us', <AboutUs/>),
-        getNavMenuModel(__('navbar.awards'), '/awards', DummyComp()),
-        getNavMenuModel(__('navbar.projects'), '/projects', DummyComp()),
-        getNavMenuModel(__('navbar.departments'), '/departments', DummyComp()),
-        getNavMenuModel(__('navbar.joinUs'), '/join-us', <JoinUs/>),
+        // getNavMenuModel(__('navbar.awards'), '/awards', DummyComp()),
+        // getNavMenuModel(__('navbar.projects'), '/projects', DummyComp()),
+        // getNavMenuModel(__('navbar.departments'), '/departments', DummyComp()),
+        // getNavMenuModel(__('navbar.joinUs'), '/join-us', <JoinUs/>),
         getNavMenuModel(__('navbar.sponsors'), '/sponsors', <SponsorsPage/>),
-        getNavMenuModel(__('navbar.nwes'), '/news', DummyComp()),
+        // getNavMenuModel(__('navbar.news'), '/news', DummyComp()),
         getNavMenuModel(__('navbar.contact'), '/contact', <ContactPage/>),
     ];
 
@@ -64,7 +65,7 @@ function App() {
                     <ReactCustomScrollbars autoHeight autoHeightMin={'100vh'} autoHide onScrollFrame={setWndowScroll}>
                         <Routes>
                             <Route path={'/'} element={<MainPage/>} />
-                            {menuItems.map(item => <Route path={item.url} element={item.component()} />)}
+                            {menuItems.map((item, key) => <Route path={item.url} element={item.component()} key={key}/>)}
                         </Routes>
                         <Footer menuItems={menuItems}/>
                     </ReactCustomScrollbars>
