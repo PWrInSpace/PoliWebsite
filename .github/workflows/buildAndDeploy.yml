@@ -2,8 +2,13 @@ name: Deploy
 
 on:
   push:
-    branches:
-      - develop
+    branches: 
+    - main
+    - develop
+  pull_request:
+    brnaches:
+    - main
+    - develop
 
 jobs:
   build:
@@ -22,8 +27,11 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
+      - name: Rename file 
+        run: mv ./vite.local.config.ts.ghPages ./vite.local.config.ts
+
       - name: Build project
-        run: npm run production
+        run: npm run ghPages
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
@@ -35,7 +43,7 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+    if: (github.ref == 'refs/heads/develop') && (github.event_name == 'push')
 
     steps:
       - name: Download artifact

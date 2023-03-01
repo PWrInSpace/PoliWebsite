@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavMenuItem } from 'src/Contract';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import styles from './assets/navbar-item.module.scss';
 
 interface ISelfProps {
@@ -10,7 +10,13 @@ interface ISelfProps {
 export default function NavBarItem(props: ISelfProps) {
     return (
         <div>
-            <Link to={props.item.url} className={styles.link}>{props.item.name}</Link>
+            <NavLink 
+                to={props.item.url}
+                className={({ isActive }) =>
+                    isActive ?  classes(styles.link, styles.active) : styles.link
+                }>
+                {props.item.name}
+            </NavLink>
         </div>
     );
 }

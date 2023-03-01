@@ -7,6 +7,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import en from './locales/en/defaults.json';
 import pl from './locales/pl/defaults.json';
 import Cookies from 'js-cookie';
+import localConfig from './../vite.local.config';
 
 function initi18n() {
     const langCookieKey = 'i18next';
@@ -27,6 +28,12 @@ function initi18n() {
     });
 
     window.__ = (str: string) => i18n.t(str);
+    window.classes = (...args: string[]) => args.join(' ');
+    if (!window.appContext) {
+        window.appContext = {
+            baseUrl: (localConfig as any).base ?? '/'
+        };
+    }
 }
 
 function loadPage() {

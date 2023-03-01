@@ -1,0 +1,33 @@
+@import '../../../../src/scss/breakpoints.module';
+@import '../../../../src/scss/fonts.module';
+@import '../../../../src/scss/variables.module';
+
+.specsWrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  margin: 25px 0;
+  color: #FFFFFF;
+  font-family: $mulish;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  width: 70%;
+
+  @include breakpoint-sm {
+    svg {
+      display: none;
+    }
+  }
+
+  .specsDivider {
+    border: 0.5px solid #FFFFFF;
+    width: 50px;
+  }
+
+  .specsHighlight {
+    color: $mainBlue;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+}

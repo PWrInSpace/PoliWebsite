@@ -1,21 +1,63 @@
+@import '../../../../src/scss/breakpoints.module';
+
+$menuBackground: rgba(0, 0, 0, 0.9);
+
+.withBlackBackground {
+    background: $menuBackground;
+}
+
 .headerContainer {
+    position: fixed;
     display: flex;
     width: 100vw;
-    justify-content: center;    
+    justify-content: center;
+    height: 106px;
+    z-index: 999;    
 
     .headerWrapper {
         position: fixed;
         z-index: 999;
         display: flex;
-        width: 100%;
+        width: calc(100% - 60px);
         max-width: 1112px;
-        margin-top: 32px;
+        padding:  32px 30px 0 30px;
         justify-content: space-between;
+
+        .headerLogo:hover {
+            opacity: 0.7;
+            cursor: pointer;
+        }
     }
 
-    .linksWrapper{
+    .linksWrapper {
         display: flex;
         align-items: flex-end;
+
+        .menu {
+            display: none;
+        }
+        
+
+        @include breakpoint-md {
+            flex-direction: column;
+
+            .menu {
+                display: block;
+            }
+
+            * > a {
+                padding: 8px;
+            }
+        }        
+    }
+
+    @include breakpoint-md {
+        .linksHidden {
+            * > a {
+               display: none;
+               height: 0;
+            }
+       }
     }
 }
 

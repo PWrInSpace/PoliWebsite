@@ -1,0 +1,58 @@
+@import '../../../../src/scss/breakpoints.module';
+@import '../../../../src/scss/fonts.module';
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  justify-content: center;
+  align-items: center;
+  min-height: 900px;
+
+  @include breakpoint-xxl {
+    grid-template-columns: 10% 80% 10%;
+  }
+
+  @include breakpoint-xl {
+    grid-template-columns: 5% 90% 5%;
+  }
+
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2 / 3;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+
+    .header {
+      font-family: $kronaOne;
+      font-size: 2rem;
+      color: #FFFFFF;
+      margin: 150px 0 20px 0;
+      text-align: center;
+    }
+
+    .divider {
+      border: 0.5px solid #FFFFFF;
+      width: 40%;
+    }
+
+    .textContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 60px;
+      margin: 100px 0;
+    }
+  }
+}

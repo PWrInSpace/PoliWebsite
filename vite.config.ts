@@ -10,7 +10,7 @@ import checker from 'vite-plugin-checker';
 
 export default defineConfig((params) => ({
     clearScreen: false,
-    base: './',
+    base: (localConfig as any).base ? (localConfig as any).base : './',
     server: {
         hmr: localConfig.reloadOnChange ? undefined : false,
         proxy: {
@@ -25,17 +25,16 @@ export default defineConfig((params) => ({
         target: ['es2021', 'chrome100', 'safari13'],
         minify: params.mode === 'production' ? 'terser' : 'esbuild',
         sourcemap: params.mode !== 'production',
-        outDir: '../wwwroot/dist',
+        outDir: './dist',
         emptyOutDir: true,
         assetsDir: '.',
         rollupOptions: {
             input: {
                 index: path.resolve(path.join(__dirname, 'index.html')),
-                bundle: path.resolve(path.join(__dirname, 'src', 'main.tsx')),
             },
             output: {
                 assetFileNames: asset => asset.name.includes('main') ? '[name].[ext]' : '[name].[hash].[ext]',
-                entryFileNames: '[name].js',
+                entryFileNames: '[name].[hash].js',
                 format: 'commonjs',
             },
         }

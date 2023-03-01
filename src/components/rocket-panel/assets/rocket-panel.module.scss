@@ -1,0 +1,58 @@
+@import '../../../../src/scss/breakpoints.module';
+@import '../../../../src/scss/fonts.module';
+
+.panelContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  .panelWrapper {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 70%;
+    height: 100%;
+
+    @include breakpoint-md {
+      margin-left: 40px;
+    }
+
+    .rocketTitle {
+      font-family: $mulish;
+      font-size: 1.375rem;
+      letter-spacing: 0.1rem;
+      color: #FFFFFF;
+      margin: 70px 0 10px 0;
+    }
+
+    .rocketSubtitle {
+      font-family: $alata;
+      font-size: 1.75rem;
+      letter-spacing: 0.2rem;
+      color: #FFFFFF;
+    }
+
+    .rocketDescription {
+      font-family: $mulish;
+      font-size: 1rem;
+      letter-spacing: 0.1rem;
+      color: #FFFFFF;
+      margin: 30px 0;
+      line-height: 1.6rem;
+    }
+  }
+
+  .rocketImage {
+    grid-column: 3 / 4;
+    height: 600px;
+    justify-self: center;
+    align-self: center;
+    margin-top: 70px;
+  }
+}
