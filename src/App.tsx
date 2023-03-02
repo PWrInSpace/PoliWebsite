@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 import NavBar from './components/navbar/NavBar';
 import { NavMenuItem } from './Contract';
 import MainPage from './pages/main-page/MainPage';
-import ReactCustomScrollbars, { positionValues } from 'react-custom-scrollbars-2';
+import ReactCustomScrollbars, { Scrollbars, positionValues } from 'react-custom-scrollbars-2';
 import localConfig from './../vite.local.config';
 import SocialMediaComponent from './components/social-media-component/SocialMediaComponent';
 import Footer from './components/footer/Footer';
@@ -11,8 +11,9 @@ import ContactPage from './pages/contact-page/ContactPage';
 import SponsorsPage from './pages/sponsors-page/SponsorsPage';
 import AboutUs from './pages/about-us/AboutUs';
 import './app.module.scss';
-import AppWindowScrollContext, { IAppWindowScrollContext } from './context/AppWindowScrollContext';
+import { IAppWindowScrollContext, AppWindowScrollContext } from './context/AppWindowScrollContext';
 import JoinUs from './pages/join-us/JoinUs';
+import AppWindowScrollContextProvider from './context/AppWindowScrollContext';
 
 interface NavMenuModel extends NavMenuItem {
     component: () => JSX.Element;
@@ -20,7 +21,12 @@ interface NavMenuModel extends NavMenuItem {
 
 const config = localConfig as any;
 
-function App() {
+interface AppComponentProps {
+    getWindowScroll: () => positionValues;
+    setWindowScroll: (v: positionValues) => void;
+}
+
+function  AppComponent(props: AppComponentProps) {
     const getNavMenuModel = (name: string, url: string, component: JSX.Element) : NavMenuModel =>  {
         return {
             name: name,
@@ -50,19 +56,15 @@ function App() {
     const isGhPages = config.ghPages === true;
     const Router = isGhPages ? HashRouter : BrowserRouter;
 
-    const [windowScroll, setWndowScroll] = useState<positionValues>();
-    const windowScrollContext: IAppWindowScrollContext = {
-        getWindowScroll: () => windowScroll,
-        setWindowScroll: setWndowScroll
-    };
+    const scrollContext = useContext(AppWindowScrollContext);
 
     return (
-        <AppWindowScrollContext.Provider value={windowScrollContext}>
+        <AppWindowScrollContextProvider getWindowScroll={props.getWindowScroll}>
             <Router>
                 <div>
                     <NavBar menuItems={menuItems}/>
                     <SocialMediaComponent/>
-                    <ReactCustomScrollbars autoHeight autoHeightMin={'100vh'} autoHide onScrollFrame={setWndowScroll}>
+                    <ReactCustomScrollbars autoHeight autoHeightMin={'100vh'} autoHide onScrollFrame={(v) => props.setWindowScroll(v)} ref={scrollContext.scrollRef}>
                         <Routes>
                             <Route path={'/'} element={<MainPage/>} />
                             {menuItems.map((item, key) => <Route path={item.url} element={item.component()} key={key}/>)}
@@ -71,8 +73,18 @@ function App() {
                     </ReactCustomScrollbars>
                 </div>
             </Router>
-        </AppWindowScrollContext.Provider>
+        </AppWindowScrollContextProvider>
 
+    );
+}
+
+function App() {
+    const [windowScroll, setWindowScroll] = useState<positionValues>();
+
+    return (
+        <AppWindowScrollContextProvider getWindowScroll={() => windowScroll}>
+            <AppComponent getWindowScroll={() => windowScroll} setWindowScroll={(v) => setWindowScroll(v)}/>
+        </AppWindowScrollContextProvider>
     );
 }
 
