@@ -44,12 +44,12 @@ jobs:
           name: production-files
           path: ./dist
 
-     - name: Sync files
-       uses: SamKirkland/FTP-Deploy-Action@4.3.3
-       with:
-          server: pwrinspace.pwr.edu.pl
-          username: ${{ secrets.SSH_LOGIN }}
-          password: ${{ secrets.SSH_PASSWORD }}
-          local-dir: ${{steps.download.outputs.download-path}}
-          server-dir: test_deploy/
+      - name: Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.3.3
+        with:
+            server: pwrinspace.pwr.edu.pl
+            username: ${{ secrets.SSH_LOGIN }}
+            password: ${{ secrets.SSH_PASSWORD }}
+            local-dir: ${{steps.download.outputs.download-path}}
+            server-dir: test_deploy/
 
