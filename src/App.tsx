@@ -58,13 +58,14 @@ function  AppComponent(props: AppComponentProps) {
 
     const scrollContext = useContext(AppWindowScrollContext);
 
+    const minHeight = CSS.supports('height', '100dvh') ? '100dvh' : '100vh';
     return (
         <AppWindowScrollContextProvider getWindowScroll={props.getWindowScroll}>
             <Router>
                 <div>
                     <NavBar menuItems={menuItems}/>
                     <SocialMediaComponent/>
-                    <ReactCustomScrollbars autoHeight autoHeightMin={'100vh'} autoHide onScrollFrame={(v) => props.setWindowScroll(v)} ref={scrollContext.scrollRef}>
+                    <ReactCustomScrollbars  autoHeight autoHeightMin={minHeight} autoHide onScrollFrame={(v) => props.setWindowScroll(v)} ref={scrollContext.scrollRef}>
                         <Routes>
                             <Route path={'/'} element={<MainPage/>} />
                             {menuItems.map((item, key) => <Route path={item.url} element={item.component()} key={key}/>)}
