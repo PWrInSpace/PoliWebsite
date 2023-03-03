@@ -53,6 +53,6 @@ jobs:
             server: pwrinspace.pwr.edu.pl
             username: ${{ secrets.SSH_LOGIN }}
             password: ${{ secrets.SSH_PASSWORD }}
-            local-dir: ${{steps.download.outputs.download-path}}
+            local-dir: ${{steps.download.outputs.download-path}}/
             server-dir: test_deploy/
 
