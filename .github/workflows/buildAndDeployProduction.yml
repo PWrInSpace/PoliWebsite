@@ -3,11 +3,7 @@ name: Deploy
 on:
   push:
     branches: 
-    - develop
-  pull_request:
-    brnaches:
-    - main
-    - develop
+    - test
 
 jobs:
   build:
@@ -26,11 +22,8 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
-      - name: Rename file 
-        run: mv ./vite.local.config.ts.ghPages ./vite.local.config.ts
-
       - name: Build project
-        run: npm run ghPages
+        run: npm run production
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
@@ -42,17 +35,21 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    if: (github.ref == 'refs/heads/develop') && (github.event_name == 'push')
 
     steps:
       - name: Download artifact
+        id: download
         uses: actions/download-artifact@v2
         with:
           name: production-files
           path: ./dist
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+     - name: Sync files
+       uses: SamKirkland/FTP-Deploy-Action@4.3.3
+       with:
+          server: pwrinspace.pwr.edu.pl
+          username: ${{ secrets.SSH_LOGIN }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          local-dir: ${{steps.download.outputs.download-path}}
+          server-dir: test_deploy/
+
