@@ -47,12 +47,12 @@ jobs:
           name: production-files
           path: ./dist
 
-      - name: Sync files
-        uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      - name: Deploy to server
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-            server: pwrinspace.pwr.edu.pl
-            username: ${{ secrets.SSH_LOGIN }}
-            password: ${{ secrets.SSH_PASSWORD }}
-            local-dir: ${{steps.download.outputs.download-path}}/
-            server-dir: test_deploy/
+            server: 'pwrinspace.pwr.edu.pl'
+            username: '${{ secrets.SSH_LOGIN }}'
+            password: '${{ secrets.SSH_PASSWORD }}'
+            local_path: '${{steps.download.outputs.download-path}}/*'
+            remote_path: '/test_deploy'
 
