@@ -19,6 +19,7 @@ export default function NavBar(props: ISelfProps) {
     const scrollToTop = () => {
         if(menuOpen) {
             scrollApi.scrollToTop();
+            setMenuOpen(false);
         }
     };
 
