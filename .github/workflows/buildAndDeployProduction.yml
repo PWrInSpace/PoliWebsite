@@ -56,4 +56,5 @@ jobs:
             password: '${{ secrets.SSH_PASSWORD }}'
             local_path: '${{steps.download.outputs.download-path}}/*'
             remote_path: '/test_deploy'
+            sftp_only: true
 
