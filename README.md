@@ -49,5 +49,5 @@ You will also see any lint errors in the console.
 
 ## Deployments
 - from develop to GitHub Pgaes on every push to develop
-- form main to production on every push to main
+- from main to production on every push to main
 
