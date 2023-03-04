@@ -33,8 +33,8 @@ export default defineConfig((params) => ({
                 index: path.resolve(path.join(__dirname, 'index.html')),
             },
             output: {
-                assetFileNames: asset => asset.name.includes('main') ? '[name].[ext]' : '[name].[hash].[ext]',
-                entryFileNames: '[name].[hash].js',
+                assetFileNames: asset => asset.name.includes('main') ? 'assets/[name].[ext]' : 'assets/[name].[hash].[ext]',
+                entryFileNames: 'assets/[name].[hash].js',
                 format: 'commonjs',
             },
         }
