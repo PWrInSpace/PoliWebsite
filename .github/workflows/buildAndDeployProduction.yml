@@ -50,7 +50,8 @@ jobs:
       - name: Deploy to server
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-            server: 'pwrinspace.pwr.edu.pl'
+            server: '${{ secrets.SERVER_IP }}'
+            port: '2022'
             username: '${{ secrets.SSH_LOGIN }}'
             password: '${{ secrets.SSH_PASSWORD }}'
             local_path: '${{steps.download.outputs.download-path}}/*'
