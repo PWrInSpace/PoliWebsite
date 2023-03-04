@@ -29,6 +29,18 @@
     }
   }
 
+  .sectionBackground {
+    position: absolute;
+    height: 1100px;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+
+    @include breakpoint-md {
+      height: 1600px;
+    }
+  }
+
   .sectionWrapper {
     display: flex;
     flex-direction: column;
