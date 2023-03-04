@@ -14,7 +14,19 @@
   }
 
   @include breakpoint-md {
-    height: 1600px;
+    height: 1650px;
+  }
+
+  .sectionBackground {
+    position: absolute;
+    height: 1100px;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+
+    @include breakpoint-md {
+      height: 1650px;
+    }
   }
 
   .sectionBackground {
@@ -69,9 +81,10 @@
   font-size: 1.125rem;
   color: #FFFFFF;
   background-color: transparent;
-  padding: 15px 50px;
+  padding: 15px 0;
   border: 1px solid #FFFFFF;
-  width: 150px;
+  width: 120px;
+  justify-content: center;
 }
 
 .sectionButtonSelected {

@@ -27,7 +27,7 @@ export default defineConfig((params) => ({
         sourcemap: params.mode !== 'production',
         outDir: './dist',
         emptyOutDir: true,
-        assetsDir: '.',
+        assetsDir: './assets',
         rollupOptions: {
             input: {
                 index: path.resolve(path.join(__dirname, 'index.html')),
