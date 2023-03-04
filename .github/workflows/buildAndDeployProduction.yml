@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches: 
-    - test
+    - main
 
 jobs:
   build:
@@ -55,6 +55,6 @@ jobs:
             username: '${{ secrets.SSH_LOGIN }}'
             password: '${{ secrets.SSH_PASSWORD }}'
             local_path: './dist/*'
-            remote_path: 'test_deploy'
+            remote_path: 'public_html'
             sftp_only: true
 
