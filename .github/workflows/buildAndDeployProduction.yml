@@ -54,7 +54,7 @@ jobs:
             port: '2022'
             username: '${{ secrets.SSH_LOGIN }}'
             password: '${{ secrets.SSH_PASSWORD }}'
-            local_path: './${{steps.download.outputs.download-path}}/*'
+            local_path: '.${{steps.download.outputs.download-path}}/*'
             remote_path: 'test_deploy'
             sftp_only: true
 
