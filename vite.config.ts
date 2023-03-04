@@ -10,7 +10,7 @@ import checker from 'vite-plugin-checker';
 
 export default defineConfig((params) => ({
     clearScreen: false,
-    base: (localConfig as any).base ? (localConfig as any).base : './',
+    base: (localConfig as any).base ? (localConfig as any).base : '/',
     server: {
         hmr: localConfig.reloadOnChange ? undefined : false,
         proxy: {
