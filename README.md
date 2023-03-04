@@ -41,4 +41,13 @@ You will also see any lint errors in the console.
 - all tasks related branches must base on the `develop` and should have name that indicates task 
 - tasks related branches can be merged to the `develop` only after code review made by other developer
 
+# CI/CD
+
+## Builds
+- on every merge request to main and develop
+- on every push to main and develop
+
+## Deployments
+- from develop to GitHub Pgaes on every push to develop
+- form main to production on every push to main
 
