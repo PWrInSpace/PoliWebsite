@@ -1,8 +1,8 @@
 import { SetStateAction, useContext } from 'react';
-import { positionValues } from 'react-custom-scrollbars-2';
-import AppWindowScrollContext from '../context/AppWindowScrollContext';
+import Scrollbars, { positionValues } from 'react-custom-scrollbars-2';
+import { AppWindowScrollContext } from '../context/AppWindowScrollContext';
 
-export default function useWindowScroll() : positionValues {
+export default function useWindowScroll() : [positionValues,Scrollbars] {
     const context = useContext(AppWindowScrollContext);
-    return context.getWindowScroll();
+    return [context.getWindowScroll(), context.getWindowScrollAPI()];
 }

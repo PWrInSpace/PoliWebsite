@@ -100,8 +100,8 @@ export default function OurProjects() {
 
     return (
         <div className={styles.sectionContainer}>
+            <img src={background} alt="our projects background" className={styles.sectionBackground}/>
             <div className={styles.sectionWrapper}>
-                <img src={background} alt="our projects background" className={styles.sectionBackground}/>
                 <div className={styles.sectionTitle}>
                     {__('mainPage.ourProjects.title')}
                 </div>

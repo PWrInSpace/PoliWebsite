@@ -6,7 +6,7 @@
   grid-template-columns: 20% 60% 20%;
   height: 1100px;
   width: 100%;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 
   @include breakpoint-lg {
@@ -17,24 +17,25 @@
     height: 1600px;
   }
 
+  .sectionBackground {
+    position: absolute;
+    height: 1100px;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+
+    @include breakpoint-md {
+      height: 1600px;
+    }
+  }
+
   .sectionWrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     grid-column: 2 / 3;
-
-    .sectionBackground {
-      position: absolute;
-      height: 1100px;
-      width: 100%;
-      z-index: -1;
-      object-fit: cover;
-
-      @include breakpoint-md {
-        height: 1600px;
-      }
-    }
+    margin: 100px 0 50px 0;
 
     .sectionTitle {
       grid-column: 2 / 3;
@@ -70,6 +71,7 @@
   background-color: transparent;
   padding: 15px 50px;
   border: 1px solid #FFFFFF;
+  width: 150px;
 }
 
 .sectionButtonSelected {

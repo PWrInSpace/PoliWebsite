@@ -14,7 +14,7 @@ interface ISelfProps {
 
 export default function NavBar(props: ISelfProps) {
     const [menuOpen, setMenuOpen] = useState(false);
-    const scrollPosition = useWindowScroll();
+    const [scrollPosition, _ ] = useWindowScroll();
 
     return (
         <div className={classes(styles.headerContainer, scrollPosition?.scrollTop > 10 && styles.withBlackBackground)}>

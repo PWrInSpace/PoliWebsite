@@ -3,11 +3,7 @@ name: Deploy
 on:
   push:
     branches: 
-    - develop
-  pull_request:
-    brnaches:
     - main
-    - develop
 
 jobs:
   build:
@@ -27,10 +23,10 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: Rename file 
-        run: mv ./vite.local.config.ts.ghPages ./vite.local.config.ts
+        run: mv ./vite.local.config.ts.sample ./vite.local.config.ts
 
       - name: Build project
-        run: npm run ghPages
+        run: npm run production
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
@@ -42,17 +38,23 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    if: (github.ref == 'refs/heads/develop') && (github.event_name == 'push')
 
     steps:
       - name: Download artifact
+        id: download
         uses: actions/download-artifact@v2
         with:
           name: production-files
           path: ./dist
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy to server
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+            server: '${{ secrets.SERVER_IP }}'
+            port: '2022'
+            username: '${{ secrets.SSH_LOGIN }}'
+            password: '${{ secrets.SSH_PASSWORD }}'
+            local_path: './dist/*'
+            remote_path: 'public_html'
+            sftp_only: true
+
