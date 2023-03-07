@@ -69,6 +69,9 @@ export default function JoinUs(){
                     {__('joinUsPage.header')}
                 </div>
                 <div className={styles.divider}></div>
+                <button className={styles.button} onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSf-aeTqPVKXVolgZyAsSVKhb2wuBDK5Izzq-5-eBxqQi-xKTw/viewform', '_blank')}>
+                    {__('joinUsPage.form')}
+                </button>
                 <div className={styles.textContainer}>
                     {createParagraphs()}
                 </div>

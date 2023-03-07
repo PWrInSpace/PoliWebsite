@@ -1,5 +1,6 @@
 @import '../../../../src/scss/breakpoints.module';
 @import '../../../../src/scss/fonts.module';
+@import '../../../../src/scss/variables.module';
 
 .container {
   display: grid;
@@ -46,13 +47,35 @@
       width: 40%;
     }
 
+    .button {
+      font-family: $alata;
+      font-size: 1.2rem;
+      letter-spacing: 0.07rem;
+      padding: 12px 50px;
+      color: white;
+      text-decoration: none;
+      border: 1px solid $mainBlue;
+      background-color: $mainBlue;
+      text-align: center;
+      margin: 100px 0;
+
+      @include breakpoint-md {
+          padding: 12px 30px;
+      }
+    }
+
+    .button:hover {
+        cursor: pointer;
+        opacity: 0.9;
+    }
+
     .textContainer {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
       gap: 60px;
-      margin: 100px 0;
+      margin-bottom: 100px;
     }
   }
 }
