@@ -32,7 +32,6 @@
     }
 
     .header {
-      margin-bottom: 20px;
       font-family: $alata;
       font-size: 1.5rem;
     }
@@ -40,6 +39,10 @@
     .text {
       font-family: $mulish;
       font-size: 1rem;
+
+      p {
+        margin: 12px 0;
+      }
     }
 
     .textLeft {
