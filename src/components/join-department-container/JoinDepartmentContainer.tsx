@@ -18,7 +18,7 @@ export default function JoinDepartmentContainer(props: IProps){
                     {props.header}
                 </div>
                 <div className={styles.text}>
-                    {props.text}
+                    {props.text.split('/n').map(line => <p>{line}</p>)}
                 </div>
             </div>
             { props.imageOnLeft ? null : <img src={props.image} alt="Join us image" className={styles.image} onClick={props.onClick}/> }
