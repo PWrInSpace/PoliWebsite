@@ -59,6 +59,11 @@
           max-height: 60px;
         }
       }
+
+      .logo:hover {
+        opacity: 0.7;
+        cursor: pointer;
+      }
     }
   }
 }
