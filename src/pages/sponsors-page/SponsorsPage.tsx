@@ -8,6 +8,10 @@ import ilot from '../../assets/sponsors/ilot.png';
 import mitutoyo from '../../assets/sponsors/mitutoyo.png';
 import solidexpert from '../../assets/sponsors/solidexpert.png';
 import wenagroup from '../../assets/sponsors/wenagroup.png';
+import pwr from '../../assets/sponsors/pwr.png';
+import w12n from '../../assets/sponsors/w12n.png';
+import w10 from '../../assets/sponsors/w10.png';
+import manus from '../../assets/sponsors/manus.png';
 
 const images = {
     'airproducts': {
@@ -37,6 +41,22 @@ const images = {
     'wenagroup': {
         src: wenagroup,
         alt: 'Wena Group logo'
+    },
+    'pwr': {
+        src: pwr,
+        alt: 'Politechnika Wrocławska'
+    },
+    'w12n': {
+        src: w12n,
+        alt: 'Wydział Elektroniki, Fotoniki i Mikrosystemów Politechniki Wrocławskiej'
+    },
+    'w10': {
+        src: w10,
+        alt: 'Wydział Mechaniczny Politechniki Wrocławskiej'
+    },
+    'manus': {
+        src: manus,
+        alt: 'Fundacja Manus przy Politechnice Wrocławskiej'
     }
 };
 
