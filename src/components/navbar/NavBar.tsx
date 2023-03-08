@@ -14,7 +14,14 @@ interface ISelfProps {
 
 export default function NavBar(props: ISelfProps) {
     const [menuOpen, setMenuOpen] = useState(false);
-    const [scrollPosition, _ ] = useWindowScroll();
+    const [scrollPosition, scrollApi ] = useWindowScroll();
+
+    const scrollToTop = () => {
+        if(menuOpen) {
+            scrollApi.scrollToTop();
+            setMenuOpen(false);
+        }
+    };
 
     return (
         <div className={classes(styles.headerContainer, scrollPosition?.scrollTop > 10 && styles.withBlackBackground)}>
@@ -27,7 +34,7 @@ export default function NavBar(props: ISelfProps) {
                         {!menuOpen && <IconMenu color='white' size={42}/>}
                         {menuOpen && <IconClose color='white' size={42}/>}
                     </div>
-                    {props.menuItems.map((item, key) => <NavBarItem item={item} key={key}/>)}
+                    {props.menuItems.map((item, key) => <NavBarItem item={item} key={key} onClick={scrollToTop}/>)}
                     {menuOpen && <SocialMediaComponentNoBackground/>}
                 </div>
             </div>
