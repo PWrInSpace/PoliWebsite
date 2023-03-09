@@ -10,7 +10,7 @@
   justify-content: center;
 
   @include breakpoint-lg {
-    grid-template-columns: 10% 80% 10%;
+    grid-template-columns: 5% 90% 5%;
   }
 
   @include breakpoint-md {
