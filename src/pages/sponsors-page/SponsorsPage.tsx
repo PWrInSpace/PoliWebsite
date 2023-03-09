@@ -14,6 +14,26 @@ import w10 from '../../assets/sponsors/w10.png';
 import manus from '../../assets/sponsors/manus.png';
 
 const images = {
+    'pwr': {
+        src: pwr,
+        alt: 'Politechnika Wrocławska',
+        webpage: 'https://pwr.edu.pl/'
+    },
+    'w12n': {
+        src: w12n,
+        alt: 'Wydział Elektroniki, Fotoniki i Mikrosystemów Politechniki Wrocławskiej',
+        webpage: 'https://wefim.pwr.edu.pl/'
+    },
+    'w10': {
+        src: w10,
+        alt: 'Wydział Mechaniczny Politechniki Wrocławskiej',
+        webpage: 'https://wm.pwr.edu.pl/'
+    },
+    'manus': {
+        src: manus,
+        alt: 'Fundacja Manus przy Politechnice Wrocławskiej',
+        webpage: 'https://manus.pl/'
+    },
     'airproducts': {
         src: airproducts,
         alt: 'Air Products logo',
@@ -48,26 +68,6 @@ const images = {
         src: wenagroup,
         alt: 'Wena Group logo',
         webpage: 'http://www.wenagroup.com/'
-    },
-    'pwr': {
-        src: pwr,
-        alt: 'Politechnika Wrocławska',
-        webpage: 'https://pwr.edu.pl/'
-    },
-    'w12n': {
-        src: w12n,
-        alt: 'Wydział Elektroniki, Fotoniki i Mikrosystemów Politechniki Wrocławskiej',
-        webpage: 'https://wefim.pwr.edu.pl/'
-    },
-    'w10': {
-        src: w10,
-        alt: 'Wydział Mechaniczny Politechniki Wrocławskiej',
-        webpage: 'https://wm.pwr.edu.pl/'
-    },
-    'manus': {
-        src: manus,
-        alt: 'Fundacja Manus przy Politechnice Wrocławskiej',
-        webpage: 'https://manus.pl/'
     }
 };
 
