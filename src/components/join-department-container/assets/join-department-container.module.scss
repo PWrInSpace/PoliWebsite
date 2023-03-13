@@ -3,10 +3,14 @@
 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   gap: 50px;
-  flex-wrap: wrap;
+
+  @include breakpoint-md {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
   .image {
     max-height: 350px;
@@ -25,7 +29,6 @@
     width: 60%;
     color: #FFFFFF;
     letter-spacing: 0.1rem;
-    text-align: justify;
 
     @include breakpoint-md {
       width: 90%;
@@ -34,6 +37,7 @@
     .header {
       font-family: $alata;
       font-size: 1.5rem;
+      margin-bottom: 10px;
     }
 
     .text {
@@ -43,14 +47,6 @@
       p {
         margin: 12px 0;
       }
-    }
-
-    .textLeft {
-      text-align: left;
-    }
-
-    .textRight {
-      text-align: right;
     }
   }
 }
