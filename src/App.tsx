@@ -53,15 +53,12 @@ function  AppComponent(props: AppComponentProps) {
         getNavMenuModel(__('navbar.contact'), '/contact', <ContactPage/>),
     ];
 
-    const isGhPages = config.ghPages === true;
-    const Router = isGhPages ? HashRouter : BrowserRouter;
-
     const scrollContext = useContext(AppWindowScrollContext);
 
     const minHeight = CSS.supports('height', '100dvh') ? '100dvh' : '100vh';
     return (
         <AppWindowScrollContextProvider getWindowScroll={props.getWindowScroll}>
-            <Router>
+            <HashRouter>
                 <div>
                     <NavBar menuItems={menuItems}/>
                     <SocialMediaComponent/>
@@ -73,7 +70,7 @@ function  AppComponent(props: AppComponentProps) {
                         <Footer menuItems={menuItems}/>
                     </ReactCustomScrollbars>
                 </div>
-            </Router>
+            </HashRouter>
         </AppWindowScrollContextProvider>
 
     );
