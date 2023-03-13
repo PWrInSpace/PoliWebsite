@@ -120,39 +120,39 @@
         "departments": {
             "struktura": {
                 "header": "STRUKTURA NOŚNA",
-                "text": "Kogo szukamy: \n MŁODSZY SPECJALISTA DS. LAMINOWANIA KOMPOZYTÓW:\n- praca na warsztacie, \n- laminowanie kompozytów węglowych i szklanych,\n- symulacje CFD,\n- modelowanie części w programach 3D. \nKONSTRUKTOR TUNELU AERODYNAMICZNEGO:\n- praca na warsztacie,\n- podstawy mechaniki i elektroniki, \n- proste symulacje CFD, \n- umiejetność researchu.\nKONSTRUKTOR NAWIJARKI DO KOMPOZYTÓW:\n- dokończenie i konfiguracja prawie gotowej nawijarki do włókna węglowego."
+                "text": "Kogo szukamy: \n➡️ MŁODSZY SPECJALISTA DS. LAMINOWANIA KOMPOZYTÓW:\n- praca na warsztacie, \n- laminowanie kompozytów węglowych i szklanych,\n- symulacje CFD,\n- modelowanie części w programach 3D. \n➡️ KONSTRUKTOR TUNELU AERODYNAMICZNEGO:\n- praca na warsztacie,\n- podstawy mechaniki i elektroniki, \n- proste symulacje CFD, \n- umiejetność researchu.\n➡️ KONSTRUKTOR NAWIJARKI DO KOMPOZYTÓW:\n- dokończenie i konfiguracja prawie gotowej nawijarki do włókna węglowego."
             },
             "silniki": {
                 "header": "SILNIKI RAKIETOWE",
-                "text": "Kogo szukamy: \n PROJEKTANT ELEMENTÓW MECHANICZNYCH:\nWymagania: \n- Głowa na karku i samodzielność,\nOpis pozycji: \n- Projektowanie elementów mechanicznych, od konceptu, po obliczenia wytrzymałościowe i testy prototypów, \n- Prace warsztatowe, wyjazdy w teren w celu przeprowadzenia testów statycznych.\nPrzydatne umiejętności: \n- Obsługa programów CAD/CAM, \n- umiejętności warsztatowe, \n- podstawowa wiedza z wytrzymałości materiałów, technik wytwarzania, termodynamiki, \n- umiejętność tworzenia jakiś prostych skryptów np. w Python/MATLAB."
+                "text": "Kogo szukamy: \n➡️ PROJEKTANT ELEMENTÓW MECHANICZNYCH:\nWymagania: \n- Głowa na karku i samodzielność,\nOpis pozycji: \n- Projektowanie elementów mechanicznych, od konceptu, po obliczenia wytrzymałościowe i testy prototypów, \n- Prace warsztatowe, wyjazdy w teren w celu przeprowadzenia testów statycznych.\nPrzydatne umiejętności: \n- Obsługa programów CAD/CAM, \n- umiejętności warsztatowe, \n- podstawowa wiedza z wytrzymałości materiałów, technik wytwarzania, termodynamiki, \n- umiejętność tworzenia jakiś prostych skryptów np. w Python/MATLAB."
             },
             "pr": {
                 "header": "PR & MARKETING",
-                "text": "Kogo szukamy: \n COPYWRITER:\n- prowadzenie social mediów, obserwowanie najnowszych trendów,\n- pisanie postów, tekstów promocyjnych,\n- kontakt z grafikiem, \n- prowadzenie kampanii marketingowych.\nCONTENT CREATOR: \n- komunikatywność, charyzma, pomysłowość,\n- promocja marketingowa koła, szukanie sponsorów, obserwacja rynku, \n- publiczne wystąpienia, wywiady, prelekcje, prowadzenie spotkań,\n- tworzenie treści contentowych w mediach społecznościowych. \nGRAPHIC DESIGNER JUNIOR:\n- umiejętność obróbki materiałów promocyjnych (zdjęć, filmów),\n- podstawowa znajomość edytorów graficznych (np.Photoshop, Figma),\n- kreatywność, wysoki poziom estetyki, dokładność, \n- chęć do tworzenia ciekawych treści.\nWEB-DEVELOPER JUNIOR: \n- podstawowa znajomość HTML, CSS, JS (React) itp,\n- chęć do nauki tworzenia stron internetowych. \nUwaga❗️Kandydaci do Działu PR & Marketing na 1. etapie rekrutacji mają inne zadanie niż działy techniczne."
+                "text": "Kogo szukamy: \n➡️ COPYWRITER:\n- prowadzenie social mediów, obserwowanie najnowszych trendów,\n- pisanie postów, tekstów promocyjnych,\n- kontakt z grafikiem, \n- prowadzenie kampanii marketingowych.\n➡️ CONTENT CREATOR: \n- komunikatywność, charyzma, pomysłowość,\n- promocja marketingowa koła, szukanie sponsorów, obserwacja rynku, \n- publiczne wystąpienia, wywiady, prelekcje, prowadzenie spotkań,\n- tworzenie treści contentowych w mediach społecznościowych. \n➡️ GRAPHIC DESIGNER JUNIOR:\n- umiejętność obróbki materiałów promocyjnych (zdjęć, filmów),\n- podstawowa znajomość edytorów graficznych (np.Photoshop, Figma),\n- kreatywność, wysoki poziom estetyki, dokładność, \n- chęć do tworzenia ciekawych treści.\n➡️ WEB-DEVELOPER JUNIOR: \n- podstawowa znajomość HTML, CSS, JS (React) itp,\n- chęć do nauki tworzenia stron internetowych. \nUwaga❗️Kandydaci do Działu PR & Marketing na 1. etapie rekrutacji mają inne zadanie niż działy techniczne."
             },
             "webdev": {
                 "header": "WEB DEVELOPMENT",
-                "text": "Kogo szukamy: \n JUNIOR WEB DEVELOPER: \n- podstawy JavaScript (React),\n- platforma GitHub,\n- chęć do nauki pisania stron internetowych."
+                "text": "Kogo szukamy: \n➡️ JUNIOR WEB DEVELOPER: \n- podstawy JavaScript (React),\n- platforma GitHub,\n- chęć do nauki pisania stron internetowych."
             },
             "payload": {
                 "header": "PAYLOAD",
-                "text": "Kogo szukamy: \n MŁODSZY SPECJALISTA DS. ŁADUNKÓW BADAWCZYCH\nMŁODSZY KONSTRUKTOR LABSAT’ÓW"
+                "text": "Kogo szukamy: \n➡️ MŁODSZY SPECJALISTA DS. ŁADUNKÓW BADAWCZYCH\n➡️ MŁODSZY KONSTRUKTOR LABSAT’ÓW"
             },
             "odzysk": {
                 "header": "ODZYSK",
-                "text": "Kogo szukamy: \n MŁODSZY SPECJALISTA KONSTRUKTOR: \nWymagania: \n- doświadczenie z modelowaniem CAD/CAM, \n- podstawowa wiedza z zakresu technik wytwórczych (technologiczność projektowanych elementów),\nMŁODSZY SPECJALISTA MECHATRONIK:\nWymagania:\n- znajomość z zakresu mechatroniki (z naciskiem na mechanikę i elektronikę),\n- umiejętność projektowania układów mechatronicznych, \n- mile widziane doświadczenie z pneumatyką,\nMŁODSZY SPECJALISTA DS. TECHNIK WYTWÓRCZYCH: \n- Wymagania: \n- znajomość technik wytwórczych, \n- podstawowa znajomość zasad konstruowania części mechanicznych."
+                "text": "Kogo szukamy: \n➡️ MŁODSZY SPECJALISTA KONSTRUKTOR: \nWymagania: \n- doświadczenie z modelowaniem CAD/CAM, \n- podstawowa wiedza z zakresu technik wytwórczych (technologiczność projektowanych elementów),\n➡️ MŁODSZY SPECJALISTA MECHATRONIK:\nWymagania:\n- znajomość z zakresu mechatroniki (z naciskiem na mechanikę i elektronikę),\n- umiejętność projektowania układów mechatronicznych, \n- mile widziane doświadczenie z pneumatyką,\n➡️ MŁODSZY SPECJALISTA DS. TECHNIK WYTWÓRCZYCH: \nWymagania: \n- znajomość technik wytwórczych, \n- podstawowa znajomość zasad konstruowania części mechanicznych."
             },
             "elektronika": {
                 "header": "ELEKTRONIKA",
-                "text": "Kogo szukamy: \n EMBEDDED DEVELOPER: \nWymagania:\n- programowanie mikrokontorlerów, \n- lutowanie, \n- projektowanie pcb\nPROGRAMISTA JAVA: \nWymagania:\n- OOP,\n- wzorce, \n- clean code, \n- mile widziana znajomość innych technologii oraz umiejętność pracy w webdev."
+                "text": "Kogo szukamy: \n➡️ EMBEDDED DEVELOPER: \nWymagania:\n- programowanie mikrokontorlerów, \n- lutowanie, \n- projektowanie pcb\n➡️ PROGRAMISTA JAVA: \nWymagania:\n- OOP,\n- wzorce, \n- clean code, \n- mile widziana znajomość innych technologii oraz umiejętność pracy w webdev."
             },
             "acs": {
                 "header": "ACS",
-                "text": "Kogo szukamy: \n AUTOMATYK:  \n- osoba chcąca zgłębiać informacje o: \n\t- systemach sterowania, \n\t- regulatorach PID,\n\t- filtrach\n- Mile widziana znajomość zaawansowanej matematyki i fizyki."
+                "text": "Kogo szukamy: \n➡️ AUTOMATYK:  \n- osoba chcąca zgłębiać informacje o: \n\t- systemach sterowania, \n\t- regulatorach PID,\n\t- filtrach\n- Mile widziana znajomość zaawansowanej matematyki i fizyki."
             },
             "polifloater": {
                 "header": "POLIFLOATER",
-                "text": "Kogo szukamy: \n OSOBA DS. BUDOWY SONDY ATMOSFERYCZNEJ:\n- masz wiedzę z obszaru krótkofalarstwa \n- osoba zainteresowana balonami stratosferycznymi, \n- mile widziana chęć zgłębiania tematu anten oraz różnych systemów bezprzewodowej komunikacji cyfrowej na duże odległości\n"
+                "text": "Kogo szukamy: \n➡️ OSOBA DS. BUDOWY SONDY ATMOSFERYCZNEJ:\n- masz wiedzę z obszaru krótkofalarstwa \n- osoba zainteresowana balonami stratosferycznymi, \n- mile widziana chęć zgłębiania tematu anten oraz różnych systemów bezprzewodowej komunikacji cyfrowej na duże odległości\n"
             }
         },
         "form": "FORMULARZ"
