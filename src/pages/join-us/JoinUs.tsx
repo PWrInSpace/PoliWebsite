@@ -8,6 +8,7 @@ import odzysk from '../../assets/join-us-images/odzysk.png';
 import payload from '../../assets/join-us-images/payload.png';
 import polifloater from '../../assets/join-us-images/polifloater.png';
 import pr from '../../assets/join-us-images/pr.png';
+import webdev from '../../assets/join-us-images/webdev.png';
 import silniki from '../../assets/join-us-images/silniki.png';
 import struktura from '../../assets/join-us-images/struktura.png';
 
@@ -51,13 +52,18 @@ const departments = {
         'header': 'joinUsPage.departments.polifloater.header',
         'text': 'joinUsPage.departments.polifloater.text',
         'image': polifloater
+    },
+    'webdev': {
+        'header': 'joinUsPage.departments.webdev.header',
+        'text': 'joinUsPage.departments.webdev.text',
+        'image': webdev
     }
 };
 
 export default function JoinUs(){
     const createParagraphs = () => {
         return Object.keys(departments).map((department, index) => {
-            return <JoinDepartmentContainer image={__(departments[department].image)} header={__(departments[department].header)} text={__(departments[department].text)} imageOnLeft={index % 2 === 0} onClick={() => window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSf-aeTqPVKXVolgZyAsSVKhb2wuBDK5Izzq-5-eBxqQi-xKTw/viewform'}/>;
+            return <JoinDepartmentContainer image={__(departments[department].image)} header={__(departments[department].header)} text={__(departments[department].text)} imageOnLeft={index % 2 === 0} onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSf-aeTqPVKXVolgZyAsSVKhb2wuBDK5Izzq-5-eBxqQi-xKTw/viewform', '_blank')}/>;
         });
     };
 
