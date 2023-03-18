@@ -5,13 +5,14 @@ import airproducts from '../../assets/sponsors/airproducts.png';
 import ataszek from '../../assets/sponsors/ataszek.png';
 import computercontrols from '../../assets/sponsors/computercontrols.png';
 import ilot from '../../assets/sponsors/ilot.png';
-import mitutoyo from '../../assets/sponsors/mitutoyo.png';
 import solidexpert from '../../assets/sponsors/solidexpert.png';
 import wenagroup from '../../assets/sponsors/wenagroup.png';
 import pwr from '../../assets/sponsors/pwr.png';
 import w12n from '../../assets/sponsors/w12n.png';
 import w10 from '../../assets/sponsors/w10.png';
 import manus from '../../assets/sponsors/manus.png';
+import symkom from '../../assets/sponsors/symkom.png';
+import ansys from '../../assets/sponsors/ansys.png';
 
 const images = {
     'pwr': {
@@ -54,10 +55,15 @@ const images = {
         alt: 'ILot logo',
         webpage: 'https://ilot.lukasiewicz.gov.pl/'
     },
-    'mitutoyo': {
-        src: mitutoyo,
-        alt: 'Mitutoyo logo',
-        webpage: 'https://mitutoyo.pl/'
+    'symkom': {
+        src: symkom,
+        alt: 'Symkom logo',
+        webpage: 'https://symkom.pl'
+    },
+    'ansys': {
+        src: ansys,
+        alt: 'Ansys logo',
+        webpage: 'https://www.ansys.com'
     },
     'solidexpert': {
         src: solidexpert,
