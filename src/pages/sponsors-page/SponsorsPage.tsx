@@ -13,6 +13,7 @@ import w10 from '../../assets/sponsors/w10.png';
 import manus from '../../assets/sponsors/manus.png';
 import symkom from '../../assets/sponsors/symkom.png';
 import ansys from '../../assets/sponsors/ansys.png';
+import scanway from '../../assets/sponsors/scanway.png';
 
 const images = {
     'pwr': {
@@ -74,6 +75,11 @@ const images = {
         src: wenagroup,
         alt: 'Wena Group logo',
         webpage: 'http://www.wenagroup.com/'
+    },
+    'scanway': {
+        src: scanway,
+        alt: 'Scanway Space logo',
+        webpage: 'https://scanway.space'
     }
 };
 
