@@ -28,11 +28,6 @@ const departments = {
         'text': 'joinUsPage.departments.pr.text',
         'image': pr
     },
-    'payload': {
-        'header': 'joinUsPage.departments.payload.header',
-        'text': 'joinUsPage.departments.payload.text',
-        'image': payload
-    },
     'odzysk': {
         'header': 'joinUsPage.departments.odzysk.header',
         'text': 'joinUsPage.departments.odzysk.text',
@@ -48,15 +43,20 @@ const departments = {
         'text': 'joinUsPage.departments.acs.text',
         'image': acs
     },
-    'polifloater': {
-        'header': 'joinUsPage.departments.polifloater.header',
-        'text': 'joinUsPage.departments.polifloater.text',
-        'image': polifloater
-    },
     'webdev': {
         'header': 'joinUsPage.departments.webdev.header',
         'text': 'joinUsPage.departments.webdev.text',
         'image': webdev
+    },
+    'payload': {
+        'header': 'joinUsPage.departments.payload.header',
+        'text': 'joinUsPage.departments.payload.text',
+        'image': payload
+    },
+    'polifloater': {
+        'header': 'joinUsPage.departments.polifloater.header',
+        'text': 'joinUsPage.departments.polifloater.text',
+        'image': polifloater
     }
 };
 
