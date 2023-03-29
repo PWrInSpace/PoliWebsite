@@ -4,11 +4,10 @@ declare const classNames: {
   readonly smallerHeaderContainer: "smallerHeaderContainer";
   readonly linksHidden: "linksHidden";
   readonly headerContainer: "headerContainer";
-  readonly smallerHeaderWrapper: "smallerHeaderWrapper";
-  readonly menuOpened: "menuOpened";
   readonly linksWrapper: "linksWrapper";
   readonly menu: "menu";
   readonly headerWrapper: "headerWrapper";
   readonly headerLogo: "headerLogo";
+  readonly smallerHeaderWrapper: "smallerHeaderWrapper";
 };
 export = classNames;
