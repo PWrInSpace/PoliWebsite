@@ -22,8 +22,8 @@ export default function NavBar(props: ISelfProps) {
     };
 
     return (
-        <div className={classes(styles.headerContainer, scrollPosition?.scrollTop > 10 && styles.withBlackBackground)}>
-            <div className={classes(styles.headerWrapper, menuOpen && styles.withBlackBackground)}>
+        <div className={scrollPosition?.scrollTop > 100 ? classes(styles.smallerHeaderContainer, styles.withBlackBackground) : classes(styles.headerContainer, styles.withoutBlackBackground)}>
+            <div className={classes(scrollPosition?.scrollTop > 100 ? (menuOpen ? styles.headerWrapper : styles.smallerHeaderWrapper) : styles.headerWrapper, menuOpen && styles.withBlackBackground)}>
                 <div className={styles.headerLogo}>
                     <IconLogo onClick={() => window.location.href = window.appContext.baseUrl}/>
                 </div>
