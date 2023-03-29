@@ -1,9 +1,9 @@
-import React, { useContext, useRef, useState } from 'react';
-import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
+import React, { useContext, useState } from 'react';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import NavBar from './components/navbar/NavBar';
 import { NavMenuItem } from './Contract';
 import MainPage from './pages/main-page/MainPage';
-import ReactCustomScrollbars, { Scrollbars, positionValues } from 'react-custom-scrollbars-2';
+import ReactCustomScrollbars, { positionValues } from 'react-custom-scrollbars-2';
 import localConfig from './../vite.local.config';
 import SocialMediaComponent from './components/social-media-component/SocialMediaComponent';
 import Footer from './components/footer/Footer';
@@ -11,7 +11,7 @@ import ContactPage from './pages/contact-page/ContactPage';
 import SponsorsPage from './pages/sponsors-page/SponsorsPage';
 import AboutUs from './pages/about-us/AboutUs';
 import './app.module.scss';
-import { IAppWindowScrollContext, AppWindowScrollContext } from './context/AppWindowScrollContext';
+import { AppWindowScrollContext } from './context/AppWindowScrollContext';
 import JoinUs from './pages/join-us/JoinUs';
 import AppWindowScrollContextProvider from './context/AppWindowScrollContext';
 
