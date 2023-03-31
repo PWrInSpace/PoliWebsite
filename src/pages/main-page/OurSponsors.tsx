@@ -13,6 +13,7 @@ import manus from '../../assets/sponsors/manus.png';
 import symkom from '../../assets/sponsors/symkom.png';
 import ansys from '../../assets/sponsors/ansys.png';
 import scanway from '../../assets/sponsors/scanway.png';
+import satland from '../../assets/sponsors/satland.png';
 
 const images = {
     'pwr': {
@@ -79,6 +80,11 @@ const images = {
         src: scanway,
         alt: 'Scanway Space logo',
         webpage: 'https://scanway.space'
+    },
+    'satland': {
+        src: satland,
+        alt: 'Satland logo',
+        webpage: 'https://www.prototypy.com/t/1,Strona_glowna'
     }
 };
 
