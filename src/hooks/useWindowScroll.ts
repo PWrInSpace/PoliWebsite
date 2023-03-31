@@ -1,4 +1,4 @@
-import { SetStateAction, useContext } from 'react';
+import { useContext } from 'react';
 import Scrollbars, { positionValues } from 'react-custom-scrollbars-2';
 import { AppWindowScrollContext } from '../context/AppWindowScrollContext';
 

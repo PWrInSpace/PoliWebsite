@@ -14,18 +14,16 @@ interface ISelfProps {
 
 export default function NavBar(props: ISelfProps) {
     const [menuOpen, setMenuOpen] = useState(false);
-    const [scrollPosition, scrollApi ] = useWindowScroll();
+    const [scrollPosition, scrollApi] = useWindowScroll();
 
     const scrollToTop = () => {
-        if(menuOpen) {
-            scrollApi.scrollToTop();
-            setMenuOpen(false);
-        }
+        scrollApi.scrollToTop();
+        setMenuOpen(false);
     };
 
     return (
-        <div className={classes(styles.headerContainer, scrollPosition?.scrollTop > 10 && styles.withBlackBackground)}>
-            <div className={classes(styles.headerWrapper, menuOpen && styles.withBlackBackground)}>
+        <div className={scrollPosition?.scrollTop > 100 ? classes(styles.smallerHeaderContainer, styles.withBlackBackground) : classes(styles.headerContainer, styles.withoutBlackBackground)}>
+            <div className={classes(scrollPosition?.scrollTop > 100 ? (menuOpen ? styles.headerWrapper : styles.smallerHeaderWrapper) : styles.headerWrapper, menuOpen && styles.withBlackBackground)}>
                 <div className={styles.headerLogo}>
                     <IconLogo onClick={() => window.location.href = window.appContext.baseUrl}/>
                 </div>
@@ -34,7 +32,7 @@ export default function NavBar(props: ISelfProps) {
                         {!menuOpen && <IconMenu color='white' size={42}/>}
                         {menuOpen && <IconClose color='white' size={42}/>}
                     </div>
-                    {props.menuItems.map((item, key) => <NavBarItem item={item} key={key} onClick={scrollToTop}/>)}
+                    {props.menuItems.map((item, key) => <NavBarItem item={item} key={key} onClick={() => scrollToTop()}/>)}
                     {menuOpen && <SocialMediaComponentNoBackground/>}
                 </div>
             </div>
