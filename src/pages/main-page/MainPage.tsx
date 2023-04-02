@@ -5,7 +5,7 @@ import AboutUsSection from './components/AboutUsSection';
 import OurProjects from './components/OurProjects';
 import OurSponsors from './components/OurSponsors';
 
-export default function MainPage(props: any) {
+export default function MainPage() {
     return (
         <div className={styles.pageContainer}>
             <LandingSection/>

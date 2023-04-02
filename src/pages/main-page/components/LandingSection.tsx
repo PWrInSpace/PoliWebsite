@@ -5,7 +5,7 @@ import ArrowIcon from '../../../assets/icons/ArrowIcon';
 import { Link } from 'react-router-dom';
 import NumberContainerComponent from '../../../components/number-container-component/NumberContainerComponent';
 
-export default function LandingSection(props: any) {
+export default function LandingSection() {
     const scroll = () => {
         const section = document.querySelector( '#about-us' );
         section.scrollIntoView( { behavior: 'smooth', block: 'start' } );

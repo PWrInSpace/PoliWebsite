@@ -2,15 +2,15 @@ import React from 'react';
 import styles from './assets/join-us.module.scss';
 import subpageBackground from '../../assets/images/backgrounds/subpageBackground.png';
 import JoinDepartmentContainer from './components/JoinDepartmentContainer';
-import acs from '../../assets/join-us-images/acs.png';
-import elektronika from '../../assets/join-us-images/elektronika.png';
-import odzysk from '../../assets/join-us-images/odzysk.png';
-import payload from '../../assets/join-us-images/payload.png';
-import polifloater from '../../assets/join-us-images/polifloater.png';
-import pr from '../../assets/join-us-images/pr.png';
-import webdev from '../../assets/join-us-images/webdev.png';
-import silniki from '../../assets/join-us-images/silniki.png';
-import struktura from '../../assets/join-us-images/struktura.png';
+import acs from '../../assets/images/join-us/acs.png';
+import elektronika from '../../assets/images/join-us/elektronika.png';
+import odzysk from '../../assets/images/join-us/odzysk.png';
+import payload from '../../assets/images/join-us/payload.png';
+import polifloater from '../../assets/images/join-us/polifloater.png';
+import pr from '../../assets/images/join-us/pr.png';
+import webdev from '../../assets/images/join-us/webdev.png';
+import silniki from '../../assets/images/join-us/silniki.png';
+import struktura from '../../assets/images/join-us/struktura.png';
 
 const departments = {
     'struktura': {

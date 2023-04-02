@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useState } from 'react';
 import { NavMenuItem } from 'src/utils/Contract';
 import IconLogo from '../../assets/icons/IconLogo';
 import NavBarItem from './NavBarItem';
