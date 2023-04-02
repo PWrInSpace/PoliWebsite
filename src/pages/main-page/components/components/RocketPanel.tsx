@@ -24,9 +24,17 @@ export default function RocketPanel(props: IProps) {
                 <div className={styles.rocketDescription}>
                     {__('mainPage.ourProjects.rockets.' + props.rocket + '.description')}
                 </div>
-                <RocketSpecs length={props.length} thrust={props.thrust} weight={props.weight} velocity={props.velocity}/>
+                <RocketSpecs
+                    length={props.length}
+                    thrust={props.thrust}
+                    weight={props.weight}
+                    velocity={props.velocity}
+                />
             </div>
-            <img src={props.image} className={styles.rocketImage} alt={props.rocket}/>
+            <img
+                src={props.image}
+                className={styles.rocketImage}
+                alt={props.rocket}/>
         </div>
     );
 }

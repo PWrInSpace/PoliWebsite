@@ -5,6 +5,8 @@ declare const classNames: {
   readonly mulish: "mulish";
   readonly mainblue: "mainblue";
   readonly mainborder: "mainborder";
+  readonly mainfont: "mainfont";
+  readonly mainfontselected: "mainfontselected";
   readonly sectionContainer: "sectionContainer";
   readonly sectionWrapper: "sectionWrapper";
   readonly sectionTitle: "sectionTitle";

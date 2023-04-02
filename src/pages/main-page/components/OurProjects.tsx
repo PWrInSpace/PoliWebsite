@@ -83,7 +83,11 @@ export default function OurProjects() {
     const createButtons = () => {
         return Object.keys(rockets).map((rocket, key) => {
             return (
-                <button className={handleButtonChange(rocket)} onClick={() => setSelectedButton(rocket)} key={key}>
+                <button
+                    className={handleButtonChange(rocket)}
+                    onClick={() => setSelectedButton(rocket)}
+                    key={key}
+                >
                     {rocket}
                 </button>
             );
@@ -93,7 +97,14 @@ export default function OurProjects() {
     const chooseRocketPanel = () => {
         for (const rocket in rockets) {
             if (rocket === selectedButton) {
-                return <RocketPanel rocket={rocket} length={rockets[rocket].length} thrust={rockets[rocket].thrust} weight={rockets[rocket].weight} velocity={rockets[rocket].velocity} image={rockets[rocket].image}/>;
+                return <RocketPanel
+                    rocket={rocket}
+                    length={rockets[rocket].length}
+                    thrust={rockets[rocket].thrust}
+                    weight={rockets[rocket].weight}
+                    velocity={rockets[rocket].velocity}
+                    image={rockets[rocket].image}
+                />;
             }
         }
     };

@@ -1,5 +1,6 @@
 @import '../../../../assets/styles/fonts.module';
 @import '../../../../assets/styles/breakpoints.module';
+@import '../../../../assets/styles/variables.module';
 
 .sectionContainer {
   display: grid;
@@ -20,12 +21,12 @@
     align-items: center;
     justify-content: center;
     grid-column: 2 / 3;
-    margin: 6.25rem 0 50px 0;
+    margin: 6.25rem 0;
 
     .sectionButtonContainer {
       display: flex;
       justify-content: center;
-      gap: 8px;
+      gap: 0.5rem;
       width: 100%;
       margin-top: 3.75rem;
       flex-wrap: wrap;
@@ -37,17 +38,17 @@
   text-decoration: none;
   font-family: $alata;
   font-size: 1.125rem;
-  color: #FFFFFF;
+  color: $mainFont;
   background-color: transparent;
-  padding: 15px 0;
-  border: 1px solid #FFFFFF;
-  width: 120px;
+  padding: 0.9375rem 0;
+  border: 1px solid $mainBorder;
+  width: 7.5rem;
   justify-content: center;
 }
 
 .sectionButtonSelected {
-  background-color: #FFFFFF;
-  color: #000000;
+  background-color: $mainFont;
+  color: $mainFontSelected;
 }
 
 .sectionButton:hover {

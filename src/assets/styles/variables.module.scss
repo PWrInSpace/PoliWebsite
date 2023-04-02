@@ -1,8 +1,11 @@
 $mainBlue: #018EDF;
-
 $mainBorder: #fff;
+$mainFont: #fff;
+$mainFontSelected: #000;
 
 :export{
     mainBlue: $mainBlue;
     mainBorder: $mainBorder;
+    mainFont: $mainFont;
+    mainFontSelected: $mainFontSelected;
 }

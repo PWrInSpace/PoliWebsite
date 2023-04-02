@@ -53,7 +53,7 @@
       font-family: $alata;
       font-size: 1.2rem;
       letter-spacing: 0.07rem;
-      padding: 12px 50px;
+      padding: 12px 3.125rem;
       color: white;
       text-decoration: none;
       border: 1px solid $mainBlue;
@@ -62,7 +62,7 @@
       margin: 6.25rem 0;
 
       @include breakpoint-md {
-          padding: 12px 30px;
+          padding: 12px 1.875rem;
       }
     }
 
