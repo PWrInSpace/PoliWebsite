@@ -5,8 +5,8 @@ declare const classNames: {
   readonly mulish: "mulish";
   readonly container: "container";
   readonly textWrapper: "textWrapper";
-  readonly image: "image";
   readonly header: "header";
   readonly text: "text";
+  readonly image: "image";
 };
 export = classNames;

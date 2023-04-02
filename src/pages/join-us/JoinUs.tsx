@@ -73,9 +73,11 @@ export default function JoinUs(){
             <img src={subpageBackground} alt="subpage background" className={styles.background}/>
             <div className={styles.wrapper}>
                 <SubpageTitle title={__('joinUsPage.header')}/>
+
                 {/*<button className={styles.button} onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSf-aeTqPVKXVolgZyAsSVKhb2wuBDK5Izzq-5-eBxqQi-xKTw/viewform', '_blank')}>*/}
                 {/*    {__('joinUsPage.form')}*/}
                 {/*</button>*/}
+
                 <div className={styles.textContainer}>
                     {createParagraphs()}
                 </div>

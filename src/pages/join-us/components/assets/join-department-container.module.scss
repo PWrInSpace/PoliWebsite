@@ -38,6 +38,10 @@
       font-family: $alata;
       font-size: 1.5rem;
       margin-bottom: 0.625rem;
+
+      @include breakpoint-md {
+        font-size: 1.4rem;
+      }
     }
 
     .text {
@@ -46,6 +50,10 @@
 
       p {
         margin: 12px 0;
+      }
+
+      @include breakpoint-md {
+        font-size: 0.9rem;
       }
     }
   }
