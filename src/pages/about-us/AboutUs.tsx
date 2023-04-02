@@ -6,6 +6,7 @@ import secondImage from '../../assets/images/about-us-page/image2.png';
 import IconCircle from '../../assets/icons/IconCircle';
 import AboutUsParagraph from './components/AboutUsParagraph';
 import NumberContainerComponent from '../../components/number-container-component/NumberContainerComponent';
+import { SubpageTitle } from '../../components/subpage-title/SubpageTitle';
 
 const paragraphs = {
     'firstParagraph': {
@@ -63,10 +64,7 @@ export default function AboutUs() {
                 </div>
             </div>
             <div className={styles.wrapper}>
-                <div className={styles.header}>
-                    {__('aboutUsPage.header')}
-                </div>
-                <div className={styles.divider}></div>
+                <SubpageTitle title={__('aboutUsPage.header')}/>
                 {createParagraph()}
                 <div className={styles.numbersContainer}>
                     <NumberContainerComponent number={60} title={__('aboutUsPage.numbers.firstNumber')} />
