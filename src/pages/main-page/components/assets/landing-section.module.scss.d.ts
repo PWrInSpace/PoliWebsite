@@ -4,8 +4,8 @@ declare const classNames: {
   readonly alegreyasans: "alegreyasans";
   readonly mulish: "mulish";
   readonly mainblue: "mainblue";
+  readonly mainborder: "mainborder";
   readonly sectionContainer: "sectionContainer";
-  readonly background: "background";
   readonly sectionWrapper: "sectionWrapper";
   readonly sectionTitle: "sectionTitle";
   readonly sectionDescription: "sectionDescription";

@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconProps } from '../../utils/Contract';
+import { IconProps } from '../../utils/interfaces/Contract';
 
 export default function SmallVelocityIcon(props: IconProps) {
     const size = props.size ?? 32;

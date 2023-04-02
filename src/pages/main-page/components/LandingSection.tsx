@@ -13,7 +13,6 @@ export default function LandingSection() {
 
     return (
         <div className={styles.sectionContainer}>
-            <img src={mainBackground} className={styles.background}/>
             <div className={styles.sectionWrapper}>
                 <div className={styles.sectionTitle}>
                     {__('mainPage.landingSection.title')}
@@ -35,7 +34,7 @@ export default function LandingSection() {
                     <NumberContainerComponent number={12} title={__('mainPage.landingSection.numbers.starts')}/>
                 </div>
                 <div className={styles.sectionArrow} onClick={scroll}>
-                    <ArrowIcon/>
+                    <ArrowIcon size={'100%'}/>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconProps } from '../../utils/Contract';
+import { IconProps } from '../../utils/interfaces/Contract';
 
 export default function IconMenu(props: IconProps) {
     const size = props.size ?? 24;

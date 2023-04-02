@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './assets/footer.module.scss';
 import footerBackground from '../../assets/images/backgrounds/footerBackground.jpeg';
-import { NavMenuItem } from '../../utils/Contract';
+import { NavMenuItem } from '../../utils/interfaces/Contract';
 import NavBarItem from '../navbar/NavBarItem';
 import IconLogo from '../../assets/icons/IconLogo';
 import FacebookIcon from '../../assets/icons/FacebookIcon';

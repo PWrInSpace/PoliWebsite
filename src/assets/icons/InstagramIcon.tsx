@@ -1,5 +1,5 @@
 import React from 'react';
-import { AdvancedIconPropsWithColor } from '../../utils/Contract';
+import { AdvancedIconPropsWithColor } from '../../utils/interfaces/Contract';
 
 export default function InstagramIcon(props: AdvancedIconPropsWithColor) {
     const width = props.size?.width ?? 33;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavMenuItem } from 'src/utils/Contract';
+import { NavMenuItem } from 'src/utils/interfaces/Contract';
 import IconLogo from '../../assets/icons/IconLogo';
 import NavBarItem from './NavBarItem';
 import styles from './assets/navbar.module.scss';

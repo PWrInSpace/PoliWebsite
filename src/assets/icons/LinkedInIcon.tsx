@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconPropsWithColor } from '../../utils/Contract';
+import { IconPropsWithColor } from '../../utils/interfaces/Contract';
 
 export default function LinkedInIcon(props: IconPropsWithColor) {
     const size = props.size ?? 33;

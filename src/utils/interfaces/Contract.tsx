@@ -20,7 +20,7 @@ interface IconColor {
 }
 
 // Icons that only require one size value.
-export interface IconProps extends BaseIconProps<number, string> {}
+export interface IconProps extends BaseIconProps<number | string, string> {}
 
 // Icons that only require one size value AND a secondary color.
 export interface IconPropsWithColor extends BaseIconProps<number, IconColor> {}

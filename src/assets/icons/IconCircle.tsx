@@ -1,5 +1,5 @@
 import React from 'react';
-import { AdvancedIconProps } from '../../utils/Contract';
+import { AdvancedIconProps } from '../../utils/interfaces/Contract';
 
 export default function IconCircle(props: AdvancedIconProps) {
     const height = props.size?.height ?? 1037;

@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { Routes, Route, HashRouter } from 'react-router-dom';
 import NavBar from '../../components/navbar/NavBar';
-import { NavMenuItem } from '../../utils/Contract';
+import { NavMenuItem } from '../../utils/interfaces/Contract';
 import MainPage from '../main-page/MainPage';
 import ReactCustomScrollbars, { positionValues } from 'react-custom-scrollbars-2';
 import localConfig from '../../../vite.local.config';
