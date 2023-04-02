@@ -4,15 +4,13 @@ import FirstPlanet from '../../icons/FirstPlanet';
 import SecondPlanet from '../../icons/SecondPlanet';
 import ThirdPlanet from '../../icons/ThirdPlanet';
 import PlanetComponent from '../../components/planet-component/PlanetComponent';
+import SectionTitle from '../../components/section-title/SectionTitle';
 
 export default function AboutUsSection() {
     return (
         <div className={styles.sectionContainer} id="about-us">
             <div className={styles.sectionWrapper}>
-                <div className={styles.sectionTitle}>
-                    {__('mainPage.aboutUs.header')}
-                </div>
-                <div className={styles.sectionDivider}></div>
+                <SectionTitle title={__('mainPage.aboutUs.header')} />
                 <div className={styles.sectionContent}>
                     {__('mainPage.aboutUs.text')}
                 </div>

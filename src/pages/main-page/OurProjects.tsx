@@ -9,6 +9,7 @@ import r3 from '../../assets/rockets/r3.png';
 import r4 from '../../assets/rockets/r4.png';
 import r4v2 from '../../assets/rockets/r4v2.png';
 import r5 from '../../assets/rockets/r5.png';
+import SectionTitle from '../../components/section-title/SectionTitle';
 
 const rockets = {
     'R1': {
@@ -100,12 +101,8 @@ export default function OurProjects() {
 
     return (
         <div className={styles.sectionContainer}>
-            <img src={background} alt="our projects background" className={styles.sectionBackground}/>
             <div className={styles.sectionWrapper}>
-                <div className={styles.sectionTitle}>
-                    {__('mainPage.ourProjects.title')}
-                </div>
-                <div className={styles.sectionDivider}></div>
+                <SectionTitle title={__('mainPage.ourProjects.title')}/>
                 <div className={styles.sectionButtonContainer}>
                     {createButtons()}
                 </div>
