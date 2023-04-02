@@ -34,6 +34,7 @@
       font-size: 1.75rem;
       letter-spacing: 0.2rem;
       color: $mainFont;
+      overflow-wrap: anywhere;
 
       @include breakpoint-md {
         font-size: 1.7rem;
