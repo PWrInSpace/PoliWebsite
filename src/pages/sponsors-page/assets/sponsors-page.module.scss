@@ -51,14 +51,14 @@
       align-content: space-around;
       align-items: center;
       gap: 80px;
-      margin: 100px 0;
+      margin: 6.25rem 0;
 
       .logo {
         object-fit: contain;
         max-height: 80px;
 
         @include breakpoint-md {
-          max-height: 60px;
+          max-height: 3.75rem;
         }
       }
 

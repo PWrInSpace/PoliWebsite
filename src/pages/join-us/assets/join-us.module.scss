@@ -59,7 +59,7 @@
       border: 1px solid $mainBlue;
       background-color: $mainBlue;
       text-align: center;
-      margin: 100px 0;
+      margin: 6.25rem 0;
 
       @include breakpoint-md {
           padding: 12px 30px;
@@ -77,7 +77,7 @@
       justify-content: flex-start;
       align-items: flex-start;
       gap: 80px;
-      margin-bottom: 100px;
+      margin-bottom: 6.25rem;
     }
   }
 }

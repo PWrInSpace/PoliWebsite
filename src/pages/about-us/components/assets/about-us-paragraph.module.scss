@@ -20,7 +20,7 @@
   .subtitle {
     font-family: $alata;
     font-size: 1.75rem;
-    margin: 5px 0 25px 0;
+    margin: 5px 0 1.5625rem 0;
   }
 
   .text {
@@ -39,7 +39,7 @@
   margin-right: 50px;
 
   @include breakpoint-lg {
-    margin-right: 25px;
+    margin-right: 1.5625rem;
   }
 
   @include breakpoint-md {
@@ -51,7 +51,7 @@
   margin-left: 50px;
 
   @include breakpoint-lg {
-    margin-left: 25px;
+    margin-left: 1.5625rem;
   }
 
   @include breakpoint-md {

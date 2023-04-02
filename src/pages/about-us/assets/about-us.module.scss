@@ -89,7 +89,7 @@
         margin-right: 50px;
 
         @include breakpoint-lg {
-          margin-right: 25px;
+          margin-right: 1.5625rem;
         }
 
         @include breakpoint-md {
@@ -101,7 +101,7 @@
         margin-left: 50px;
 
         @include breakpoint-lg {
-          margin-left: 25px;
+          margin-left: 1.5625rem;
         }
 
         @include breakpoint-md {
@@ -117,7 +117,7 @@
         object-fit: contain;
 
         @include breakpoint-lg {
-          margin: 25px 0;
+          margin: 1.5625rem 0;
         }
       }
     }
@@ -134,7 +134,7 @@
     margin-bottom: 150px;
 
     @include breakpoint-lg {
-      margin-bottom: 100px;
+      margin-bottom: 6.25rem;
     }
 
     @include breakpoint-md {
