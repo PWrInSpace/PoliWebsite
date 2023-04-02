@@ -11,6 +11,7 @@ import pr from '../../assets/images/join-us/pr.png';
 import webdev from '../../assets/images/join-us/webdev.png';
 import silniki from '../../assets/images/join-us/silniki.png';
 import struktura from '../../assets/images/join-us/struktura.png';
+import { SubpageTitle } from '../../components/subpage-title/SubpageTitle';
 
 const departments = {
     'struktura': {
@@ -71,13 +72,10 @@ export default function JoinUs(){
         <div className={styles.container}>
             <img src={subpageBackground} alt="subpage background" className={styles.background}/>
             <div className={styles.wrapper}>
-                <div className={styles.header}>
-                    {__('joinUsPage.header')}
-                </div>
-                <div className={styles.divider}></div>
-                <button className={styles.button} onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSf-aeTqPVKXVolgZyAsSVKhb2wuBDK5Izzq-5-eBxqQi-xKTw/viewform', '_blank')}>
-                    {__('joinUsPage.form')}
-                </button>
+                <SubpageTitle title={__('joinUsPage.header')}/>
+                {/*<button className={styles.button} onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSf-aeTqPVKXVolgZyAsSVKhb2wuBDK5Izzq-5-eBxqQi-xKTw/viewform', '_blank')}>*/}
+                {/*    {__('joinUsPage.form')}*/}
+                {/*</button>*/}
                 <div className={styles.textContainer}>
                     {createParagraphs()}
                 </div>
