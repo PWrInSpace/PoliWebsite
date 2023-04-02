@@ -6,9 +6,5 @@ declare const classNames: {
   readonly container: "container";
   readonly background: "background";
   readonly wrapper: "wrapper";
-  readonly header: "header";
-  readonly divider: "divider";
-  readonly logoContainer: "logoContainer";
-  readonly logo: "logo";
 };
 export = classNames;

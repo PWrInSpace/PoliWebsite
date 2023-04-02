@@ -7,9 +7,7 @@ declare const classNames: {
   readonly mainborder: "mainborder";
   readonly mainfont: "mainfont";
   readonly mainfontselected: "mainfontselected";
-  readonly container: "container";
-  readonly sectionWrapper: "sectionWrapper";
-  readonly sectionTitle: "sectionTitle";
-  readonly sectionDivider: "sectionDivider";
+  readonly header: "header";
+  readonly divider: "divider";
 };
 export = classNames;

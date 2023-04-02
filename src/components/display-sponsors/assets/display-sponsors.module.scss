@@ -1,0 +1,25 @@
+@import '../../../assets/styles/breakpoints.module';
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 6.25rem;
+
+  .logo {
+    object-fit: contain;
+    max-height: 5rem;
+
+    @include breakpoint-md {
+      max-height: 3.75rem;
+    }
+  }
+
+  .logo:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+}

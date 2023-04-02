@@ -31,41 +31,5 @@
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-
-    .header {
-      font-family: $kronaOne;
-      font-size: 2rem;
-      color: #FFFFFF;
-      margin: 150px 0 20px 0;
-    }
-
-    .divider {
-      border: 0.5px solid #FFFFFF;
-      width: 40%;
-    }
-
-    .logoContainer {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-content: space-around;
-      align-items: center;
-      gap: 5rem;
-      margin: 6.25rem 0;
-
-      .logo {
-        object-fit: contain;
-        max-height: 5rem;
-
-        @include breakpoint-md {
-          max-height: 3.75rem;
-        }
-      }
-
-      .logo:hover {
-        opacity: 0.7;
-        cursor: pointer;
-      }
-    }
   }
 }

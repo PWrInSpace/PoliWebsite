@@ -9,6 +9,7 @@ import MailIcon from '../../assets/icons/MailIcon';
 import FacebookIcon from '../../assets/icons/FacebookIcon';
 import InstagramIcon from '../../assets/icons/InstagramIcon';
 import LocationComponent from './components/LocationComponent';
+import { SubpageTitle } from '../../components/subpage-title/SubpageTitle';
 
 const crew = {
     firstPerson: {
@@ -53,10 +54,7 @@ export default function ContactPage() {
         <div className={styles.container}>
             <img src={subpageBackground} alt="subpage background" className={styles.background}/>
             <div className={styles.wrapper}>
-                <div className={styles.header}>
-                    {__('contactPage.header')}
-                </div>
-                <div className={styles.divider}></div>
+                <SubpageTitle title={__('contactPage.header')}/>
                 <div className={styles.title}>
                     {__('contactPage.title')}
                 </div>
