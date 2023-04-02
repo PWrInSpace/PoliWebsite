@@ -1,15 +1,15 @@
 import React from 'react';
 import styles from './assets/footer.module.scss';
-import footerBackground from '../../assets/footerBackground.jpeg';
-import { NavMenuItem } from '../../Contract';
+import footerBackground from '../../assets/images/backgrounds/footerBackground.jpeg';
+import { NavMenuItem } from '../../utils/Contract';
 import NavBarItem from '../navbar/NavBarItem';
-import IconLogo from '../../icons/IconLogo';
-import FacebookIcon from '../../icons/FacebookIcon';
-import InstagramIcon from '../../icons/InstagramIcon';
-import TikTokIcon from '../../icons/TikTokIcon';
-import YouTubeIcon from '../../icons/YouTubeIcon';
-import LinkedInIcon from '../../icons/LinkedInIcon';
-import useWindowScroll from '../../hooks/useWindowScroll';
+import IconLogo from '../../assets/icons/IconLogo';
+import FacebookIcon from '../../assets/icons/FacebookIcon';
+import InstagramIcon from '../../assets/icons/InstagramIcon';
+import TikTokIcon from '../../assets/icons/TikTokIcon';
+import YouTubeIcon from '../../assets/icons/YouTubeIcon';
+import LinkedInIcon from '../../assets/icons/LinkedInIcon';
+import useWindowScroll from '../../utils/hooks/useWindowScroll';
 
 interface ISelfProps {
     menuItems: NavMenuItem[];

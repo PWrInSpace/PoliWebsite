@@ -1,14 +1,14 @@
 import React from 'react';
 import styles from './assets/contact-page.module.scss';
-import subpageBackground from '../../assets/subpageBackground.png';
-import PersonPicture from '../../components/person-picture/PersonPicture';
-import WiktoriaMrowiec from '../../assets/contact/wiktoria-mrowiec.png';
-import LiliyaSizhuk from '../../assets/contact/liliya-sizhuk.png';
-import ContactLink from '../../components/contact-link/ContactLink';
-import MailIcon from '../../icons/MailIcon';
-import FacebookIcon from '../../icons/FacebookIcon';
-import InstagramIcon from '../../icons/InstagramIcon';
-import LocationComponent from '../../components/location-component/LocationComponent';
+import subpageBackground from '../../assets/images/backgrounds/subpageBackground.png';
+import PersonPicture from './components/assets/PersonPicture';
+import WiktoriaMrowiec from '../../assets/images/contact/wiktoria-mrowiec.png';
+import LiliyaSizhuk from '../../assets/images/contact/liliya-sizhuk.png';
+import ContactLink from './components/ContactLink';
+import MailIcon from '../../assets/icons/MailIcon';
+import FacebookIcon from '../../assets/icons/FacebookIcon';
+import InstagramIcon from '../../assets/icons/InstagramIcon';
+import LocationComponent from './components/LocationComponent';
 
 const crew = {
     firstPerson: {

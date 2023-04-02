@@ -1,0 +1,52 @@
+@import '../../../../assets/styles/breakpoints.module';
+@import '../../../../assets/styles/fonts.module';
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 50px;
+
+  @include breakpoint-md {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .image {
+    max-height: 350px;
+    object-fit: contain;
+  }
+
+  .image:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+
+  .textWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60%;
+    color: #FFFFFF;
+    letter-spacing: 0.1rem;
+
+    @include breakpoint-md {
+      width: 90%;
+    }
+
+    .header {
+      font-family: $alata;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .text {
+      font-family: $mulish;
+      font-size: 1rem;
+
+      p {
+        margin: 12px 0;
+      }
+    }
+  }
+}

@@ -1,12 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { NavMenuItem } from 'src/Contract';
-import IconLogo from '../../../src/icons/IconLogo';
+import { NavMenuItem } from 'src/utils/Contract';
+import IconLogo from '../../assets/icons/IconLogo';
 import NavBarItem from './NavBarItem';
 import styles from './assets/navbar.module.scss';
-import IconMenu from '../../../src/icons/IconMenu';
-import IconClose from '../../../src/icons/IconClose';
+import IconMenu from '../../assets/icons/IconMenu';
+import IconClose from '../../assets/icons/IconClose';
 import SocialMediaComponentNoBackground from '../social-media-component/SocialMediaComponentNoBackground';
-import useWindowScroll from '../../hooks/useWindowScroll';
+import useWindowScroll from '../../utils/hooks/useWindowScroll';
 
 interface ISelfProps {
     menuItems: NavMenuItem[];

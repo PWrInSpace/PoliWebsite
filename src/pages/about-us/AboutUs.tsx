@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './assets/about-us.module.scss';
-import subpageBackground from '../../assets/subpageBackground.png';
-import firstImage from '../../assets/about-us-page/image1.png';
-import secondImage from '../../assets/about-us-page/image2.png';
-import IconCircle from '../../icons/IconCircle';
-import AboutUsParagraph from '../../components/about-us-paragraph/AboutUsParagraph';
+import subpageBackground from '../../assets/images/backgrounds/subpageBackground.png';
+import firstImage from '../../assets/images/about-us-page/image1.png';
+import secondImage from '../../assets/images/about-us-page/image2.png';
+import IconCircle from '../../assets/icons/IconCircle';
+import AboutUsParagraph from './components/AboutUsParagraph';
 import NumberContainerComponent from '../../components/number-container-component/NumberContainerComponent';
 
 const paragraphs = {
