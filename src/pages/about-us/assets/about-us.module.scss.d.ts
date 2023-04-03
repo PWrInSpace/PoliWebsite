@@ -7,11 +7,8 @@ declare const classNames: {
   readonly mainborder: "mainborder";
   readonly mainfont: "mainfont";
   readonly mainfontselected: "mainfontselected";
-  readonly container: "container";
-  readonly background: "background";
   readonly firstIconCircle: "firstIconCircle";
   readonly secondIconCircle: "secondIconCircle";
-  readonly wrapper: "wrapper";
   readonly paragraph: "paragraph";
   readonly firstWrapper: "firstWrapper";
   readonly secondWrapper: "secondWrapper";

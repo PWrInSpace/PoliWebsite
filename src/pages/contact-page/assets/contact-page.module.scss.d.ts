@@ -7,9 +7,6 @@ declare const classNames: {
   readonly mainborder: "mainborder";
   readonly mainfont: "mainfont";
   readonly mainfontselected: "mainfontselected";
-  readonly container: "container";
-  readonly background: "background";
-  readonly wrapper: "wrapper";
   readonly title: "title";
   readonly contactWrapper: "contactWrapper";
   readonly textWrapper: "textWrapper";

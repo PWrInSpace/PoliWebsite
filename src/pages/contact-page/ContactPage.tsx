@@ -1,22 +1,19 @@
 import React from 'react';
 import styles from './assets/contact-page.module.scss';
-import subpageBackground from '../../assets/images/backgrounds/subpageBackground.png';
 import PersonPicture from './components/assets/PersonPicture';
 import ContactLink from './components/ContactLink';
 import MailIcon from '../../assets/icons/MailIcon';
 import FacebookIcon from '../../assets/icons/FacebookIcon';
 import InstagramIcon from '../../assets/icons/InstagramIcon';
 import LocationComponent from './components/LocationComponent';
-import { SubpageTitle } from '../../components/subpage-title/SubpageTitle';
 import { Locations } from '../../utils/enums/locationList';
 import { Crew } from '../../utils/enums/contactCrew';
+import { SubpageWrapper } from '../../components/subpage-wrapper/SubpageWrapper';
 
 export default function ContactPage() {
     return(
-        <div className={styles.container}>
-            <img src={subpageBackground} alt="subpage background" className={styles.background}/>
-            <div className={styles.wrapper}>
-                <SubpageTitle title={__('contactPage.header')}/>
+        <SubpageWrapper title={__('contactPage.header')}>
+            <>
                 <div className={styles.title}>
                     {__('contactPage.title')}
                 </div>
@@ -73,7 +70,7 @@ export default function ContactPage() {
                         map={Locations.workshop.map}
                     />
                 </div>
-            </div>
-        </div>
+            </>
+        </SubpageWrapper>
     );
 }

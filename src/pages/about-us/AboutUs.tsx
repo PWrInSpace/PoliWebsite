@@ -1,11 +1,10 @@
 import React from 'react';
 import styles from './assets/about-us.module.scss';
-import subpageBackground from '../../assets/images/backgrounds/subpageBackground.png';
 import IconCircle from '../../assets/icons/IconCircle';
 import AboutUsParagraph from './components/AboutUsParagraph';
 import NumberContainerComponent from '../../components/number-container-component/NumberContainerComponent';
-import { SubpageTitle } from '../../components/subpage-title/SubpageTitle';
 import { Paragraphs } from '../../utils/enums/aboutParagraphList';
+import { SubpageWrapper } from '../../components/subpage-wrapper/SubpageWrapper';
 
 export default function AboutUs() {
     const createParagraph = () => {
@@ -47,25 +46,23 @@ export default function AboutUs() {
     };
 
     return (
-        <div className={styles.container}>
-            <div>
-                <img src={subpageBackground} alt="subpage background" className={styles.background}/>
-                <div className={styles.firstIconCircle}>
-                    <IconCircle/>
+        <SubpageWrapper title={__('aboutUsPage.header')}>
+            <>
+                <div>
+                    <div className={styles.firstIconCircle}>
+                        <IconCircle/>
+                    </div>
+                    <div className={styles.secondIconCircle}>
+                        <IconCircle/>
+                    </div>
                 </div>
-                <div className={styles.secondIconCircle}>
-                    <IconCircle/>
-                </div>
-            </div>
-            <div className={styles.wrapper}>
-                <SubpageTitle title={__('aboutUsPage.header')}/>
                 {createParagraph()}
                 <div className={styles.numbersContainer}>
                     <NumberContainerComponent number={60} title={__('aboutUsPage.numbers.firstNumber')} />
                     <NumberContainerComponent number={2017} title={__('aboutUsPage.numbers.secondNumber')} />
                     <NumberContainerComponent number={12} title={__('aboutUsPage.numbers.thirdNumber')} />
                 </div>
-            </div>
-        </div>
+            </>
+        </SubpageWrapper>
     );
 }
