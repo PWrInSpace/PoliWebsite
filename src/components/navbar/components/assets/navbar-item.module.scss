@@ -1,5 +1,5 @@
-@import '../../../assets/styles/breakpoints.module';
-@import '../../../assets/styles/fonts.module';
+@import '../../../../assets/styles/breakpoints.module';
+@import '../../../../assets/styles/fonts.module';
 
 .link {
     display: flex;
@@ -17,7 +17,6 @@
 }
 
 @include breakpoint-md {
-
     .active {
         text-decoration: underline;
     }

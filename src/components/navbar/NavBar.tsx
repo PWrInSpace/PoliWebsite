@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavMenuItem } from 'src/utils/interfaces/Contract';
 import IconLogo from '../../assets/icons/IconLogo';
-import NavBarItem from './NavBarItem';
+import NavBarItem from './components/NavBarItem';
 import styles from './assets/navbar.module.scss';
 import IconMenu from '../../assets/icons/IconMenu';
 import IconClose from '../../assets/icons/IconClose';

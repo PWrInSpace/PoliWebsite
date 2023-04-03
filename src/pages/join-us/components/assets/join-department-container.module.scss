@@ -13,8 +13,11 @@
   }
 
   .image {
-    max-height: 350px;
-    object-fit: contain;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    max-height: 400px;
+    object-fit: scale-down;
   }
 
   .image:hover {
