@@ -61,5 +61,10 @@
     justify-self: center;
     align-self: center;
     margin-top: 4.375rem;
+    margin-left: 3rem;
+
+    @include breakpoint-md {
+      margin-left: 0;
+    }
   }
 }
