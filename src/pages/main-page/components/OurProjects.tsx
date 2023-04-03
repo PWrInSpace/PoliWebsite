@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './assets/our-projects.module.scss';
 import RocketPanel from './components/RocketPanel';
 import SectionTitle from '../../../components/section-title/SectionTitle';
-import { rockets } from '../../../utils/enums/rocketList';
+import { Rockets } from '../../../utils/enums/rocketList';
 
 export default function OurProjects() {
     const [selectedButton, setSelectedButton] = React.useState<string>('R4V2');
@@ -16,29 +16,29 @@ export default function OurProjects() {
     };
 
     const createButtons = () => {
-        return Object.keys(rockets).map((rocket, key) => {
+        return Rockets.map((rocket, key) => {
             return (
                 <button
-                    className={handleButtonChange(rocket)}
-                    onClick={() => setSelectedButton(rocket)}
+                    className={handleButtonChange(rocket.name)}
+                    onClick={() => setSelectedButton(rocket.name)}
                     key={key}
                 >
-                    {rocket}
+                    {rocket.name}
                 </button>
             );
         });
     };
 
     const chooseRocketPanel = () => {
-        for (const rocket in rockets) {
-            if (rocket === selectedButton) {
+        for (const rocket of Rockets) {
+            if (rocket.name === selectedButton) {
                 return <RocketPanel
-                    rocket={rocket}
-                    length={rockets[rocket].length}
-                    thrust={rockets[rocket].thrust}
-                    weight={rockets[rocket].weight}
-                    velocity={rockets[rocket].velocity}
-                    image={rockets[rocket].image}
+                    rocket={rocket.name}
+                    length={rocket.length}
+                    thrust={rocket.thrust}
+                    weight={rocket.weight}
+                    velocity={rocket.velocity}
+                    image={String(rocket.image)}
                 />;
             }
         }

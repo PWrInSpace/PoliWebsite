@@ -2,52 +2,14 @@ import React from 'react';
 import styles from './assets/contact-page.module.scss';
 import subpageBackground from '../../assets/images/backgrounds/subpageBackground.png';
 import PersonPicture from './components/assets/PersonPicture';
-import WiktoriaMrowiec from '../../assets/images/contact/wiktoria-mrowiec.png';
-import LiliyaSizhuk from '../../assets/images/contact/liliya-sizhuk.png';
 import ContactLink from './components/ContactLink';
 import MailIcon from '../../assets/icons/MailIcon';
 import FacebookIcon from '../../assets/icons/FacebookIcon';
 import InstagramIcon from '../../assets/icons/InstagramIcon';
 import LocationComponent from './components/LocationComponent';
 import { SubpageTitle } from '../../components/subpage-title/SubpageTitle';
-
-const crew = {
-    firstPerson: {
-        image: WiktoriaMrowiec,
-        title: 'contactPage.prPresident',
-        name: 'Wiktoria Mrowiec',
-        mail: 'mrowiec.w.wm@gmail.com'
-    },
-    secondPerson: {
-        image: LiliyaSizhuk,
-        title: 'contactPage.president',
-        name: 'Liliya Sizhuk',
-        mail: 'liliya.sizhuk@gmail.com'
-    },
-};
-
-const locations = {
-    'workshop': {
-        'header': 'contactPage.locations.workshop',
-        'text': [
-            'ul. Fabryczna 16H',
-            '53-609 Wrocław',
-            'ACADEMIC BOX',
-            'Wrocławski Park Technologiczny'
-        ],
-        'map': 'workshop'
-    },
-    'location': {
-        'header': 'contactPage.locations.location',
-        'text': [
-            'ul. Łukasiewicza 5/7',
-            '50-370 Wrocław',
-            'Wydział Mechaniczny',
-            'Politechnika Wrocławska'
-        ],
-        'map': 'location'
-    }
-};
+import { Locations } from '../../utils/enums/locationList';
+import { Crew } from '../../utils/enums/contactCrew';
 
 export default function ContactPage() {
     return(
@@ -59,23 +21,57 @@ export default function ContactPage() {
                     {__('contactPage.title')}
                 </div>
                 <div className={styles.contactWrapper}>
-                    <PersonPicture image={crew.firstPerson.image} title={__(crew.firstPerson.title)} name={crew.firstPerson.name} mail={crew.firstPerson.mail}/>
+                    <PersonPicture
+                        image={Crew.pr.image}
+                        title={__(Crew.pr.title)}
+                        name={Crew.pr.name}
+                        mail={Crew.pr.mail}
+                    />
                     <div className={styles.textWrapper}>
                         <div className={styles.subtitle}>
                             {__('contactPage.subtitle')}
                         </div>
-                        <ContactLink text={'pwrinspace@pwr.edu.pl'} icon={<MailIcon/>} onClick={() => window.location.href = 'mailto:pwrinspace@pwr.edu.pl'}/>
-                        <ContactLink text={'PWr in Space'} icon={<FacebookIcon color={{ primaryColor: 'black', secondaryColor: 'white' }}/>} onClick={() => window.open('https://www.facebook.com/pwrinspace', '_blank')}/>
-                        <ContactLink text={'@poliwrocket'} icon={<InstagramIcon color={{ primaryColor: 'black', secondaryColor: 'white' }}/>} onClick={() => window.open('https://www.instagram.com/poliwrocket/', '_blank')}/>
+                        <ContactLink
+                            text={'pwrinspace@pwr.edu.pl'}
+                            icon={<MailIcon/>}
+                            onClick={() => window.location.href = 'mailto:pwrinspace@pwr.edu.pl'}
+                        />
+                        <ContactLink
+                            text={'PWr in Space'}
+                            icon={<FacebookIcon
+                                color={{ primaryColor: 'black', secondaryColor: 'white' }}
+                            />}
+                            onClick={() => window.open('https://www.facebook.com/pwrinspace', '_blank')}
+                        />
+                        <ContactLink
+                            text={'@poliwrocket'}
+                            icon={<InstagramIcon
+                                color={{ primaryColor: 'black', secondaryColor: 'white' }}
+                            />}
+                            onClick={() => window.open('https://www.instagram.com/poliwrocket/', '_blank')}
+                        />
                     </div>
-                    <PersonPicture image={crew.secondPerson.image} title={__(crew.secondPerson.title)} name={crew.secondPerson.name} mail={crew.secondPerson.mail}/>
+                    <PersonPicture
+                        image={Crew.ceo.image}
+                        title={__(Crew.ceo.title)}
+                        name={Crew.ceo.name}
+                        mail={Crew.ceo.mail}
+                    />
                 </div>
                 <div className={styles.title}>
                     {__('contactPage.findUs')}
                 </div>
                 <div className={styles.contactLocation}>
-                    <LocationComponent header={__(locations.location.header)} text={locations.location.text} map={locations.location.map}/>
-                    <LocationComponent header={__(locations.workshop.header)} text={locations.workshop.text} map={locations.workshop.map}/>
+                    <LocationComponent
+                        header={__(Locations.location.header)}
+                        text={Locations.location.text}
+                        map={Locations.location.map}
+                    />
+                    <LocationComponent
+                        header={__(Locations.workshop.header)}
+                        text={Locations.workshop.text}
+                        map={Locations.workshop.map}
+                    />
                 </div>
             </div>
         </div>

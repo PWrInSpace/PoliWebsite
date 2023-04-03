@@ -5,7 +5,7 @@ interface IProps {
     image: string;
     header: string;
     text: string;
-    onClick: () => void;
+    onClick?: () => void;
 }
 
 export default function JoinDepartmentContainer(props: IProps){

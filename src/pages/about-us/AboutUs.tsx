@@ -1,51 +1,45 @@
 import React from 'react';
 import styles from './assets/about-us.module.scss';
 import subpageBackground from '../../assets/images/backgrounds/subpageBackground.png';
-import firstImage from '../../assets/images/about-us-page/image1.png';
-import secondImage from '../../assets/images/about-us-page/image2.png';
 import IconCircle from '../../assets/icons/IconCircle';
 import AboutUsParagraph from './components/AboutUsParagraph';
 import NumberContainerComponent from '../../components/number-container-component/NumberContainerComponent';
 import { SubpageTitle } from '../../components/subpage-title/SubpageTitle';
-
-const paragraphs = {
-    'firstParagraph': {
-        title: 'aboutUsPage.firstParagraph.title',
-        subtitle: 'aboutUsPage.firstParagraph.subtitle',
-        text: 'aboutUsPage.firstParagraph.text',
-        image: {
-            src: firstImage,
-            alt: 'PWr in Space crew',
-            position: 'right'
-        }
-    },
-    'secondParagraph': {
-        title: 'aboutUsPage.secondParagraph.title',
-        subtitle: 'aboutUsPage.secondParagraph.subtitle',
-        text: 'aboutUsPage.secondParagraph.text',
-        image: {
-            src: secondImage,
-            alt: 'PWr in Space crew',
-            position: 'left'
-        }
-    }
-};
+import { Paragraphs } from '../../utils/enums/aboutParagraphList';
 
 export default function AboutUs() {
     const createParagraph = () => {
-        return Object.keys(paragraphs).map((paragraph, key) => {
-            if (paragraphs[paragraph].image.position === 'right') {
+        return Paragraphs.map((paragraph, key) => {
+            if (paragraph.image.position === 'right') {
                 return (
                     <div className={styles.paragraph} key={key}>
-                        <AboutUsParagraph title={__(paragraphs[paragraph].title)} subtitle={__(paragraphs[paragraph].subtitle)} text={__(paragraphs[paragraph].text)} wrapper={styles.firstWrapper}/>
-                        <img src={paragraphs[paragraph].image.src} alt={paragraphs[paragraph].image.alt} className={styles.paragraphImage}/>
+                        <AboutUsParagraph
+                            title={__(paragraph.title)}
+                            subtitle={__(paragraph.subtitle)}
+                            text={__(paragraph.text)}
+                            wrapper={styles.firstWrapper}
+                        />
+                        <img
+                            src={String(paragraph.image.src)}
+                            alt={paragraph.image.alt}
+                            className={styles.paragraphImage}
+                        />
                     </div>
                 );
-            } else if (paragraphs[paragraph].image.position === 'left') {
+            } else if (paragraph.image.position === 'left') {
                 return (
                     <div className={styles.paragraph} key={key}>
-                        <img src={paragraphs[paragraph].image.src} alt={paragraphs[paragraph].image.alt} className={styles.paragraphImage}/>
-                        <AboutUsParagraph title={__(paragraphs[paragraph].title)} subtitle={__(paragraphs[paragraph].subtitle)} text={__(paragraphs[paragraph].text)} wrapper={styles.secondWrapper}/>
+                        <img
+                            src={String(paragraph.image.src)}
+                            alt={paragraph.image.alt}
+                            className={styles.paragraphImage}
+                        />
+                        <AboutUsParagraph
+                            title={__(paragraph.title)}
+                            subtitle={__(paragraph.subtitle)}
+                            text={__(paragraph.text)}
+                            wrapper={styles.secondWrapper}
+                        />
                     </div>
                 );
             }

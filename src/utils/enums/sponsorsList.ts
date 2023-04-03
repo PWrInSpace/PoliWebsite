@@ -11,6 +11,7 @@ import manus from '../../assets/images/sponsors/manus.png';
 import symkom from '../../assets/images/sponsors/symkom.png';
 import ansys from '../../assets/images/sponsors/ansys.png';
 import scanway from '../../assets/images/sponsors/scanway.png';
+import satland from '../../assets/images/sponsors/satland.png';
 
 interface Image {
     src: File;
@@ -83,5 +84,10 @@ export const Images: Image[] = [
         src: scanway,
         alt: 'Scanway Space logo',
         webpage: 'https://scanway.space'
+    },
+    {
+        src: satland,
+        alt: 'Satland logo',
+        webpage: 'https://www.prototypy.com/t/1,Strona_glowna'
     }
 ];
