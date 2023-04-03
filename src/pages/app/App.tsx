@@ -10,7 +10,7 @@ import Footer from '../../components/footer/Footer';
 import ContactPage from '../contact-page/ContactPage';
 import SponsorsPage from '../sponsors-page/SponsorsPage';
 import AboutUs from '../about-us/AboutUs';
-import './assets/App.module.scss';
+import './assets/app.module.scss';
 import { AppWindowScrollContext } from '../../utils/context/AppWindowScrollContext';
 import JoinUs from '../join-us/JoinUs';
 import AppWindowScrollContextProvider from '../../utils/context/AppWindowScrollContext';
