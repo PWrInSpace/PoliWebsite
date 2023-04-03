@@ -1,13 +1,16 @@
 @import '../../../assets/styles/breakpoints.module';
 @import '../../../assets/styles/fonts.module';
+@import '../../../assets/styles/variables.module';
 
 .footerContainer {
   display: grid;
   grid-template-columns: 20% 60% 20%;
-  height: 300px;
+  height: 18.75rem;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../../../assets/images/backgrounds/secondaryBackground.jpeg') center no-repeat;
+  background-size: cover;
 
   @include breakpoint-xl {
-    height: 400px;
+    height: 25rem;
   }
 
   @include breakpoint-lg {
@@ -15,24 +18,7 @@
   }
 
   @include breakpoint-md {
-    height: 350px;
-  }
-
-  .footerBackground {
-    position: absolute;
-    height: 300px;
-    width: 100%;
-    grid-column: 1 / 4;
-    z-index: -5;
-    object-fit: cover;
-
-    @include breakpoint-xl {
-      height: 400px;
-    }
-
-    @include breakpoint-md {
-      height: 350px;
-    }
+    height: 21.875rem;
   }
 
   .footerWrapper {
@@ -48,23 +34,23 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-top: 32px;
+        margin-top: 2rem;
         flex-wrap: wrap;
 
         * > a {
-          margin: 0 15px 0 15px;
+          margin: 0 0.9375rem 0 0.9375rem;
         }
 
         @include breakpoint-xl {
           * > a {
-            margin: 0.625rem 15px 0.625rem 15px;
+            margin: 0.625rem 0.9375rem 0.625rem 0.9375rem;
           }
         }
       }
 
       .footerDivider {
-        margin: 20px 20px 0 20px;
-        border: 0.5px solid #FFF;
+        margin: 1.25rem 1.25rem 0 1.25rem;
+        border: 0.5px solid $mainBorder;
       }
 
       @include breakpoint-md {
@@ -81,7 +67,7 @@
 
       @include breakpoint-md {
         flex-flow: column;
-        gap: 20px;
+        gap: 1.25rem;
         justify-content: center;
         height: 100%;
       }
@@ -92,11 +78,11 @@
       }
 
       .footerContentText {
-        margin-top: 20px;
+        margin-top: 1.25rem;
         font-family: $alata;
         font-size: 1.25rem;
         letter-spacing: 0.33rem;
-        color: #FFFFFF;
+        color: $mainFont;
 
         @include breakpoint-sm {
           font-size: 1rem;
@@ -104,12 +90,12 @@
       }
 
       .footerMailText {
-        margin-top: 20px;
+        margin-top: 1.25rem;
         font-family: $mulish;
         font-size: 1.25rem;
         letter-spacing: 0.3rem;
         font-weight: bold;
-        color: #FFFFFF;
+        color: $mainFont;
 
         @include breakpoint-sm {
           font-size: 1rem;
@@ -130,7 +116,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-bottom: 20px;
+      margin-bottom: 1.25rem;
 
       svg {
         margin: 0 0.625rem 0 0.625rem;

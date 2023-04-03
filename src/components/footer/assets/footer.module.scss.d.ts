@@ -3,8 +3,11 @@ declare const classNames: {
   readonly kronaone: "kronaone";
   readonly alegreyasans: "alegreyasans";
   readonly mulish: "mulish";
+  readonly mainblue: "mainblue";
+  readonly mainborder: "mainborder";
+  readonly mainfont: "mainfont";
+  readonly mainfontselected: "mainfontselected";
   readonly footerContainer: "footerContainer";
-  readonly footerBackground: "footerBackground";
   readonly footerWrapper: "footerWrapper";
   readonly footerNavWrapper: "footerNavWrapper";
   readonly footerNav: "footerNav";
