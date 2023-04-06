@@ -6,8 +6,8 @@ import MailIcon from '../../assets/icons/MailIcon';
 import FacebookIcon from '../../assets/icons/FacebookIcon';
 import InstagramIcon from '../../assets/icons/InstagramIcon';
 import LocationComponent from './components/LocationComponent';
-import { Locations } from '../../utils/enums/locationList';
-import { Crew } from '../../utils/enums/contactCrew';
+import { Locations } from '../../common/data/locationList';
+import { Crew } from '../../common/data/contactCrew';
 import { SubpageWrapper } from '../../components/subpage-wrapper/SubpageWrapper';
 
 export default function ContactPage() {

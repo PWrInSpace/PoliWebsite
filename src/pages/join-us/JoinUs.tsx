@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './assets/join-us.module.scss';
 import JoinDepartmentContainer from './components/JoinDepartmentContainer';
-import { Departments } from '../../utils/enums/departmentsList';
+import { Departments } from '../../common/data/departmentsList';
 import { SubpageWrapper } from '../../components/subpage-wrapper/SubpageWrapper';
 
 export default function JoinUs(){

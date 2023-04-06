@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconProps } from '../../utils/interfaces/Contract';
+import { IconProps } from '../../common/interfaces/Contract';
 
 export default function ThirdPlanet(props: IconProps) {
     const size = props.size ?? 101;

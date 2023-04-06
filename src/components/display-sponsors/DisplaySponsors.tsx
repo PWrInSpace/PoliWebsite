@@ -1,5 +1,5 @@
 import React from 'react';
-import { Images } from '../../utils/enums/sponsorsList';
+import { Images } from '../../common/data/sponsorsList';
 import styles from './assets/display-sponsors.module.scss';
 
 export function DisplaySponsors() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconPropsWithColor } from '../../utils/interfaces/Contract';
+import { IconPropsWithColor } from '../../common/interfaces/Contract';
 
 export default function TikTokIcon(props: IconPropsWithColor) {
     const size = props.size ?? 33;

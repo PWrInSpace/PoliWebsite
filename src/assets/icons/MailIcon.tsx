@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconPropsWithColor } from '../../utils/interfaces/Contract';
+import { IconPropsWithColor } from '../../common/interfaces/Contract';
 
 export default function MailIcon(props: IconPropsWithColor) {
     const size = props.size ?? 32;

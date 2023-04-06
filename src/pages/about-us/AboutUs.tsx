@@ -3,7 +3,7 @@ import styles from './assets/about-us.module.scss';
 import IconCircle from '../../assets/icons/IconCircle';
 import AboutUsParagraph from './components/AboutUsParagraph';
 import NumberContainerComponent from '../../components/number-container-component/NumberContainerComponent';
-import { Paragraphs } from '../../utils/enums/aboutParagraphList';
+import { Paragraphs } from '../../common/data/aboutParagraphList';
 import { SubpageWrapper } from '../../components/subpage-wrapper/SubpageWrapper';
 
 export default function AboutUs() {

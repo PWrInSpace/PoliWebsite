@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom/client';
 import i18n from 'i18next';
 //import resources from 'virtual:i18next-loader';
 import LanguageDetector from 'i18next-browser-languagedetector';
-import en from './utils/locales/en/defaults.json';
-import pl from './utils/locales/pl/defaults.json';
+import en from './common/locales/en/defaults.json';
+import pl from './common/locales/pl/defaults.json';
 import Cookies from 'js-cookie';
 import localConfig from './../vite.local.config';
 

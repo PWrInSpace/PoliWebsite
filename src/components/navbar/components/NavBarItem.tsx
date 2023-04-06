@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavMenuItem } from 'src/utils/interfaces/Contract';
+import { NavMenuItem } from 'src/common/interfaces/Contract';
 import { NavLink } from 'react-router-dom';
 import styles from './assets/navbar-item.module.scss';
 

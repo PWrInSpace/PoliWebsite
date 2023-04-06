@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './assets/our-projects.module.scss';
 import RocketPanel from './components/RocketPanel';
 import SectionTitle from '../../../components/section-title/SectionTitle';
-import { Rockets } from '../../../utils/enums/rocketList';
+import { Rockets } from '../../../common/data/rocketList';
 
 export default function OurProjects() {
     const [selectedButton, setSelectedButton] = React.useState<string>('R4V2');

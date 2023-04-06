@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { Routes, Route, HashRouter } from 'react-router-dom';
 import NavBar from '../../components/navbar/NavBar';
-import { NavMenuItem } from '../../utils/interfaces/Contract';
+import { NavMenuItem } from '../../common/interfaces/Contract';
 import MainPage from '../main-page/MainPage';
 import ReactCustomScrollbars, { positionValues } from 'react-custom-scrollbars-2';
 import localConfig from '../../../vite.local.config';
@@ -11,9 +11,9 @@ import ContactPage from '../contact-page/ContactPage';
 import SponsorsPage from '../sponsors-page/SponsorsPage';
 import AboutUs from '../about-us/AboutUs';
 import './assets/app.module.scss';
-import { AppWindowScrollContext } from '../../utils/context/AppWindowScrollContext';
+import { AppWindowScrollContext } from '../../common/context/AppWindowScrollContext';
 import JoinUs from '../join-us/JoinUs';
-import AppWindowScrollContextProvider from '../../utils/context/AppWindowScrollContext';
+import AppWindowScrollContextProvider from '../../common/context/AppWindowScrollContext';
 
 interface NavMenuModel extends NavMenuItem {
     component: () => JSX.Element;

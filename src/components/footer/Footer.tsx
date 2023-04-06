@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './assets/footer.module.scss';
-import { NavMenuItem } from '../../utils/interfaces/Contract';
+import { NavMenuItem } from '../../common/interfaces/Contract';
 import NavBarItem from '../navbar/components/NavBarItem';
 import IconLogo from '../../assets/icons/IconLogo';
 import FacebookIcon from '../../assets/icons/FacebookIcon';
@@ -8,7 +8,7 @@ import InstagramIcon from '../../assets/icons/InstagramIcon';
 import TikTokIcon from '../../assets/icons/TikTokIcon';
 import YouTubeIcon from '../../assets/icons/YouTubeIcon';
 import LinkedInIcon from '../../assets/icons/LinkedInIcon';
-import useWindowScroll from '../../utils/hooks/useWindowScroll';
+import useWindowScroll from '../../common/hooks/useWindowScroll';
 
 interface ISelfProps {
     menuItems: NavMenuItem[];

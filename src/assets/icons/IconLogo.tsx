@@ -1,5 +1,5 @@
 import React from 'react';
-import { AdvancedIconProps } from '../../utils/interfaces/Contract';
+import { AdvancedIconProps } from '../../common/interfaces/Contract';
 
 export default function IconLogo(props: AdvancedIconProps) {
     const height = props.size?.height ?? 42;
