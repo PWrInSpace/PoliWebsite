@@ -1,0 +1,47 @@
+@import '../../../../assets/styles/breakpoints.module';
+@import '../../../../assets/styles/fonts.module';
+@import '../../../../assets/styles/variables.module';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+
+  img {
+    width: 100%;
+    max-width: 190px;
+    height: auto;
+    max-height: 202px;
+    object-fit: contain;
+    margin-bottom: 0.625rem;
+  }
+
+  .title {
+    font-family: $alata;
+    font-size: 1.125rem;
+    color: #FFFFFF;
+    letter-spacing: 0.1rem;
+    margin-bottom: 5px;
+  }
+
+  .name {
+    font-family: $alata;
+    font-size: 1rem;
+    color: $mainBlue;
+    letter-spacing: 0.1rem;
+  }
+
+  .mail {
+    font-family: $alata;
+    font-size: 1rem;
+    color: #FFFFFF;
+    letter-spacing: 0.1rem;
+  }
+
+  .mail:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+}

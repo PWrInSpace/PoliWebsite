@@ -3,11 +3,10 @@ declare const classNames: {
   readonly kronaone: "kronaone";
   readonly alegreyasans: "alegreyasans";
   readonly mulish: "mulish";
-  readonly container: "container";
-  readonly background: "background";
-  readonly wrapper: "wrapper";
-  readonly header: "header";
-  readonly divider: "divider";
+  readonly mainblue: "mainblue";
+  readonly mainborder: "mainborder";
+  readonly mainfont: "mainfont";
+  readonly mainfontselected: "mainfontselected";
   readonly title: "title";
   readonly contactWrapper: "contactWrapper";
   readonly textWrapper: "textWrapper";
