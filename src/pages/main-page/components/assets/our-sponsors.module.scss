@@ -1,0 +1,37 @@
+@import '../../../../assets/styles/fonts.module';
+@import '../../../../assets/styles/breakpoints.module';
+@import '../../../../assets/styles/variables.module';
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+  @include breakpoint-lg {
+    grid-template-columns: 10% 80% 10%;
+  }
+
+  .sectionWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2 / 3;
+    margin: 6.25rem 0;
+
+    .sectionTitle {
+      font-family: $alata;
+      font-size: 1.5rem;
+      color: $mainFont;
+      letter-spacing: 0.25rem;
+      margin-bottom: 1.875rem;
+    }
+
+    .sectionDivider {
+      border: 0.5px solid $mainBorder;
+      width: 45%;
+    }
+  }
+}
