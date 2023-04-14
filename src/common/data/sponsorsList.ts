@@ -12,6 +12,7 @@ import symkom from '../../assets/images/sponsors/symkom.png';
 import ansys from '../../assets/images/sponsors/ansys.png';
 import scanway from '../../assets/images/sponsors/scanway.png';
 import satland from '../../assets/images/sponsors/satland.png';
+import mitutoyo from '../../assets/images/sponsors/mitutoyo.png';
 
 interface Image {
     src: File;
@@ -89,5 +90,10 @@ export const Images: Image[] = [
         src: satland,
         alt: 'Satland logo',
         webpage: 'https://www.prototypy.com/t/1,Strona_glowna'
+    },
+    {
+        src: mitutoyo,
+        alt: 'Mitutoyo logo',
+        webpage: 'https://mitutoyo.pl/pl_pl'
     }
 ];
