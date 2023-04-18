@@ -53,6 +53,7 @@ export default function AboutUs() {
                 <meta name="description" content={__('aboutUsPage.meta.description')}/>
                 <meta property="og:title" content={__('aboutUsPage.meta.title')}/>
                 <meta property="og:description" content={__('aboutUsPage.meta.description')}/>
+                <meta property="og:image" content={String(require('../../assets/images/about-us-page/image2.png'))}/>
             </Helmet>
             <SubpageWrapper title={__('aboutUsPage.header')}>
                 <>

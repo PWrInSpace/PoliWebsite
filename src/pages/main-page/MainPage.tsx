@@ -14,6 +14,7 @@ export default function MainPage() {
                 <meta name="description" content={__('mainPage.meta.description')}/>
                 <meta property="og:title" content={__('mainPage.meta.title')}/>
                 <meta property="og:description" content={__('mainPage.meta.description')}/>
+                <meta property="og:image" content={String(require('../../assets/images/about-us-page/image2.png'))}/>
             </Helmet>
             <LandingSection/>
             <AboutUsSection/>
