@@ -9,41 +9,32 @@ import HeadComponent from '../../components/head-component/HeadComponent';
 
 export default function AboutUs() {
     const createParagraph = () => {
-        return Paragraphs.map((paragraph, key) => {
-            if (paragraph.image.position === 'right') {
-                return (
-                    <div className={styles.paragraph} key={key}>
-                        <AboutUsParagraph
-                            title={__(paragraph.title)}
-                            subtitle={__(paragraph.subtitle)}
-                            text={__(paragraph.text)}
-                            wrapper={styles.firstWrapper}
-                        />
-                        <img
-                            src={String(paragraph.image.src)}
-                            alt={paragraph.image.alt}
-                            className={styles.paragraphImage}
-                        />
-                    </div>
-                );
-            } else if (paragraph.image.position === 'left') {
-                return (
-                    <div className={styles.paragraph} key={key}>
-                        <img
-                            src={String(paragraph.image.src)}
-                            alt={paragraph.image.alt}
-                            className={styles.paragraphImage}
-                        />
-                        <AboutUsParagraph
-                            title={__(paragraph.title)}
-                            subtitle={__(paragraph.subtitle)}
-                            text={__(paragraph.text)}
-                            wrapper={styles.secondWrapper}
-                        />
-                    </div>
-                );
-            }
-        });
+        return Paragraphs.map((paragraph, key) => (
+            <div className={styles.paragraph} key={key}>
+                { paragraph.image.position === 'left' ?
+                    <img
+                        src={String(paragraph.image.src)}
+                        alt={paragraph.image.alt}
+                        className={styles.paragraphImage}
+                    />
+                    : null
+                }
+                <AboutUsParagraph
+                    title={__(paragraph.title)}
+                    subtitle={__(paragraph.subtitle)}
+                    text={__(paragraph.text)}
+                    wrapper={ paragraph.image.position === 'right' ? styles.firstWrapper : styles.secondWrapper }
+                />
+                { paragraph.image.position === 'right' ?
+                    <img
+                        src={String(paragraph.image.src)}
+                        alt={paragraph.image.alt}
+                        className={styles.paragraphImage}
+                    />
+                    : null
+                }
+            </div>
+        ));
     };
 
     return (
