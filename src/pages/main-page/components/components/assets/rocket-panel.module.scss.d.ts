@@ -1,12 +1,12 @@
 declare const classNames: {
   readonly alata: "alata";
-  readonly kronaone: "kronaone";
-  readonly alegreyasans: "alegreyasans";
+  readonly kronaOne: "kronaOne";
+  readonly alegreyaSans: "alegreyaSans";
   readonly mulish: "mulish";
-  readonly mainblue: "mainblue";
-  readonly mainborder: "mainborder";
-  readonly mainfont: "mainfont";
-  readonly mainfontselected: "mainfontselected";
+  readonly mainBlue: "mainBlue";
+  readonly mainBorder: "mainBorder";
+  readonly mainFont: "mainFont";
+  readonly mainFontSelected: "mainFontSelected";
   readonly panelContainer: "panelContainer";
   readonly panelWrapper: "panelWrapper";
   readonly rocketTitle: "rocketTitle";
