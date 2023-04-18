@@ -9,18 +9,15 @@ import LocationComponent from './components/LocationComponent';
 import { Locations } from '../../common/data/locationList';
 import { Crew } from '../../common/data/contactCrew';
 import { SubpageWrapper } from '../../components/subpage-wrapper/SubpageWrapper';
-import { Helmet } from 'react-helmet';
+import HeadComponent from '../../components/head-component/HeadComponent';
 
 export default function ContactPage() {
     return(
-        <>
-            <Helmet>
-                <title>{__('contactPage.meta.title')}</title>
-                <meta name="description" content={__('contactPage.meta.description')}/>
-                <meta property="og:title" content={__('contactPage.meta.title')}/>
-                <meta property="og:description" content={__('contactPage.meta.description')}/>
-                <meta property="og:image" content={String(require('../../assets/images/about-us-page/image2.png'))}/>
-            </Helmet>
+        <HeadComponent
+            title={__('contactPage.meta.title')}
+            description={__('contactPage.meta.description')}
+            image={'../../assets/images/about-us-page/image2.png'}
+        >
             <SubpageWrapper title={__('contactPage.header')}>
                 <>
                     <div className={styles.title}>
@@ -81,6 +78,6 @@ export default function ContactPage() {
                     </div>
                 </>
             </SubpageWrapper>
-        </>
+        </HeadComponent>
     );
 }

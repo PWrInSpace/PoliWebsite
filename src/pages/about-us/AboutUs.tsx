@@ -5,7 +5,7 @@ import AboutUsParagraph from './components/AboutUsParagraph';
 import NumberContainerComponent from '../../components/number-container-component/NumberContainerComponent';
 import { Paragraphs } from '../../common/data/aboutParagraphList';
 import { SubpageWrapper } from '../../components/subpage-wrapper/SubpageWrapper';
-import { Helmet } from 'react-helmet';
+import HeadComponent from '../../components/head-component/HeadComponent';
 
 export default function AboutUs() {
     const createParagraph = () => {
@@ -47,14 +47,11 @@ export default function AboutUs() {
     };
 
     return (
-        <>
-            <Helmet>
-                <title>{__('aboutUsPage.meta.title')}</title>
-                <meta name="description" content={__('aboutUsPage.meta.description')}/>
-                <meta property="og:title" content={__('aboutUsPage.meta.title')}/>
-                <meta property="og:description" content={__('aboutUsPage.meta.description')}/>
-                <meta property="og:image" content={String(require('../../assets/images/about-us-page/image2.png'))}/>
-            </Helmet>
+        <HeadComponent
+            title={__('aboutUsPage.meta.title')}
+            description={__('aboutUsPage.meta.description')}
+            image={'../../assets/images/about-us-page/image2.png'}
+        >
             <SubpageWrapper title={__('aboutUsPage.header')}>
                 <>
                     <div>
@@ -73,6 +70,6 @@ export default function AboutUs() {
                     </div>
                 </>
             </SubpageWrapper>
-        </>
+        </HeadComponent>
     );
 }

@@ -4,22 +4,21 @@ import LandingSection from './components/LandingSection';
 import AboutUsSection from './components/AboutUsSection';
 import OurProjects from './components/OurProjects';
 import OurSponsors from './components/OurSponsors';
-import { Helmet } from 'react-helmet';
+import HeadComponent from '../../components/head-component/HeadComponent';
 
 export default function MainPage() {
     return (
-        <div className={styles.pageContainer}>
-            <Helmet>
-                <title>{__('mainPage.meta.title')}</title>
-                <meta name="description" content={__('mainPage.meta.description')}/>
-                <meta property="og:title" content={__('mainPage.meta.title')}/>
-                <meta property="og:description" content={__('mainPage.meta.description')}/>
-                <meta property="og:image" content={String(require('../../assets/images/about-us-page/image2.png'))}/>
-            </Helmet>
-            <LandingSection/>
-            <AboutUsSection/>
-            <OurProjects/>
-            <OurSponsors/>
-        </div>
+        <HeadComponent
+            title={__('mainPage.meta.title')}
+            description={__('mainPage.meta.description')}
+            image={'../../assets/images/about-us-page/image2.png'}
+        >
+            <div className={styles.pageContainer}>
+                <LandingSection/>
+                <AboutUsSection/>
+                <OurProjects/>
+                <OurSponsors/>
+            </div>
+        </HeadComponent>
     );
 }
