@@ -5,6 +5,7 @@ import AboutUsParagraph from './components/AboutUsParagraph';
 import NumberContainerComponent from '../../components/number-container-component/NumberContainerComponent';
 import { Paragraphs } from '../../common/data/aboutParagraphList';
 import { SubpageWrapper } from '../../components/subpage-wrapper/SubpageWrapper';
+import { Helmet } from 'react-helmet';
 
 export default function AboutUs() {
     const createParagraph = () => {
@@ -46,23 +47,31 @@ export default function AboutUs() {
     };
 
     return (
-        <SubpageWrapper title={__('aboutUsPage.header')}>
-            <>
-                <div>
-                    <div className={styles.firstIconCircle}>
-                        <IconCircle/>
+        <>
+            <Helmet>
+                <title>{__('aboutUsPage.meta.title')}</title>
+                <meta name="description" content={__('aboutUsPage.meta.description')}/>
+                <meta property="og:title" content={__('aboutUsPage.meta.title')}/>
+                <meta property="og:description" content={__('aboutUsPage.meta.description')}/>
+            </Helmet>
+            <SubpageWrapper title={__('aboutUsPage.header')}>
+                <>
+                    <div>
+                        <div className={styles.firstIconCircle}>
+                            <IconCircle/>
+                        </div>
+                        <div className={styles.secondIconCircle}>
+                            <IconCircle/>
+                        </div>
                     </div>
-                    <div className={styles.secondIconCircle}>
-                        <IconCircle/>
+                    {createParagraph()}
+                    <div className={styles.numbersContainer}>
+                        <NumberContainerComponent number={60} title={__('aboutUsPage.numbers.firstNumber')} />
+                        <NumberContainerComponent number={2017} title={__('aboutUsPage.numbers.secondNumber')} />
+                        <NumberContainerComponent number={12} title={__('aboutUsPage.numbers.thirdNumber')} />
                     </div>
-                </div>
-                {createParagraph()}
-                <div className={styles.numbersContainer}>
-                    <NumberContainerComponent number={60} title={__('aboutUsPage.numbers.firstNumber')} />
-                    <NumberContainerComponent number={2017} title={__('aboutUsPage.numbers.secondNumber')} />
-                    <NumberContainerComponent number={12} title={__('aboutUsPage.numbers.thirdNumber')} />
-                </div>
-            </>
-        </SubpageWrapper>
+                </>
+            </SubpageWrapper>
+        </>
     );
 }
