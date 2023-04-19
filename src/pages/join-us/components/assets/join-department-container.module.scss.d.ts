@@ -1,7 +1,7 @@
 declare const classNames: {
   readonly alata: "alata";
-  readonly kronaone: "kronaone";
-  readonly alegreyasans: "alegreyasans";
+  readonly kronaOne: "kronaOne";
+  readonly alegreyaSans: "alegreyaSans";
   readonly mulish: "mulish";
   readonly container: "container";
   readonly textWrapper: "textWrapper";

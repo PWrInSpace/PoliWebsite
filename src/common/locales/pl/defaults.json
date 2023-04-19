@@ -15,6 +15,10 @@
         "mailUs": "NAPISZ DO NAS MAILA!"
     },
     "mainPage": {
+        "meta": {
+            "title": "Strona główna - PWr In Space",
+            "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych."
+        },
         "landingSection": {
             "title": "PWR IN SPACE",
             "description": "Koło Naukowe Politechniki Wrocławskiej",
@@ -83,6 +87,10 @@
         }
     },
     "contactPage": {
+        "meta": {
+            "title": "Kontakt - PWr In Space",
+            "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Skontaktuj się z nami przez naszego maila lub social media!"
+        },
         "header": "KONTAKT",
         "title": "NAPISZ DO NAS!",
         "subtitle": "Skontaktuj się z nami przez naszego maila lub social media!",
@@ -95,9 +103,17 @@
         }
     },
     "sponsorsPage": {
+        "meta": {
+            "title": "Sponsorzy - PWr In Space",
+            "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych."
+        },
         "header": "SPONSORZY"
     },
     "aboutUsPage": {
+        "meta": {
+            "title": "O nas - PWr In Space",
+            "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych."
+        },
         "header": "O NAS",
         "firstParagraph": {
             "title": "INTRO",
@@ -116,6 +132,10 @@
         }
     },
     "joinUsPage": {
+        "meta": {
+            "title": "Dołącz do nas - PWr In Space",
+            "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych."
+        },
         "header": "DOŁĄCZ DO NAS",
         "departments": {
             "struktura": {
