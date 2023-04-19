@@ -72,7 +72,6 @@ function  AppComponent(props: AppComponentProps) {
                 </div>
             </HashRouter>
         </AppWindowScrollContextProvider>
-
     );
 }
 
