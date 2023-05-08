@@ -14,6 +14,7 @@ import scanway from '../../assets/images/sponsors/scanway.png';
 import satland from '../../assets/images/sponsors/satland.png';
 import mitutoyo from '../../assets/images/sponsors/mitutoyo.png';
 import wilhelm from '../../assets/images/sponsors/wilhelm.png';
+import ministerstwoEdukacjiNauki from '../../assets/images/sponsors/ministerstwo-edukacji-nauki.png';
 
 interface Image {
     src: File;
@@ -41,6 +42,11 @@ export const Images: Image[] = [
         src: manus,
         alt: 'Fundacja Manus przy Politechnice Wrocławskiej',
         webpage: 'https://manus.pl/'
+    },
+    {
+        src: ministerstwoEdukacjiNauki,
+        alt: 'Ministerstwo Edukacji i Nauki',
+        webpage: 'https://www.gov.pl/web/edukacja-i-nauka'
     },
     {
         src: airproducts,
