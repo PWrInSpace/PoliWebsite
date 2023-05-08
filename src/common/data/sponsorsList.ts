@@ -13,6 +13,7 @@ import ansys from '../../assets/images/sponsors/ansys.png';
 import scanway from '../../assets/images/sponsors/scanway.png';
 import satland from '../../assets/images/sponsors/satland.png';
 import mitutoyo from '../../assets/images/sponsors/mitutoyo.png';
+import wilhelm from '../../assets/images/sponsors/wilhelm.png';
 
 interface Image {
     src: File;
@@ -95,5 +96,10 @@ export const Images: Image[] = [
         src: mitutoyo,
         alt: 'Mitutoyo logo',
         webpage: 'https://mitutoyo.pl/pl_pl'
+    },
+    {
+        src: wilhelm,
+        alt: 'Wilhelm logo',
+        webpage: 'https://www.coindustry.pl/Maszyny-katalogowe-menu.html'
     }
 ];
