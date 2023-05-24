@@ -29,14 +29,14 @@ export const Images: Image[] = [
         webpage: 'https://pwr.edu.pl/'
     },
     {
-        src: w12n,
-        alt: 'Wydział Elektroniki, Fotoniki i Mikrosystemów Politechniki Wrocławskiej',
-        webpage: 'https://wefim.pwr.edu.pl/'
-    },
-    {
         src: w10,
         alt: 'Wydział Mechaniczny Politechniki Wrocławskiej',
         webpage: 'https://wm.pwr.edu.pl/'
+    },
+    {
+        src: w12n,
+        alt: 'Wydział Elektroniki, Fotoniki i Mikrosystemów Politechniki Wrocławskiej',
+        webpage: 'https://wefim.pwr.edu.pl/'
     },
     {
         src: manus,
