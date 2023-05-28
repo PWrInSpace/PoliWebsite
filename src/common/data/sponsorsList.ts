@@ -15,6 +15,7 @@ import satland from '../../assets/images/sponsors/satland.jpeg';
 import mitutoyo from '../../assets/images/sponsors/mitutoyo.png';
 import wilhelm from '../../assets/images/sponsors/wilhelm.png';
 import ministerstwoEdukacjiNauki from '../../assets/images/sponsors/ministerstwo-edukacji-nauki.png';
+import wurthelektronik from '../../assets/images/sponsors/wurthelektronik.png';
 
 interface Image {
     src: File;
@@ -107,5 +108,10 @@ export const Images: Image[] = [
         src: wilhelm,
         alt: 'Wilhelm logo',
         webpage: 'https://www.coindustry.pl/Maszyny-katalogowe-menu.html'
+    },
+    {
+        src: wurthelektronik,
+        alt: 'Wurth Elektronik logo',
+        webpage: 'https://www.we-online.com/'
     }
 ];
