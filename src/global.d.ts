@@ -6,6 +6,8 @@ declare module '*.scss' {
 declare module '*.svg';
 declare module '*.png';
 declare module '*.jpeg';
+declare module '*.jpg';
+declare module '*.mp4';
 
 interface ApplicationContext {
     baseUrl: string;
