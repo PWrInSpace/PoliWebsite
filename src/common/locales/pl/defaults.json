@@ -1,180 +1,180 @@
 {
-    "navbar": {
-        "home": "Strona główna",
-        "aboutUs": "O nas",
-        "awards": "Osiągnięcia",
-        "projects": "Projekty",
-        "departments": "Działy",
-        "team": "Zespół",
-        "joinUs": "Dołącz do nas",
-        "sponsors": "Sponsorzy",
-        "news": "Aktualności",
-        "contact": "Kontakt"
+  "navbar": {
+    "home": "Strona główna",
+    "aboutUs": "O nas",
+    "awards": "Osiągnięcia",
+    "projects": "Projekty",
+    "departments": "Działy",
+    "team": "Zespół",
+    "joinUs": "Dołącz do nas",
+    "sponsors": "Sponsorzy",
+    "news": "Aktualności",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "mailUs": "NAPISZ DO NAS MAILA!"
+  },
+  "mainPage": {
+    "meta": {
+      "title": "Strona główna - PWr In Space",
+      "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych."
     },
-    "footer": {
-        "mailUs": "NAPISZ DO NAS MAILA!"
+    "landingSection": {
+      "title": "PWR IN SPACE",
+      "description": "Koło Naukowe Wydziału Mechanicznego Politechniki Wrocławskiej",
+      "buttons": {
+        "projects": "KONTAKT Z NAMI",
+        "sponsors": "NASI SPONSORZY"
+      },
+      "numbers": {
+        "members": "CZŁONKÓW",
+        "year": "ROK ZAŁOŻENIA",
+        "starts": "STARTÓW"
+      }
     },
-    "mainPage": {
-        "meta": {
-            "title": "Strona główna - PWr In Space",
-            "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych."
+    "aboutUs": {
+      "header": "O NAS",
+      "text": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych. To nie tylko studencki konkurs, ale także konferencja naukowa i możliwość nawiązania znajomości z członkami drużyn z całego świata.",
+      "planet1": "ŁĄCZY",
+      "planet2": "NAS",
+      "planet3": "PASJA"
+    },
+    "ourProjects": {
+      "title": "NASZE PROJEKTY",
+      "rockets": {
+        "R1": {
+          "name": "MICRO",
+          "description": "Pierwsza rakieta stworzona przez koło. Konstrukcja była mieszanką kartonu z włóknem szklanym na korpusach i węglowym na lotkach. Głowica była stworzona przez drukarkę 3D. Celem tej rakiety była nauka tworzenia rakiet - projektowania, wykonywania oraz składania, z tego względu silnik został zakupiony."
         },
-        "landingSection": {
-            "title": "PWR IN SPACE",
-            "description": "Koło Naukowe Wydziału Mechanicznego Politechniki Wrocławskiej",
-            "buttons": {
-                "projects": "KONTAKT Z NAMI",
-                "sponsors": "NASI SPONSORZY"
-            },
-            "numbers": {
-                "members": "CZŁONKÓW",
-                "year": "ROK ZAŁOŻENIA",
-                "starts": "STARTÓW"
-            }
+        "R2": {
+          "name": "SETKA",
+          "description": "Rakieta testowa, stworzona z myślą o tanim i szybkim testowaniu komponentów do większej rakiety R3. Do rakiety został zaprojektowany oraz wykonany pierwszy silnik koła “Silnik A” o ciągu 450 N, długości 354 mm oraz średnicy 45 mm. W rakiecie testowane były różne systemy odzysku i elektroniczne."
         },
-        "aboutUs": {
-            "header": "O NAS",
-            "text": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych. To nie tylko studencki konkurs, ale także konferencja naukowa i możliwość nawiązania znajomości z członkami drużyn z całego świata.",
-            "planet1": "ŁĄCZY",
-            "planet2": "NAS",
-            "planet3": "PASJA"
+        "R3": {
+          "name": "DZIEWIĘĆDZIESIĄTKA DZIEWIĄTKA",
+          "description": "Pierwsza rakieta stworzona pod zawody Spaceport America Cup 2019. Rakieta wyposażona była w “Silnik B” - hybrydowy silnik rakietowy o ciągu 1600 N, którego utleniaczem był podtlenek azotu, a paliwem polipropylen. Został wykonany dwustopniowy system odzysku, dzięki któremu rakieta bezpiecznie wróciła na Ziemię, pozwalając drużynie zająć 5 miejsce z apogeum 4200 m."
         },
-        "ourProjects": {
-            "title": "NASZE PROJEKTY",
-            "rockets": {
-                "R1": {
-                    "name": "MICRO",
-                    "description": "Pierwsza rakieta stworzona przez koło. Konstrukcja była mieszanką kartonu z włóknem szklanym na korpusach i węglowym na lotkach. Głowica była stworzona przez drukarkę 3D. Celem tej rakiety była nauka tworzenia rakiet - projektowania, wykonywania oraz składania, z tego względu silnik został zakupiony."
-                },
-                "R2": {
-                    "name": "SETKA",
-                    "description": "Rakieta testowa, stworzona z myślą o tanim i szybkim testowaniu komponentów do większej rakiety R3. Do rakiety został zaprojektowany oraz wykonany pierwszy silnik koła “Silnik A” o ciągu 450 N, długości 354 mm oraz średnicy 45 mm. W rakiecie testowane były różne systemy odzysku i elektroniczne."
-                },
-                "R3": {
-                    "name": "DZIEWIĘĆDZIESIĄTKA DZIEWIĄTKA",
-                    "description": "Pierwsza rakieta stworzona pod zawody Spaceport America Cup 2019. Rakieta wyposażona była w “Silnik B” - hybrydowy silnik rakietowy o ciągu 1600 N, którego utleniaczem był podtlenek azotu, a paliwem polipropylen. Został wykonany dwustopniowy system odzysku, dzięki któremu rakieta bezpiecznie wróciła na Ziemię, pozwalając drużynie zająć 5 miejsce z apogeum 4200 m."
-                },
-                "R2S": {
-                    "name": "BLUE DRAGON",
-                    "description": "Kolejna rakieta testowa, oraz szansa dla nowych osób na naukę budowy rakiety od początku do końca. Konstrukcja bazowana na rakiecie R2, natomiast do stworzenia jej korpusów użyliśmy niewykorzystane korpusy zapasowe R3. Wyposażona w silnik na paliwo stałe, rakieta poleciała na wydarzeniu “Loty Rakiet Eksperymentalnych” organizowanych co roku przez Polskie Towarzystwo Rakietowe."
-                },
-                "R4S": {
-                    "name": "LYNX (testowa)",
-                    "description": "Rakieta testowa, stworzona aby testować moduły i rozwiązania do kolejnej rakiety R4. Rakieta pozwoliła na testy modułu aktywnej kontroli lotu ACS, jak również nowej elektroniki i systemu odzysku. Rakieta odbyła dwa loty - na LRE oraz Festiwalu Meteor."
-                },
-                "R4": {
-                    "name": "LYNX",
-                    "description": "Rakieta z silnikiem hybrydowym “Silnik C”, napędzanym na podtlenek azotu oraz żywicę epoksydową z aluminium. Lynx leciała na zawodach European Rocketry Challenge 2021 w Portugalii. Przy osiągnięciu apogeum około 2700 m drużyna zdobyła 2 miejsce w kategorii 3k Hybrid SRAD oraz nagrodę “Best Design” za najlepszą implementację projektu ze wszystkich drużyn na zawodach."
-                },
-                "R4V2": {
-                    "name": "PINK PANTHERA",
-                    "description": "Rakieta była ulepszeniem swojej poprzedniczki R4, dostając ten sam silnik hybrydowy. Zostały poprawione poprzednie błędy konstrukcyjne, a także zoptymalizowano rozwiązania. Rakieta brała udział w zawodach Spaceport America Cup 2022 w Nowym Meksyku, gdzie nasza drużyna zdobyła 2. miejsce w swojej kategorii 10k Hybrid, Liquid&Others."
-                },
-                "R5": {
-                    "name": "AURORA",
-                    "description": "[coming soon]"
-                },
-                "specs": {
-                    "length": "DŁUGOŚĆ RAKIETY",
-                    "thrust": "CIĄG RAKIETY",
-                    "weight": "WAGA RAKIETY",
-                    "velocity": "PRĘDKOŚĆ RAKIETY"
-                }
-            }
+        "R2S": {
+          "name": "BLUE DRAGON",
+          "description": "Kolejna rakieta testowa, oraz szansa dla nowych osób na naukę budowy rakiety od początku do końca. Konstrukcja bazowana na rakiecie R2, natomiast do stworzenia jej korpusów użyliśmy niewykorzystane korpusy zapasowe R3. Wyposażona w silnik na paliwo stałe, rakieta poleciała na wydarzeniu “Loty Rakiet Eksperymentalnych” organizowanych co roku przez Polskie Towarzystwo Rakietowe."
         },
-        "ourSponsors": {
-            "header": "NASI SPONSORZY"
+        "R4S": {
+          "name": "LYNX (testowa)",
+          "description": "Rakieta testowa, stworzona aby testować moduły i rozwiązania do kolejnej rakiety R4. Rakieta pozwoliła na testy modułu aktywnej kontroli lotu ACS, jak również nowej elektroniki i systemu odzysku. Rakieta odbyła dwa loty - na LRE oraz Festiwalu Meteor."
+        },
+        "R4": {
+          "name": "LYNX",
+          "description": "Rakieta z silnikiem hybrydowym “Silnik C”, napędzanym na podtlenek azotu oraz żywicę epoksydową z aluminium. Lynx leciała na zawodach European Rocketry Challenge 2021 w Portugalii. Przy osiągnięciu apogeum około 2700 m drużyna zdobyła 2 miejsce w kategorii 3k Hybrid SRAD oraz nagrodę “Best Design” za najlepszą implementację projektu ze wszystkich drużyn na zawodach."
+        },
+        "R4V2": {
+          "name": "PINK PANTHERA",
+          "description": "Rakieta była ulepszeniem swojej poprzedniczki R4, dostając ten sam silnik hybrydowy. Zostały poprawione poprzednie błędy konstrukcyjne, a także zoptymalizowano rozwiązania. Rakieta brała udział w zawodach Spaceport America Cup 2022 w Nowym Meksyku, gdzie nasza drużyna zdobyła 2. miejsce w swojej kategorii 10k Hybrid, Liquid&Others."
+        },
+        "R5": {
+          "name": "AURORA",
+          "description": "W Aurorze dokonano zmian w strukturze rakiety i jej butli, oraz zmodyfikowano system elektroniczny. Do tego przebudowany został główny komputer, oraz stworzona została całkiem nowa, 12-metrowa wyrzutnia. Rakieta brała udział w zawodach Spaceport America Cup 2023 w Nowym Meksyku, gdzie nasza drużyna zdobyła 2. miejsce w swojej kategorii 10k SRAD Hybrid."
+        },
+        "specs": {
+          "length": "DŁUGOŚĆ RAKIETY",
+          "thrust": "CIĄG RAKIETY",
+          "weight": "WAGA RAKIETY",
+          "velocity": "PRĘDKOŚĆ RAKIETY"
         }
+      }
     },
-    "contactPage": {
-        "meta": {
-            "title": "Kontakt - PWr In Space",
-            "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Skontaktuj się z nami przez naszego maila lub social media!"
-        },
-        "header": "KONTAKT",
-        "title": "NAPISZ DO NAS!",
-        "subtitle": "Skontaktuj się z nami przez naszego maila lub social media!",
-        "president": "Prezes Koła",
-        "prPresident": "Lider Marketingu",
-        "findUs": "GDZIE NAS ZNALEŹĆ?",
-        "locations": {
-            "workshop": "Nasz warsztat",
-            "location": "Nasza lokalizacja"
-        }
-    },
-    "sponsorsPage": {
-        "meta": {
-            "title": "Sponsorzy - PWr In Space",
-            "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych."
-        },
-        "header": "SPONSORZY"
-    },
-    "aboutUsPage": {
-        "meta": {
-            "title": "O nas - PWr In Space",
-            "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych."
-        },
-        "header": "O NAS",
-        "firstParagraph": {
-            "title": "INTRO",
-            "subtitle": "HISTORIA KOŁA",
-            "text": "Koło Naukowe “PWr in Space” powstało w 2017 roku, kiedy to kilkanaście osób połączyło wspólne zamiłowanie do kosmosu. Pierwszą rakietą wykonaną przez założycielski zespół była R1 Micro, która miała zaledwie 750 mm i 0,8 kg. Oprócz pracy technicznej wykonywanej w kole, studenci od początku działalności chętnie brali udział w konferencjach, warsztatach i szkoleniach, dzięki którym mieli okazję poznać nowe firmy, organizacje i ich nowoczesne rozwiązania produkcyjne. Dzięki zaangażowaniu członków koła, udało się zainteresować sponsorów i zachęcić ich do współpracy. Już po dwóch latach żmudnej pracy  i zdobywania potrzebnej wiedzy, udało nam się pojechać na pierwsze zawody Spaceport America Cup w Stanach Zjednoczonych, w których zajęliśmy 5. miejsce. Dla tak młodego zespołu było to ogromne wyróżnienie. Tak zaczęła się przygoda koła z zawodami i rywalizacją z drużynami z całego świata."
-        },
-        "secondParagraph": {
-            "title": "O NAS",
-            "subtitle": "KIM JESTEŚMY",
-            "text": "Obecnie w PWr in Space działa aktywnie kilkadziesiąt osób, realizując trzy projekty: PoliWRocket, PoliFloater i PoliPlane. Wykorzystują w nich nowoczesne technologie w zakresie oprogramowania, materiałów kompozytowych, druku 3D oraz spiekania materiałów. Koło naukowe wypracowało przez te kilka lat działalności innowacyjne rozwiązania, które doceniają sędziowie na międzynarodowych zawodach czy firmy z branży kosmicznej. Jest to m.in. silnik hybrydowy, system aktywnego sterowania trajektorią rakiety w locie czy zastosowanie nawijarki do wykonania brył obrotowych. Mimo, iż samo koło działa na Wydziale Mechanicznym, zrzesza studentów z całej Politechniki Wrocławskiej. Naszym najnowszym, a zarazem najbardziej ambitnym przedsięwzięciem była budowa rakiety R4 o napędzie hybrydowym, zdolnej do osiągnięcia apogeum 3048 metrów (10000 stóp) oraz wyniesienia ładunku o masie przynajmniej 4 kilogramów. Liczby te nie są przypadkowe, a odwołują się do konkurencji w której rakieta R4 startowała i odnosiła sukcesy, jak 3. miejsce na wspomnianym konkursie SAC 2021 czy nagroda za najlepszy design na konkursie EuRoC 2021. Wszystkie moduły i elementy rakiety, włącznie z silnikiem, elektroniką krytyczną, strukturą nośną czy modułem odzysku zostały przez nas starannie zaprojektowane i wykonane."
-        },
-        "numbers": {
-            "firstNumber": "CZŁONKÓW",
-            "secondNumber": "ROK ZAŁOŻENIA",
-            "thirdNumber": "STARTÓW"
-        }
-    },
-    "joinUsPage": {
-        "meta": {
-            "title": "Dołącz do nas - PWr In Space",
-            "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych."
-        },
-        "header": "DOŁĄCZ DO NAS",
-        "departments": {
-            "struktura": {
-                "header": "STRUKTURA NOŚNA",
-                "text": "Kogo szukamy: \n➡️ MŁODSZY SPECJALISTA DS. LAMINOWANIA KOMPOZYTÓW \nOpis pozycji:\n- praca na warsztacie, \n- laminowanie kompozytów węglowych i szklanych,\n- symulacje CFD,\n- modelowanie części w programach 3D. \n➡️ KONSTRUKTOR TUNELU AERODYNAMICZNEGO \nOpis pozycji:\n- praca na warsztacie,\n- podstawy mechaniki i elektroniki, \n- proste symulacje CFD, \n- umiejętność researchu.\n➡️ KONSTRUKTOR NAWIJARKI DO KOMPOZYTÓW \nOpis pozycji:\n- dokończenie i konfiguracja nawijarki do włókna węglowego."
-            },
-            "silniki": {
-                "header": "SILNIKI RAKIETOWE",
-                "text": "Kogo szukamy: \n➡️ PROJEKTANT ELEMENTÓW MECHANICZNYCH\nWymagania: \n- głowa na karku i samodzielność.\nOpis pozycji: \n- projektowanie elementów mechanicznych - od konceptu po obliczenia wytrzymałościowe i testy prototypów, \n- prace warsztatowe i wyjazdy w teren w celu przeprowadzenia testów statycznych.\nPrzydatne umiejętności: \n- obsługa programów CAD/CAM, \n- umiejętności warsztatowe, \n- podstawowa wiedza z wytrzymałości materiałów, technik wytwarzania, termodynamiki, \n- umiejętność tworzenia prostych skryptów np. w Python/MATLAB."
-            },
-            "pr": {
-                "header": "PR & MARKETING",
-                "text": "Kogo szukamy: \n➡️ COPYWRITER\n- prowadzenie social mediów, obserwowanie najnowszych trendów,\n- pisanie postów i tekstów promocyjnych,\n- kontakt z grafikiem, \n- prowadzenie kampanii marketingowych.\n➡️ CONTENT CREATOR \n- komunikatywność, charyzma, pomysłowość,\n- promocja marketingowa koła, szukanie sponsorów, obserwacja rynku, \n- publiczne wystąpienia, wywiady, prelekcje, prowadzenie spotkań,\n- tworzenie treści w mediach społecznościowych. \n➡️ GRAPHIC DESIGNER JUNIOR\n- umiejętność obróbki materiałów promocyjnych (zdjęć, filmów),\n- podstawowa znajomość edytorów graficznych (np. Photoshop, Figma),\n- kreatywność, wysoki poziom estetyki, dokładność, \n- chęć do tworzenia ciekawych treści.\nUwaga❗️Kandydaci do Działu PR & Marketing na 1. etapie rekrutacji mają inne zadanie niż działy techniczne."
-            },
-            "webdev": {
-                "header": "WEB DEVELOPMENT",
-                "text": "Kogo szukamy: \n➡️ JUNIOR WEB DEVELOPER \nWymagania: \n- podstawy JavaScript (React.js),\n- znajomość Gita i platformy GitHub,\n- chęć do nauki pisania stron internetowych."
-            },
-            "payload": {
-                "header": "PAYLOAD",
-                "text": "Kogo szukamy: \n➡️ MŁODSZY SPECJALISTA DS. ŁADUNKÓW BADAWCZYCH\n➡️ MŁODSZY KONSTRUKTOR LABSAT’ÓW"
-            },
-            "odzysk": {
-                "header": "ODZYSK",
-                "text": "Kogo szukamy: \n➡️ MŁODSZY SPECJALISTA KONSTRUKTOR \nWymagania: \n- doświadczenie z modelowaniem CAD/CAM, \n- podstawowa wiedza z zakresu technik wytwórczych (technologiczność projektowanych elementów).\n➡️ MŁODSZY SPECJALISTA MECHATRONIK\nWymagania:\n- znajomość z zakresu mechatroniki (z naciskiem na mechanikę i elektronikę),\n- umiejętność projektowania układów mechatronicznych, \n- mile widziane doświadczenie z pneumatyką.\n➡️ MŁODSZY SPECJALISTA DS. TECHNIK WYTWÓRCZYCH \nWymagania: \n- znajomość technik wytwórczych, \n- podstawowa znajomość zasad konstruowania części mechanicznych."
-            },
-            "elektronika": {
-                "header": "ELEKTRONIKA",
-                "text": "Kogo szukamy: \n➡️ EMBEDDED DEVELOPER \nWymagania:\n- programowanie mikrokontrolerów, \n- lutowanie, \n- projektowanie PCB.\n➡️ PROGRAMISTA JAVA \nWymagania:\n- programowanie obiektowe,\n- wzorce projektowe, \n- clean code. \nMile widziana znajomość innych technologii oraz umiejętność pracy z web development."
-            },
-            "acs": {
-                "header": "ACS",
-                "text": "Kogo szukamy: \n➡️ AUTOMATYK  \nOsoba chcąca zgłębiać informacje o: \n- systemach sterowania, \n- regulatorach PID,\n- filtrach.\nMile widziana znajomość zaawansowanej matematyki i fizyki."
-            },
-            "polifloater": {
-                "header": "POLIFLOATER",
-                "text": "Kogo szukamy: \n➡️ OSOBA DS. BUDOWY SONDY ATMOSFERYCZNEJ \nWymagania: \n- wiedza z obszaru krótkofalarstwa, \n- zainteresowanie balonami stratosferycznymi. \nMile widziana chęć zgłębiania tematu anten oraz różnych systemów bezprzewodowej komunikacji cyfrowej na duże odległości.\n"
-            }
-        },
-        "form": "FORMULARZ"
+    "ourSponsors": {
+      "header": "NASI SPONSORZY"
     }
+  },
+  "contactPage": {
+    "meta": {
+      "title": "Kontakt - PWr In Space",
+      "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Skontaktuj się z nami przez naszego maila lub social media!"
+    },
+    "header": "KONTAKT",
+    "title": "NAPISZ DO NAS!",
+    "subtitle": "Skontaktuj się z nami przez naszego maila lub social media!",
+    "president": "Prezes Koła",
+    "prPresident": "Lider Marketingu",
+    "findUs": "GDZIE NAS ZNALEŹĆ?",
+    "locations": {
+      "workshop": "Nasz warsztat",
+      "location": "Nasza lokalizacja"
+    }
+  },
+  "sponsorsPage": {
+    "meta": {
+      "title": "Sponsorzy - PWr In Space",
+      "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych."
+    },
+    "header": "SPONSORZY"
+  },
+  "aboutUsPage": {
+    "meta": {
+      "title": "O nas - PWr In Space",
+      "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych."
+    },
+    "header": "O NAS",
+    "firstParagraph": {
+      "title": "INTRO",
+      "subtitle": "HISTORIA KOŁA",
+      "text": "Koło Naukowe “PWr in Space” powstało w 2017 roku, kiedy to kilkanaście osób połączyło wspólne zamiłowanie do kosmosu. Pierwszą rakietą wykonaną przez założycielski zespół była R1 Micro, która miała zaledwie 750 mm i 0,8 kg. Oprócz pracy technicznej wykonywanej w kole, studenci od początku działalności chętnie brali udział w konferencjach, warsztatach i szkoleniach, dzięki którym mieli okazję poznać nowe firmy, organizacje i ich nowoczesne rozwiązania produkcyjne. Dzięki zaangażowaniu członków koła, udało się zainteresować sponsorów i zachęcić ich do współpracy. Już po dwóch latach żmudnej pracy  i zdobywania potrzebnej wiedzy, udało nam się pojechać na pierwsze zawody Spaceport America Cup w Stanach Zjednoczonych, w których zajęliśmy 5. miejsce. Dla tak młodego zespołu było to ogromne wyróżnienie. Tak zaczęła się przygoda koła z zawodami i rywalizacją z drużynami z całego świata."
+    },
+    "secondParagraph": {
+      "title": "O NAS",
+      "subtitle": "KIM JESTEŚMY",
+      "text": "Obecnie w PWr in Space działa aktywnie kilkadziesiąt osób, realizując trzy projekty: PoliWRocket, PoliFloater i PoliPlane. Wykorzystują w nich nowoczesne technologie w zakresie oprogramowania, materiałów kompozytowych, druku 3D oraz spiekania materiałów. Koło naukowe wypracowało przez te kilka lat działalności innowacyjne rozwiązania, które doceniają sędziowie na międzynarodowych zawodach czy firmy z branży kosmicznej. Jest to m.in. silnik hybrydowy, system aktywnego sterowania trajektorią rakiety w locie czy zastosowanie nawijarki do wykonania brył obrotowych. Mimo, iż samo koło działa na Wydziale Mechanicznym, zrzesza studentów z całej Politechniki Wrocławskiej. Naszym najnowszym, a zarazem najbardziej ambitnym przedsięwzięciem była budowa rakiety R4 o napędzie hybrydowym, zdolnej do osiągnięcia apogeum 3048 metrów (10000 stóp) oraz wyniesienia ładunku o masie przynajmniej 4 kilogramów. Liczby te nie są przypadkowe, a odwołują się do konkurencji w której rakieta R4 startowała i odnosiła sukcesy, jak 3. miejsce na wspomnianym konkursie SAC 2021 czy nagroda za najlepszy design na konkursie EuRoC 2021. Wszystkie moduły i elementy rakiety, włącznie z silnikiem, elektroniką krytyczną, strukturą nośną czy modułem odzysku zostały przez nas starannie zaprojektowane i wykonane."
+    },
+    "numbers": {
+      "firstNumber": "CZŁONKÓW",
+      "secondNumber": "ROK ZAŁOŻENIA",
+      "thirdNumber": "STARTÓW"
+    }
+  },
+  "joinUsPage": {
+    "meta": {
+      "title": "Dołącz do nas - PWr In Space",
+      "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych."
+    },
+    "header": "DOŁĄCZ DO NAS",
+    "departments": {
+      "struktura": {
+        "header": "STRUKTURA NOŚNA",
+        "text": "Kogo szukamy: \n➡️ MŁODSZY SPECJALISTA DS. LAMINOWANIA KOMPOZYTÓW \nOpis pozycji:\n- praca na warsztacie, \n- laminowanie kompozytów węglowych i szklanych,\n- symulacje CFD,\n- modelowanie części w programach 3D. \n➡️ KONSTRUKTOR TUNELU AERODYNAMICZNEGO \nOpis pozycji:\n- praca na warsztacie,\n- podstawy mechaniki i elektroniki, \n- proste symulacje CFD, \n- umiejętność researchu.\n➡️ KONSTRUKTOR NAWIJARKI DO KOMPOZYTÓW \nOpis pozycji:\n- dokończenie i konfiguracja nawijarki do włókna węglowego."
+      },
+      "silniki": {
+        "header": "SILNIKI RAKIETOWE",
+        "text": "Kogo szukamy: \n➡️ PROJEKTANT ELEMENTÓW MECHANICZNYCH\nWymagania: \n- głowa na karku i samodzielność.\nOpis pozycji: \n- projektowanie elementów mechanicznych - od konceptu po obliczenia wytrzymałościowe i testy prototypów, \n- prace warsztatowe i wyjazdy w teren w celu przeprowadzenia testów statycznych.\nPrzydatne umiejętności: \n- obsługa programów CAD/CAM, \n- umiejętności warsztatowe, \n- podstawowa wiedza z wytrzymałości materiałów, technik wytwarzania, termodynamiki, \n- umiejętność tworzenia prostych skryptów np. w Python/MATLAB."
+      },
+      "pr": {
+        "header": "PR & MARKETING",
+        "text": "Kogo szukamy: \n➡️ COPYWRITER\n- prowadzenie social mediów, obserwowanie najnowszych trendów,\n- pisanie postów i tekstów promocyjnych,\n- kontakt z grafikiem, \n- prowadzenie kampanii marketingowych.\n➡️ CONTENT CREATOR \n- komunikatywność, charyzma, pomysłowość,\n- promocja marketingowa koła, szukanie sponsorów, obserwacja rynku, \n- publiczne wystąpienia, wywiady, prelekcje, prowadzenie spotkań,\n- tworzenie treści w mediach społecznościowych. \n➡️ GRAPHIC DESIGNER JUNIOR\n- umiejętność obróbki materiałów promocyjnych (zdjęć, filmów),\n- podstawowa znajomość edytorów graficznych (np. Photoshop, Figma),\n- kreatywność, wysoki poziom estetyki, dokładność, \n- chęć do tworzenia ciekawych treści.\nUwaga❗️Kandydaci do Działu PR & Marketing na 1. etapie rekrutacji mają inne zadanie niż działy techniczne."
+      },
+      "webdev": {
+        "header": "WEB DEVELOPMENT",
+        "text": "Kogo szukamy: \n➡️ JUNIOR WEB DEVELOPER \nWymagania: \n- podstawy JavaScript (React.js),\n- znajomość Gita i platformy GitHub,\n- chęć do nauki pisania stron internetowych."
+      },
+      "payload": {
+        "header": "PAYLOAD",
+        "text": "Kogo szukamy: \n➡️ MŁODSZY SPECJALISTA DS. ŁADUNKÓW BADAWCZYCH\n➡️ MŁODSZY KONSTRUKTOR LABSAT’ÓW"
+      },
+      "odzysk": {
+        "header": "ODZYSK",
+        "text": "Kogo szukamy: \n➡️ MŁODSZY SPECJALISTA KONSTRUKTOR \nWymagania: \n- doświadczenie z modelowaniem CAD/CAM, \n- podstawowa wiedza z zakresu technik wytwórczych (technologiczność projektowanych elementów).\n➡️ MŁODSZY SPECJALISTA MECHATRONIK\nWymagania:\n- znajomość z zakresu mechatroniki (z naciskiem na mechanikę i elektronikę),\n- umiejętność projektowania układów mechatronicznych, \n- mile widziane doświadczenie z pneumatyką.\n➡️ MŁODSZY SPECJALISTA DS. TECHNIK WYTWÓRCZYCH \nWymagania: \n- znajomość technik wytwórczych, \n- podstawowa znajomość zasad konstruowania części mechanicznych."
+      },
+      "elektronika": {
+        "header": "ELEKTRONIKA",
+        "text": "Kogo szukamy: \n➡️ EMBEDDED DEVELOPER \nWymagania:\n- programowanie mikrokontrolerów, \n- lutowanie, \n- projektowanie PCB.\n➡️ PROGRAMISTA JAVA \nWymagania:\n- programowanie obiektowe,\n- wzorce projektowe, \n- clean code. \nMile widziana znajomość innych technologii oraz umiejętność pracy z web development."
+      },
+      "acs": {
+        "header": "ACS",
+        "text": "Kogo szukamy: \n➡️ AUTOMATYK  \nOsoba chcąca zgłębiać informacje o: \n- systemach sterowania, \n- regulatorach PID,\n- filtrach.\nMile widziana znajomość zaawansowanej matematyki i fizyki."
+      },
+      "polifloater": {
+        "header": "POLIFLOATER",
+        "text": "Kogo szukamy: \n➡️ OSOBA DS. BUDOWY SONDY ATMOSFERYCZNEJ \nWymagania: \n- wiedza z obszaru krótkofalarstwa, \n- zainteresowanie balonami stratosferycznymi. \nMile widziana chęć zgłębiania tematu anten oraz różnych systemów bezprzewodowej komunikacji cyfrowej na duże odległości.\n"
+      }
+    },
+    "form": "FORMULARZ"
+  }
 }

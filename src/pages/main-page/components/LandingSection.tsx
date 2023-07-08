@@ -7,7 +7,7 @@ import background from '../../../assets/images/backgrounds/background.mp4';
 import backgroundPlaceholder from '../../../assets/images/backgrounds/background-placeholder.jpg';
 
 export default function LandingSection() {
-    const [videoLoaded, setVideoLoaded] = React.useState(false);
+    const [videoLoaded, setVideoLoaded] = React.useState<boolean>(false);
 
     const scroll = () => {
         const section = document.querySelector( '#about-us' );
@@ -49,7 +49,7 @@ export default function LandingSection() {
                 <div className={styles.sectionNumberContainer}>
                     <NumberContainerComponent number={60} title={__('mainPage.landingSection.numbers.members')}/>
                     <NumberContainerComponent number={2017} title={__('mainPage.landingSection.numbers.year')}/>
-                    <NumberContainerComponent number={12} title={__('mainPage.landingSection.numbers.starts')}/>
+                    <NumberContainerComponent number={16} title={__('mainPage.landingSection.numbers.starts')}/>
                 </div>
                 <div className={styles.sectionArrow} onClick={scroll}>
                     <ArrowIcon size={'100%'}/>
