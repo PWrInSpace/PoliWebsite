@@ -1,6 +1,6 @@
-@import '../../../../../assets/styles/breakpoints.module';
-@import '../../../../../assets/styles/fonts.module';
-@import '../../../../../assets/styles/variables.module';
+@import "../../../../../assets/styles/breakpoints.module";
+@import "../../../../../assets/styles/fonts.module";
+@import "../../../../../assets/styles/variables.module";
 
 .specsWrapper {
   display: flex;
@@ -26,7 +26,7 @@
 
   .specsDivider {
     border: 0.5px solid $mainBorder;
-    width: 3.125rem;
+    min-width: 3.125rem;
 
     @include breakpoint-s {
       display: none;

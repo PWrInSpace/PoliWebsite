@@ -1,14 +1,14 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import styles from './assets/rocket-specs-wrapper.module.scss';
 
 interface IProps {
-    icon: JSX.Element;
-    text: string;
-    value: string;
+  icon: ReactElement;
+  text: string;
+  value: string;
 }
 
 export default function RocketSpecsWrapper(props: IProps) {
-    return(
+    return (
         <div className={styles.specsWrapper}>
             {props.icon}
             {props.text}

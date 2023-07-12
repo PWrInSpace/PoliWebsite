@@ -5,7 +5,7 @@ import SectionTitle from '../../../components/section-title/SectionTitle';
 import { Rockets } from '../../../common/data/rocketList';
 
 export default function OurProjects() {
-    const [selectedButton, setSelectedButton] = React.useState<string>('R4V2');
+    const [selectedButton, setSelectedButton] = React.useState<string>('R5');
 
     const handleButtonChange = (rocket) => {
         if (rocket === selectedButton) {

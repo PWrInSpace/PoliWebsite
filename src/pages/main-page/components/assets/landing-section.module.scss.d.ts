@@ -8,6 +8,8 @@ declare const classNames: {
   readonly mainFont: "mainFont";
   readonly mainFontSelected: "mainFontSelected";
   readonly sectionContainer: "sectionContainer";
+  readonly videoPlaceholder: "videoPlaceholder";
+  readonly sectionVideo: "sectionVideo";
   readonly sectionWrapper: "sectionWrapper";
   readonly sectionTitle: "sectionTitle";
   readonly sectionDescription: "sectionDescription";
