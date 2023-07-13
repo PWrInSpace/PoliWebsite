@@ -74,10 +74,10 @@ export const Rockets: rocket[] = [
     },
     {
         name: 'R5',
-        length: '??? MM',
-        thrust: '??? N',
-        weight: '??? KG',
-        velocity: '??? M/S',
+        length: '4110 MM',
+        thrust: '1241 N',
+        weight: '31.21 KG',
+        velocity: '152.3 M/S',
         image: r5
     }
 ];

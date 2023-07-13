@@ -16,6 +16,7 @@ import mitutoyo from '../../assets/images/sponsors/mitutoyo.png';
 import wilhelm from '../../assets/images/sponsors/wilhelm.png';
 import ministerstwoEdukacjiNauki from '../../assets/images/sponsors/ministerstwo-edukacji-nauki.png';
 import wurthelektronik from '../../assets/images/sponsors/wurthelektronik.png';
+import wenaproject from '../../assets/images/sponsors/wena-project.jpg';
 
 interface Image {
     src: File;
@@ -113,5 +114,10 @@ export const Images: Image[] = [
         src: wurthelektronik,
         alt: 'Wurth Elektronik logo',
         webpage: 'https://www.we-online.com/'
+    },
+    {
+        src: wenaproject,
+        alt: 'Wena Project logo',
+        webpage: 'https://www.facebook.com/people/Wena-Project/100060722259559/'
     }
 ];
