@@ -17,6 +17,7 @@ import wilhelm from '../../assets/images/sponsors/wilhelm.png';
 import ministerstwoEdukacjiNauki from '../../assets/images/sponsors/ministerstwo-edukacji-nauki.png';
 import wurthelektronik from '../../assets/images/sponsors/wurthelektronik.png';
 import wenaproject from '../../assets/images/sponsors/wena-project.jpg';
+import overleaf from '../../assets/images/sponsors/overleaf.png';
 
 interface Image {
     src: File;
@@ -119,5 +120,10 @@ export const Images: Image[] = [
         src: wenaproject,
         alt: 'Wena Project logo',
         webpage: 'https://www.facebook.com/people/Wena-Project/100060722259559/'
+    },
+    {
+        src: overleaf,
+        alt: 'Overleaf logo',
+        webpage: 'https://www.overleaf.com/'
     }
 ];
