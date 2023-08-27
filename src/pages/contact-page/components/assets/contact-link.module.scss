@@ -1,4 +1,4 @@
-@import '../../../../assets/styles/fonts.module';
+@import "../../../../assets/styles/fonts.module";
 
 .container {
   display: flex;
@@ -8,7 +8,7 @@
   font-family: $mulish;
   font-size: 1.125rem;
   letter-spacing: 0.1rem;
-  color: #FFFFFF;
+  color: #ffffff;
   overflow-wrap: anywhere;
 }
 

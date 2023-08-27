@@ -1,6 +1,6 @@
-@import '../../../../assets/styles/fonts.module';
-@import '../../../../assets/styles/breakpoints.module';
-@import '../../../../assets/styles/variables.module';
+@import "../../../../assets/styles/fonts.module";
+@import "../../../../assets/styles/breakpoints.module";
+@import "../../../../assets/styles/variables.module";
 
 .sectionContainer {
   display: grid;
@@ -8,7 +8,10 @@
   width: 100%;
   align-items: flex-start;
   justify-content: center;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../../../../assets/images/backgrounds/secondaryBackground.jpeg') top no-repeat;
+  background:
+    linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../../../../assets/images/backgrounds/secondaryBackground.jpeg") top
+      no-repeat;
   background-size: cover;
 
   @include breakpoint-lg {
@@ -34,7 +37,8 @@
   }
 }
 
-.sectionButton, .sectionButtonSelected {
+.sectionButton,
+.sectionButtonSelected {
   text-decoration: none;
   font-family: $alata;
   font-size: 1.125rem;

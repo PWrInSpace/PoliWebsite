@@ -1,4 +1,4 @@
-@import '../../../assets/styles/fonts.module';
+@import "../../../assets/styles/fonts.module";
 
 .container {
   display: flex;
@@ -11,13 +11,13 @@
   .title {
     font-family: $alata;
     font-size: 1.5rem;
-    color: #FFFFFF;
+    color: #ffffff;
     letter-spacing: 0.25rem;
     margin-bottom: 1.875rem;
   }
 
   .divider {
-    border: 0.5px solid #FFFFFF;
+    border: 0.5px solid #ffffff;
     width: 30%;
   }
 }
