@@ -4,7 +4,6 @@ import NavBar from '../../components/navbar/NavBar';
 import { NavMenuItem } from '../../common/interfaces/Contract';
 import MainPage from '../main-page/MainPage';
 import ReactCustomScrollbars, { positionValues } from 'react-custom-scrollbars-2';
-import localConfig from '../../../vite.local.config';
 import SocialMediaComponent from '../../components/social-media-component/SocialMediaComponent';
 import Footer from '../../components/footer/Footer';
 import ContactPage from '../contact-page/ContactPage';
@@ -18,8 +17,6 @@ import AppWindowScrollContextProvider from '../../common/context/AppWindowScroll
 interface NavMenuModel extends NavMenuItem {
     component: () => React.ReactElement;
 }
-
-const config = localConfig as any;
 
 interface AppComponentProps {
     getWindowScroll: () => positionValues;
