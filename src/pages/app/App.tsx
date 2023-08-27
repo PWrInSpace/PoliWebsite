@@ -16,7 +16,7 @@ import JoinUs from '../join-us/JoinUs';
 import AppWindowScrollContextProvider from '../../common/context/AppWindowScrollContext';
 
 interface NavMenuModel extends NavMenuItem {
-    component: () => JSX.Element;
+    component: () => React.ReactElement;
 }
 
 const config = localConfig as any;
@@ -26,8 +26,8 @@ interface AppComponentProps {
     setWindowScroll: (v: positionValues) => void;
 }
 
-function  AppComponent(props: AppComponentProps) {
-    const getNavMenuModel = (name: string, url: string, component: JSX.Element) : NavMenuModel =>  {
+function AppComponent(props: AppComponentProps) {
+    const getNavMenuModel = (name: string, url: string, component: React.ReactElement) : NavMenuModel =>  {
         return {
             name: name,
             url: url,
@@ -35,21 +35,11 @@ function  AppComponent(props: AppComponentProps) {
         };
     };
 
-    const DummyComp = () => {
-        return (
-            <div></div>
-        );
-    };
-
     const menuItems: NavMenuModel[] = [
         getNavMenuModel(__('navbar.home'), '/', <MainPage/>),
         getNavMenuModel(__('navbar.aboutUs'), '/about-us', <AboutUs/>),
-        // getNavMenuModel(__('navbar.awards'), '/awards', DummyComp()),
-        // getNavMenuModel(__('navbar.projects'), '/projects', DummyComp()),
-        // getNavMenuModel(__('navbar.departments'), '/departments', DummyComp()),
         getNavMenuModel(__('navbar.joinUs'), '/join-us', <JoinUs/>),
         getNavMenuModel(__('navbar.sponsors'), '/sponsors', <SponsorsPage/>),
-        // getNavMenuModel(__('navbar.news'), '/news', DummyComp()),
         getNavMenuModel(__('navbar.contact'), '/contact', <ContactPage/>),
     ];
 

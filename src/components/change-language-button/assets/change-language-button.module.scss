@@ -1,0 +1,17 @@
+@import '../../../assets/styles/breakpoints.module';
+@import '../../../assets/styles/fonts.module';
+
+.languageButton {
+  all: unset;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: $mulish;
+  font-size: 13px;
+  margin-left: 1.875rem;
+
+  @include breakpoint-md {
+    text-align: right;
+    padding: 8px 0;
+  }
+}
