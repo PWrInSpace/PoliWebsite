@@ -3,7 +3,7 @@ import styles from './assets/contact-link.module.scss';
 
 interface IProps {
     text: string;
-    icon: JSX.Element;
+    icon: React.ReactElement;
     onClick: () => void;
 }
 

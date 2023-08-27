@@ -3,7 +3,7 @@ import styles from './assets/subpage-wrapper.module.scss';
 import { SubpageTitle } from '../subpage-title/SubpageTitle';
 
 interface IProps {
-    children: JSX.Element;
+    children: React.ReactElement;
     title: string;
     bottomMargin?: boolean;
 }
