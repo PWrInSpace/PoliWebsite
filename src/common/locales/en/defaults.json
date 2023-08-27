@@ -49,11 +49,11 @@
         },
         "R2": {
           "name": "SETKA",
-          "description": "Meaning \"A hundred (100)\" in Polish, it was a test rocket designed for cheap and quick testing of components for the larger R3 rocket. The first PWr in Space's engine, \"Engine A,\" with a thrust of 450 N, a length of 354 mm and a diameter of 45 mm, was designed and manufactured for the rocket. Various recovery and electronic systems were tested during the rocket lifespan."
+          "description": "Meaning \"A hundred\" in Polish, it was a test rocket designed for cheap and quick testing of components for the larger R3 rocket. The first PWr in Space's engine, \"Engine A,\" with a thrust of 450 N, a length of 354 mm and a diameter of 45 mm, was designed and manufactured for the rocket. Various recovery and electronic systems were tested during the rocket lifespan."
         },
         "R3": {
           "name": "DZIEWIĘĆDZIESIĄTKA DZIEWIĄTKA",
-          "description": "The first rocket created for the 2019 Spaceport America Cup competition, the rocket was equipped with \"Engine B\". - hybrid rocket engine with a thrust of 1600 N, whose oxidizer was a nitrous oxide and fuel was a polypropylene. A two-stage recovery system was made, which enabled the rocket to return safely to Earth, allowing the team to take 5th place with an apogee of 4,200 meters. The name translates to \"Ninety Nine\" in Polish."
+          "description": "The first rocket created for the 2019 Spaceport America Cup competition, the rocket was equipped with \"Engine B\" - hybrid rocket engine with a thrust of 1600 N, whose oxidizer was a nitrous oxide and fuel was a polypropylene. A two-stage recovery system was made, which enabled the rocket to return safely to Earth, allowing the team to take 5th place with an apogee of 4,200 meters. The name translates to \"Ninety Nine\" in Polish."
         },
         "R2S": {
           "name": "BLUE DRAGON",

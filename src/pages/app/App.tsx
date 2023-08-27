@@ -13,6 +13,12 @@ import './assets/app.module.scss';
 import { AppWindowScrollContext } from '../../common/context/AppWindowScrollContext';
 import JoinUs from '../join-us/JoinUs';
 import AppWindowScrollContextProvider from '../../common/context/AppWindowScrollContext';
+import Cookies from 'js-cookie';
+import i18n from 'i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
+import en from '../../common/locales/en/defaults.json';
+import pl from '../../common/locales/pl/defaults.json';
+import localConfig from '../../../vite.local.config';
 
 interface NavMenuModel extends NavMenuItem {
     component: () => React.ReactElement;
@@ -21,6 +27,33 @@ interface NavMenuModel extends NavMenuItem {
 interface AppComponentProps {
     getWindowScroll: () => positionValues;
     setWindowScroll: (v: positionValues) => void;
+}
+
+function initi18n() {
+    const langCookieKey = 'i18next';
+    const storedLang = Cookies.get(langCookieKey) ?? 'pl';
+
+    i18n.use(LanguageDetector).init({
+        fallbackLng: 'pl',
+        resources: {
+            en: { translation: en },
+            pl: { translation: pl }
+        },
+        lng: storedLang,
+        detection: {
+            lookupCookie: langCookieKey,
+            caches: ['cookie'],
+            cookieMinutes: 60*24*30
+        }
+    });
+
+    window.__ = (str: string) => i18n.t(str);
+    window.classes = (...args: string[]) => args.join(' ');
+    if (!window.appContext) {
+        window.appContext = {
+            baseUrl: (localConfig as any).base ?? '/'
+        };
+    }
 }
 
 function AppComponent(props: AppComponentProps) {
@@ -41,8 +74,8 @@ function AppComponent(props: AppComponentProps) {
     ];
 
     const scrollContext = useContext(AppWindowScrollContext);
-
     const minHeight = CSS.supports('height', '100dvh') ? '100dvh' : '100vh';
+
     return (
         <AppWindowScrollContextProvider getWindowScroll={props.getWindowScroll}>
             <HashRouter>
@@ -64,6 +97,8 @@ function AppComponent(props: AppComponentProps) {
 
 function App() {
     const [windowScroll, setWindowScroll] = useState<positionValues>();
+
+    initi18n();
 
     return (
         <AppWindowScrollContextProvider getWindowScroll={() => windowScroll}>
