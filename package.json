@@ -29,7 +29,7 @@
         "@typescript-eslint/eslint-plugin": "^5.42.1",
         "@typescript-eslint/parser": "^5.42.1",
         "autoprefixer": "^9.8.0",
-        "axios": "^0.19.2",
+        "axios": "^1.5.0",
         "content-disposition": "^0.5.3",
         "cross-env": "^7.0.2",
         "cypress": "^11.0.1",
