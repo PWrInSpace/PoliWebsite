@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { DisplaySponsors } from '../../components/display-sponsors/DisplaySponsors';
 import { SubpageWrapper } from '../../components/subpage-wrapper/SubpageWrapper';
-import HeadComponent from '../../components/head-component/HeadComponent';
+import { HeadComponent } from '../../components/head-component/HeadComponent';
 
-export default function SponsorsPage() {
+export const SponsorsPage = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -19,4 +19,4 @@ export default function SponsorsPage() {
             </SubpageWrapper>
         </HeadComponent>
     );
-}
+};

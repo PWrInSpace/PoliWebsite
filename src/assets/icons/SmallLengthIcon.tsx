@@ -1,7 +1,7 @@
 import React from 'react';
 import { AdvancedIconProps } from '../../common/interfaces/SharedInterfaces';
 
-export default function SmallLengthIcon(props: AdvancedIconProps) {
+export const SmallLengthIcon = (props: AdvancedIconProps) => {
     const height = props.size?.height ?? 43;
     const width = props.size?.width ?? 29;
     const color = props.color ?? 'white';
@@ -14,4 +14,4 @@ export default function SmallLengthIcon(props: AdvancedIconProps) {
             <path d="M21.7977 43.3804H10.5374V46.6312H21.7977V43.3804Z" fill={color}/>
         </svg>
     );
-}
+};

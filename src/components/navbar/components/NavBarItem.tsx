@@ -8,7 +8,7 @@ interface ISelfProps {
     onClick?: () => void;
 }
 
-export default function NavBarItem(props: ISelfProps) {
+export const NavBarItem = (props: ISelfProps) => {
     return (
         <div>
             <NavLink 
@@ -21,4 +21,4 @@ export default function NavBarItem(props: ISelfProps) {
             </NavLink>
         </div>
     );
-}
+};

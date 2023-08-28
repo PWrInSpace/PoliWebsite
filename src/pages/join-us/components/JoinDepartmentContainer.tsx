@@ -8,7 +8,7 @@ interface IProps {
     onClick?: () => void;
 }
 
-export default function JoinDepartmentContainer(props: IProps){
+export const JoinDepartmentContainer = (props: IProps) => {
     return(
         <div className={styles.container}>
             <img src={props.image} alt="Join us image" className={styles.image} onClick={props.onClick}/>
@@ -22,4 +22,4 @@ export default function JoinDepartmentContainer(props: IProps){
             </div>
         </div>
     );
-}
+};

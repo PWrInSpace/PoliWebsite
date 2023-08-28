@@ -1,7 +1,7 @@
 import React from 'react';
 import { AdvancedIconPropsWithColor } from '../../common/interfaces/SharedInterfaces';
 
-export default function InstagramIcon(props: AdvancedIconPropsWithColor) {
+export const InstagramIcon = (props: AdvancedIconPropsWithColor) => {
     const width = props.size?.width ?? 33;
     const height = props.size?.height ?? 34;
     const color = props.color?.primaryColor ?? 'white';
@@ -22,4 +22,4 @@ export default function InstagramIcon(props: AdvancedIconPropsWithColor) {
             <path d="M12.6377 8.9724C10.4375 8.9724 8.64774 10.762 8.64774 12.9628V20.6861C8.64774 22.886 10.4375 24.6764 12.6377 24.6764H20.3622C22.5633 24.6764 24.354 22.886 24.354 20.6861V12.9628C24.354 10.762 22.5633 8.9724 20.3622 8.9724H12.6377ZM20.3622 26.4958H12.6377C9.43396 26.4958 6.82715 23.8894 6.82715 20.6861V12.9628C6.82715 9.75947 9.43396 7.153 12.6377 7.153H20.3622C23.5659 7.153 26.1736 9.75947 26.1736 12.9628V20.6861C26.1736 23.8894 23.5659 26.4958 20.3622 26.4958Z" fill={color}/>
         </svg>
     );
-}
+};

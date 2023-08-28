@@ -1,19 +1,19 @@
 import React from 'react';
 import styles from './footer.module.scss';
 import { NavMenuItem } from '../../common/interfaces/SharedInterfaces';
-import NavBarItem from '../navbar/components/NavBarItem';
-import IconLogo from '../../assets/icons/IconLogo';
-import FacebookIcon from '../../assets/icons/FacebookIcon';
-import InstagramIcon from '../../assets/icons/InstagramIcon';
-import TikTokIcon from '../../assets/icons/TikTokIcon';
-import YouTubeIcon from '../../assets/icons/YouTubeIcon';
-import LinkedInIcon from '../../assets/icons/LinkedInIcon';
+import { NavBarItem } from '../navbar/components/NavBarItem';
+import { IconLogo } from '../../assets/icons/IconLogo';
+import { FacebookIcon } from '../../assets/icons/FacebookIcon';
+import { InstagramIcon } from '../../assets/icons/InstagramIcon';
+import { TikTokIcon } from '../../assets/icons/TikTokIcon';
+import { YouTubeIcon } from '../../assets/icons/YouTubeIcon';
+import { LinkedInIcon } from '../../assets/icons/LinkedInIcon';
 
 interface ISelfProps {
     menuItems: NavMenuItem[];
 }
 
-export default function Footer(props: ISelfProps) {
+export const Footer = (props: ISelfProps) => {
     return(
         <footer className={styles.footerContainer}>
             <div className={styles.footerWrapper}>
@@ -56,4 +56,4 @@ export default function Footer(props: ISelfProps) {
             </div>
         </footer>
     );
-}
+};

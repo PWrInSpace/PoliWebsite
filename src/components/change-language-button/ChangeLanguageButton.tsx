@@ -3,7 +3,7 @@ import Cookies from 'js-cookie';
 import { changeLanguage } from 'i18next';
 import styles from './change-language-button.module.scss';
 
-export function ChangeLanguageButton() {
+export const ChangeLanguageButton = () => {
     const handleChangeLanguage = () => {
         const storedLang = Cookies.get('i18next') ?? 'pl';
 
@@ -19,4 +19,4 @@ export function ChangeLanguageButton() {
     return (
         <button onClick={handleChangeLanguage} className={styles.languageButton}>{__('navbar.language')}</button>
     );
-}
+};

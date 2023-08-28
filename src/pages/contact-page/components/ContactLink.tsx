@@ -7,11 +7,11 @@ interface IProps {
     onClick: () => void;
 }
 
-export default function ContactLink (props: IProps) {
+export const ContactLink = (props: IProps) => {
     return(
         <div className={styles.container} onClick={props.onClick}>
             {props.icon}
             {props.text}
         </div>
     );
-}
+};

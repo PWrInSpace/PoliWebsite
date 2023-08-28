@@ -7,7 +7,7 @@ interface IProps {
     map: string;
 }
 
-export default function LocationComponent(props: IProps) {
+export const LocationComponent = (props: IProps) => {
     const createText = () => {
         return props.text.map((line, key) => {
             return (
@@ -42,4 +42,4 @@ export default function LocationComponent(props: IProps) {
             </div>
         </div>
     );
-}
+};

@@ -1,17 +1,17 @@
 import React, { useEffect } from 'react';
 import styles from './contact-page.module.scss';
-import PersonPicture from './components/PersonPicture';
-import ContactLink from './components/ContactLink';
-import MailIcon from '../../assets/icons/MailIcon';
-import FacebookIcon from '../../assets/icons/FacebookIcon';
-import InstagramIcon from '../../assets/icons/InstagramIcon';
-import LocationComponent from './components/LocationComponent';
+import { PersonPicture } from './components/PersonPicture';
+import { ContactLink } from './components/ContactLink';
+import { MailIcon } from '../../assets/icons/MailIcon';
+import { FacebookIcon } from '../../assets/icons/FacebookIcon';
+import { InstagramIcon } from '../../assets/icons/InstagramIcon';
+import { LocationComponent } from './components/LocationComponent';
 import { Locations } from '../../common/data/locationList';
 import { Crew } from '../../common/data/contactCrew';
 import { SubpageWrapper } from '../../components/subpage-wrapper/SubpageWrapper';
-import HeadComponent from '../../components/head-component/HeadComponent';
+import { HeadComponent } from '../../components/head-component/HeadComponent';
 
-export default function ContactPage() {
+export const ContactPage = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -84,4 +84,4 @@ export default function ContactPage() {
             </SubpageWrapper>
         </HeadComponent>
     );
-}
+};

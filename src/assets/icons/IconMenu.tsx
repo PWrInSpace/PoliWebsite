@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconProps } from '../../common/interfaces/SharedInterfaces';
 
-export default function IconMenu(props: IconProps) {
+export const IconMenu = (props: IconProps) => {
     const size = props.size ?? 24;
     const color = props.color ?? 'black';
 
@@ -10,4 +10,4 @@ export default function IconMenu(props: IconProps) {
             <path d="M4 6H20M4 12H20M4 18H20" stroke={color} strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
         </svg>
     );
-}
+};

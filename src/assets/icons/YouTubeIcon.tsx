@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconPropsWithColor } from '../../common/interfaces/SharedInterfaces';
 
-export default function YouTubeIcon(props: IconPropsWithColor) {
+export const YouTubeIcon = (props: IconPropsWithColor) => {
     const size = props.size ?? 33;
     const color = props.color?.primaryColor ?? 'white';
     const secondaryColor = props.color?.secondaryColor ?? 'black';
@@ -19,4 +19,4 @@ export default function YouTubeIcon(props: IconPropsWithColor) {
             <path d="M19.7264 16.4189L15.2999 18.6088C15.1254 18.7021 14.5365 18.5769 14.5365 18.3795V13.8847C14.5365 13.6848 15.1309 13.5595 15.3045 13.6586L19.542 15.9635C19.7192 16.0646 19.9055 16.3209 19.7264 16.4189ZM25.5315 13.7774C25.5315 11.6468 23.8031 9.9176 21.6712 9.9176H11.7994C9.66742 9.9176 7.93896 11.6468 7.93896 13.7774V18.3706C7.93896 20.5031 9.66742 22.2305 11.7994 22.2305H21.6712C23.8031 22.2305 25.5315 20.5031 25.5315 18.3706V13.7774Z" fill={secondaryColor}/>
         </svg>
     );
-}
+};

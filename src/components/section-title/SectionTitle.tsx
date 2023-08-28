@@ -5,7 +5,7 @@ interface IProps {
     title: string;
 }
 
-export default function SectionTitle(props: IProps) {
+export const SectionTitle = (props: IProps) => {
     return (
         <div className={styles.container}>
             <div className={styles.title}>
@@ -14,4 +14,4 @@ export default function SectionTitle(props: IProps) {
             <div className={styles.divider}></div>
         </div>
     );
-}
+};

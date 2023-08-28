@@ -8,7 +8,7 @@ interface IProps {
     mail?: string;
 }
 
-export default function PersonPicture(props: IProps) {
+export const PersonPicture = (props: IProps) => {
     return(
         <div className={styles.container}>
             <img src={props.image} alt={props.name + ' profile picture'}/>
@@ -23,4 +23,4 @@ export default function PersonPicture(props: IProps) {
             </div>
         </div>
     );
-}
+};

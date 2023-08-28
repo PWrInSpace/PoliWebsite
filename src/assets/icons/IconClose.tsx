@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconProps } from '../../common/interfaces/SharedInterfaces';
 
-export default function IconClose(props: IconProps) {
+export const IconClose = (props: IconProps) => {
     const size = props.size ?? 24;
     const color = props.color ?? 'black';
 
@@ -11,4 +11,4 @@ export default function IconClose(props: IconProps) {
             <path d="M17.07 4.34L4.34 17.07l-1.41-1.41L15.66 2.93z"/>
         </svg>
     );
-}
+};

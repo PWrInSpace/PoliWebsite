@@ -1,12 +1,14 @@
 import React from 'react';
 import styles from './landing-section.module.scss';
-import ArrowIcon from '../../../assets/icons/ArrowIcon';
+import { ArrowIcon } from '../../../assets/icons/ArrowIcon';
 import { Link } from 'react-router-dom';
-import NumberContainerComponent from '../../../components/number-container-component/NumberContainerComponent';
+import {
+    NumberContainerComponent
+} from '../../../components/number-container-component/NumberContainerComponent';
 import background from '../../../assets/images/backgrounds/background.mp4';
 import backgroundPlaceholder from '../../../assets/images/backgrounds/background-placeholder.jpg';
 
-export default function LandingSection() {
+export const LandingSection = () => {
     const [videoLoaded, setVideoLoaded] = React.useState<boolean>(false);
 
     const scroll = () => {
@@ -57,4 +59,4 @@ export default function LandingSection() {
             </div>
         </div>
     );
-}
+};

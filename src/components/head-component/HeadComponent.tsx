@@ -8,7 +8,7 @@ interface IProps {
     image: string;
 }
 
-export default function HeadComponent(props: IProps) {
+export const HeadComponent = (props: IProps) => {
     return(
         <>
             <HelmetProvider>
@@ -23,4 +23,4 @@ export default function HeadComponent(props: IProps) {
             </HelmetProvider>
         </>
     );
-}
+};

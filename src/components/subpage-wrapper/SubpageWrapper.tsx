@@ -8,7 +8,7 @@ interface IProps {
     bottomMargin?: boolean;
 }
 
-export function SubpageWrapper(props: IProps) {
+export const SubpageWrapper = (props: IProps) => {
     return (
         <div className={classes(styles.container, props.bottomMargin && styles.bottomMargin)}>
             <div className={styles.background}></div>
@@ -18,4 +18,4 @@ export function SubpageWrapper(props: IProps) {
             </div>
         </div>
     );
-}
+};

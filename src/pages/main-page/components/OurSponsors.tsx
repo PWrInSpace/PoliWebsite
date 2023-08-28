@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './our-sponsors.module.scss';
 import { DisplaySponsors } from '../../../components/display-sponsors/DisplaySponsors';
 
-export default function OurSponsors() {
+export const OurSponsors = () => {
     return(
         <div className={styles.container}>
             <div className={styles.sectionWrapper}>
@@ -14,4 +14,4 @@ export default function OurSponsors() {
             </div>
         </div>
     );
-}
+};

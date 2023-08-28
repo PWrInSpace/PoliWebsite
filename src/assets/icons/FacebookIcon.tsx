@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconPropsWithColor } from '../../common/interfaces/SharedInterfaces';
 
-export default function FacebookIcon(props: IconPropsWithColor) {
+export const FacebookIcon = (props: IconPropsWithColor) => {
     const size = props.size ?? 33;
     const color = props.color?.primaryColor ?? 'white';
     const secondaryColor = props.color?.secondaryColor ?? 'black';
@@ -19,4 +19,4 @@ export default function FacebookIcon(props: IconPropsWithColor) {
             <path d="M22.9238 21.2652L23.655 16.4971H19.0793V13.402C19.0793 12.0974 19.7181 10.8254 21.7672 10.8254H23.849V6.76604C23.849 6.76604 21.9603 6.44338 20.1547 6.44338C16.3867 6.44338 13.9225 8.72719 13.9225 12.8621V16.4971H9.73389V21.2652H13.9225V32.7943C14.7628 32.9258 15.6237 32.9948 16.5013 32.9948C17.3781 32.9948 18.2389 32.9258 19.0793 32.7943V21.2652H22.9238" fill={color}/>
         </svg>
     );
-}
+};

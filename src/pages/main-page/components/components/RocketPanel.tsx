@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './rocket-panel.module.scss';
-import RocketSpecs from './RocketSpecs';
+import { RocketSpecs } from './RocketSpecs';
 
 interface IProps {
     rocket: string;
@@ -11,7 +11,7 @@ interface IProps {
     image: string;
 }
 
-export default function RocketPanel(props: IProps) {
+export const RocketPanel = (props: IProps) => {
     return(
         <div className={styles.panelContainer}>
             <div className={styles.panelWrapper}>
@@ -37,4 +37,4 @@ export default function RocketPanel(props: IProps) {
                 alt={props.rocket}/>
         </div>
     );
-}
+};

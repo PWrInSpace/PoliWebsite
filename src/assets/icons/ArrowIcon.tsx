@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconProps } from '../../common/interfaces/SharedInterfaces';
 
-export default function ArrowIcon(props: IconProps) {
+export const ArrowIcon = (props: IconProps) => {
     const size = props.size ?? 104;
 
     return (
@@ -10,4 +10,4 @@ export default function ArrowIcon(props: IconProps) {
             <path d="M52.2922 32.1348V72.4494M52.2922 72.4494L60.7641 63.9775M52.2922 72.4494L43.8203 63.9775" stroke="white" strokeWidth={1.5}/>
         </svg>
     );
-}
+};

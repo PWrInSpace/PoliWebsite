@@ -2,7 +2,7 @@ import React from 'react';
 import { Images } from '../../common/data/sponsorsList';
 import styles from './display-sponsors.module.scss';
 
-export function DisplaySponsors() {
+export const DisplaySponsors = () => {
     const createLogo = () => {
         return Images.map((logo, key) => {
             return (
@@ -22,4 +22,4 @@ export function DisplaySponsors() {
             {createLogo()}
         </div>
     );
-}
+};

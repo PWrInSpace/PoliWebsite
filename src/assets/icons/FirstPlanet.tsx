@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconProps } from '../../common/interfaces/SharedInterfaces';
 
-export default function FirstPlanet(props: IconProps) {
+export const FirstPlanet = (props: IconProps) => {
     const size = props.size ?? 101;
     const color = props.color ?? '#018EDF';
 
@@ -12,4 +12,4 @@ export default function FirstPlanet(props: IconProps) {
             </g>
         </svg>
     );
-}
+};

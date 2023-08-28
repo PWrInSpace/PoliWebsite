@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './about-us-section.module.scss';
-import FirstPlanet from '../../../assets/icons/FirstPlanet';
-import SecondPlanet from '../../../assets/icons/SecondPlanet';
-import ThirdPlanet from '../../../assets/icons/ThirdPlanet';
-import PlanetComponent from '../../about-us/components/PlanetComponent';
-import SectionTitle from '../../../components/section-title/SectionTitle';
+import { FirstPlanet } from '../../../assets/icons/FirstPlanet';
+import { SecondPlanet } from '../../../assets/icons/SecondPlanet';
+import { ThirdPlanet } from '../../../assets/icons/ThirdPlanet';
+import { PlanetComponent } from '../../about-us/components/PlanetComponent';
+import { SectionTitle } from '../../../components/section-title/SectionTitle';
 
-export default function AboutUsSection() {
+export const AboutUsSection = () => {
     return (
         <div className={styles.sectionContainer} id="about-us">
             <div className={styles.sectionWrapper}>
@@ -22,4 +22,4 @@ export default function AboutUsSection() {
             </div>
         </div>
     );
-}
+};

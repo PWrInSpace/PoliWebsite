@@ -7,7 +7,7 @@ interface IProps {
     title: string;
 }
 
-export default function NumberContainerComponent(props: IProps) {
+export const NumberContainerComponent = (props: IProps) => {
     return (
         <div className={classes(styles.sectionNumberTitle, props.customClasses ?? '')}>
             <div className={styles.sectionNumber}>
@@ -16,4 +16,4 @@ export default function NumberContainerComponent(props: IProps) {
             {props.title}
         </div>
     );
-}
+};

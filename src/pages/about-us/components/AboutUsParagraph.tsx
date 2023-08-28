@@ -8,7 +8,7 @@ interface IProps {
     wrapper: string;
 }
 
-export default function AboutUsParagraph(props: IProps) {
+export const AboutUsParagraph = (props: IProps) => {
     return(
         <div className={classes(styles.textWrapper, props.wrapper)}>
             <div className={styles.title}>
@@ -22,5 +22,5 @@ export default function AboutUsParagraph(props: IProps) {
             </div>
         </div>
     );
-}
+};
 

@@ -5,7 +5,7 @@ interface IProps {
     title: string;
 }
 
-export function SubpageTitle(props: IProps) {
+export const SubpageTitle = (props: IProps) => {
     return(
         <>
             <div className={styles.header}>
@@ -14,4 +14,4 @@ export function SubpageTitle(props: IProps) {
             <div className={styles.divider}></div>
         </>
     );
-}
+};

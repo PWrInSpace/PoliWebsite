@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './social-media-component.module.scss';
-import FacebookIcon from '../../assets/icons/FacebookIcon';
-import InstagramIcon from '../../assets/icons/InstagramIcon';
-import LinkedInIcon from '../../assets/icons/LinkedInIcon';
+import { FacebookIcon } from '../../assets/icons/FacebookIcon';
+import { InstagramIcon } from '../../assets/icons/InstagramIcon';
+import { LinkedInIcon } from '../../assets/icons/LinkedInIcon';
 
-export default function SocialMediaComponent() {
+export const SocialMediaComponent = () => {
     return(
         <div className={styles.socialMediaContainer}>
             <div className={styles.socialMediaWrapper}>
@@ -14,4 +14,4 @@ export default function SocialMediaComponent() {
             </div>
         </div>
     );
-}
+};

@@ -6,11 +6,11 @@ interface IProps {
     text: string;
 }
 
-export default function PlanetComponent(props: IProps) {
+export const PlanetComponent = (props: IProps) => {
     return (
         <div className={styles.planetContainer}>
             {props.icon}
             {props.text}
         </div>
     );
-}
+};

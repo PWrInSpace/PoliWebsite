@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconPropsWithColor } from '../../common/interfaces/SharedInterfaces';
 
-export default function MailIcon(props: IconPropsWithColor) {
+export const MailIcon = (props: IconPropsWithColor) => {
     const size = props.size ?? 32;
     const color = props.color?.primaryColor ?? 'white';
     const secondaryColor = props.color?.secondaryColor ?? 'black';
@@ -13,4 +13,4 @@ export default function MailIcon(props: IconPropsWithColor) {
             <path d="M6.91493 8.08294L14.3321 16.4982C14.7535 16.9766 15.3613 17.2506 15.9998 17.2506C16.6374 17.2506 17.2452 16.9766 17.6666 16.4982L24.9562 8.22853C25.0159 8.16071 25.0873 8.10736 25.1624 8.06486C24.8531 7.93012 24.513 7.85416 24.154 7.85416H7.84558C7.5019 7.85416 7.17451 7.92288 6.87695 8.04768C6.88961 8.05943 6.90317 8.06938 6.91493 8.08294Z" fill={secondaryColor}/>
         </svg>
     );
-}
+};

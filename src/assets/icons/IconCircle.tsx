@@ -1,7 +1,7 @@
 import React from 'react';
 import { AdvancedIconProps } from '../../common/interfaces/SharedInterfaces';
 
-export default function IconCircle(props: AdvancedIconProps) {
+export const IconCircle = (props: AdvancedIconProps) => {
     const height = props.size?.height ?? 1037;
     const width = props.size?.width ?? 1231;
     const color = props.color ?? 'white';
@@ -13,4 +13,4 @@ export default function IconCircle(props: AdvancedIconProps) {
             <path d="M1230.5 422C1230.5 761.379 955.156 1036.5 615.5 1036.5C275.844 1036.5 0.5 761.379 0.5 422C0.5 82.6214 275.844 -192.5 615.5 -192.5C955.156 -192.5 1230.5 82.6214 1230.5 422Z" stroke={color} strokeOpacity="0.15"/>
         </svg>
     );
-}
+};

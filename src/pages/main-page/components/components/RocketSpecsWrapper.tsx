@@ -7,7 +7,7 @@ interface IProps {
   value: string;
 }
 
-export default function RocketSpecsWrapper(props: IProps) {
+export const RocketSpecsWrapper = (props: IProps) => {
     return (
         <div className={styles.specsWrapper}>
             {props.icon}
@@ -16,4 +16,4 @@ export default function RocketSpecsWrapper(props: IProps) {
             <div className={styles.specsHighlight}>{props.value}</div>
         </div>
     );
-}
+};

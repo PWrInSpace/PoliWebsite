@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './our-projects.module.scss';
-import RocketPanel from './components/RocketPanel';
-import SectionTitle from '../../../components/section-title/SectionTitle';
+import { RocketPanel } from './components/RocketPanel';
+import { SectionTitle } from '../../../components/section-title/SectionTitle';
 import { Rockets } from '../../../common/data/rocketList';
 
-export default function OurProjects() {
+export const OurProjects = () => {
     const [selectedButton, setSelectedButton] = React.useState<string>('R5');
 
     const handleButtonChange = (rocket: string) => {
@@ -55,4 +55,4 @@ export default function OurProjects() {
             </div>
         </div>
     );
-}
+};

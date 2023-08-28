@@ -1,13 +1,15 @@
 import React, { useEffect } from 'react';
 import styles from './about-us.module.scss';
-import IconCircle from '../../assets/icons/IconCircle';
-import AboutUsParagraph from './components/AboutUsParagraph';
-import NumberContainerComponent from '../../components/number-container-component/NumberContainerComponent';
+import { IconCircle } from '../../assets/icons/IconCircle';
+import { AboutUsParagraph } from './components/AboutUsParagraph';
+import {
+    NumberContainerComponent
+} from '../../components/number-container-component/NumberContainerComponent';
 import { Paragraphs } from '../../common/data/aboutParagraphList';
 import { SubpageWrapper } from '../../components/subpage-wrapper/SubpageWrapper';
-import HeadComponent from '../../components/head-component/HeadComponent';
+import { HeadComponent } from '../../components/head-component/HeadComponent';
 
-export default function AboutUs() {
+export const AboutUs = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -67,4 +69,4 @@ export default function AboutUs() {
             </SubpageWrapper>
         </HeadComponent>
     );
-}
+};

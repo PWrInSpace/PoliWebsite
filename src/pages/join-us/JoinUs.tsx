@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import styles from './join-us.module.scss';
-import JoinDepartmentContainer from './components/JoinDepartmentContainer';
+import { JoinDepartmentContainer } from './components/JoinDepartmentContainer';
 import { Departments } from '../../common/data/departmentsList';
 import { SubpageWrapper } from '../../components/subpage-wrapper/SubpageWrapper';
-import HeadComponent from '../../components/head-component/HeadComponent';
+import { HeadComponent } from '../../components/head-component/HeadComponent';
 
-export default function JoinUs(){
+export const JoinUs = () => {
     const buttonVisible = false;
     const buttonLink = 'https://docs.google.com/forms/d/e/1FAIpQLSf-aeTqPVKXVolgZyAsSVKhb2wuBDK5Izzq-5-eBxqQi-xKTw/viewform';
 
@@ -47,4 +47,4 @@ export default function JoinUs(){
             </SubpageWrapper>
         </HeadComponent>
     );
-}
+};
