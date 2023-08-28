@@ -107,6 +107,11 @@ export const Images: Image[] = [
         webpage: 'https://mitutoyo.pl/pl_pl'
     },
     {
+        src: overleaf,
+        alt: 'Overleaf logo',
+        webpage: 'https://www.overleaf.com/'
+    },
+    {
         src: wilhelm,
         alt: 'Wilhelm logo',
         webpage: 'https://www.coindustry.pl/Maszyny-katalogowe-menu.html'
@@ -120,10 +125,5 @@ export const Images: Image[] = [
         src: wenaproject,
         alt: 'Wena Project logo',
         webpage: 'https://www.facebook.com/people/Wena-Project/100060722259559/'
-    },
-    {
-        src: overleaf,
-        alt: 'Overleaf logo',
-        webpage: 'https://www.overleaf.com/'
     }
 ];
