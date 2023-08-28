@@ -1,6 +1,9 @@
+import React from 'react';
+
 export interface NavMenuItem {
     name: string;
     url: string;
+    component: () => React.ReactElement;
 }
 
 interface BaseIconProps<T, U> {
