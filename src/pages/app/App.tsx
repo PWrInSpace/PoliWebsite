@@ -4,7 +4,6 @@ import NavBar from '../../components/navbar/NavBar';
 import { NavMenuItem } from '../../common/interfaces/Contract';
 import MainPage from '../main-page/MainPage';
 import ReactCustomScrollbars, { positionValues } from 'react-custom-scrollbars-2';
-import localConfig from '../../../vite.local.config';
 import SocialMediaComponent from '../../components/social-media-component/SocialMediaComponent';
 import Footer from '../../components/footer/Footer';
 import ContactPage from '../contact-page/ContactPage';
@@ -14,20 +13,51 @@ import './assets/app.module.scss';
 import { AppWindowScrollContext } from '../../common/context/AppWindowScrollContext';
 import JoinUs from '../join-us/JoinUs';
 import AppWindowScrollContextProvider from '../../common/context/AppWindowScrollContext';
+import Cookies from 'js-cookie';
+import i18n from 'i18next';
+import LanguageDetector from 'i18next-browser-languagedetector';
+import en from '../../common/locales/en/defaults.json';
+import pl from '../../common/locales/pl/defaults.json';
+import localConfig from '../../../vite.local.config';
 
 interface NavMenuModel extends NavMenuItem {
-    component: () => JSX.Element;
+    component: () => React.ReactElement;
 }
-
-const config = localConfig as any;
 
 interface AppComponentProps {
     getWindowScroll: () => positionValues;
     setWindowScroll: (v: positionValues) => void;
 }
 
-function  AppComponent(props: AppComponentProps) {
-    const getNavMenuModel = (name: string, url: string, component: JSX.Element) : NavMenuModel =>  {
+function initi18n() {
+    const langCookieKey = 'i18next';
+    const storedLang = Cookies.get(langCookieKey) ?? 'pl';
+
+    i18n.use(LanguageDetector).init({
+        fallbackLng: 'pl',
+        resources: {
+            en: { translation: en },
+            pl: { translation: pl }
+        },
+        lng: storedLang,
+        detection: {
+            lookupCookie: langCookieKey,
+            caches: ['cookie'],
+            cookieMinutes: 60*24*30
+        }
+    });
+
+    window.__ = (str: string) => i18n.t(str);
+    window.classes = (...args: string[]) => args.join(' ');
+    if (!window.appContext) {
+        window.appContext = {
+            baseUrl: (localConfig as any).base ?? '/'
+        };
+    }
+}
+
+function AppComponent(props: AppComponentProps) {
+    const getNavMenuModel = (name: string, url: string, component: React.ReactElement) : NavMenuModel =>  {
         return {
             name: name,
             url: url,
@@ -35,27 +65,17 @@ function  AppComponent(props: AppComponentProps) {
         };
     };
 
-    const DummyComp = () => {
-        return (
-            <div></div>
-        );
-    };
-
     const menuItems: NavMenuModel[] = [
         getNavMenuModel(__('navbar.home'), '/', <MainPage/>),
         getNavMenuModel(__('navbar.aboutUs'), '/about-us', <AboutUs/>),
-        // getNavMenuModel(__('navbar.awards'), '/awards', DummyComp()),
-        // getNavMenuModel(__('navbar.projects'), '/projects', DummyComp()),
-        // getNavMenuModel(__('navbar.departments'), '/departments', DummyComp()),
         getNavMenuModel(__('navbar.joinUs'), '/join-us', <JoinUs/>),
         getNavMenuModel(__('navbar.sponsors'), '/sponsors', <SponsorsPage/>),
-        // getNavMenuModel(__('navbar.news'), '/news', DummyComp()),
         getNavMenuModel(__('navbar.contact'), '/contact', <ContactPage/>),
     ];
 
     const scrollContext = useContext(AppWindowScrollContext);
-
     const minHeight = CSS.supports('height', '100dvh') ? '100dvh' : '100vh';
+
     return (
         <AppWindowScrollContextProvider getWindowScroll={props.getWindowScroll}>
             <HashRouter>
@@ -77,6 +97,8 @@ function  AppComponent(props: AppComponentProps) {
 
 function App() {
     const [windowScroll, setWindowScroll] = useState<positionValues>();
+
+    initi18n();
 
     return (
         <AppWindowScrollContextProvider getWindowScroll={() => windowScroll}>

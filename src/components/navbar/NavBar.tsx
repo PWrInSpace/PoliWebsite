@@ -7,6 +7,7 @@ import IconMenu from '../../assets/icons/IconMenu';
 import IconClose from '../../assets/icons/IconClose';
 import SocialMediaComponentNoBackground from '../social-media-component/SocialMediaComponentNoBackground';
 import useWindowScroll from '../../common/hooks/useWindowScroll';
+import { ChangeLanguageButton } from '../change-language-button/ChangeLanguageButton';
 
 interface ISelfProps {
     menuItems: NavMenuItem[];
@@ -17,8 +18,10 @@ export default function NavBar(props: ISelfProps) {
     const [scrollPosition, scrollApi] = useWindowScroll();
 
     const scrollToTop = () => {
-        scrollApi.scrollToTop();
-        setMenuOpen(false);
+        if (scrollApi) {
+            scrollApi.scrollToTop();
+            setMenuOpen(false);
+        }
     };
 
     return (
@@ -33,6 +36,7 @@ export default function NavBar(props: ISelfProps) {
                         {menuOpen && <IconClose color='white' size={42}/>}
                     </div>
                     {props.menuItems.map((item, key) => <NavBarItem item={item} key={key} onClick={() => scrollToTop()}/>)}
+                    <ChangeLanguageButton/>
                     {menuOpen && <SocialMediaComponentNoBackground/>}
                 </div>
             </div>

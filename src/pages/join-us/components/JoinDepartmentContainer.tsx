@@ -17,7 +17,7 @@ export default function JoinDepartmentContainer(props: IProps){
                     {props.header}
                 </div>
                 <div className={styles.text}>
-                    {props.text.split('\n').map(line => <p>{line}</p>)}
+                    {props.text.split('\n').map((line, key) => <p key={key}>{line}</p>)}
                 </div>
             </div>
         </div>

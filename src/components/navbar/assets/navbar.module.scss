@@ -24,7 +24,8 @@ $menuBackground: rgba(0, 0, 0, 0.9);
 
     @include breakpoint-md {
         .linksHidden {
-            * > a {
+            * > a,
+            button {
                display: none;
                height: 0;
             }
@@ -42,7 +43,8 @@ $menuBackground: rgba(0, 0, 0, 0.9);
 
     @include breakpoint-md {
         .linksHidden {
-            * > a {
+            * > a,
+            button {
                display: none;
                height: 0;
             }

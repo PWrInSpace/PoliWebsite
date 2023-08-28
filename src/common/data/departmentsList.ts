@@ -16,13 +16,13 @@ interface department {
 
 export const Departments: department[] = [
     {
-        header: 'joinUsPage.departments.struktura.header',
-        text: 'joinUsPage.departments.struktura.text',
+        header: 'joinUsPage.departments.airframe.header',
+        text: 'joinUsPage.departments.airframe.text',
         image: struktura
     },
     {
-        header: 'joinUsPage.departments.silniki.header',
-        text: 'joinUsPage.departments.silniki.text',
+        header: 'joinUsPage.departments.engines.header',
+        text: 'joinUsPage.departments.engines.text',
         image: silniki
     },
     {
@@ -31,13 +31,13 @@ export const Departments: department[] = [
         image: pr
     },
     {
-        header: 'joinUsPage.departments.odzysk.header',
-        text: 'joinUsPage.departments.odzysk.text',
+        header: 'joinUsPage.departments.recovery.header',
+        text: 'joinUsPage.departments.recovery.text',
         image: odzysk
     },
     {
-        header: 'joinUsPage.departments.elektronika.header',
-        text: 'joinUsPage.departments.elektronika.text',
+        header: 'joinUsPage.departments.electronics.header',
+        text: 'joinUsPage.departments.electronics.text',
         image: elektronika
     },
     {
