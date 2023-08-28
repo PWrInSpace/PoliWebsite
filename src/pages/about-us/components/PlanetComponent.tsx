@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './assets/planet-component.module.scss';
 
 interface IProps {
-    icon: JSX.Element;
+    icon: React.ReactElement;
     text: string;
 }
 

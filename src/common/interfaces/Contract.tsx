@@ -6,7 +6,6 @@ export interface NavMenuItem {
 interface BaseIconProps<T, U> {
     size?: T;
     color?: U;
-    onClick?: () => void;
 }
 
 interface IconSize {

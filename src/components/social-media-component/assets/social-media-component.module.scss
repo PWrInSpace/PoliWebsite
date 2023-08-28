@@ -4,7 +4,7 @@
   position: fixed;
   z-index: 999;
   width: 58px;
-  height: 103px;
+  height: 140px;
   background: #FFF;
   left: calc(100% - 58px);
   top: 74px;
@@ -18,7 +18,7 @@
   .socialMediaWrapper {
     display: flex;
     flex-direction: column;
-    height: 93px;
+    height: 90%;
     justify-content: space-around;
     align-items: center;
   }

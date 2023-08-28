@@ -11,7 +11,8 @@
   @include breakpoint-md {
     display: flex;
     flex-direction: column;
-    height: 90px;
+    height: 130px;
+    padding: 1rem 0;
     justify-content: space-around;
     margin-right: 5px;
   }
