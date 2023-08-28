@@ -1,5 +1,5 @@
 import React from 'react';
-import { AdvancedIconProps } from '../../common/interfaces/Contract';
+import { AdvancedIconProps } from '../../common/interfaces/SharedInterfaces';
 
 export default function SmallWeightIcon(props: AdvancedIconProps) {
     const height = props.size?.height ?? 33;

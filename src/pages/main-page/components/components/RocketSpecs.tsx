@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './assets/rocket-specs.module.scss';
+import styles from './rocket-specs.module.scss';
 import SmallLengthIcon from '../../../../assets/icons/SmallLengthIcon';
 import SmallThrustIcon from '../../../../assets/icons/SmallThrustIcon';
 import SmallVelocityIcon from '../../../../assets/icons/SmallVelocityIcon';

@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import styles from './assets/rocket-specs-wrapper.module.scss';
+import styles from './rocket-specs-wrapper.module.scss';
 
 interface IProps {
   icon: ReactElement;

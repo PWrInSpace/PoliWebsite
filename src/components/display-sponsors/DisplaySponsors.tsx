@@ -1,6 +1,6 @@
 import React from 'react';
 import { Images } from '../../common/data/sponsorsList';
-import styles from './assets/display-sponsors.module.scss';
+import styles from './display-sponsors.module.scss';
 
 export function DisplaySponsors() {
     const createLogo = () => {

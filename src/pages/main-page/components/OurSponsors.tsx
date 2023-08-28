@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './assets/our-sponsors.module.scss';
+import styles from './our-sponsors.module.scss';
 import { DisplaySponsors } from '../../../components/display-sponsors/DisplaySponsors';
 
 export default function OurSponsors() {

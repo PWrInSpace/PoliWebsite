@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './assets/social-media-component.module.scss';
+import styles from './social-media-component.module.scss';
 import FacebookIcon from '../../assets/icons/FacebookIcon';
 import InstagramIcon from '../../assets/icons/InstagramIcon';
 import LinkedInIcon from '../../assets/icons/LinkedInIcon';

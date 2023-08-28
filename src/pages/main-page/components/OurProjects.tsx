@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './assets/our-projects.module.scss';
+import styles from './our-projects.module.scss';
 import RocketPanel from './components/RocketPanel';
 import SectionTitle from '../../../components/section-title/SectionTitle';
 import { Rockets } from '../../../common/data/rocketList';

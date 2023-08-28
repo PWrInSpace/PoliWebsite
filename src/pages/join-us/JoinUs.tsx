@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import styles from './assets/join-us.module.scss';
+import styles from './join-us.module.scss';
 import JoinDepartmentContainer from './components/JoinDepartmentContainer';
 import { Departments } from '../../common/data/departmentsList';
 import { SubpageWrapper } from '../../components/subpage-wrapper/SubpageWrapper';

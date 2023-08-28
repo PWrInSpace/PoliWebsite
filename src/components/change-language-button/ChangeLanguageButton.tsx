@@ -1,7 +1,7 @@
 import React from 'react';
 import Cookies from 'js-cookie';
 import { changeLanguage } from 'i18next';
-import styles from './assets/change-language-button.module.scss';
+import styles from './change-language-button.module.scss';
 
 export function ChangeLanguageButton() {
     const handleChangeLanguage = () => {

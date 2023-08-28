@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { NavMenuItem } from 'src/common/interfaces/Contract';
+import { NavMenuItem } from 'src/common/interfaces/SharedInterfaces';
 import IconLogo from '../../assets/icons/IconLogo';
 import NavBarItem from './components/NavBarItem';
-import styles from './assets/navbar.module.scss';
+import styles from './navbar.module.scss';
 import IconMenu from '../../assets/icons/IconMenu';
 import IconClose from '../../assets/icons/IconClose';
 import SocialMediaComponentNoBackground from '../social-media-component/SocialMediaComponentNoBackground';

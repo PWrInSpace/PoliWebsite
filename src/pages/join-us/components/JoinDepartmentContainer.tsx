@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './assets/join-department-container.module.scss';
+import styles from './join-department-container.module.scss';
 
 interface IProps {
     image: string;

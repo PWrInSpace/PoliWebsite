@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './assets/landing-section.module.scss';
+import styles from './landing-section.module.scss';
 import ArrowIcon from '../../../assets/icons/ArrowIcon';
 import { Link } from 'react-router-dom';
 import NumberContainerComponent from '../../../components/number-container-component/NumberContainerComponent';

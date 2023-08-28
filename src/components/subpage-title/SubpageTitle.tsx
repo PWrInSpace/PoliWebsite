@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './assets/subpage-title.module.scss';
+import styles from './subpage-title.module.scss';
 
 interface IProps {
     title: string;

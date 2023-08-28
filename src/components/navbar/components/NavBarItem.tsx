@@ -1,7 +1,7 @@
 import React from 'react';
-import { NavMenuItem } from 'src/common/interfaces/Contract';
+import { NavMenuItem } from 'src/common/interfaces/SharedInterfaces';
 import { NavLink } from 'react-router-dom';
-import styles from './assets/navbar-item.module.scss';
+import styles from './navbar-item.module.scss';
 
 interface ISelfProps {
     item: NavMenuItem;

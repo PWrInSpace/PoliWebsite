@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import styles from './assets/main-page.module.scss';
+import styles from './main-page.module.scss';
 import LandingSection from './components/LandingSection';
 import AboutUsSection from './components/AboutUsSection';
 import OurProjects from './components/OurProjects';

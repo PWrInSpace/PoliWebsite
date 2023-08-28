@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './assets/location-component.module.scss';
+import styles from './location-component.module.scss';
 
 interface IProps {
     header: string;

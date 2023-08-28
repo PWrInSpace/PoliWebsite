@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconProps } from '../../common/interfaces/Contract';
+import { IconProps } from '../../common/interfaces/SharedInterfaces';
 
 export default function ArrowIcon(props: IconProps) {
     const size = props.size ?? 104;

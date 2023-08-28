@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './assets/rocket-panel.module.scss';
+import styles from './rocket-panel.module.scss';
 import RocketSpecs from './RocketSpecs';
 
 interface IProps {

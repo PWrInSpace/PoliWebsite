@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './assets/contact-link.module.scss';
+import styles from './contact-link.module.scss';
 
 interface IProps {
     text: string;

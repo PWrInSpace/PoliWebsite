@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import styles from './assets/contact-page.module.scss';
-import PersonPicture from './components/assets/PersonPicture';
+import styles from './contact-page.module.scss';
+import PersonPicture from './components/PersonPicture';
 import ContactLink from './components/ContactLink';
 import MailIcon from '../../assets/icons/MailIcon';
 import FacebookIcon from '../../assets/icons/FacebookIcon';

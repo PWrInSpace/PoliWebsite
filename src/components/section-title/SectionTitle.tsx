@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './assets/section-title.module.scss';
+import styles from './section-title.module.scss';
 
 interface IProps {
     title: string;

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './assets/number-container-component.module.scss';
+import styles from './number-container-component.module.scss';
 
 interface IProps {
     customClasses?: string;

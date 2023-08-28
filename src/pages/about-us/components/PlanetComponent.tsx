@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './assets/planet-component.module.scss';
+import styles from './planet-component.module.scss';
 
 interface IProps {
     icon: React.ReactElement;

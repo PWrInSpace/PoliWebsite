@@ -1,0 +1,56 @@
+@import '../../../assets/styles/fonts.module';
+@import '../../../assets/styles/breakpoints.module';
+
+.sectionContainer {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    justify-content: center;
+    background-color: black;
+
+    @include breakpoint-xl {
+        grid-template-columns: 10% 80% 10%;
+    }
+
+    .sectionWrapper {
+        display: flex;
+        flex-direction: column;
+        grid-column: 2 / 3;
+        justify-content: center;
+        align-items: center;
+        margin: 6.25rem 0;
+
+        .sectionContent {
+            color: white;
+            font-family: $mulish;
+            font-size: 1rem;
+            text-align: center;
+            letter-spacing: 0.09rem;
+            line-height: 2.45rem;
+            margin-top: 3.75rem;
+
+            @include breakpoint-md {
+                font-size: 0.9rem;
+                text-align: justify;
+                line-height: 2rem;
+            }
+        }
+
+        .sectionPlanets{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 1.5625rem;
+            align-items: center;
+            width: 60%;
+            margin-top: 3.75rem;
+
+            @include breakpoint-lg {
+                width: 70%;
+            }
+
+            @include breakpoint-sm {
+                width: 100%;
+            }
+        }
+    }
+}

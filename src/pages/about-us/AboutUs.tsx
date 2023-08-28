@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import styles from './assets/about-us.module.scss';
+import styles from './about-us.module.scss';
 import IconCircle from '../../assets/icons/IconCircle';
 import AboutUsParagraph from './components/AboutUsParagraph';
 import NumberContainerComponent from '../../components/number-container-component/NumberContainerComponent';

@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './assets/footer.module.scss';
-import { NavMenuItem } from '../../common/interfaces/Contract';
+import styles from './footer.module.scss';
+import { NavMenuItem } from '../../common/interfaces/SharedInterfaces';
 import NavBarItem from '../navbar/components/NavBarItem';
 import IconLogo from '../../assets/icons/IconLogo';
 import FacebookIcon from '../../assets/icons/FacebookIcon';

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './assets/subpage-wrapper.module.scss';
+import styles from './subpage-wrapper.module.scss';
 import { SubpageTitle } from '../subpage-title/SubpageTitle';
 
 interface IProps {

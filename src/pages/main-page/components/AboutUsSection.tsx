@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './assets/about-us-section.module.scss';
+import styles from './about-us-section.module.scss';
 import FirstPlanet from '../../../assets/icons/FirstPlanet';
 import SecondPlanet from '../../../assets/icons/SecondPlanet';
 import ThirdPlanet from '../../../assets/icons/ThirdPlanet';
