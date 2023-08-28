@@ -3,7 +3,6 @@ import i18n from "i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import en from "./en/defaults.json";
 import pl from "./pl/defaults.json";
-import localConfig from "../../../vite.local.config";
 
 export const initializeI18n = () => {
   const langCookieKey = "i18next";

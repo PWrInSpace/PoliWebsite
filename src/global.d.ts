@@ -7,7 +7,7 @@ declare module "*.jpg";
 declare module "*.mp4";
 
 interface Window {
-    __: (str: string, ...args: any) => string;
+    __: (...args: [string]) => string;
     classes: (...args: string[]) => string;
 }
 
