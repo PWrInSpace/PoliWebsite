@@ -1,6 +1,6 @@
-@import '../../assets/styles/breakpoints.module';
-@import '../../assets/styles/fonts.module';
-@import '../../assets/styles/variables.module';
+@import "../../assets/styles/breakpoints.module";
+@import "../../assets/styles/fonts.module";
+@import "../../assets/styles/variables.module";
 
 .firstIconCircle {
   position: absolute;
@@ -79,7 +79,6 @@
     }
   }
 }
-
 
 .numbersContainer {
   display: flex;

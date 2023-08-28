@@ -1,5 +1,5 @@
-@import '../../../assets/styles/breakpoints.module';
-@import '../../../assets/styles/fonts.module';
+@import "../../../assets/styles/breakpoints.module";
+@import "../../../assets/styles/fonts.module";
 
 .container {
   display: flex;
@@ -30,7 +30,7 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 60%;
-    color: #FFFFFF;
+    color: #ffffff;
     letter-spacing: 0.1rem;
 
     @include breakpoint-md {

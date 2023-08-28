@@ -1,6 +1,6 @@
-@import '../../assets/styles/fonts.module';
-@import '../../assets/styles/breakpoints.module';
-@import '../../assets/styles/variables.module';
+@import "../../assets/styles/fonts.module";
+@import "../../assets/styles/breakpoints.module";
+@import "../../assets/styles/variables.module";
 
 .container {
   display: grid;
@@ -25,7 +25,16 @@
     height: 18.75rem;
     object-fit: cover;
     z-index: -1;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.798958) 83.02%, #000000 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../../assets/images/backgrounds/subpageBackground.png") no-repeat center;
+    background:
+      linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.798958) 83.02%,
+        #000000 100%
+      ),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url("../../assets/images/backgrounds/subpageBackground.png") no-repeat
+        center;
     background-size: cover;
   }
 

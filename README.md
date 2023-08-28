@@ -10,11 +10,12 @@
 - Visual Studio Code
 
 - Recommended VS Code plugins:
-    - ESLint
-    - i18n Ally
+
+  - ESLint
+  - i18n Ally
 
 - Recommended Chrome plugins:
-    - React Developer Tools
+  - React Developer Tools
 
 # Install
 
@@ -36,18 +37,20 @@ You will also see any lint errors in the console.
 # Repository
 
 ## Rules
+
 - `main` branch is for the production running version
 - `develop` is a development branch
-- all tasks related branches must base on the `develop` and should have name that indicates task 
+- all tasks related branches must base on the `develop` and should have name that indicates task
 - tasks related branches can be merged to the `develop` only after code review made by other developer
 
 # CI/CD
 
 ## Builds
+
 - on every merge request to main and develop
 - on every push to main and develop
 
 ## Deployments
+
 - from develop to GitHub Pgaes on every push to develop
 - from main to production on every push to main
-

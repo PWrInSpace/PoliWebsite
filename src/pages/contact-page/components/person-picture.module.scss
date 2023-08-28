@@ -1,6 +1,6 @@
-@import '../../../assets/styles/breakpoints.module';
-@import '../../../assets/styles/fonts.module';
-@import '../../../assets/styles/variables.module';
+@import "../../../assets/styles/breakpoints.module";
+@import "../../../assets/styles/fonts.module";
+@import "../../../assets/styles/variables.module";
 
 .container {
   display: flex;
@@ -21,7 +21,7 @@
   .title {
     font-family: $alata;
     font-size: 1.125rem;
-    color: #FFFFFF;
+    color: #ffffff;
     letter-spacing: 0.1rem;
     margin-bottom: 5px;
   }
@@ -36,7 +36,7 @@
   .mail {
     font-family: $alata;
     font-size: 1rem;
-    color: #FFFFFF;
+    color: #ffffff;
     letter-spacing: 0.1rem;
   }
 

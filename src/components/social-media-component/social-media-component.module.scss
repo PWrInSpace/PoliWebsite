@@ -1,11 +1,11 @@
-@import '../../assets/styles/breakpoints.module';
+@import "../../assets/styles/breakpoints.module";
 
 .socialMediaContainer {
   position: fixed;
   z-index: 999;
   width: 58px;
   height: 140px;
-  background: #FFF;
+  background: #fff;
   left: calc(100% - 58px);
   top: 74px;
   display: flex;
@@ -13,7 +13,7 @@
   align-items: center;
   transition-property: top;
   transition-duration: 0.4s;
-  transition-timing-function: cubic-bezier(.34,.51,.77,.88);
+  transition-timing-function: cubic-bezier(0.34, 0.51, 0.77, 0.88);
 
   .socialMediaWrapper {
     display: flex;
@@ -32,7 +32,7 @@
     top: 94px;
     transition-property: top;
     transition-duration: 0.4s;
-    transition-timing-function: cubic-bezier(.34,.51,.77,.88);
+    transition-timing-function: cubic-bezier(0.34, 0.51, 0.77, 0.88);
   }
 
   @include breakpoint-md {

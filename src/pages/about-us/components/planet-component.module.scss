@@ -1,16 +1,16 @@
-@import '../../../assets/styles/fonts.module';
+@import "../../../assets/styles/fonts.module";
 
 .planetContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: $alata;
-    color: white;
-    font-size: 1.5rem;
-    letter-spacing: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: $alata;
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
 
-    svg {
-        margin-bottom: 20px;
-    }
+  svg {
+    margin-bottom: 20px;
+  }
 }

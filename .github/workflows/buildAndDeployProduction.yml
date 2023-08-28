@@ -2,8 +2,8 @@ name: Deploy
 
 on:
   push:
-    branches: 
-    - main
+    branches:
+      - main
 
 jobs:
   build:
@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
-      - name: Rename file 
+      - name: Rename file
         run: mv ./vite.local.config.ts.sample ./vite.local.config.ts
 
       - name: Build project
@@ -50,11 +50,10 @@ jobs:
       - name: Deploy to server
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-            server: '${{ secrets.SERVER_IP }}'
-            port: '${{ secrets.SERVER_SFTP_PORT }}'
-            username: '${{ secrets.SSH_LOGIN }}'
-            password: '${{ secrets.SSH_PASSWORD }}'
-            local_path: './dist/*'
-            remote_path: 'public_html'
-            sftp_only: true
-
+          server: "${{ secrets.SERVER_IP }}"
+          port: "${{ secrets.SERVER_SFTP_PORT }}"
+          username: "${{ secrets.SSH_LOGIN }}"
+          password: "${{ secrets.SSH_PASSWORD }}"
+          local_path: "./dist/*"
+          remote_path: "public_html"
+          sftp_only: true

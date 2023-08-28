@@ -1,28 +1,28 @@
-@import '../../../assets/styles/fonts.module';
+@import "../../../assets/styles/fonts.module";
 
 .container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .wrapper {
     display: flex;
+    flex-direction: column;
     gap: 20px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    color: white;
+    max-width: 200px;
 
-    .wrapper {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        color: white;
-        max-width: 200px;
-
-        .header {
-            font-family: $alata;
-            font-size: 1.5rem;
-            margin-bottom: 5px;
-        }
-
-        .text {
-            font-family: $mulish;
-            font-size: 1.125rem;
-        }
+    .header {
+      font-family: $alata;
+      font-size: 1.5rem;
+      margin-bottom: 5px;
     }
+
+    .text {
+      font-family: $mulish;
+      font-size: 1.125rem;
+    }
+  }
 }
