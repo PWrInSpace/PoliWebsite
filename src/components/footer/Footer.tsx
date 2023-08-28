@@ -8,15 +8,12 @@ import InstagramIcon from '../../assets/icons/InstagramIcon';
 import TikTokIcon from '../../assets/icons/TikTokIcon';
 import YouTubeIcon from '../../assets/icons/YouTubeIcon';
 import LinkedInIcon from '../../assets/icons/LinkedInIcon';
-import useWindowScroll from '../../common/hooks/useWindowScroll';
 
 interface ISelfProps {
     menuItems: NavMenuItem[];
 }
 
 export default function Footer(props: ISelfProps) {
-    const [_, scrollApi] = useWindowScroll();
-
     return(
         <footer className={styles.footerContainer}>
             <div className={styles.footerWrapper}>
@@ -26,7 +23,6 @@ export default function Footer(props: ISelfProps) {
                             return <NavBarItem
                                 item={item}
                                 key={key}
-                                onClick={() => scrollApi.scrollToTop()}
                             />;
                         })}
                     </div>

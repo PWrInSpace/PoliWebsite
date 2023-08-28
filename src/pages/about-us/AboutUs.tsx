@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './assets/about-us.module.scss';
 import IconCircle from '../../assets/icons/IconCircle';
 import AboutUsParagraph from './components/AboutUsParagraph';
@@ -8,6 +8,10 @@ import { SubpageWrapper } from '../../components/subpage-wrapper/SubpageWrapper'
 import HeadComponent from '../../components/head-component/HeadComponent';
 
 export default function AboutUs() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     const createParagraph = () => {
         return Paragraphs.map((paragraph, key) => (
             <div className={styles.paragraph} key={key}>

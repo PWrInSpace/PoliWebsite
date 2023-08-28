@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './assets/main-page.module.scss';
 import LandingSection from './components/LandingSection';
 import AboutUsSection from './components/AboutUsSection';
@@ -7,6 +7,10 @@ import OurSponsors from './components/OurSponsors';
 import HeadComponent from '../../components/head-component/HeadComponent';
 
 export default function MainPage() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <HeadComponent
             title={__('mainPage.meta.title')}

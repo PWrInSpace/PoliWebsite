@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './assets/contact-page.module.scss';
 import PersonPicture from './components/assets/PersonPicture';
 import ContactLink from './components/ContactLink';
@@ -12,6 +12,10 @@ import { SubpageWrapper } from '../../components/subpage-wrapper/SubpageWrapper'
 import HeadComponent from '../../components/head-component/HeadComponent';
 
 export default function ContactPage() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return(
         <HeadComponent
             title={__('contactPage.meta.title')}

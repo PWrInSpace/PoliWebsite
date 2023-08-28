@@ -1,18 +1,15 @@
-import React, { useContext, useState } from 'react';
+import React from 'react';
 import { Routes, Route, HashRouter } from 'react-router-dom';
 import NavBar from '../../components/navbar/NavBar';
 import { NavMenuItem } from '../../common/interfaces/Contract';
 import MainPage from '../main-page/MainPage';
-import ReactCustomScrollbars, { positionValues } from 'react-custom-scrollbars-2';
 import SocialMediaComponent from '../../components/social-media-component/SocialMediaComponent';
 import Footer from '../../components/footer/Footer';
 import ContactPage from '../contact-page/ContactPage';
 import SponsorsPage from '../sponsors-page/SponsorsPage';
 import AboutUs from '../about-us/AboutUs';
 import './assets/app.module.scss';
-import { AppWindowScrollContext } from '../../common/context/AppWindowScrollContext';
 import JoinUs from '../join-us/JoinUs';
-import AppWindowScrollContextProvider from '../../common/context/AppWindowScrollContext';
 import Cookies from 'js-cookie';
 import i18n from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
@@ -22,11 +19,6 @@ import localConfig from '../../../vite.local.config';
 
 interface NavMenuModel extends NavMenuItem {
     component: () => React.ReactElement;
-}
-
-interface AppComponentProps {
-    getWindowScroll: () => positionValues;
-    setWindowScroll: (v: positionValues) => void;
 }
 
 function initi18n() {
@@ -56,7 +48,10 @@ function initi18n() {
     }
 }
 
-function AppComponent(props: AppComponentProps) {
+function App() {
+
+    initi18n();
+
     const getNavMenuModel = (name: string, url: string, component: React.ReactElement) : NavMenuModel =>  {
         return {
             name: name,
@@ -73,46 +68,18 @@ function AppComponent(props: AppComponentProps) {
         getNavMenuModel(__('navbar.contact'), '/contact', <ContactPage/>),
     ];
 
-    const scrollContext = useContext(AppWindowScrollContext);
-    const minHeight = CSS.supports('height', '100dvh') ? '100dvh' : '100vh';
-
     return (
-        <AppWindowScrollContextProvider getWindowScroll={props.getWindowScroll}>
-            <HashRouter>
-                <div>
-                    <NavBar menuItems={menuItems}/>
-                    <SocialMediaComponent/>
-                    <ReactCustomScrollbars  autoHeight autoHeightMin={minHeight} autoHide onScrollFrame={(v) => props.setWindowScroll(v)} ref={scrollContext.scrollRef}>
-                        <Routes>
-                            <Route path={'/'} element={<MainPage/>} />
-                            {menuItems.map((item, key) => <Route path={item.url} element={item.component()} key={key}/>)}
-                        </Routes>
-                        <Footer menuItems={menuItems}/>
-                    </ReactCustomScrollbars>
-                </div>
-            </HashRouter>
-        </AppWindowScrollContextProvider>
-    );
-}
-
-function App() {
-    const [windowScroll, setWindowScroll] = useState<positionValues>({
-        top: 0,
-        left: 0,
-        clientWidth: 0,
-        clientHeight: 0,
-        scrollWidth: 0,
-        scrollHeight: 0,
-        scrollLeft: 0,
-        scrollTop: 0,
-    });
-
-    initi18n();
-
-    return (
-        <AppWindowScrollContextProvider getWindowScroll={() => windowScroll}>
-            <AppComponent getWindowScroll={() => windowScroll} setWindowScroll={(v) => setWindowScroll(v)}/>
-        </AppWindowScrollContextProvider>
+        <HashRouter>
+            <div>
+                <NavBar menuItems={menuItems}/>
+                <SocialMediaComponent/>
+                <Routes>
+                    <Route path={'/'} element={<MainPage/>} />
+                    {menuItems.map((item, key) => <Route path={item.url} element={item.component()} key={key}/>)}
+                </Routes>
+                <Footer menuItems={menuItems}/>
+            </div>
+        </HashRouter>
     );
 }
 

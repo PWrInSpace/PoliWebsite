@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './assets/join-us.module.scss';
 import JoinDepartmentContainer from './components/JoinDepartmentContainer';
 import { Departments } from '../../common/data/departmentsList';
@@ -8,6 +8,10 @@ import HeadComponent from '../../components/head-component/HeadComponent';
 export default function JoinUs(){
     const buttonVisible = false;
     const buttonLink = 'https://docs.google.com/forms/d/e/1FAIpQLSf-aeTqPVKXVolgZyAsSVKhb2wuBDK5Izzq-5-eBxqQi-xKTw/viewform';
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     const createParagraphs = () => {
         return Departments.map((department, index) => {
