@@ -11,7 +11,7 @@ export default function LandingSection() {
 
     const scroll = () => {
         const section = document.querySelector( '#about-us' );
-        section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+        section?.scrollIntoView( { behavior: 'smooth', block: 'start' } );
     };
 
     return (

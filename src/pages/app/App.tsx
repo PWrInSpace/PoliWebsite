@@ -96,7 +96,16 @@ function AppComponent(props: AppComponentProps) {
 }
 
 function App() {
-    const [windowScroll, setWindowScroll] = useState<positionValues>();
+    const [windowScroll, setWindowScroll] = useState<positionValues>({
+        top: 0,
+        left: 0,
+        clientWidth: 0,
+        clientHeight: 0,
+        scrollWidth: 0,
+        scrollHeight: 0,
+        scrollLeft: 0,
+        scrollTop: 0,
+    });
 
     initi18n();
 

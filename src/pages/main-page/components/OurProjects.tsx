@@ -7,7 +7,7 @@ import { Rockets } from '../../../common/data/rocketList';
 export default function OurProjects() {
     const [selectedButton, setSelectedButton] = React.useState<string>('R5');
 
-    const handleButtonChange = (rocket) => {
+    const handleButtonChange = (rocket: string) => {
         if (rocket === selectedButton) {
             return styles.sectionButtonSelected;
         } else {
