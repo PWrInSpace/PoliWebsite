@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, HashRouter, BrowserRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import { initializeI18n } from "../../common/locales/initialize-i18n";
 
 import { NavBar } from "../../components/navbar/NavBar";
@@ -14,10 +14,6 @@ import { JoinUs } from "../join-us/JoinUs";
 import { NavMenuItem } from "../../common/interfaces/SharedInterfaces";
 
 const App = () => {
-  const isGitHubPages = window.location.hostname === "pwrinspace.github.io";
-
-  const Router = isGitHubPages ? HashRouter : BrowserRouter;
-
   initializeI18n();
 
   const menuItems: NavMenuItem[] = [
@@ -49,7 +45,7 @@ const App = () => {
   ];
 
   return (
-    <Router>
+    <HashRouter>
       <div>
         <NavBar menuItems={menuItems} />
         <SocialMediaComponent />
@@ -61,7 +57,7 @@ const App = () => {
         </Routes>
         <Footer menuItems={menuItems} />
       </div>
-    </Router>
+    </HashRouter>
   );
 };
 
