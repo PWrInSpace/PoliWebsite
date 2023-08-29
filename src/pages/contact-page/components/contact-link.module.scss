@@ -1,0 +1,18 @@
+@import "../../../assets/styles/fonts.module";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-family: $mulish;
+  font-size: 1.125rem;
+  letter-spacing: 0.1rem;
+  color: #ffffff;
+  overflow-wrap: anywhere;
+}
+
+.container:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}

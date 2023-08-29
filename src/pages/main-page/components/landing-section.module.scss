@@ -1,0 +1,153 @@
+@import "../../../assets/styles/fonts.module";
+@import "../../../assets/styles/breakpoints.module";
+@import "../../../assets/styles/variables.module";
+
+.sectionContainer {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  justify-content: center;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 70.52%,
+      rgba(0, 0, 0, 0.5) 86.67%,
+      #000000 100%
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)), center;
+  background-size: cover;
+  position: relative;
+
+  @include breakpoint-xxl {
+    grid-template-columns: 20% 60% 20%;
+  }
+
+  @include breakpoint-xl {
+    grid-template-columns: 10% 80% 10%;
+  }
+
+  @include breakpoint-lg {
+    grid-template-columns: 0 100% 0;
+  }
+
+  .videoPlaceholder {
+    z-index: -11;
+  }
+
+  .sectionVideo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -10;
+  }
+
+  .sectionWrapper {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 14.375rem;
+
+    @include breakpoint-md {
+      margin-top: 12.5rem;
+    }
+
+    .sectionTitle {
+      font-family: $kronaOne;
+      font-size: 2.625rem;
+      letter-spacing: 0.9rem;
+      color: white;
+      text-align: center;
+
+      @include breakpoint-md {
+        font-size: 2.3rem;
+        letter-spacing: 0.8rem;
+      }
+    }
+
+    .sectionDescription {
+      font-family: $alegreyaSans;
+      font-size: 1.5rem;
+      letter-spacing: 0.5rem;
+      color: white;
+      margin: 1.5625rem 1rem 2.5rem 1rem;
+      text-align: center;
+      overflow-wrap: anywhere;
+
+      @include breakpoint-md {
+        font-size: 1.1rem;
+      }
+    }
+
+    .sectionButtons {
+      margin: 3.125rem 0 6.875rem 0;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 80%;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      .sectionButton {
+        font-family: $alata;
+        font-size: 1.2rem;
+        text-align: center;
+        letter-spacing: 0.07rem;
+        padding: 0.75rem 3.125rem;
+        z-index: 2;
+        color: white;
+        text-decoration: none;
+        width: 11.25rem;
+
+        @include breakpoint-md {
+          width: 10rem;
+          padding: 0.75rem 1.5rem;
+          font-size: 1rem;
+        }
+      }
+
+      .sectionButton:hover {
+        cursor: pointer;
+        opacity: 0.9;
+      }
+
+      .sectionSponsorButton {
+        border: 1px solid $mainBorder;
+        background-color: transparent;
+      }
+
+      .sectionProjectButton {
+        border: 1px solid $mainBlue;
+        background-color: $mainBlue;
+        text-align: center;
+      }
+    }
+
+    .sectionNumberContainer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 2.5rem;
+      flex-wrap: wrap;
+      width: 80%;
+    }
+
+    .sectionArrow {
+      height: 5.625rem;
+      width: 5.625rem;
+      margin: 5.625rem 0;
+
+      @include breakpoint-sm {
+        width: 5rem;
+        margin: 2.5rem 0;
+      }
+    }
+
+    .sectionArrow:hover {
+      opacity: 0.7;
+      cursor: pointer;
+    }
+  }
+}

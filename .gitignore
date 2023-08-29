@@ -102,7 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
-vite.local.config.ts
 
 # macOS local files
 .DS_Store

@@ -9,7 +9,8 @@
     "joinUs": "Dołącz do nas",
     "sponsors": "Sponsorzy",
     "news": "Aktualności",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "language": "EN"
   },
   "footer": {
     "mailUs": "NAPISZ DO NAS MAILA!"
@@ -67,7 +68,7 @@
           "description": "Rakieta z silnikiem hybrydowym “Silnik C”, napędzanym na podtlenek azotu oraz żywicę epoksydową z aluminium. Lynx leciała na zawodach European Rocketry Challenge 2021 w Portugalii. Przy osiągnięciu apogeum około 2700 m drużyna zdobyła 2 miejsce w kategorii 3k Hybrid SRAD oraz nagrodę “Best Design” za najlepszą implementację projektu ze wszystkich drużyn na zawodach."
         },
         "R4V2": {
-          "name": "PINK PANTHERA",
+          "name": "PINK PANTHER",
           "description": "Rakieta była ulepszeniem swojej poprzedniczki R4, dostając ten sam silnik hybrydowy. Zostały poprawione poprzednie błędy konstrukcyjne, a także zoptymalizowano rozwiązania. Rakieta brała udział w zawodach Spaceport America Cup 2022 w Nowym Meksyku, gdzie nasza drużyna zdobyła 2. miejsce w swojej kategorii 10k Hybrid, Liquid&Others."
         },
         "R5": {
@@ -95,7 +96,7 @@
     "title": "NAPISZ DO NAS!",
     "subtitle": "Skontaktuj się z nami przez naszego maila lub social media!",
     "president": "Prezes Koła",
-    "prPresident": "Lider Marketingu",
+    "prPresident": "Liderka PR & Marketing",
     "findUs": "GDZIE NAS ZNALEŹĆ?",
     "locations": {
       "workshop": "Nasz warsztat",
@@ -118,12 +119,12 @@
     "firstParagraph": {
       "title": "INTRO",
       "subtitle": "HISTORIA KOŁA",
-      "text": "Koło Naukowe “PWr in Space” powstało w 2017 roku, kiedy to kilkanaście osób połączyło wspólne zamiłowanie do kosmosu. Pierwszą rakietą wykonaną przez założycielski zespół była R1 Micro, która miała zaledwie 750 mm i 0,8 kg. Oprócz pracy technicznej wykonywanej w kole, studenci od początku działalności chętnie brali udział w konferencjach, warsztatach i szkoleniach, dzięki którym mieli okazję poznać nowe firmy, organizacje i ich nowoczesne rozwiązania produkcyjne. Dzięki zaangażowaniu członków koła, udało się zainteresować sponsorów i zachęcić ich do współpracy. Już po dwóch latach żmudnej pracy  i zdobywania potrzebnej wiedzy, udało nam się pojechać na pierwsze zawody Spaceport America Cup w Stanach Zjednoczonych, w których zajęliśmy 5. miejsce. Dla tak młodego zespołu było to ogromne wyróżnienie. Tak zaczęła się przygoda koła z zawodami i rywalizacją z drużynami z całego świata."
+      "text": "Koło Naukowe PWr in Space powstało w 2017 roku, kiedy to kilkanaście osób połączyło wspólne zamiłowanie do kosmosu. Pierwszą rakietą wykonaną przez założycielski zespół była R1 Micro, która miała zaledwie 750 mm i 0,8 kg. Oprócz pracy technicznej wykonywanej w kole, studenci od początku działalności chętnie brali udział w konferencjach, warsztatach i szkoleniach, dzięki którym mieli okazję poznać nowe firmy, organizacje i ich nowoczesne rozwiązania produkcyjne. Dzięki zaangażowaniu członków koła, udało się zainteresować sponsorów i zachęcić ich do współpracy. Już po dwóch latach żmudnej pracy  i zdobywania potrzebnej wiedzy, udało nam się pojechać na pierwsze zawody Spaceport America Cup w Stanach Zjednoczonych, w których zajęliśmy 5. miejsce. Dla tak młodego zespołu było to ogromne wyróżnienie. Tak zaczęła się przygoda koła z zawodami i rywalizacją z drużynami z całego świata."
     },
     "secondParagraph": {
       "title": "O NAS",
       "subtitle": "KIM JESTEŚMY",
-      "text": "Obecnie w PWr in Space działa aktywnie kilkadziesiąt osób, realizując trzy projekty: PoliWRocket, PoliFloater i PoliPlane. Wykorzystują w nich nowoczesne technologie w zakresie oprogramowania, materiałów kompozytowych, druku 3D oraz spiekania materiałów. Koło naukowe wypracowało przez te kilka lat działalności innowacyjne rozwiązania, które doceniają sędziowie na międzynarodowych zawodach czy firmy z branży kosmicznej. Jest to m.in. silnik hybrydowy, system aktywnego sterowania trajektorią rakiety w locie czy zastosowanie nawijarki do wykonania brył obrotowych. Mimo, iż samo koło działa na Wydziale Mechanicznym, zrzesza studentów z całej Politechniki Wrocławskiej. Naszym najnowszym, a zarazem najbardziej ambitnym przedsięwzięciem była budowa rakiety R4 o napędzie hybrydowym, zdolnej do osiągnięcia apogeum 3048 metrów (10000 stóp) oraz wyniesienia ładunku o masie przynajmniej 4 kilogramów. Liczby te nie są przypadkowe, a odwołują się do konkurencji w której rakieta R4 startowała i odnosiła sukcesy, jak 3. miejsce na wspomnianym konkursie SAC 2021 czy nagroda za najlepszy design na konkursie EuRoC 2021. Wszystkie moduły i elementy rakiety, włącznie z silnikiem, elektroniką krytyczną, strukturą nośną czy modułem odzysku zostały przez nas starannie zaprojektowane i wykonane."
+      "text": "Obecnie w PWr in Space działa aktywnie kilkadziesiąt osób, realizując trzy projekty: PoliWRocket, PoliFloater i PoliPlane. Wykorzystują w nich nowoczesne technologie w zakresie oprogramowania, materiałów kompozytowych, druku 3D oraz spiekania materiałów. Koło naukowe wypracowało przez te kilka lat działalności innowacyjne rozwiązania, które doceniają sędziowie na międzynarodowych zawodach czy firmy z branży kosmicznej. Jest to m.in. silnik hybrydowy, system aktywnego sterowania trajektorią rakiety w locie czy zastosowanie nawijarki do wykonania brył obrotowych. Mimo, iż samo koło działa na Wydziale Mechanicznym, zrzesza studentów z całej Politechniki Wrocławskiej. Naszym najnowszym, a zarazem najbardziej ambitnym przedsięwzięciem była budowa rakiety R5 o napędzie hybrydowym, zdolnej do osiągnięcia apogeum 3048 metrów (10000 stóp) oraz wyniesienia ładunku o masie przynajmniej 4 kilogramów. Liczby te nie są przypadkowe, a odwołują się do konkurencji w której rakieta R4 startowała i odnosiła sukcesy, jak 3. miejsce na wspomnianym konkursie SAC 2023. Wszystkie moduły i elementy rakiety, włącznie z silnikiem, elektroniką krytyczną, strukturą nośną czy modułem odzysku zostały przez nas starannie zaprojektowane i wykonane."
     },
     "numbers": {
       "firstNumber": "CZŁONKÓW",
@@ -138,11 +139,11 @@
     },
     "header": "DOŁĄCZ DO NAS",
     "departments": {
-      "struktura": {
+      "airframe": {
         "header": "STRUKTURA NOŚNA",
         "text": "Kogo szukamy: \n➡️ MŁODSZY SPECJALISTA DS. LAMINOWANIA KOMPOZYTÓW \nOpis pozycji:\n- praca na warsztacie, \n- laminowanie kompozytów węglowych i szklanych,\n- symulacje CFD,\n- modelowanie części w programach 3D. \n➡️ KONSTRUKTOR TUNELU AERODYNAMICZNEGO \nOpis pozycji:\n- praca na warsztacie,\n- podstawy mechaniki i elektroniki, \n- proste symulacje CFD, \n- umiejętność researchu.\n➡️ KONSTRUKTOR NAWIJARKI DO KOMPOZYTÓW \nOpis pozycji:\n- dokończenie i konfiguracja nawijarki do włókna węglowego."
       },
-      "silniki": {
+      "engines": {
         "header": "SILNIKI RAKIETOWE",
         "text": "Kogo szukamy: \n➡️ PROJEKTANT ELEMENTÓW MECHANICZNYCH\nWymagania: \n- głowa na karku i samodzielność.\nOpis pozycji: \n- projektowanie elementów mechanicznych - od konceptu po obliczenia wytrzymałościowe i testy prototypów, \n- prace warsztatowe i wyjazdy w teren w celu przeprowadzenia testów statycznych.\nPrzydatne umiejętności: \n- obsługa programów CAD/CAM, \n- umiejętności warsztatowe, \n- podstawowa wiedza z wytrzymałości materiałów, technik wytwarzania, termodynamiki, \n- umiejętność tworzenia prostych skryptów np. w Python/MATLAB."
       },
@@ -158,11 +159,11 @@
         "header": "PAYLOAD",
         "text": "Kogo szukamy: \n➡️ MŁODSZY SPECJALISTA DS. ŁADUNKÓW BADAWCZYCH\n➡️ MŁODSZY KONSTRUKTOR LABSAT’ÓW"
       },
-      "odzysk": {
+      "recovery": {
         "header": "ODZYSK",
         "text": "Kogo szukamy: \n➡️ MŁODSZY SPECJALISTA KONSTRUKTOR \nWymagania: \n- doświadczenie z modelowaniem CAD/CAM, \n- podstawowa wiedza z zakresu technik wytwórczych (technologiczność projektowanych elementów).\n➡️ MŁODSZY SPECJALISTA MECHATRONIK\nWymagania:\n- znajomość z zakresu mechatroniki (z naciskiem na mechanikę i elektronikę),\n- umiejętność projektowania układów mechatronicznych, \n- mile widziane doświadczenie z pneumatyką.\n➡️ MŁODSZY SPECJALISTA DS. TECHNIK WYTWÓRCZYCH \nWymagania: \n- znajomość technik wytwórczych, \n- podstawowa znajomość zasad konstruowania części mechanicznych."
       },
-      "elektronika": {
+      "electronics": {
         "header": "ELEKTRONIKA",
         "text": "Kogo szukamy: \n➡️ EMBEDDED DEVELOPER \nWymagania:\n- programowanie mikrokontrolerów, \n- lutowanie, \n- projektowanie PCB.\n➡️ PROGRAMISTA JAVA \nWymagania:\n- programowanie obiektowe,\n- wzorce projektowe, \n- clean code. \nMile widziana znajomość innych technologii oraz umiejętność pracy z web development."
       },

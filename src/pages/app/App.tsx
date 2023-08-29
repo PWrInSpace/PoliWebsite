@@ -1,88 +1,68 @@
-import React, { useContext, useState } from 'react';
-import { Routes, Route, HashRouter } from 'react-router-dom';
-import NavBar from '../../components/navbar/NavBar';
-import { NavMenuItem } from '../../common/interfaces/Contract';
-import MainPage from '../main-page/MainPage';
-import ReactCustomScrollbars, { positionValues } from 'react-custom-scrollbars-2';
-import localConfig from '../../../vite.local.config';
-import SocialMediaComponent from '../../components/social-media-component/SocialMediaComponent';
-import Footer from '../../components/footer/Footer';
-import ContactPage from '../contact-page/ContactPage';
-import SponsorsPage from '../sponsors-page/SponsorsPage';
-import AboutUs from '../about-us/AboutUs';
-import './assets/app.module.scss';
-import { AppWindowScrollContext } from '../../common/context/AppWindowScrollContext';
-import JoinUs from '../join-us/JoinUs';
-import AppWindowScrollContextProvider from '../../common/context/AppWindowScrollContext';
+import React from "react";
+import { Routes, Route, HashRouter, BrowserRouter } from "react-router-dom";
+import { initializeI18n } from "../../common/locales/initialize-i18n";
 
-interface NavMenuModel extends NavMenuItem {
-    component: () => JSX.Element;
-}
+import { NavBar } from "../../components/navbar/NavBar";
+import { MainPage } from "../main-page/MainPage";
+import { SocialMediaComponent } from "../../components/social-media-component/SocialMediaComponent";
+import { Footer } from "../../components/footer/Footer";
+import { ContactPage } from "../contact-page/ContactPage";
+import { SponsorsPage } from "../sponsors-page/SponsorsPage";
+import { AboutUs } from "../about-us/AboutUs";
+import "./app.module.scss";
+import { JoinUs } from "../join-us/JoinUs";
+import { NavMenuItem } from "../../common/interfaces/SharedInterfaces";
 
-const config = localConfig as any;
+const App = () => {
+  const isGitHubPages = window.location.hostname === "pwrinspace.github.io";
 
-interface AppComponentProps {
-    getWindowScroll: () => positionValues;
-    setWindowScroll: (v: positionValues) => void;
-}
+  const Router = isGitHubPages ? HashRouter : BrowserRouter;
 
-function  AppComponent(props: AppComponentProps) {
-    const getNavMenuModel = (name: string, url: string, component: JSX.Element) : NavMenuModel =>  {
-        return {
-            name: name,
-            url: url,
-            component: () => component
-        };
-    };
+  initializeI18n();
 
-    const DummyComp = () => {
-        return (
-            <div></div>
-        );
-    };
+  const menuItems: NavMenuItem[] = [
+    {
+      name: __("navbar.home"),
+      url: "/",
+      component: () => <MainPage />,
+    },
+    {
+      name: __("navbar.aboutUs"),
+      url: "/about-us",
+      component: () => <AboutUs />,
+    },
+    {
+      name: __("navbar.joinUs"),
+      url: "/join-us",
+      component: () => <JoinUs />,
+    },
+    {
+      name: __("navbar.sponsors"),
+      url: "/sponsors",
+      component: () => <SponsorsPage />,
+    },
+    {
+      name: __("navbar.contact"),
+      url: "/contact",
+      component: () => <ContactPage />,
+    },
+  ];
 
-    const menuItems: NavMenuModel[] = [
-        getNavMenuModel(__('navbar.home'), '/', <MainPage/>),
-        getNavMenuModel(__('navbar.aboutUs'), '/about-us', <AboutUs/>),
-        // getNavMenuModel(__('navbar.awards'), '/awards', DummyComp()),
-        // getNavMenuModel(__('navbar.projects'), '/projects', DummyComp()),
-        // getNavMenuModel(__('navbar.departments'), '/departments', DummyComp()),
-        getNavMenuModel(__('navbar.joinUs'), '/join-us', <JoinUs/>),
-        getNavMenuModel(__('navbar.sponsors'), '/sponsors', <SponsorsPage/>),
-        // getNavMenuModel(__('navbar.news'), '/news', DummyComp()),
-        getNavMenuModel(__('navbar.contact'), '/contact', <ContactPage/>),
-    ];
-
-    const scrollContext = useContext(AppWindowScrollContext);
-
-    const minHeight = CSS.supports('height', '100dvh') ? '100dvh' : '100vh';
-    return (
-        <AppWindowScrollContextProvider getWindowScroll={props.getWindowScroll}>
-            <HashRouter>
-                <div>
-                    <NavBar menuItems={menuItems}/>
-                    <SocialMediaComponent/>
-                    <ReactCustomScrollbars  autoHeight autoHeightMin={minHeight} autoHide onScrollFrame={(v) => props.setWindowScroll(v)} ref={scrollContext.scrollRef}>
-                        <Routes>
-                            <Route path={'/'} element={<MainPage/>} />
-                            {menuItems.map((item, key) => <Route path={item.url} element={item.component()} key={key}/>)}
-                        </Routes>
-                        <Footer menuItems={menuItems}/>
-                    </ReactCustomScrollbars>
-                </div>
-            </HashRouter>
-        </AppWindowScrollContextProvider>
-    );
-}
-
-function App() {
-    const [windowScroll, setWindowScroll] = useState<positionValues>();
-
-    return (
-        <AppWindowScrollContextProvider getWindowScroll={() => windowScroll}>
-            <AppComponent getWindowScroll={() => windowScroll} setWindowScroll={(v) => setWindowScroll(v)}/>
-        </AppWindowScrollContextProvider>
-    );
-}
+  return (
+    <Router>
+      <div>
+        <NavBar menuItems={menuItems} />
+        <SocialMediaComponent />
+        <Routes>
+          <Route path={"/"} element={<MainPage />} />
+          {menuItems.map((item, key) => (
+            <Route path={item.url} element={item.component()} key={key} />
+          ))}
+        </Routes>
+        <Footer menuItems={menuItems} />
+      </div>
+    </Router>
+  );
+};
 
 export default App;
