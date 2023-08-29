@@ -1,0 +1,15 @@
+@import "../../assets/styles/fonts.module";
+@import "../../assets/styles/variables.module";
+
+.header {
+  font-family: $kronaOne;
+  font-size: 2rem;
+  color: #ffffff;
+  margin: 150px 0 20px 0;
+  text-align: center;
+}
+
+.divider {
+  border: 0.5px solid $mainBorder;
+  width: 40%;
+}

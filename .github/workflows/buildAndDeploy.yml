@@ -2,12 +2,12 @@ name: Deploy
 
 on:
   push:
-    branches: 
-    - develop
+    branches:
+      - develop
   pull_request:
-    brnaches:
-    - main
-    - develop
+    branches:
+      - main
+      - develop
 
 jobs:
   build:
@@ -25,9 +25,6 @@ jobs:
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
-
-      - name: Rename file 
-        run: mv ./vite.local.config.ts.ghPages ./vite.local.config.ts
 
       - name: Build project
         run: npm run ghPages

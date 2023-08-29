@@ -1,0 +1,23 @@
+@import "../../assets/styles/fonts.module";
+@import "../../assets/styles/breakpoints.module";
+
+.sectionNumberTitle {
+  justify-content: center;
+  font-family: $alata;
+  font-size: 1.2rem;
+  color: white;
+
+  @include breakpoint-md {
+    font-size: 0.9rem;
+  }
+}
+
+.sectionNumber {
+  font-family: $kronaOne;
+  font-size: 3rem;
+  color: white;
+
+  @include breakpoint-md {
+    font-size: 2.5rem;
+  }
+}

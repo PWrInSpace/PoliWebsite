@@ -1,110 +1,68 @@
-import React, { useContext, useState } from 'react';
-import { Routes, Route, HashRouter } from 'react-router-dom';
-import NavBar from '../../components/navbar/NavBar';
-import { NavMenuItem } from '../../common/interfaces/Contract';
-import MainPage from '../main-page/MainPage';
-import ReactCustomScrollbars, { positionValues } from 'react-custom-scrollbars-2';
-import SocialMediaComponent from '../../components/social-media-component/SocialMediaComponent';
-import Footer from '../../components/footer/Footer';
-import ContactPage from '../contact-page/ContactPage';
-import SponsorsPage from '../sponsors-page/SponsorsPage';
-import AboutUs from '../about-us/AboutUs';
-import './assets/app.module.scss';
-import { AppWindowScrollContext } from '../../common/context/AppWindowScrollContext';
-import JoinUs from '../join-us/JoinUs';
-import AppWindowScrollContextProvider from '../../common/context/AppWindowScrollContext';
-import Cookies from 'js-cookie';
-import i18n from 'i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
-import en from '../../common/locales/en/defaults.json';
-import pl from '../../common/locales/pl/defaults.json';
-import localConfig from '../../../vite.local.config';
+import React from "react";
+import { Routes, Route, HashRouter, BrowserRouter } from "react-router-dom";
+import { initializeI18n } from "../../common/locales/initialize-i18n";
 
-interface NavMenuModel extends NavMenuItem {
-    component: () => React.ReactElement;
-}
+import { NavBar } from "../../components/navbar/NavBar";
+import { MainPage } from "../main-page/MainPage";
+import { SocialMediaComponent } from "../../components/social-media-component/SocialMediaComponent";
+import { Footer } from "../../components/footer/Footer";
+import { ContactPage } from "../contact-page/ContactPage";
+import { SponsorsPage } from "../sponsors-page/SponsorsPage";
+import { AboutUs } from "../about-us/AboutUs";
+import "./app.module.scss";
+import { JoinUs } from "../join-us/JoinUs";
+import { NavMenuItem } from "../../common/interfaces/SharedInterfaces";
 
-interface AppComponentProps {
-    getWindowScroll: () => positionValues;
-    setWindowScroll: (v: positionValues) => void;
-}
+const App = () => {
+  const isGitHubPages = window.location.hostname === "pwrinspace.github.io";
 
-function initi18n() {
-    const langCookieKey = 'i18next';
-    const storedLang = Cookies.get(langCookieKey) ?? 'pl';
+  const Router = isGitHubPages ? HashRouter : BrowserRouter;
 
-    i18n.use(LanguageDetector).init({
-        fallbackLng: 'pl',
-        resources: {
-            en: { translation: en },
-            pl: { translation: pl }
-        },
-        lng: storedLang,
-        detection: {
-            lookupCookie: langCookieKey,
-            caches: ['cookie'],
-            cookieMinutes: 60*24*30
-        }
-    });
+  initializeI18n();
 
-    window.__ = (str: string) => i18n.t(str);
-    window.classes = (...args: string[]) => args.join(' ');
-    if (!window.appContext) {
-        window.appContext = {
-            baseUrl: (localConfig as any).base ?? '/'
-        };
-    }
-}
+  const menuItems: NavMenuItem[] = [
+    {
+      name: __("navbar.home"),
+      url: "/",
+      component: () => <MainPage />,
+    },
+    {
+      name: __("navbar.aboutUs"),
+      url: "/about-us",
+      component: () => <AboutUs />,
+    },
+    {
+      name: __("navbar.joinUs"),
+      url: "/join-us",
+      component: () => <JoinUs />,
+    },
+    {
+      name: __("navbar.sponsors"),
+      url: "/sponsors",
+      component: () => <SponsorsPage />,
+    },
+    {
+      name: __("navbar.contact"),
+      url: "/contact",
+      component: () => <ContactPage />,
+    },
+  ];
 
-function AppComponent(props: AppComponentProps) {
-    const getNavMenuModel = (name: string, url: string, component: React.ReactElement) : NavMenuModel =>  {
-        return {
-            name: name,
-            url: url,
-            component: () => component
-        };
-    };
-
-    const menuItems: NavMenuModel[] = [
-        getNavMenuModel(__('navbar.home'), '/', <MainPage/>),
-        getNavMenuModel(__('navbar.aboutUs'), '/about-us', <AboutUs/>),
-        getNavMenuModel(__('navbar.joinUs'), '/join-us', <JoinUs/>),
-        getNavMenuModel(__('navbar.sponsors'), '/sponsors', <SponsorsPage/>),
-        getNavMenuModel(__('navbar.contact'), '/contact', <ContactPage/>),
-    ];
-
-    const scrollContext = useContext(AppWindowScrollContext);
-    const minHeight = CSS.supports('height', '100dvh') ? '100dvh' : '100vh';
-
-    return (
-        <AppWindowScrollContextProvider getWindowScroll={props.getWindowScroll}>
-            <HashRouter>
-                <div>
-                    <NavBar menuItems={menuItems}/>
-                    <SocialMediaComponent/>
-                    <ReactCustomScrollbars  autoHeight autoHeightMin={minHeight} autoHide onScrollFrame={(v) => props.setWindowScroll(v)} ref={scrollContext.scrollRef}>
-                        <Routes>
-                            <Route path={'/'} element={<MainPage/>} />
-                            {menuItems.map((item, key) => <Route path={item.url} element={item.component()} key={key}/>)}
-                        </Routes>
-                        <Footer menuItems={menuItems}/>
-                    </ReactCustomScrollbars>
-                </div>
-            </HashRouter>
-        </AppWindowScrollContextProvider>
-    );
-}
-
-function App() {
-    const [windowScroll, setWindowScroll] = useState<positionValues>();
-
-    initi18n();
-
-    return (
-        <AppWindowScrollContextProvider getWindowScroll={() => windowScroll}>
-            <AppComponent getWindowScroll={() => windowScroll} setWindowScroll={(v) => setWindowScroll(v)}/>
-        </AppWindowScrollContextProvider>
-    );
-}
+  return (
+    <Router>
+      <div>
+        <NavBar menuItems={menuItems} />
+        <SocialMediaComponent />
+        <Routes>
+          <Route path={"/"} element={<MainPage />} />
+          {menuItems.map((item, key) => (
+            <Route path={item.url} element={item.component()} key={key} />
+          ))}
+        </Routes>
+        <Footer menuItems={menuItems} />
+      </div>
+    </Router>
+  );
+};
 
 export default App;
