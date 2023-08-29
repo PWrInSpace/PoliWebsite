@@ -29,7 +29,7 @@ Runs the app in the development mode on http://localhost:5173/.
 
 #### `yarn dev-host`
 
-Same as `yarn dev`, but runs on the local network.
+Same as `yarn dev`, but exposes the app on the local network.
 
 #### `yarn build`
 

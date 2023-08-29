@@ -6,7 +6,7 @@
     "dev": "vite",
     "dev-host": "vite --host",
     "dev:debug": "vite --debug --force",
-    "build": "cross-env NODE_ENV=development tsc --noEmit && vite build --mode development",
+    "build": "cross-env NODE_ENV=production tsc --noEmit && vite build --mode production",
     "typecheck": "tsc --noEmit",
     "lintstylish": "eslint src/**/*.tsx --format stylish",
     "lint": "eslint src/**/*.tsx --format junit --o lint-results.xml",
