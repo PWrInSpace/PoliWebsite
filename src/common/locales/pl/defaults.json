@@ -18,7 +18,7 @@
   "mainPage": {
     "meta": {
       "title": "Strona główna - PWr In Space",
-      "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych."
+      "description": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej. \nTworzymy zespół 60 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Skontaktuj się z nami przez naszego maila lub social media!"
     },
     "landingSection": {
       "title": "PWR IN SPACE",
@@ -35,7 +35,7 @@
     },
     "aboutUs": {
       "header": "O NAS",
-      "text": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych. To nie tylko studencki konkurs, ale także konferencja naukowa i możliwość nawiązania znajomości z członkami drużyn z całego świata.",
+      "text": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej już od 2017 roku.\nTworzymy zespół 60 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Mimo, iż samo koło działa na Wydziale Mechanicznym, dzięki interdyscyplinarności swoich projektów, zrzesza studentów z całej Politechniki Wrocławskiej. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Nasze konstrukcje tworzymy samodzielnie - począwszy od fazy projektowej, przez modelowanie 3D oraz prace warsztatowe, rozwijając przy tym swoją wiedzę i umiejętności techniczne.Do tej pory udało nam się skonstruować 8 głównych rakiet i odbyć 16 udanych lotów. Co roku uczestniczymy w studenckich zawodach rakietowych Spaceport America Cup w Stanach Zjednoczonych i European Rocketry Challenge w Portugalii, by konkurować z drużynami z całego świata.",
       "planet1": "ŁĄCZY",
       "planet2": "NAS",
       "planet3": "PASJA"
@@ -90,7 +90,7 @@
   "contactPage": {
     "meta": {
       "title": "Kontakt - PWr In Space",
-      "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Skontaktuj się z nami przez naszego maila lub social media!"
+      "description": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej. \nTworzymy zespół 60 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Skontaktuj się z nami przez naszego maila lub social media!"
     },
     "header": "KONTAKT",
     "title": "NAPISZ DO NAS!",
@@ -106,25 +106,25 @@
   "sponsorsPage": {
     "meta": {
       "title": "Sponsorzy - PWr In Space",
-      "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych."
+      "description": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej. \nTworzymy zespół 60 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Skontaktuj się z nami przez naszego maila lub social media!"
     },
     "header": "SPONSORZY"
   },
   "aboutUsPage": {
     "meta": {
       "title": "O nas - PWr In Space",
-      "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych."
+      "description": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej. \nTworzymy zespół 60 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Skontaktuj się z nami przez naszego maila lub social media!"
     },
     "header": "O NAS",
     "firstParagraph": {
       "title": "INTRO",
       "subtitle": "HISTORIA KOŁA",
-      "text": "Koło Naukowe PWr in Space powstało w 2017 roku, kiedy to kilkanaście osób połączyło wspólne zamiłowanie do kosmosu. Pierwszą rakietą wykonaną przez założycielski zespół była R1 Micro, która miała zaledwie 750 mm i 0,8 kg. Oprócz pracy technicznej wykonywanej w kole, studenci od początku działalności chętnie brali udział w konferencjach, warsztatach i szkoleniach, dzięki którym mieli okazję poznać nowe firmy, organizacje i ich nowoczesne rozwiązania produkcyjne. Dzięki zaangażowaniu członków koła, udało się zainteresować sponsorów i zachęcić ich do współpracy. Już po dwóch latach żmudnej pracy  i zdobywania potrzebnej wiedzy, udało nam się pojechać na pierwsze zawody Spaceport America Cup w Stanach Zjednoczonych, w których zajęliśmy 5. miejsce. Dla tak młodego zespołu było to ogromne wyróżnienie. Tak zaczęła się przygoda koła z zawodami i rywalizacją z drużynami z całego świata."
+      "text": "Koło Naukowe PWr in Space powstało w 2017 roku, kiedy to kilkanaście osób połączyło wspólne zamiłowanie do kosmosu. Pierwszą rakietą wykonaną przez założycielski zespół była R1 Micro, która miała zaledwie 750 mm i 0,8 kg. Oprócz pracy technicznej wykonywanej w kole, studenci od początku działalności chętnie brali udział w konferencjach, warsztatach i szkoleniach, dzięki którym mieli okazję poznać nowe firmy, organizacje i ich nowoczesne rozwiązania technologiczne. Dzięki zaangażowaniu członków koła, udało się zainteresować sponsorów i zachęcić ich do współpracy. Już po dwóch latach żmudnej pracy i zdobywania potrzebnej wiedzy, udało nam się pojechać na pierwsze zawody Spaceport America Cup 2019 w Stanach Zjednoczonych, w których zajęliśmy 5. miejsce. Dla tak młodego zespołu było to ogromne wyróżnienie. Tak zaczęła się przygoda koła z zawodami i rywalizacją z drużynami z całego świata."
     },
     "secondParagraph": {
       "title": "O NAS",
       "subtitle": "KIM JESTEŚMY",
-      "text": "Obecnie w PWr in Space działa aktywnie kilkadziesiąt osób, realizując trzy projekty: PoliWRocket, PoliFloater i PoliPlane. Wykorzystują w nich nowoczesne technologie w zakresie oprogramowania, materiałów kompozytowych, druku 3D oraz spiekania materiałów. Koło naukowe wypracowało przez te kilka lat działalności innowacyjne rozwiązania, które doceniają sędziowie na międzynarodowych zawodach czy firmy z branży kosmicznej. Jest to m.in. silnik hybrydowy, system aktywnego sterowania trajektorią rakiety w locie czy zastosowanie nawijarki do wykonania brył obrotowych. Mimo, iż samo koło działa na Wydziale Mechanicznym, zrzesza studentów z całej Politechniki Wrocławskiej. Naszym najnowszym, a zarazem najbardziej ambitnym przedsięwzięciem była budowa rakiety R5 o napędzie hybrydowym, zdolnej do osiągnięcia apogeum 3048 metrów (10000 stóp) oraz wyniesienia ładunku o masie przynajmniej 4 kilogramów. Liczby te nie są przypadkowe, a odwołują się do konkurencji w której rakieta R4 startowała i odnosiła sukcesy, jak 3. miejsce na wspomnianym konkursie SAC 2023. Wszystkie moduły i elementy rakiety, włącznie z silnikiem, elektroniką krytyczną, strukturą nośną czy modułem odzysku zostały przez nas starannie zaprojektowane i wykonane."
+      "text": "Obecnie w PWr in Space działa aktywnie kilkadziesiąt osób, realizując dwa projekty: PoliWRocket i PoliFloater. Wykorzystują w nich nowoczesne technologie w zakresie oprogramowania, materiałów kompozytowych, druku 3D oraz spiekania materiałów. Koło naukowe wypracowało przez te kilka lat działalności innowacyjne rozwiązania, które doceniają sędziowie na międzynarodowych zawodach czy firmy z branży kosmicznej. Jest to m.in. silnik hybrydowy, system aktywnego sterowania trajektorią rakiety w locie czy zastosowanie nawijarki do wykonania brył obrotowych. Mimo, iż samo koło działa na Wydziale Mechanicznym, zrzesza studentów z całej Politechniki Wrocławskiej. Naszym najnowszym, a zarazem najbardziej ambitnym przedsięwzięciem była budowa rakiety R5 o napędzie hybrydowym, zdolnej do osiągnięcia apogeum 3048 metrów (10000 stóp) oraz wyniesienia ładunku o masie przynajmniej 4 kilogramów. Liczby te nie są przypadkowe, a odwołują się do konkurencji, w której rakieta R5 startowała i odnosiła sukcesy, jak 2. miejsce na wspomnianym konkursie SAC 2023. Wszystkie moduły i elementy rakiety, włącznie z silnikiem, elektroniką krytyczną, strukturą nośną czy modułem odzysku zostały przez nas starannie zaprojektowane i wykonane."
     },
     "numbers": {
       "firstNumber": "CZŁONKÓW",
@@ -135,45 +135,41 @@
   "joinUsPage": {
     "meta": {
       "title": "Dołącz do nas - PWr In Space",
-      "description": "PWr in Space to koło naukowe, które zrzesza miłośników rakiet, technologii kosmicznych oraz eksploracji kosmosu. Pomaga rozwijać zainteresowania i zbierać doświadczenia. Studentów z różnych wydziałów zrzesza wspólna pasja. Obecnie jeden z projektów to PoliWRocket, w którym budowana jest rakieta R5, napędzana silnikiem hybrydowym, która weźmie udział w międzynarodowych zawodach Spaceport America Cup 2023 w Stanach Zjednoczonych."
+      "description": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej. \nTworzymy zespół 60 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Skontaktuj się z nami przez naszego maila lub social media!"
     },
     "header": "DOŁĄCZ DO NAS",
     "departments": {
       "airframe": {
-        "header": "STRUKTURA NOŚNA",
-        "text": "Kogo szukamy: \n➡️ MŁODSZY SPECJALISTA DS. LAMINOWANIA KOMPOZYTÓW \nOpis pozycji:\n- praca na warsztacie, \n- laminowanie kompozytów węglowych i szklanych,\n- symulacje CFD,\n- modelowanie części w programach 3D. \n➡️ KONSTRUKTOR TUNELU AERODYNAMICZNEGO \nOpis pozycji:\n- praca na warsztacie,\n- podstawy mechaniki i elektroniki, \n- proste symulacje CFD, \n- umiejętność researchu.\n➡️ KONSTRUKTOR NAWIJARKI DO KOMPOZYTÓW \nOpis pozycji:\n- dokończenie i konfiguracja nawijarki do włókna węglowego."
+        "header": "DZIAŁ STRUKTURY NOŚNEJ",
+        "text": "--- Młodszy specjalista ds. laminowania kompozytów ---\nWymagania:\n - aktywna obecność przy pracach warsztatowych\n - umiejętność wykonania prostych symulacji CFD \n - umiejętność modelowania części w programach np. SolidWorks\n - podstawowa wiedza z zakresu laminowania kompozytów węglowych i szklanych, znajomość technik wytwarzania\n - podstawowe umiejętności warsztatowe\n"
       },
       "engines": {
-        "header": "SILNIKI RAKIETOWE",
-        "text": "Kogo szukamy: \n➡️ PROJEKTANT ELEMENTÓW MECHANICZNYCH\nWymagania: \n- głowa na karku i samodzielność.\nOpis pozycji: \n- projektowanie elementów mechanicznych - od konceptu po obliczenia wytrzymałościowe i testy prototypów, \n- prace warsztatowe i wyjazdy w teren w celu przeprowadzenia testów statycznych.\nPrzydatne umiejętności: \n- obsługa programów CAD/CAM, \n- umiejętności warsztatowe, \n- podstawowa wiedza z wytrzymałości materiałów, technik wytwarzania, termodynamiki, \n- umiejętność tworzenia prostych skryptów np. w Python/MATLAB."
+        "header": "DZIAŁ SILNIKÓW RAKIETOWYCH",
+        "text": "--- Członek działu silników ---\nWymagania: \n - chęć do pracy i nauki, \n - umiejętność samodzielnej pracy\n - zaradność\n - aktywna obecność podczas prac warsztatowych, udział w wyjazdach terenowych (testy statyczne silnika)\n\nMile widziane:\n - umiejętność obsługi programów CAD/CAM\n - umiejętności warsztatowe\n - podstawowa wiedza z zakresu wytrzymałości materiałów, technik wytwarzania, termodynamiki\n - umiejętność tworzenia prostych skryptów np. w Pythonie/ MatLabie\n - umiejętność projektowania prostych elementów mechanicznych, od konceptu, po obliczenia wytrzymałościowe i testy prototypów\n"
       },
       "pr": {
-        "header": "PR & MARKETING",
-        "text": "Kogo szukamy: \n➡️ COPYWRITER\n- prowadzenie social mediów, obserwowanie najnowszych trendów,\n- pisanie postów i tekstów promocyjnych,\n- kontakt z grafikiem, \n- prowadzenie kampanii marketingowych.\n➡️ CONTENT CREATOR \n- komunikatywność, charyzma, pomysłowość,\n- promocja marketingowa koła, szukanie sponsorów, obserwacja rynku, \n- publiczne wystąpienia, wywiady, prelekcje, prowadzenie spotkań,\n- tworzenie treści w mediach społecznościowych. \n➡️ GRAPHIC DESIGNER JUNIOR\n- umiejętność obróbki materiałów promocyjnych (zdjęć, filmów),\n- podstawowa znajomość edytorów graficznych (np. Photoshop, Figma),\n- kreatywność, wysoki poziom estetyki, dokładność, \n- chęć do tworzenia ciekawych treści.\nUwaga❗️Kandydaci do Działu PR & Marketing na 1. etapie rekrutacji mają inne zadanie niż działy techniczne."
-      },
-      "webdev": {
-        "header": "WEB DEVELOPMENT",
-        "text": "Kogo szukamy: \n➡️ JUNIOR WEB DEVELOPER \nWymagania: \n- podstawy JavaScript (React.js),\n- znajomość Gita i platformy GitHub,\n- chęć do nauki pisania stron internetowych."
+        "header": "DZIAŁ PR & MARKETING",
+        "text": "--- Copywriter ---\nWymagania:\n - umiejętność pisania postów na social media\n - umiejętność prowadzenia kampanii marketingowych bądź zainteresowanie działaniem social mediów\n - chęć do nauki i zaangażowanie\n - pomysłowość\n\n\n---------------------------\n\n\n--- Content Creator ---\nWymagania:\n - umiejętność szybkiego rozwiązywania problemów\n - zaradność i samodzielność\n - znajomość tajników social mediów, ich działania i algorytmów\n - umiejętność tworzenia ciekawych treści, \n - wysoki poziom estetyki \n - charyzma, pewność siebie\n\n\n---------------------------\n\n\n--- Graphic Designer ---\nWymagania:\n - wysoki zmysł estetyki\n - znajomość i obsługa programów graficznych, np. Adobe Ilustrator, Figma, \n - pomysłowość, samodzielność\n - umiejętność tworzenia ciekawych treści\n\n\n---------------------------\n\n--- Web-Developer ---\nWymagania:\n - podstawowa znajomość HTML, CSS, JS (React) \n\n\n---------------------------\n\n--- Photographer/Filmmaker ---\nWymagania:\n - wysoka estetyka wykonanych zdjęć\n - umiejętności podparte portfoliem\n - zaangażowanie w uwiecznienie koła w celach promocyjnych\n - umiejętność obróbki zdjęć/filmów\n - umiejętność tworzenia ciekawych rolek/ tiktoków/ filmów promocyjnych\n"
       },
       "payload": {
-        "header": "PAYLOAD",
-        "text": "Kogo szukamy: \n➡️ MŁODSZY SPECJALISTA DS. ŁADUNKÓW BADAWCZYCH\n➡️ MŁODSZY KONSTRUKTOR LABSAT’ÓW"
+        "header": "DZIAŁ PAYLOADU",
+        "text": "--- Młodszy specjalista ds. ładunków badawczych ---\nWymagania:\n - wiedza z zakresu biologii, chemii, mikrosystemów\n\n\n---------------------------\n\n--- Elektronik ---\nWymagania:\n - podstawowa wiedza na temat elektroniki cyfrowej, \n - chęć zgłębienia wiedzy z zakresu nanosatelit oraz projektowania ładunków nadawczych\n\n\n---------------------------\n\n--- Konstruktor ---\nWymagania:\n - podstawowa wiedza na temat druku 3D i modelowania w programach takich jak SolidWorks lub podobne\n - chęć zgłębienia wiedzy z zakresu nanosatelit oraz projektowania ładunków nadawczych\n"
       },
       "recovery": {
-        "header": "ODZYSK",
-        "text": "Kogo szukamy: \n➡️ MŁODSZY SPECJALISTA KONSTRUKTOR \nWymagania: \n- doświadczenie z modelowaniem CAD/CAM, \n- podstawowa wiedza z zakresu technik wytwórczych (technologiczność projektowanych elementów).\n➡️ MŁODSZY SPECJALISTA MECHATRONIK\nWymagania:\n- znajomość z zakresu mechatroniki (z naciskiem na mechanikę i elektronikę),\n- umiejętność projektowania układów mechatronicznych, \n- mile widziane doświadczenie z pneumatyką.\n➡️ MŁODSZY SPECJALISTA DS. TECHNIK WYTWÓRCZYCH \nWymagania: \n- znajomość technik wytwórczych, \n- podstawowa znajomość zasad konstruowania części mechanicznych."
+        "header": "DZIAŁ ODZYSKU",
+        "text": "--- Członek działu odzysku ---\nWymagania:\n - zaangażowanie i pomysłowość \n - znajomość programów CAD/CAM\n - podstawowa wiedza z zakresu technik wytwórczych (technologiczność projektowanych elementów)\n - podstawowa znajomość zasad konstruowania części mechanicznych\n - umiejętność researchu\n\nMile widziane:\n - doświadczenie z pneumatyką \n - zainteresowanie drukiem 3D\n - umiejętności warsztatowe (użytkowanie narzędzi i elektronarzędzi)\n - umiejętność projektowania układów mechatronicznych\n"
       },
       "electronics": {
-        "header": "ELEKTRONIKA",
-        "text": "Kogo szukamy: \n➡️ EMBEDDED DEVELOPER \nWymagania:\n- programowanie mikrokontrolerów, \n- lutowanie, \n- projektowanie PCB.\n➡️ PROGRAMISTA JAVA \nWymagania:\n- programowanie obiektowe,\n- wzorce projektowe, \n- clean code. \nMile widziana znajomość innych technologii oraz umiejętność pracy z web development."
+        "header": "DZIAŁ ELEKTRONIKI I SOFTWARE",
+        "text": "--- Embedded Software Developer ---\nWymagania:\n - znajomość języków C/C++\n - umiejętność programowania mikrokontrolerów\n - znajomość systemu kontroli wersji Git\n\n\n---------------------------\n--- Hardware Engineer ---\nWymagania:\n - umiejętność projektowania PCB\n - umiejętność lutowania\n - mile widziana znajomość Altium Designer\n"
       },
       "acs": {
-        "header": "ACS",
-        "text": "Kogo szukamy: \n➡️ AUTOMATYK  \nOsoba chcąca zgłębiać informacje o: \n- systemach sterowania, \n- regulatorach PID,\n- filtrach.\nMile widziana znajomość zaawansowanej matematyki i fizyki."
+        "header": "PROJEKT ACS",
+        "text": "--- Automatyk ---\nWymagania:\n - chęć do zgłębienia wiedzy na temat systemów sterowania, regulatorów PID i filtrów\n - mile widziana znajomość dość zaawansowanej matematyki i fizyki\n"
       },
       "polifloater": {
-        "header": "POLIFLOATER",
-        "text": "Kogo szukamy: \n➡️ OSOBA DS. BUDOWY SONDY ATMOSFERYCZNEJ \nWymagania: \n- wiedza z obszaru krótkofalarstwa, \n- zainteresowanie balonami stratosferycznymi. \nMile widziana chęć zgłębiania tematu anten oraz różnych systemów bezprzewodowej komunikacji cyfrowej na duże odległości.\n"
+        "header": "PROJEKT POLIFLOATER",
+        "text": "--- Osoba zainteresowana tworzeniem balonów stratosferycznych ---\nWymagania:\n - chęć zgłębienia tematu anten oraz różnych systemów bezprzewodowej dalekozasięgowej komunikacji cyfrowej \n"
       }
     },
     "form": "FORMULARZ"
