@@ -18,7 +18,7 @@
   "mainPage": {
     "meta": {
       "title": "Home - PWr In Space",
-      "description": "PWr in Space is a students association that brings together enthusiasts of rockets, space technology and space exploration. Helps develop interests and gather experience. Students from different departments are brought together by a common passion. Currently, one of the projects is PoliWRocket, where we are building the R5 rocket. Powered by a hybrid engine, which will take part in the international Spaceport America Cup 2023 competition in the United States."
+      "description": "PWr in Space is a science association that has been active at Wrocław University of Technology since 2017.\nWe form a team of 60 people who share a common love of rockets, space technology and expanding their knowledge of space. Our main project is the PoliWRocket project - building experimental sounding rockets. Contact us through our email or social media!"
     },
     "landingSection": {
       "title": "PWR IN SPACE",
@@ -35,7 +35,7 @@
     },
     "aboutUs": {
       "header": "ABOUT US",
-      "text": "PWr in Space is a students association that brings together enthusiasts of rockets, space technology and space exploration. Helps develop interests and gather experience. Students from different departments are brought together by a common passion. Currently, one of the projects is PoliWRocket, where we are building the R5 rocket. Powered by a hybrid engine, which will take part in the international Spaceport America Cup 2023 competition in the United States. This is not only a student competition, but also a scientific conference and an opportunity to make friends with team members from around the world.",
+      "text": "PWr in Space is a science association that has been active at Wrocław University of Technology since 2017.\nWe form a team of 60 people who share a common love of rockets, space technology and expanding their knowledge of space. Despite the fact that the club itself operates at the Faculty of Mechanical Engineering, thanks to the interdisciplinary nature of its projects, it brings together students from all over Wrocław University of Technology. Our main project is the PoliWRocket project - building experimental sounding rockets. We create our constructions on our own - starting from the design phase, through 3D modelling and workshop work, while developing our knowledge and technical skills.So far, we have managed to construct 8 main rockets and make 16 successful flights. Every year we participate in the Spaceport America Cup student rocketry competition in the United States and the European Rocketry Challenge in Portugal to compete against teams from all over the world.",
       "planet1": "CONNECTED",
       "planet2": "BY",
       "planet3": "PASSION"
@@ -90,7 +90,7 @@
   "contactPage": {
     "meta": {
       "title": "Contact - PWr In Space",
-      "description": "Wr in Space is a students association that brings together enthusiasts of rockets, space technology and space exploration. Helps develop interests and gather experience. Contact us through our email or social media!"
+      "description": "PWr in Space is a science association that has been active at Wrocław University of Technology since 2017.\nWe form a team of 60 people who share a common love of rockets, space technology and expanding their knowledge of space. Our main project is the PoliWRocket project - building experimental sounding rockets. Contact us through our email or social media!"
     },
     "header": "CONTACT",
     "title": "MESSAGE US!",
@@ -106,25 +106,25 @@
   "sponsorsPage": {
     "meta": {
       "title": "Sponsors - PWr In Space",
-      "description": "PWr in Space is a students association that brings together enthusiasts of rockets, space technology and space exploration. Helps develop interests and gather experience. Students from different departments are brought together by a common passion. Currently, one of the projects is PoliWRocket, where we are building the R5 rocket. Powered by a hybrid engine, which will take part in the international Spaceport America Cup 2023 competition in the United States."
+      "description": "PWr in Space is a science association that has been active at Wrocław University of Technology since 2017.\nWe form a team of 60 people who share a common love of rockets, space technology and expanding their knowledge of space. Our main project is the PoliWRocket project - building experimental sounding rockets. Contact us through our email or social media!"
     },
     "header": "SPONSORS"
   },
   "aboutUsPage": {
     "meta": {
       "title": "About us - PWr In Space",
-      "description": "PWr in Space is a students association that brings together enthusiasts of rockets, space technology and space exploration. Helps develop interests and gather experience. Students from different departments are brought together by a common passion. Currently, one of the projects is PoliWRocket, where we are building the R5 rocket. Powered by a hybrid engine, which will take part in the international Spaceport America Cup 2023 competition in the United States."
+      "description": "PWr in Space is a science association that has been active at Wrocław University of Technology since 2017.\nWe form a team of 60 people who share a common love of rockets, space technology and expanding their knowledge of space. Our main project is the PoliWRocket project - building experimental sounding rockets. Contact us through our email or social media!"
     },
     "header": "ABOUT US",
     "firstParagraph": {
       "title": "INTRO",
       "subtitle": "OUR STORY",
-      "text": "PWr in Space students scientific association was founded in 2017, when a dozen people came together with a shared love of space. The first rocket made by the founding team was the R1 Micro, which was only 750 mm and 0.8 kg. In addition to the technical work done in the organization, from the beginning the students were eager to participate in conferences, workshops and training sessions, which gave them the opportunity to learn about new companies, organizations and their modern manufacturing solutions. Thanks to the commitment of the members of PWr in Space, it was possible to gain interest of sponsors and encourage them to cooperate. After just two years of painstaking work and acquiring the necessary knowledge, we managed to go to the first Spaceport America Cup competition in the United States, in which we took 5th place. For such a young team, this was a great honor. This is how the organization's adventure with competitions and competition with teams from all over the world began."
+      "text": "The PWr in Space Scientific Club was founded in 2017, when a dozen people came together with a shared love of space. The first rocket made by the founding team was the R1 Micro, which was just 750 mm and 0.8 kg. In addition to the technical work done in the association, from the beginning the students were keen to participate in conferences, workshops and training sessions, which gave them the opportunity to meet new companies, organisations and their new technological solutions. Thanks to the commitment of the members of the club, it was possible to attract sponsors and encourage them to cooperate. After just two years of arduous work and acquiring the necessary knowledge, we managed to go to the first Spaceport America Cup 2019 competition in the United States, in which we took 5th place. For such a young team, this was a huge accolade. Thus began the club's adventure of competing  against teams from all over the world."
     },
     "secondParagraph": {
       "title": "ABOUT US",
       "subtitle": "WHO WE ARE",
-      "text": "Currently, several dozen people are active in PWr in Space, implementing three projects: PoliWRocket, PoliFloater and PoliPlane. They are utilizing modern technologies in software, composite materials, 3D printing and material sintering. The scientific association has developed innovative solutions over these several years of activity, which are appreciated by judges at international competitions or companies in the space industry. These include a hybrid engine, a system for actively controlling the trajectory of a rocket in flight, or the use of a winder to create rotating solids. Although the circle itself is based at the Department of Mechanical Engineering, it brings together students from all over Wroclaw University of Technology. Our latest and most ambitious project was the construction of a hybrid-powered R5 rocket, capable of reaching an apogee of 3048 meters (10000 feet) and lifting a payload of at least 4 kilograms. These numbers are not coincidental, and refer to the competition in which the R5 rocket competed and succeeded, such as 2rd place at the aforementioned SAC 2023 competition. All modules and components of the rocket, including the engine, critical electronics, launch structure or recovery module, were carefully designed and manufactured by us."
+      "text": "Currently, several dozen people are active in PWr in Space with two projects: PoliWRocket and PoliFloater. In them, they make use of modern technologies in software, composite materials, 3D printing and material sintering. The research circle has developed innovative solutions over these several years of activity, which are appreciated by judges at international competitions or companies in the space industry. These include a hybrid engine, a system for actively controlling the trajectory of a rocket in flight or the use of a winder to make rotating solids. Although the association itself is based at the Faculty of Mechanical Engineering, it brings together students from across the Wrocław University of Technology. Our latest and most ambitious project was the construction of the R5 hybrid rocket, capable of reaching an apogee of 3048 metres (10,000 feet) and carrying a payload of at least 4 kilograms. These numbers are not coincidental and refer to the competition in which the R5 rocket competed and was successful, such as 2nd place at the aforementioned SAC 2023 competition. All modules and components of the rocket, including the engine, critical electronics, launch structure or recovery module, were carefully designed and manufactured by us."
     },
     "numbers": {
       "firstNumber": "MEMBERS",
@@ -135,45 +135,41 @@
   "joinUsPage": {
     "meta": {
       "title": "Join us - PWr In Space",
-      "description": "PWr in Space is a students association that brings together enthusiasts of rockets, space technology and space exploration. Helps develop interests and gather experience. Students from different departments are brought together by a common passion. Currently, one of the projects is PoliWRocket, where we are building the R5 rocket. Powered by a hybrid engine, which will take part in the international Spaceport America Cup 2023 competition in the United States."
+      "description": "PWr in Space is a science association that has been active at Wrocław University of Technology since 2017.\nWe form a team of 60 people who share a common love of rockets, space technology and expanding their knowledge of space. Our main project is the PoliWRocket project - building experimental sounding rockets. Contact us through our email or social media!"
     },
     "header": "JOIN US",
     "departments": {
       "airframe": {
         "header": "AIRFRAME STRUCTURE",
-        "text": "Who we are looking for: \n➡\uFE0F JUNIOR COMPOSITE LAMINATION SPECIALIST \nPosition description:\n- workshop work, \n- lamination of carbon and glass composites,\n- CFD simulations,\n- modeling of parts in 3D programs. \n➡\uFE0F WIND TUNNEL DESIGNER \nPosition description:\n- workshop work,\n- fundamentals of mechanics and electronics, \n- simple CFD simulations, \n- research skills.\n➡\uFE0F COMPOSITE WINDER BUILDER \nPosition description:\n- Completion and configuration of a carbon fiber winder."
+        "text": "--- Junior Composite Laminating Specialist ---\nRequirements:\n - active presence in the workshop\n - ability to carry out simple CFD simulations \n - ability to model parts in programs such as SolidWorks\n - basic knowledge of lamination of carbon and glass composites, knowledge of manufacturing techniques\n - basic workshop skills\n"
       },
       "engines": {
         "header": "ROCKET ENGINES",
-        "text": "Who we are looking for: \n➡\uFE0F MECHANICAL COMPONENTS DESIGNER\nRequirements: \n- A head on your shoulders and self-reliance.\nPosition description: \n- Design of mechanical components - from concept to strength calculations and prototype testing, \n- workshop work and field trips for static testing.\nUseful skills: \n- CAD/CAM software operation, \n- workshop skills, \n- basic knowledge of strength of materials, manufacturing techniques, thermodynamics, \n- ability to develop simple scripts, e.g. in Python/MATLAB."
+        "text": "--- Member of the engine department ---\nRequirements: \n - willingness to work and learn, \n - ability to work independently\n - resourcefulness\n - active presence during workshop work, participation in field trips (static engine tests)\n\n\nHighly appreciated:\n - ability to use CAD/CAM programs\n - workshop skills\n - basic knowledge of materials strength, manufacturing techniques, thermodynamics\n - ability to create simple scripts, e.g. in Python/MatLab\n - ability to design simple mechanical components, from concept to strength calculations and prototype tests\n"
       },
       "pr": {
         "header": "PR & MARKETING",
-        "text": "Who we are looking for: \n➡\uFE0F COPYWRITER\n- Running social media, keeping an eye on the latest trends,\n- writing posts and promotional texts,\n- liaising with graphic designer, \n- running marketing campaigns.\n➡\uFE0F CONTENT CREATOR \n- communicativeness, charisma, ingenuity,\n- marketing promotion of the circle, looking for sponsors, observing the market, \n- public speaking, interviews, lectures, conducting meetings,\n- social media content creation. \n➡\uFE0F GRAPHIC DESIGNER JUNIOR\n- Ability to process promotional materials (photos, videos),\n- basic knowledge of graphic editors (e.g. Photoshop, Figma),\n- creativity, high level of aesthetics, accuracy, \n- willingness to create interesting content.\nUwaga❗\uFE0FKandydaci to the PR & Marketing Department at the 1st stage of recruitment have a different task than technical departments."
-      },
-      "webdev": {
-        "header": "WEB DEVELOPMENT",
-        "text": "Who we are looking for: \n➡\uFE0F JUNIOR WEB DEVELOPER \nRequirements: \n- JavaScript basics (React.js),\n- knowledge of Git and the GitHub platform,\n- willingness to learn how to write websites."
+        "text": "--- Copywriter ---\nRequirements:\n - ability to write social media posts\n - ability to run marketing campaigns or interest in social media\n - willingness to learn and commitment\n - ingenuity\n\n\n---------------------------\n\n\n\n--- Content Creator ---\nRequirements:\n - ability to solve problems quickly\n - resourcefulness and self-reliance\n - knowledge of social media, their operation and algorithms\n - ability to create interesting content \n - high level of aesthetics \n - charisma, self-confidence\n\n\n---------------------------\n\n\n\n--- Graphic Designer ---\nRequirements:\n - high sense of aesthetics\n - knowledge and use of graphic software, e.g. Adobe Illustrator, Figma, \n - ingenuity, independence\n - ability to create interesting content\n\n\n---------------------------\n\n\n--- Web-Developer ---\nRequirements:\n - basic knowledge of HTML, CSS, JS (React)\n\n\n---------------------------\n\n\n--- Photographer/Filmmaker ---\nRequirements:\n - high aesthetics of the photographs taken\n - skills supported by a portfolio\n - commitment to the immortalisation of the wheel for promotional purposes\n - ability to process photos/videos\n - ability to create interesting reels/tiktoks/promotional films\n"
       },
       "payload": {
         "header": "PAYLOAD",
-        "text": "Who we are looking for: \n➡\uFE0F JUNIOR RESEARCH CARGO SPECIALIST\n➡\uFE0F JUNIOR LABSAT DESIGNER"
+        "text": "--- Junior research payload specialist ---\nRequirements:\n - knowledge of biology, chemistry, microsystems\n\n\n---------------------------\n\n\n--- Electronics Engineer ---\nRequirements:\n - basic knowledge of digital electronics, \n - willingness to learn more about nanosatellites and the design of payloads\n\n\n---------------------------\n\n\n--- Constructor ---\nRequirements:\n - basic knowledge of 3D printing and modelling in programs such as SolidWorks or similar\n - willingness to explore nanosatellites and design of payloads\n"
       },
       "recovery": {
         "header": "RECOVERY",
-        "text": "Who we are looking for: \n➡\uFE0F JUNIOR SPECIALIST CONSTRUCTOR \nRequirements: \n- experience with CAD/CAM modeling, \n- basic knowledge of manufacturing techniques (technological nature of designed components).\n➡\uFE0F JUNIOR MECHATRONICS SPECIALIST\nRequirements:\n- knowledge of mechatronics (with emphasis on mechanics and electronics),\n- ability to design mechatronic systems, \n- Experience with pneumatics welcome.\n➡\uFE0F JUNIOR MANUFACTURING TECHNOLOGY SPECIALIST \nRequirements: \n- knowledge of manufacturing techniques, \n- basic knowledge of the principles of mechanical parts design."
+        "text": "--- Member of the recovery department ---\nRequirements:\n - commitment and ingenuity \n - knowledge of CAD/CAM programs\n - basic knowledge of manufacturing techniques (technological aspect of designed components)\n - basic knowledge of mechanical component design\n - research skills\n\n\nHighly appreciated:\n - experience with pneumatics \n - interest in 3D printing\n - workshop skills (use of tools and power tools)\n - ability to design mechatronic systems\n"
       },
       "electronics": {
-        "header": "ELECTRONICS",
-        "text": "Who we are looking for: \n➡\uFE0F EMBEDDED DEVELOPER \nRequirements:\n- microcontroller programming, \n- soldering, \n- PCB design.\n➡\uFE0F JAVA PROGRAMMER \nRequirements:\n- object-oriented programming,\n- design patterns, \n- clean code. \nKnowledge of other technologies and ability to work with web development welcome."
+        "header": "ELECTRONICS & SOFTWARE",
+        "text": "--- Embedded Software Developer ---\nRequirements:\n - knowledge of C/C++ languages\n - ability to program microcontrollers\n - knowledge of the version control system Git\n\n\n---------------------------\n\n--- Hardware Engineer ---\nRequirements:\n - ability to design PCBs\n - Soldering skills\n - knowledge of Altium Designer would be an advantage\n"
       },
       "acs": {
-        "header": "ACS",
-        "text": "Who we are looking for: \n➡\uFE0F AUTOMATICS  \nA person who wants to explore information about: \n- control systems, \n- PID controllers,\n- filters.\nKnowledge of advanced mathematics and physics is welcome."
+        "header": "ACS PROJECT",
+        "text": "--- Automation Engineer ---\nRequirements:\n - willingness to explore knowledge of control systems, PID controllers and filters\n - knowledge of fairly advanced mathematics and physics is desirable\n"
       },
       "polifloater": {
-        "header": "POLIFLOATER",
-        "text": "Who we are looking for: \n➡\uFE0F ATMOSPHERIC PROBE CONSTRUCTION PERSON \nRequirements: \n- knowledge in the area of ham radio, \n- interest in stratospheric balloons. \nWillingness to explore the topic of antennas and various long-distance digital wireless communication systems is welcome."
+        "header": "POLIFLOATER PROJECT",
+        "text": "--- Person interested in creating stratospheric balloons ---\nRequirements:\n - willingness to explore the topic of antennas and various long-range wireless digital communication systems\n"
       }
     },
     "form": "FORM"

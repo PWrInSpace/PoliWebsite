@@ -6,9 +6,9 @@ import { SubpageWrapper } from "../../components/subpage-wrapper/SubpageWrapper"
 import { HeadComponent } from "../../components/head-component/HeadComponent";
 
 export const JoinUs = () => {
-  const buttonVisible = false;
+  const buttonVisible = true;
   const buttonLink =
-    "https://docs.google.com/forms/d/e/1FAIpQLSf-aeTqPVKXVolgZyAsSVKhb2wuBDK5Izzq-5-eBxqQi-xKTw/viewform";
+    "https://docs.google.com/forms/d/e/1FAIpQLSec1p9gRPjvmmK4ht2WrAhrs2OA9PoTq-tB16YxDB2oIu4UbQ/viewform";
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -22,6 +22,7 @@ export const JoinUs = () => {
           header={__(department.header)}
           text={__(department.text)}
           key={index}
+          onClick={() => window.open(buttonLink, "_blank")}
         />
       );
     });

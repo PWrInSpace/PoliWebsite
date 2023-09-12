@@ -4,7 +4,6 @@ import pr from "../../assets/images/join-us/pr.png";
 import odzysk from "../../assets/images/join-us/odzysk.png";
 import elektronika from "../../assets/images/join-us/elektronika.png";
 import acs from "../../assets/images/join-us/acs.png";
-import webdev from "../../assets/images/join-us/webdev.png";
 import payload from "../../assets/images/join-us/payload.png";
 import polifloater from "../../assets/images/join-us/polifloater.png";
 
@@ -44,11 +43,6 @@ export const Departments: department[] = [
     header: "joinUsPage.departments.acs.header",
     text: "joinUsPage.departments.acs.text",
     image: acs,
-  },
-  {
-    header: "joinUsPage.departments.webdev.header",
-    text: "joinUsPage.departments.webdev.text",
-    image: webdev,
   },
   {
     header: "joinUsPage.departments.payload.header",
