@@ -70,7 +70,7 @@ export const AboutUs = () => {
               title={__("aboutUsPage.numbers.secondNumber")}
             />
             <NumberContainerComponent
-              number={12}
+              number={16}
               title={__("aboutUsPage.numbers.thirdNumber")}
             />
           </div>
