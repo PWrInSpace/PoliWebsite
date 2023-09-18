@@ -1,5 +1,5 @@
 import WiktoriaMrowiec from "../../assets/images/contact/wiktoria-mrowiec.png";
-import LiliyaSizhuk from "../../assets/images/contact/liliya-sizhuk.png";
+import MichalKos from "../../assets/images/contact/michal-kos.png";
 
 export const Crew = {
   pr: {
@@ -9,9 +9,9 @@ export const Crew = {
     mail: "mrowiec.w.wm@gmail.com",
   },
   ceo: {
-    image: LiliyaSizhuk,
+    image: MichalKos,
     title: "contactPage.president",
-    name: "Liliya Sizhuk",
-    mail: "liliya.sizhuk@gmail.com",
+    name: "Michał Kos",
+    mail: "252933@student.pwr.edu.pl",
   },
 };
