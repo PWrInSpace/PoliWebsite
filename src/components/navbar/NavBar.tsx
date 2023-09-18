@@ -31,14 +31,14 @@ export const NavBar = (props: ISelfProps) => {
   return (
     <div
       className={
-        scrollPosition > 100
+        scrollPosition > 25
           ? classes(styles.smallerHeaderContainer, styles.withBlackBackground)
           : classes(styles.headerContainer, styles.withoutBlackBackground)
       }
     >
       <div
         className={classes(
-          scrollPosition > 100
+          scrollPosition > 25
             ? menuOpen
               ? styles.headerWrapper
               : styles.smallerHeaderWrapper
