@@ -114,7 +114,7 @@ export const Images: Image[] = [
   {
     src: wilhelm,
     alt: "Wilhelm logo",
-    webpage: "https://www.coindustry.pl/Maszyny-katalogowe-menu.html",
+    webpage: "https://wilhelm-rd.eu/",
   },
   {
     src: wurthelektronik,
