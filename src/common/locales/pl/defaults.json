@@ -145,7 +145,7 @@
       },
       "engines": {
         "header": "DZIAŁ SILNIKÓW RAKIETOWYCH",
-        "text": "--- Członek działu silników ---\nWymagania: \n - chęć do pracy i nauki, \n - umiejętność samodzielnej pracy\n - zaradność\n - aktywna obecność podczas prac warsztatowych, udział w wyjazdach terenowych (testy statyczne silnika)\n\nMile widziane:\n - umiejętność obsługi programów CAD/CAM\n - umiejętności warsztatowe\n - podstawowa wiedza z zakresu wytrzymałości materiałów, technik wytwarzania, termodynamiki\n - umiejętność tworzenia prostych skryptów np. w Pythonie/ MatLabie\n - umiejętność projektowania prostych elementów mechanicznych, od konceptu, po obliczenia wytrzymałościowe i testy prototypów\n"
+        "text": "--- Młodszy konstruktor silników rakietowych ---\nWymagania: \n - głowa na karku \n - chęć do pracy i nauki\n - zapał do bezwzględnego i ślepego podążania za liderami\n - samodzielności\n - umiejętności pracy w grupie\n\nMile widziane:\n - umiejętność obsługi programów CAD/CAM\n - umiejętności warsztatowe\n - podstawowa wiedza z zakresu wytrzymałości materiałów, technik wytwarzania, termodynamiki\n - umiejętność tworzenia prostych skryptów np. w Python/MatLab\n - umiejętność projektowania elementów mechanicznych, od konceptu, po obliczenia wytrzymałościowe i testy prototypów\n - prace warsztatowe, wyjazdy w teren w celu przeprowadzenia testów statycznych\n"
       },
       "pr": {
         "header": "DZIAŁ PR & MARKETING",
@@ -153,23 +153,27 @@
       },
       "payload": {
         "header": "DZIAŁ PAYLOADU",
-        "text": "--- Młodszy specjalista ds. ładunków badawczych ---\nWymagania:\n - wiedza z zakresu biologii, chemii, mikrosystemów\n\n\n---------------------------\n\n--- Elektronik ---\nWymagania:\n - podstawowa wiedza na temat elektroniki cyfrowej, \n - chęć zgłębienia wiedzy z zakresu nanosatelit oraz projektowania ładunków nadawczych\n\n\n---------------------------\n\n--- Konstruktor ---\nWymagania:\n - podstawowa wiedza na temat druku 3D i modelowania w programach takich jak SolidWorks lub podobne\n - chęć zgłębienia wiedzy z zakresu nanosatelit oraz projektowania ładunków nadawczych\n"
-      },
-      "recovery": {
-        "header": "DZIAŁ ODZYSKU",
-        "text": "--- Członek działu odzysku ---\nWymagania:\n - zaangażowanie i pomysłowość \n - znajomość programów CAD/CAM\n - podstawowa wiedza z zakresu technik wytwórczych (technologiczność projektowanych elementów)\n - podstawowa znajomość zasad konstruowania części mechanicznych\n - umiejętność researchu\n\nMile widziane:\n - doświadczenie z pneumatyką \n - zainteresowanie drukiem 3D\n - umiejętności warsztatowe (użytkowanie narzędzi i elektronarzędzi)\n - umiejętność projektowania układów mechatronicznych\n"
+        "text": "--- Specjalista ds. eksperymentów naukowych ---\nWymagania:\n - chęć zgłębiania wiedzy dotyczącej cubesatów i eksperymentów przez nie przeprowadzanych\nMile widziane\n - znajomość programu LabView\n - wiedza z zakresu mikrosystemów i elektroniki\n - umiejętność programowania\n\n---------------------------\n\n--- Specjalista ds. wytwarzania ---\nWymagania:\n - umiejętność obsługi maszyn warsztatowych\n - znajomość maszyn CNC\nMile widziane:\n - podstawowa wiedza na temat druku 3D i modelowania w programach takich jak SolidWorks lub podobne\n - chęć zgłębienia wiedzy z zakresu cubesatów oraz projektowania ładunków badawczych\n"
       },
       "electronics": {
         "header": "DZIAŁ ELEKTRONIKI I SOFTWARE",
-        "text": "--- Embedded Software Developer ---\nWymagania:\n - znajomość języków C/C++\n - umiejętność programowania mikrokontrolerów\n - znajomość systemu kontroli wersji Git\n\n\n---------------------------\n--- Hardware Engineer ---\nWymagania:\n - umiejętność projektowania PCB\n - umiejętność lutowania\n - mile widziana znajomość Altium Designer\n"
+        "text": "--- Embedded system engineer ---\nWymagania:\n - umiejętność projektowania PCB\n - znajomość Altium Designer\n - doświadczenie w programowaniu mikrokontrolerów\n - znajomość języka C\nMile widziane:\n - doświadczenie z esp-idf\n"
+      },
+      "groundSupport": {
+        "header": "DZIAŁ GROUND SUPPORT",
+        "text": "--- Członek działu ground support ---\nWymagania:\n - zaangażowanie i chęć nauki \n - umiejętności warsztatowe\n - umiejętność radzenia sobie z problemami\n - samodzielność\n - obsługa programów CAD/CAM\n - podstawowa wiedza z wytrzymałości materiałów, technik wytwarzania\n - projektowanie elementów mechanicznych, od konceptu, po obliczenia wytrzymałościowe i testy prototypów\n"
       },
       "acs": {
         "header": "PROJEKT ACS",
-        "text": "--- Automatyk ---\nWymagania:\n - chęć do zgłębienia wiedzy na temat systemów sterowania, regulatorów PID i filtrów\n - mile widziana znajomość dość zaawansowanej matematyki i fizyki\n"
+        "text": "--- Inżynier mate ---\nWymagania:\n - chęć do nauki \n - zdolność researchu\nMile widziane:\n - programowanie systemów wbudowanych - pracujemy z STM32 i ESP32\n - pisanie  symulacji elementów systemu w matlabie/simulinku\n - aerodynamika szeroko rozumiana  - Pracować będziemy z symulacjami płynów i tunelami aerodynamicznym\n - modelowanie  dynamiczne  rakiety\n - projektowanie estymatorów stanu i układów sterowania rakiety\n"
       },
       "polifloater": {
         "header": "PROJEKT POLIFLOATER",
-        "text": "--- Osoba zainteresowana tworzeniem balonów stratosferycznych ---\nWymagania:\n - chęć zgłębienia tematu anten oraz różnych systemów bezprzewodowej dalekozasięgowej komunikacji cyfrowej \n"
+        "text": "--- Osoba zainteresowana tworzeniem sond stratosferycznych ---\nWymagania:\n - chęć zgłębienia tematu balonów, predykcji lotu, sposobów napełniania. \n---------------------------\n--- Specjalista ds. radiosond  ---\nWymagania:\n - chęć zgłębienia tematu anten oraz różnych systemów bezprzewodowej dalekozasięgowej komunikacji cyfrowej \n - mile widziana znajomość APRS i LoRa, umiejętność programowania (najlepiej C++), znajomość radiosond (np. RS41) \n"
+      },
+      "liquid": {
+        "header": "PROJEKT LIQUID",
+        "text": "--- Specjalista ds. researchu ---\nWymagania:\n - analiza informacj \n - dokładność \n - zaangażowanie \n---------------------------\n--- Konstruktor  ---\nWymagania:\n - prace warsztatowe \n - znajomość technik wytwarzania \n - projektowanie w programach CAD/CAM"
       }
     },
     "form": "FORMULARZ"
