@@ -8,7 +8,7 @@ import { HeadComponent } from "../../components/head-component/HeadComponent";
 export const JoinUs = () => {
   const buttonVisible = true;
   const buttonLink =
-    "https://docs.google.com/forms/d/e/1FAIpQLSec1p9gRPjvmmK4ht2WrAhrs2OA9PoTq-tB16YxDB2oIu4UbQ/viewform";
+    "https://docs.google.com/forms/d/e/1FAIpQLSeLa8B_qXmPsLweQbj1shcX0x4UpeSUEvc3Op-ouPKhloYZ3Q/viewform";
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -18,7 +18,7 @@ export const JoinUs = () => {
     return Departments.map((department, index) => {
       return (
         <JoinDepartmentContainer
-          image={String(department.image)}
+          image={String(department.image ?? "")}
           header={__(department.header)}
           text={__(department.text)}
           key={index}

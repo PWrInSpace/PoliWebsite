@@ -29,15 +29,16 @@ export const Departments: department[] = [
     text: "joinUsPage.departments.pr.text",
     image: pr,
   },
-  {
-    header: "joinUsPage.departments.recovery.header",
-    text: "joinUsPage.departments.recovery.text",
-    image: odzysk,
-  },
+
   {
     header: "joinUsPage.departments.electronics.header",
     text: "joinUsPage.departments.electronics.text",
     image: elektronika,
+  },
+  {
+    header: "joinUsPage.departments.groundSupport.header",
+    text: "joinUsPage.departments.groundSupport.text",
+    image: null
   },
   {
     header: "joinUsPage.departments.acs.header",
@@ -53,5 +54,10 @@ export const Departments: department[] = [
     header: "joinUsPage.departments.polifloater.header",
     text: "joinUsPage.departments.polifloater.text",
     image: polifloater,
+  },
+  {
+    header: "joinUsPage.departments.liquid.header",
+    text: "joinUsPage.departments.liquid.text",
+    image: null
   },
 ];

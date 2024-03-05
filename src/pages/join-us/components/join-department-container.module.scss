@@ -6,6 +6,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   gap: 3.125rem;
+  width: 100%;
 
   @include breakpoint-md {
     flex-wrap: wrap;
