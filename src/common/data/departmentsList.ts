@@ -6,6 +6,8 @@ import elektronika from "../../assets/images/join-us/elektronika.png";
 import acs from "../../assets/images/join-us/acs.png";
 import payload from "../../assets/images/join-us/payload.png";
 import polifloater from "../../assets/images/join-us/polifloater.png";
+import liquid from "../../assets/images/join-us/liqiud.png";
+import rekrutacja from "../../assets/images/join-us/rekrutacja.png";
 
 interface department {
   header: string;
@@ -38,7 +40,7 @@ export const Departments: department[] = [
   {
     header: "joinUsPage.departments.groundSupport.header",
     text: "joinUsPage.departments.groundSupport.text",
-    image: null
+    image: rekrutacja
   },
   {
     header: "joinUsPage.departments.acs.header",
@@ -58,6 +60,6 @@ export const Departments: department[] = [
   {
     header: "joinUsPage.departments.liquid.header",
     text: "joinUsPage.departments.liquid.text",
-    image: null
+    image: liquid
   },
 ];
