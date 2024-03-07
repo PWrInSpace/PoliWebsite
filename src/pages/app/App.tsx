@@ -12,6 +12,7 @@ import { AboutUs } from "../about-us/AboutUs";
 import "./app.module.scss";
 import { JoinUs } from "../join-us/JoinUs";
 import { NavMenuItem } from "../../common/interfaces/SharedInterfaces";
+import Cookies from "js-cookie";
 
 const App = () => {
   initializeI18n();
@@ -26,12 +27,20 @@ const App = () => {
       name: __("navbar.aboutUs"),
       url: "/about-us",
       component: () => <AboutUs />,
-    },
-    {
-      name: __("navbar.joinUs"),
-      url: "/join-us",
-      component: () => <JoinUs />,
-    },
+    }
+  ];
+  const storedLang = Cookies.get("i18next") ?? "pl";
+  if(storedLang === "pl") {
+    menuItems.push(
+      {
+        name: __("navbar.joinUs"),
+        url: "/join-us",
+        component: () => <JoinUs />,
+      }
+    );
+  }
+
+  menuItems.push(
     {
       name: __("navbar.sponsors"),
       url: "/sponsors",
@@ -41,8 +50,8 @@ const App = () => {
       name: __("navbar.contact"),
       url: "/contact",
       component: () => <ContactPage />,
-    },
-  ];
+    }
+  );
 
   return (
     <HashRouter>
