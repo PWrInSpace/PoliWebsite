@@ -5,7 +5,7 @@ import { SectionTitle } from "../../../components/section-title/SectionTitle";
 import { Rockets } from "../../../common/data/rocketList";
 
 export const OurProjects = () => {
-  const [selectedButton, setSelectedButton] = React.useState<string>("R5");
+  const [selectedButton, setSelectedButton] = React.useState<string>("R6");
 
   const handleButtonChange = (rocket: string) => {
     if (rocket === selectedButton) {
