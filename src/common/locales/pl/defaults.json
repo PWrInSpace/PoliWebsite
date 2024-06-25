@@ -75,6 +75,10 @@
           "name": "AURORA",
           "description": "W Aurorze dokonano zmian w strukturze rakiety i jej butli, oraz zmodyfikowano system elektroniczny. Do tego przebudowany został główny komputer, oraz stworzona została całkiem nowa, 12-metrowa wyrzutnia. Rakieta brała udział w zawodach Spaceport America Cup 2023 w Nowym Meksyku, gdzie nasza drużyna zdobyła 2. miejsce w swojej kategorii 10k SRAD Hybrid."
         },
+        "R6": {
+          "name": "AETHER ",
+          "description": "W Aether zmodyfikowano system odzyskiwania rakiety oraz ulepszono elektronikę poprzez dodanie nowych modułów i wprowadzenie ulepszeń konstrukcyjnych. Przebudowano także aparaturę przygotowującą rakietę do startu. Zmieniono metody stosowane w strukturze nośnej oraz zoptymalizowano jej elementy. Rakieta ta weźmie udział w zawodach Spaceport America Cup 2024 w Nowym Meksyku w kategorii 10k SRAD Hybrid."
+        },
         "specs": {
           "length": "DŁUGOŚĆ RAKIETY",
           "thrust": "CIĄG RAKIETY",
