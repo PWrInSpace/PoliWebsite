@@ -75,6 +75,10 @@
           "name": "AURORA",
           "description": "In Aurora, changes were made to the structure of the rocket and its cylinder. The electronic system was modified as well. On top of that, the main computer was rebuilt, and a brand new 12-meter launcher was created. The rocket participated in the Spaceport America Cup 2023 in New Mexico, where our team won 2nd place in its 10k SRAD Hybrid category."
         },
+        "R6": {
+          "name": "AETHER",
+          "description": "In Aether, the rocket’s recovery system was modified, and its electronics were enhanced with new modules and design improvements. The launch preparation apparatus was also redesigned. Additionally, the methods and components of the aerostructure were optimized. This rocket will compete in the 10k SRAD Hybrid category at the Spaceport America Cup 2024 in New Mexico."
+        },
         "specs": {
           "length": "LENGTH",
           "thrust": "THRUST",
