@@ -31,7 +31,10 @@
         "members": "CZŁONKÓW",
         "year": "ROK ZAŁOŻENIA",
         "starts": "STARTÓW"
-      }
+      },
+      "beforeRecrutation": "Rekrutujemy za:",
+      "activeRecrutation": "Rekrutujemy!",
+      "afterRecrutation": "Rekrutacja zakończona"
     },
     "aboutUs": {
       "header": "O NAS",

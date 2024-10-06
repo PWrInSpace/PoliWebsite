@@ -1,0 +1,38 @@
+@import "../../assets/styles/fonts.module";
+@import "../../assets/styles/breakpoints.module";
+@import "../../assets/styles/variables.module";
+
+.wrapper {
+  grid-column: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  .timer {
+    font-family: $kronaOne;
+    font-size: 2.625rem;
+    letter-spacing: 0.9rem;
+    color: white;
+    text-align: center;
+
+    @include breakpoint-md {
+      font-size: 2.3rem;
+      letter-spacing: 0.8rem;
+    }
+  }
+
+  .title {
+    font-family: $alegreyaSans;
+    font-size: 2.2rem;
+    letter-spacing: 0.5rem;
+    color: white;
+    margin: 1.5625rem 1rem 2.5rem 1rem;
+    text-align: center;
+    overflow-wrap: anywhere;
+
+    @include breakpoint-md {
+      font-size: 2rem;
+    }
+  }
+}
