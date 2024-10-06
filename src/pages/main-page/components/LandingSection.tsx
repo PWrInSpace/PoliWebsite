@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { NumberContainerComponent } from "../../../components/number-container-component/NumberContainerComponent";
 import background from "../../../assets/images/backgrounds/background.mp4";
 import backgroundPlaceholder from "../../../assets/images/backgrounds/background-placeholder.jpg";
+import { Countdown } from "../../../components/timer/Countdown";
 
 export const LandingSection = () => {
   const [videoLoaded, setVideoLoaded] = React.useState<boolean>(false);
@@ -13,6 +14,15 @@ export const LandingSection = () => {
     const section = document.querySelector("#about-us");
     section?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
+
+  const recrutationStart = new Date(Date.UTC(2024, 9, 6, 22, 0, 0));
+  const recrutationEnd = new Date(Date.UTC(2024, 9, 31, 22, 0, 0));
+  const isBeforeRecrutationActive = (+recrutationStart - +new Date()) > 0;
+  const isRecrutationActive = (+recrutationEnd - +new Date()) > 0;
+  const recrutationText = isBeforeRecrutationActive ? __("mainPage.landingSection.beforeRecrutation")
+    : (isRecrutationActive ? __("mainPage.landingSection.activeRecrutation") : __("mainPage.landingSection.afterRecrutation"));
+
+  const recrutationDate = isBeforeRecrutationActive ? recrutationStart : recrutationEnd;
 
   return (
     <div className={styles.sectionContainer}>
@@ -38,6 +48,7 @@ export const LandingSection = () => {
         <div className={styles.sectionDescription}>
           {__("mainPage.landingSection.description")}
         </div>
+        <Countdown date={recrutationDate} title={recrutationText}/>
         <div className={styles.sectionButtons}>
           <Link
             to={"/contact"}
