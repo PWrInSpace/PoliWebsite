@@ -12,54 +12,57 @@ import rekrutacja from "../../assets/images/join-us/rekrutacja.png";
 interface department {
   header: string;
   text: string;
-  image: File;
+  image?: File;
 }
 
 export const Departments: department[] = [
   {
     header: "joinUsPage.departments.airframe.header",
     text: "joinUsPage.departments.airframe.text",
-    image: struktura,
+    // image: struktura,
   },
   {
     header: "joinUsPage.departments.engines.header",
     text: "joinUsPage.departments.engines.text",
-    image: silniki,
+    // image: silniki,
   },
   {
     header: "joinUsPage.departments.pr.header",
     text: "joinUsPage.departments.pr.text",
-    image: pr,
+    // image: pr,
   },
-
+  {
+    header: "joinUsPage.departments.recovery.header",
+    text: "joinUsPage.departments.recovery.text",
+  },
   {
     header: "joinUsPage.departments.electronics.header",
     text: "joinUsPage.departments.electronics.text",
-    image: elektronika,
+    // image: elektronika,
   },
   {
     header: "joinUsPage.departments.groundSupport.header",
     text: "joinUsPage.departments.groundSupport.text",
-    image: rekrutacja
-  },
-  {
-    header: "joinUsPage.departments.acs.header",
-    text: "joinUsPage.departments.acs.text",
-    image: acs,
+    // image: rekrutacja
   },
   {
     header: "joinUsPage.departments.payload.header",
     text: "joinUsPage.departments.payload.text",
-    image: payload,
+    // image: payload,
+  },
+  {
+    header: "joinUsPage.departments.acs.header",
+    text: "joinUsPage.departments.acs.text",
+    // image: acs,
   },
   {
     header: "joinUsPage.departments.polifloater.header",
     text: "joinUsPage.departments.polifloater.text",
-    image: polifloater,
+    // image: polifloater,
   },
   {
-    header: "joinUsPage.departments.liquid.header",
-    text: "joinUsPage.departments.liquid.text",
-    image: liquid
+    header: "joinUsPage.departments.aero.header",
+    text: "joinUsPage.departments.aero.text",
+    // image: liquid
   },
 ];

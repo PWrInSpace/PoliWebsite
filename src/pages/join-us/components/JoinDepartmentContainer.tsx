@@ -11,12 +11,14 @@ interface IProps {
 export const JoinDepartmentContainer = (props: IProps) => {
   return (
     <div className={styles.container}>
+      {props.image && 
       <img
         src={props.image}
         alt="Join us image"
         className={styles.image}
         onClick={props.onClick}
       />
+      }
       <div className={styles.textWrapper}>
         <div className={styles.header}>{props.header}</div>
         <div className={styles.text}>

@@ -9,6 +9,10 @@
   justify-content: flex-start;
   align-items: center;
 
+  a {
+    text-decoration: none;
+  }
+
   .timer {
     font-family: $kronaOne;
     font-size: 2.625rem;
@@ -17,7 +21,7 @@
     text-align: center;
 
     @include breakpoint-md {
-      font-size: 2.3rem;
+      font-size: 2rem;
       letter-spacing: 0.8rem;
     }
   }
