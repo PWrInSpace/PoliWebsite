@@ -1,9 +1,11 @@
 import { useCallback, useEffect, useState } from "react";
 import styles from "./countdown.module.scss";
+import { Link } from "react-router-dom";
 
 interface IProps {
     date: Date;
     title: string;
+    link?: string;
   }
   
 export const Countdown = (props: IProps) => {
@@ -46,7 +48,7 @@ export const Countdown = (props: IProps) => {
 
   return (
     <div className={styles.wrapper}>
-      <span className={styles.title}>{props.title}</span>
+      {props.link ? <Link to={props.link}> <span className={styles.title}>&raquo;{props.title}&laquo;</span></Link> : <span className={styles.title}>{props.title}</span>}
       <span className={styles.timer}>{getFormattedNuber(timeLeft?.days)}:{getFormattedNuber(timeLeft?.hours)}:{getFormattedNuber(timeLeft?.minutes)}:{getFormattedNuber(timeLeft?.seconds)} </span>
     </div>
   );

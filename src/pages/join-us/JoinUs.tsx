@@ -8,7 +8,7 @@ import { HeadComponent } from "../../components/head-component/HeadComponent";
 export const JoinUs = () => {
   const buttonVisible = true;
   const buttonLink =
-    "https://docs.google.com/forms/d/e/1FAIpQLSeLa8B_qXmPsLweQbj1shcX0x4UpeSUEvc3Op-ouPKhloYZ3Q/viewform";
+    "https://forms.gle/ovasCmTyC57Jqm4m8";
 
   useEffect(() => {
     window.scrollTo(0, 0);

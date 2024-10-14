@@ -48,7 +48,11 @@ export const LandingSection = () => {
         <div className={styles.sectionDescription}>
           {__("mainPage.landingSection.description")}
         </div>
-        <Countdown date={recrutationDate} title={recrutationText}/>
+        <Countdown 
+          date={recrutationDate} 
+          title={recrutationText}
+          link={isRecrutationActive ? "https://forms.gle/ovasCmTyC57Jqm4m8" : undefined}
+        />
         <div className={styles.sectionButtons}>
           <Link
             to={"/contact"}
