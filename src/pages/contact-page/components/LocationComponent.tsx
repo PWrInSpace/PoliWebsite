@@ -27,7 +27,7 @@ export const LocationComponent = (props: IProps) => {
         <iframe
           width="100%"
           height="300"
-          src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=ul.%20Fabryczna%2016,%20Wroc%C5%82aw,%20Poland+(Warsztat)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=plac%20Grunwaldzki%2061,%20Wroc%C5%82aw,%20Poland+(Warsztat)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
         ></iframe>
       );
     } else if (props.map === "location") {
