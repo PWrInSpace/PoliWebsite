@@ -2,10 +2,10 @@ export const Locations = {
   workshop: {
     header: "contactPage.locations.workshop",
     text: [
-      "ul. Fabryczna 16H",
-      "53-609 Wrocław",
-      "ACADEMIC BOX",
-      "Wrocławski Park Technologiczny",
+      "plac Grunwaldzki 61",
+      "50-366 Wrocław",
+      "Akademik T-3",
+      "\"Straszny Dwór\"",
     ],
     map: "workshop",
   },
