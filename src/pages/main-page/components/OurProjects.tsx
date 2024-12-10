@@ -4,7 +4,19 @@ import { RocketPanel } from "./components/RocketPanel";
 import { SectionTitle } from "../../../components/section-title/SectionTitle";
 import { Rockets } from "../../../common/data/rocketList";
 
-export const OurProjects = () => {
+interface OurProjectsProps {
+  disableBackground?: boolean;
+  gridColumn?: string;
+  disableTitle?: boolean;
+}
+
+export const OurProjects = (props: OurProjectsProps) => {
+  const {
+    disableBackground,
+    gridColumn,
+    disableTitle
+  } = props;
+
   const [selectedButton, setSelectedButton] = React.useState<string>("R6");
 
   const handleButtonChange = (rocket: string) => {
@@ -47,9 +59,9 @@ export const OurProjects = () => {
   };
 
   return (
-    <div className={styles.sectionContainer}>
-      <div className={styles.sectionWrapper}>
-        <SectionTitle title={__("mainPage.ourProjects.title")} />
+    <div className={styles.sectionContainer} style={{ background: disableBackground ? "unset" : undefined }}>
+      <div className={styles.sectionWrapper} style={{ gridColumn: gridColumn ? gridColumn : undefined }}>
+        {!disableTitle && <SectionTitle title={__("mainPage.ourProjects.title")} />}
         <div className={styles.sectionButtonContainer}>{createButtons()}</div>
         {chooseRocketPanel()}
       </div>

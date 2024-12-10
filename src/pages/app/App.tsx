@@ -13,6 +13,7 @@ import "./app.module.scss";
 import { JoinUs } from "../join-us/JoinUs";
 import { NavMenuItem } from "../../common/interfaces/SharedInterfaces";
 import Cookies from "js-cookie";
+import { Projects } from "../projects/Projects";
 
 const App = () => {
   initializeI18n();
@@ -27,6 +28,11 @@ const App = () => {
       name: __("navbar.aboutUs"),
       url: "/about-us",
       component: () => <AboutUs />,
+    },
+    {
+      name: __("navbar.projects"),
+      url: "/projects",
+      component: () => <Projects />,
     }
   ];
   const storedLang = Cookies.get("i18next") ?? "pl";
