@@ -59,9 +59,9 @@ export const OurProjects = (props: OurProjectsProps) => {
   };
 
   return (
-    <div className={styles.sectionContainer} style={{background: disableBackground ? 'unset' : undefined}}>
-      <div className={styles.sectionWrapper} style={{gridColumn: gridColumn ? gridColumn : undefined}}>
-        {!disableTitle && <SectionTitle title={__("mainPage.ourProjects.title")} />}
+    <div className={styles.sectionContainer} style={{ background: disableBackground ? 'unset' : undefined }}>
+      <div className={styles.sectionWrapper} style={{ gridColumn: gridColumn ? gridColumn : undefined }}>
+        {!disableTitle && <SectionTitle title={__('mainPage.ourProjects.title')} />}
         <div className={styles.sectionButtonContainer}>{createButtons()}</div>
         {chooseRocketPanel()}
       </div>
