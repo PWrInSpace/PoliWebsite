@@ -1,5 +1,7 @@
 import liquid1 from "../../assets/images/projects/liquid1.jpg";
 import liquid2 from "../../assets/images/projects/liquid2.png";
+import wyrzutnia from "../../assets/images/projects/wyrzutnia.jpg";
+import wyrzutnia2 from "../../assets/images/projects/wyrzutnia2.png";
 import secondImage from "../../assets/images/about-us-page/image2.png";
 
 export interface ParagraphImage {
@@ -38,4 +40,22 @@ export const Paragraphs: paragraph[] = [
       },
     }
   },
+  {
+    title: "projects.secondParagraph.title",
+    subtitle: "projects.secondParagraph.subtitle",
+    text: "projects.secondParagraph.text",
+    image: {
+      src: wyrzutnia,
+      alt: "Launch rail Celestia",
+      position: "right",
+    },
+    specification: {
+      details: "projects.secondParagraph.details",
+      image: {
+        src: wyrzutnia2,
+        alt: "Launch rail Celestia model",
+        position: "right",
+      },
+    }
+  }
 ];
