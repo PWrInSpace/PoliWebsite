@@ -151,6 +151,12 @@
       "text": "Projekt zakłada budowę, testy oraz rozwój silnika na ciekłe materiały pędne, wykorzystujący podtlenek azotu jako utleniacz. Silnik ten zostanie użyty jako napęd rakiety budowanej przez Koło Naukowe i wystartowanej na międzynarodowych zawodach w Portugalii. Ten projekt pozwala na zdobycie praktycznych umiejętności inżynierskich, a także na realizację ambitnych celów badawczo-rozwojowych w dziedzinie technologii rakietowych. Projekt finansowany jest z środków Funduszu Aktywności Studenckiej FAST 2024 dzięki wspraciu miasta Wrocław oraz Wrocławskiego Centrum Akademickiego.",
       "details": "Specyfikacja silnika: \nPaliwo: etanol\nUtleniacz: podtlenek azotu\nCiąg silnika: 3 000 N"
     },
+    "secondParagraph": {
+      "title": "PROJEKT CELESTIA",
+      "subtitle": "ZINTEGROWANA PLATFORMA STARTOWA RAKIET SONDUJĄCYCH CELESTIA",
+      "text": "Projekt zakłada zaprojektowanie, budowę oraz przetestowanie Platformy Startowej. Została użyta do wystrzelenia rakiety sondującej R6 \"Aether\" na międzynarodowych zawodach European Rocketry Challenge 2024, a jej rozwój jest kontynuowany w celu usprawnienia użytkowania oraz zwiększenia jej możliwości.",
+      "details": "Platformy Startowej składa się z: \n- wyrzutnia \n- systemem wizyjny mający na celu podtrzymywanie bezpośredniej łączności zespołu z Platformą Startową \n- mocowanie do robotycznego ramienia tankującego \n- mocowanie do systemu hydraulicznego odpowiedzialnego za zatankowanie rakiety."
+    },
     "numbers": {
       "firstNumber": "LAT DZIAŁALNOŚCI",
       "secondNumber": "ZBUDOWANYCH RAKIET",
