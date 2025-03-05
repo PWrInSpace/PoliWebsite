@@ -15,9 +15,9 @@ export const LandingSection = () => {
     section?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
-  const isRecrutationSeasson = false;
-  const recrutationStart = new Date(Date.UTC(2024, 9, 6, 22, 0, 0));
-  const recrutationEnd = new Date(Date.UTC(2024, 9, 31, 22, 0, 0));
+  const isRecrutationSeasson = true;
+  const recrutationStart = new Date(Date.UTC(2025, 2, 3, 22, 0, 0));
+  const recrutationEnd = new Date(Date.UTC(2025, 2, 17, 22, 0, 0));
   const isBeforeRecrutationActive = (+recrutationStart - +new Date()) > 0;
   const isRecrutationActive = (+recrutationEnd - +new Date()) > 0;
   const recrutationText = isBeforeRecrutationActive ? __("mainPage.landingSection.beforeRecrutation")
@@ -52,7 +52,7 @@ export const LandingSection = () => {
         {isRecrutationSeasson && <Countdown 
           date={recrutationDate} 
           title={recrutationText}
-          link={isRecrutationActive ? "https://forms.gle/ovasCmTyC57Jqm4m8" : undefined}
+          link={isRecrutationActive ? "https://forms.gle/cSzfGSwZjMYj1o7d7" : undefined}
         />}
         <div className={styles.sectionButtons}>
           <Link

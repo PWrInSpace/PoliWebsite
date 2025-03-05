@@ -8,14 +8,14 @@ import { HeadComponent } from "../../components/head-component/HeadComponent";
 export const JoinUs = () => {
   const buttonVisible = true;
   const buttonLink =
-    "https://forms.gle/ovasCmTyC57Jqm4m8";
+    "https://forms.gle/cSzfGSwZjMYj1o7d7";
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   const createParagraphs = () => {
-    return Departments.map((department, index) => {
+    return false && Departments.map((department, index) => {
       return (
         <JoinDepartmentContainer
           image={String(department.image ?? "")}
