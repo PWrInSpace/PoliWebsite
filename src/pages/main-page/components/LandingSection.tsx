@@ -16,8 +16,8 @@ export const LandingSection = () => {
   };
 
   const isRecrutationSeasson = true;
-  const recrutationStart = new Date(Date.UTC(2025, 2, 3, 22, 0, 0));
-  const recrutationEnd = new Date(Date.UTC(2025, 2, 17, 22, 0, 0));
+  const recrutationStart = new Date(Date.UTC(2025, 2, 3, 23, 0, 0));
+  const recrutationEnd = new Date(Date.UTC(2025, 2, 17, 23, 0, 0));
   const isBeforeRecrutationActive = (+recrutationStart - +new Date()) > 0;
   const isRecrutationActive = (+recrutationEnd - +new Date()) > 0;
   const recrutationText = isBeforeRecrutationActive ? __("mainPage.landingSection.beforeRecrutation")
