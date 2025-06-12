@@ -7,6 +7,14 @@ import background from "../../../assets/images/backgrounds/background.mp4";
 import backgroundPlaceholder from "../../../assets/images/backgrounds/background-placeholder.jpg";
 import { Countdown } from "../../../components/timer/Countdown";
 
+export const RecrutationData = {
+  isRecrutationSeasson: false,
+  recrutationStart: new Date(Date.UTC(2025, 2, 3, 23, 0, 0)),
+  recrutationEnd: new Date(Date.UTC(2025, 2, 17, 23, 0, 0)), 
+  isBeforeRecrutationActive: () =>  (+RecrutationData.recrutationStart - +new Date()) > 0,
+  isRecrutationActive: () =>(+RecrutationData.recrutationEnd - +new Date()) > 0
+};
+
 export const LandingSection = () => {
   const [videoLoaded, setVideoLoaded] = React.useState<boolean>(false);
 
@@ -15,15 +23,10 @@ export const LandingSection = () => {
     section?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
-  const isRecrutationSeasson = true;
-  const recrutationStart = new Date(Date.UTC(2025, 2, 3, 23, 0, 0));
-  const recrutationEnd = new Date(Date.UTC(2025, 2, 17, 23, 0, 0));
-  const isBeforeRecrutationActive = (+recrutationStart - +new Date()) > 0;
-  const isRecrutationActive = (+recrutationEnd - +new Date()) > 0;
-  const recrutationText = isBeforeRecrutationActive ? __("mainPage.landingSection.beforeRecrutation")
-    : (isRecrutationActive ? __("mainPage.landingSection.activeRecrutation") : __("mainPage.landingSection.afterRecrutation"));
+  const recrutationText = RecrutationData.isBeforeRecrutationActive() ? __("mainPage.landingSection.beforeRecrutation")
+    : (RecrutationData.isRecrutationActive() ? __("mainPage.landingSection.activeRecrutation") : __("mainPage.landingSection.afterRecrutation"));
 
-  const recrutationDate = isBeforeRecrutationActive ? recrutationStart : recrutationEnd;
+  const recrutationDate = RecrutationData.isBeforeRecrutationActive() ? RecrutationData.recrutationStart : RecrutationData.recrutationEnd;
 
   return (
     <div className={styles.sectionContainer}>
@@ -49,10 +52,10 @@ export const LandingSection = () => {
         <div className={styles.sectionDescription}>
           {__("mainPage.landingSection.description")}
         </div>
-        {isRecrutationSeasson && <Countdown 
+        {RecrutationData.isRecrutationSeasson && <Countdown 
           date={recrutationDate} 
           title={recrutationText}
-          link={isRecrutationActive ? "https://forms.gle/cSzfGSwZjMYj1o7d7" : undefined}
+          link={RecrutationData.isRecrutationActive() ? "https://forms.gle/cSzfGSwZjMYj1o7d7" : undefined}
         />}
         <div className={styles.sectionButtons}>
           <Link
