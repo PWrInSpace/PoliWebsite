@@ -4,9 +4,10 @@ import { JoinDepartmentContainer } from "./components/JoinDepartmentContainer";
 import { Departments } from "../../common/data/departmentsList";
 import { SubpageWrapper } from "../../components/subpage-wrapper/SubpageWrapper";
 import { HeadComponent } from "../../components/head-component/HeadComponent";
+import { RecrutationData } from "../main-page/components/LandingSection";
 
 export const JoinUs = () => {
-  const buttonVisible = true;
+  const buttonVisible = RecrutationData.isRecrutationSeasson && RecrutationData.isRecrutationActive();
   const buttonLink =
     "https://forms.gle/cSzfGSwZjMYj1o7d7";
 
@@ -36,13 +37,15 @@ export const JoinUs = () => {
     >
       <SubpageWrapper title={__("joinUsPage.header")}>
         <>
-          {buttonVisible && (
+          {buttonVisible ? (
             <button
               className={styles.button}
               onClick={() => window.open(buttonLink, "_blank")}
             >
               {__("joinUsPage.form")}
             </button>
+          ) : (
+            <div className={styles.notNow}>{__("joinUsPage.notNow")}</div>
           )}
           <div className={styles.textContainer}>{createParagraphs()}</div>
         </>
