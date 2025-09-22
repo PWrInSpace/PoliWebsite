@@ -21,6 +21,16 @@ import enders from "../../assets/images/sponsors/enders.png";
 import swagelok from "../../assets/images/sponsors/Swagelok.png";
 import greenCell from "../../assets/images/sponsors/green-cell.png";
 import edytor from "../../assets/images/sponsors/edytor.png";
+import tkmprojekt from "../../assets/images/sponsors/TKM-projekt.png";
+import aluxprofile from "../../assets/images/sponsors/alux-profile.png";
+import polskaswiatu from "../../assets/images/sponsors/polska-swiatu.png";
+import fiberlogy from "../../assets/images/sponsors/fiberlogy.png";
+import dewesoft from "../../assets/images/sponsors/dewesoft.png";
+import jumo from "../../assets/images/sponsors/jumo.png";
+import miwgroup from "../../assets/images/sponsors/miwgroup.png";
+import glm from "../../assets/images/sponsors/glm.png";
+
+
 
 interface Image {
   src: File;
@@ -143,5 +153,45 @@ export const Images: Image[] = [
     src: wenagroup,
     alt: "Wena Group logo",
     webpage: "http://www.wenagroup.com/",
+  },
+  {
+    src: tkmprojekt,
+    alt: "TKM Projekt logo",
+    webpage: "https://tkm-projekt.com/",
+  },
+  {
+    src: aluxprofile,
+    alt: "Alux Profile logo",
+    webpage: "https://www.aluxprofile.com/",
+  },
+  {
+    src: polskaswiatu,
+    alt: "Polska Światu logo",
+    webpage: "https://polskaswiatu.pl/",
+  },
+  {
+    src: fiberlogy,
+    alt: "Fiberlogy logo",
+    webpage: "https://fiberlogy.com/pl/",
+  },
+  {
+    src: dewesoft,
+    alt: "Dewesoft logo",
+    webpage: "https://dewesoft.com/",
+  },
+  {
+    src: jumo,
+    alt: "JUMO logo",
+    webpage: "https://www.jumo.pl/",
+  },
+  {
+    src: miwgroup,
+    alt: "MiW group logo",
+    webpage: "https://miw.group/",
+  },
+  {
+    src: glm,
+    alt: "GLM logo",
+    webpage: "http://www.glm-okna.pl/",
   },
 ];
