@@ -15,7 +15,7 @@ export const InstagramIcon = (props: AdvancedIconPropsWithColor) => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       onClick={() =>
-        window.open("https://www.instagram.com/poliwrocket/", "_blank")
+        window.open("https://www.instagram.com/pwrinspace/", "_blank")
       }
     >
       <path
