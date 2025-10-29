@@ -9,7 +9,7 @@ import { RecrutationData } from "../main-page/components/LandingSection";
 export const JoinUs = () => {
   const buttonVisible = RecrutationData.isRecrutationSeasson && RecrutationData.isRecrutationActive();
   const buttonLink =
-    "https://forms.gle/cSzfGSwZjMYj1o7d7";
+    "https://forms.gle/WwRqFSxhp69NYikC8";
 
   useEffect(() => {
     window.scrollTo(0, 0);
