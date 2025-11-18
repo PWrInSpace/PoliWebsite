@@ -29,6 +29,8 @@ import dewesoft from "../../assets/images/sponsors/dewesoft.png";
 import jumo from "../../assets/images/sponsors/jumo.png";
 import miwgroup from "../../assets/images/sponsors/miwgroup.png";
 import glm from "../../assets/images/sponsors/glm.png";
+import whiteelectronics from "../../assets/images/sponsors/white-electronics.png";
+import tarczynski from "../../assets/images/sponsors/tarczynski.png";
 
 
 
@@ -63,6 +65,10 @@ export const Images: Image[] = [
     src: ministerstwoEdukacjiNauki,
     alt: "Ministerstwo Edukacji i Nauki",
     webpage: "https://www.gov.pl/web/edukacja-i-nauka",
+  },
+  { src: tarczynski,
+    alt: "Tarczyński S.A. logo",
+    webpage: "https://www.tarczyński.com.pl/",
   },
   {
     src: airproducts,
@@ -194,4 +200,8 @@ export const Images: Image[] = [
     alt: "GLM logo",
     webpage: "http://www.glm-okna.pl/",
   },
+  { src: whiteelectronics,
+    alt: "White Electronics logo",
+    webpage: "https://white.com.pl/",
+  }
 ];
