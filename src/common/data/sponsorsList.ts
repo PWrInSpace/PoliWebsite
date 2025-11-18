@@ -29,6 +29,9 @@ import dewesoft from "../../assets/images/sponsors/dewesoft.png";
 import jumo from "../../assets/images/sponsors/jumo.png";
 import miwgroup from "../../assets/images/sponsors/miwgroup.png";
 import glm from "../../assets/images/sponsors/glm.png";
+import tarczynski from "../../assets/images/sponsors/tarczynski.png";
+import whiteelectronics from "../../assets/images/sponsors/whiteelectronics.png";
+
 
 
 
@@ -58,6 +61,11 @@ export const Images: Image[] = [
     src: manus,
     alt: "Fundacja Manus przy Politechnice Wrocławskiej",
     webpage: "https://manus.pl/",
+  },
+  {
+    src: tarczynski,
+    alt: "Tarczyński S.A. logo",
+    webpage: "https://www.tarczynski.pl/",
   },
   {
     src: ministerstwoEdukacjiNauki,
@@ -193,5 +201,10 @@ export const Images: Image[] = [
     src: glm,
     alt: "GLM logo",
     webpage: "http://www.glm-okna.pl/",
+  },
+  {
+    src: whiteelectronics,
+    alt: "White Electronics logo",
+    webpage: "https://whiteelectronics.pl/",
   },
 ];
