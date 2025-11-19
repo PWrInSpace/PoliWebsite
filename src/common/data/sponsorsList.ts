@@ -30,7 +30,7 @@ import jumo from "../../assets/images/sponsors/jumo.png";
 import miwgroup from "../../assets/images/sponsors/miwgroup.png";
 import glm from "../../assets/images/sponsors/glm.png";
 import tarczynski from "../../assets/images/sponsors/tarczynski.png";
-import whiteelectronics from "../../assets/images/sponsors/whiteelectronics.png";
+import whiteelectronics from "../../assets/images/sponsors/white-electronics.png";
 
 
 
