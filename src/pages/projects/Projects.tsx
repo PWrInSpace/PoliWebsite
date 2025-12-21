@@ -50,7 +50,7 @@ export const Projects = () => {
     <HeadComponent
       title={__("projects.meta.title")}
       description={__("projects.meta.description")}
-      image={"../../assets/images/rockets/r6.png"}
+      image={"../../assets/images/rockets/r7.png"}
     >
       <SubpageWrapper title={__("projects.header")}>
         <>
