@@ -17,7 +17,7 @@
   },
   "mainPage": {
     "meta": {
-      "title": "Home - PWr In Space",
+      "title": "Home - PWr in Space",
       "description": "PWr in Space is a science association that has been active at Wroclaw University of Science and Technology since 2017.\nWe form a team of 60 people who share a common love of rockets, space technology and expanding their knowledge of space. Our main project is the PoliWRocket project - building experimental sounding rockets. Contact us through our email or social media!"
     },
     "landingSection": {
@@ -78,6 +78,10 @@
         "R6": {
           "name": "AETHER",
           "description": "In Aether, the rocket’s recovery system was modified, and its electronics were enhanced with new modules and design improvements. The launch preparation apparatus was also redesigned. Additionally, the methods and components of the aerostructure were optimized. This rocket won second place at the Spaceport America Cup 2024 competition in the 10k SRAD Hyrid/Liquid category, which took place in New Mexico, USA."
+        },
+        "R7": {
+          "name": "TOGETHER",
+          "description": ""
         },
         "specs": {
           "length": "LENGTH",

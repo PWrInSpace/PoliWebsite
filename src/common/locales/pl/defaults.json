@@ -17,7 +17,7 @@
   },
   "mainPage": {
     "meta": {
-      "title": "Strona główna - PWr In Space",
+      "title": "Strona główna - PWr in Space",
       "description": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej. \nTworzymy zespół 60 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Skontaktuj się z nami przez naszego maila lub social media!"
     },
     "landingSection": {
@@ -81,6 +81,10 @@
         "R6": {
           "name": "AETHER",
           "description": "W Aether zmodyfikowano system odzyskiwania rakiety oraz ulepszono elektronikę poprzez dodanie nowych modułów i wprowadzenie ulepszeń konstrukcyjnych. Przebudowano także aparaturę przygotowującą rakietę do startu. Zmieniono metody stosowane w strukturze nośnej oraz zoptymalizowano jej elementy. Rakieta zdobyła II miejsce na zawodach Spaceport America Cup 2024 w kategorii 10k SRAD Hyrid/Liquid, które odbyły się w Nowym Meksyku, USA."
+        },
+        "R7": {
+          "name": "TOGETHER",
+          "description": ""
         },
         "specs": {
           "length": "DŁUGOŚĆ RAKIETY",

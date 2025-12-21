@@ -6,6 +6,7 @@ import r4 from "../../assets/images/rockets/r4.png";
 import r4v2 from "../../assets/images/rockets/r4v2.png";
 import r5 from "../../assets/images/rockets/r5.png";
 import r6 from "../../assets/images/rockets/r6.png";
+import r7 from "../../assets/images/rockets/r7.png"
 
 interface rocket {
   name: string;
@@ -89,4 +90,12 @@ export const Rockets: rocket[] = [
     velocity: "224.0 M/S",
     image: r6,
   },
+  {
+    name: "R7",
+    length: "4580 MM",
+    thrust: "3600 N",
+    weight: "57.16 KG",
+    velocity: "258 M/S",
+    image: r7,
+  }
 ];

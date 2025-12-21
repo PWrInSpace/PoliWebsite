@@ -55,7 +55,7 @@ export const ContactPage = () => {
                 }
               />
               <ContactLink
-                text={"@poliwrocket"}
+                text={"@pwrinspace"}
                 icon={
                   <InstagramIcon
                     color={{ primaryColor: "black", secondaryColor: "white" }}
@@ -63,7 +63,7 @@ export const ContactPage = () => {
                 }
                 onClick={() =>
                   window.open(
-                    "https://www.instagram.com/poliwrocket/",
+                    "https://www.instagram.com/pwrinspace/",
                     "_blank",
                   )
                 }
