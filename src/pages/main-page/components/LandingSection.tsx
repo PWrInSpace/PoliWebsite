@@ -87,7 +87,7 @@ export const LandingSection = () => {
             title={__("mainPage.landingSection.numbers.year")}
           />
           <NumberContainerComponent
-            number={16}
+            number={18}
             title={__("mainPage.landingSection.numbers.starts")}
           />
         </div>

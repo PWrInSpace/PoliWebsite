@@ -17,7 +17,7 @@ export const OurProjects = (props: OurProjectsProps) => {
     disableTitle
   } = props;
 
-  const [selectedButton, setSelectedButton] = React.useState<string>("R6");
+  const [selectedButton, setSelectedButton] = React.useState<string>("R7");
 
   const handleButtonChange = (rocket: string) => {
     if (rocket === selectedButton) {

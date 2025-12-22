@@ -48,6 +48,7 @@
       color: $mainFont;
       margin: 1.875rem 0;
       line-height: 1.6rem;
+      white-space: pre-line;
 
       @include breakpoint-md {
         font-size: 0.9rem;
