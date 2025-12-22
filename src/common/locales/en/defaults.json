@@ -81,7 +81,7 @@
         },
         "R7": {
           "name": "TOGETHER",
-          "description": "R7 Together is the first bi-liquid rocket developed by PWr in Space. It is powered by the \"Nova\" engine, using ethanol as fuel, nitrous oxide as oxidizer, and nitrogen as pressurizing gas. The project also introduced innovative solutions, including an attitude control system, a compact non-pyrotechnic recovery system, and a mechanism for releasing the rocket from the launch rail at the right moment. The rocket’s design was created together with children supported by the Akademia Przyszłości Foundation. It made its debut at the European Rocketry Challenge 2025, winning 3rd place in the Payload category."
+          "description": "R7 Together is the first bi-liquid rocket developed by PWr in Space. It is powered by the \"Nova\" engine, using ethanol as fuel, nitrous oxide as oxidizer, and nitrogen as pressurizing gas. The project also introduced innovative solutions, including an attitude control system, a compact non-pyrotechnic recovery system, and a mechanism for releasing the rocket from the launch rail at the right moment.\nThe rocket’s design was created together with children supported by the Akademia Przyszłości Foundation. It made its debut at the European Rocketry Challenge 2025, winning 3rd place in the Payload category."
         },
         "specs": {
           "length": "LENGTH",
@@ -138,6 +138,30 @@
       "firstNumber": "MEMBERS",
       "secondNumber": "YEAR OF FOUNDATION",
       "thirdNumber": "LAUNCHES"
+    }
+  },
+  "projects": {
+    "meta": {
+      "title": "Projekty - PWr in Space",
+      "description": "PWr in Space realizuje wiele projektów rakietowych i nie tylko!"
+    },
+    "header": "PROJEKTY",
+    "firstParagraph": {
+      "title": "LIQUID PROJECT",
+      "subtitle": "BI-LIQUID ROCKET ENGINE",
+      "text": "",
+      "details": "Engine specification: \nFuel: ethanol\nOxidizer: nitrous oxide\nThrust: 3 000 N"
+    },
+    "secondParagraph": {
+      "title": "CELESTIA PROJECT",
+      "subtitle": "INTEGRATED SOUNDING ROCKET LAUNCH PLATFORM",
+      "text": "",
+      "details": "Launch Platform consists of: \n- Launch rail \n- Camera system providing vision of the Launch Platform \n- Mounting for the filling line dissconector \n- Mounting for the filling system"
+    },
+    "numbers": {
+      "firstNumber": "YEARS OF EXEPRIENCE",
+      "secondNumber": "ROCKETS BUILT",
+      "thirdNumber": "ACTIVE PROJECTS"
     }
   },
   "joinUsPage": {
