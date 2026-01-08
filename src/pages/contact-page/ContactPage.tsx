@@ -31,6 +31,7 @@ export const ContactPage = () => {
               title={__(Crew.pr.title)}
               name={Crew.pr.name}
               mail={Crew.pr.mail}
+              phone={Crew.pr.phone}
             />
             <div className={styles.textWrapper}>
               <div className={styles.subtitle}>
@@ -74,6 +75,7 @@ export const ContactPage = () => {
               title={__(Crew.ceo.title)}
               name={Crew.ceo.name}
               mail={Crew.ceo.mail}
+              phone={Crew.ceo.phone}
             />
           </div>
           <div className={styles.title}>{__("contactPage.findUs")}</div>
