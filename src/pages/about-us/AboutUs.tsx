@@ -62,7 +62,7 @@ export const AboutUs = () => {
           {createParagraph()}
           <div className={styles.numbersContainer}>
             <NumberContainerComponent
-              number={60}
+              number={90}
               title={__("aboutUsPage.numbers.firstNumber")}
             />
             <NumberContainerComponent
