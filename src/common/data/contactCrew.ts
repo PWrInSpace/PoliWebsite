@@ -7,11 +7,13 @@ export const Crew = {
     title: "contactPage.prPresident",
     name: "Ewa Kasprzak",
     mail: "ewa.j.kasprzak@gmail.com",
+    phone: "+48 607 577 077"
   },
   ceo: {
     image: Prezes,
     title: "contactPage.president",
     name: "Oliwia Opoń",
     mail: "oliwia.magdalena.opon@gmail.com",
+    phone: "+48 530 226 910"
   },
 };
