@@ -18,7 +18,7 @@
   "mainPage": {
     "meta": {
       "title": "Home - PWr in Space",
-      "description": "PWr in Space is a science association that has been active at Wroclaw University of Science and Technology since 2017.\nWe form a team of 60 people who share a common love of rockets, space technology and expanding their knowledge of space. Our main project is the PoliWRocket project - building experimental sounding rockets. Contact us through our email or social media!"
+      "description": "PWr in Space is a science association that has been active at Wroclaw University of Science and Technology since 2017.\nWe form a team of 90 people who share a common love of rockets, space technology and expanding their knowledge of space. Our main project is the PoliWRocket project - building experimental sounding rockets. Contact us through our email or social media!"
     },
     "landingSection": {
       "title": "PWR IN SPACE",
@@ -35,7 +35,7 @@
     },
     "aboutUs": {
       "header": "ABOUT US",
-      "text": "PWr in Space is a science association that has been active at Wroclaw University of Science and Technology since 2017.\nWe form a team of 60 people who share a common love of rockets, space technology and expanding their knowledge of space. Despite the fact that the club itself operates at the Faculty of Mechanical Engineering, thanks to the interdisciplinary nature of its projects, it brings together students from all over Wroclaw University of Science and Technology. Our main project is the PoliWRocket project - building experimental sounding rockets. We create our constructions on our own - starting from the design phase, through 3D modelling and workshop work, while developing our knowledge and technical skills.So far, we have managed to construct 9 main rockets and make 18 successful flights. Every year we participate in the Spaceport America Cup student rocketry competition in the United States and the European Rocketry Challenge in Portugal to compete against teams from all over the world.",
+      "text": "PWr in Space is a science association that has been active at Wroclaw University of Science and Technology since 2017.\nWe form a team of 90 people who share a common love of rockets, space technology and expanding their knowledge of space. Despite the fact that the club itself operates at the Faculty of Mechanical Engineering, thanks to the interdisciplinary nature of its projects, it brings together students from all over Wroclaw University of Science and Technology. Our main project is the PoliWRocket project - building experimental sounding rockets. We create our constructions on our own - starting from the design phase, through 3D modelling and workshop work, while developing our knowledge and technical skills.So far, we have managed to construct 9 main rockets and make 18 successful flights. Every year we participate in the Spaceport America Cup student rocketry competition in the United States and the European Rocketry Challenge in Portugal to compete against teams from all over the world.",
       "planet1": "CONNECTED",
       "planet2": "BY",
       "planet3": "PASSION"
@@ -98,13 +98,13 @@
   "contactPage": {
     "meta": {
       "title": "Contact - PWr in Space",
-      "description": "PWr in Space is a science association that has been active at Wroclaw University of Science and Technology since 2017.\nWe form a team of 60 people who share a common love of rockets, space technology and expanding their knowledge of space. Our main project is the PoliWRocket project - building experimental sounding rockets. Contact us through our email or social media!"
+      "description": "PWr in Space is a science association that has been active at Wroclaw University of Science and Technology since 2017.\nWe form a team of 90 people who share a common love of rockets, space technology and expanding their knowledge of space. Our main project is the PoliWRocket project - building experimental sounding rockets. Contact us through our email or social media!"
     },
     "header": "CONTACT",
     "title": "MESSAGE US!",
     "subtitle": "Contact us through our email or social media!",
-    "president": "President of PWr in Space",
-    "prPresident": "VP Buisness & HR",
+    "president": "Board President",
+    "prPresident": "Buisness & HR Vice President",
     "findUs": "WHERE TO FIND US?",
     "locations": {
       "workshop": "Our workshop",
@@ -114,14 +114,26 @@
   "sponsorsPage": {
     "meta": {
       "title": "Sponsors - PWr in Space",
-      "description": "PWr in Space is a science association that has been active at Wroclaw University of Science and Technology since 2017.\nWe form a team of 60 people who share a common love of rockets, space technology and expanding their knowledge of space. Our main project is the PoliWRocket project - building experimental sounding rockets. Contact us through our email or social media!"
+      "description": "PWr in Space is a science association that has been active at Wroclaw University of Science and Technology since 2017.\nWe form a team of 90 people who share a common love of rockets, space technology and expanding their knowledge of space. Our main project is the PoliWRocket project - building experimental sounding rockets. Contact us through our email or social media!"
     },
     "header": "SPONSORS"
+  },
+  "TeamPage": {
+    "meta": {
+      "title": "Team - PWr in Space",
+      "description": "PWr in Space is a science association that has been active at Wroclaw University of Science and Technology since 2017.\nWe form a team of 90 people who share a common love of rockets, space technology and expanding their knowledge of space. Our main project is the PoliWRocket project - building experimental sounding rockets. Contact us through our email or social media!"
+    },
+    "header": "TEAM"
+  },
+  "teamPage": {
+    "filter": {
+      "allProjects": "All"
+    }
   },
   "aboutUsPage": {
     "meta": {
       "title": "About us - PWr in Space",
-      "description": "PWr in Space is a science association that has been active at Wroclaw University of Science and Technology since 2017.\nWe form a team of 60 people who share a common love of rockets, space technology and expanding their knowledge of space. Our main project is the PoliWRocket project - building experimental sounding rockets. Contact us through our email or social media!"
+      "description": "PWr in Space is a science association that has been active at Wroclaw University of Science and Technology since 2017.\nWe form a team of 90 people who share a common love of rockets, space technology and expanding their knowledge of space. Our main project is the PoliWRocket project - building experimental sounding rockets. Contact us through our email or social media!"
     },
     "header": "ABOUT US",
     "firstParagraph": {
@@ -167,7 +179,7 @@
   "joinUsPage": {
     "meta": {
       "title": "Join us - PWr in Space",
-      "description": "PWr in Space is a science association that has been active at Wroclaw University of Science and Technology since 2017.\nWe form a team of 60 people who share a common love of rockets, space technology and expanding their knowledge of space. Our main project is the PoliWRocket project - building experimental sounding rockets. Contact us through our email or social media!"
+      "description": "PWr in Space is a science association that has been active at Wroclaw University of Science and Technology since 2017.\nWe form a team of 90 people who share a common love of rockets, space technology and expanding their knowledge of space. Our main project is the PoliWRocket project - building experimental sounding rockets. Contact us through our email or social media!"
     },
     "header": "JOIN US",
     "departments": {

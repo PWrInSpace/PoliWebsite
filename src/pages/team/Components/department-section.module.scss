@@ -1,0 +1,55 @@
+@import "../../../assets/styles/breakpoints.module";
+@import "../../../assets/styles/fonts.module";
+@import "../../../assets/styles/variables.module";
+
+.container {
+  width: 100%;
+  margin-bottom: 4rem;
+
+  .title {
+    font-family: $alegreyaSans;
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+    color: $mainFont;
+    margin-bottom: 1.875rem;
+    text-align: center;
+    text-transform: capitalize;
+
+    @include breakpoint-md {
+      font-size: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .membersGridWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+  .membersGrid {
+    display: grid;
+    gap: 2rem;
+    justify-items: stretch;
+    align-items: stretch;
+    width: 100%;
+    max-width: 1920px;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+
+    @media (min-width: 1920px) {
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    }
+  }
+
+  .divider {
+    border: 0.5px solid $mainBorder;
+    width: 30%;
+    margin: 0 auto 2.5rem auto;
+
+    @include breakpoint-md {
+      margin-bottom: 2rem;
+    }
+  }
+}
