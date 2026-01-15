@@ -79,7 +79,7 @@ export const LandingSection = () => {
         </div>
         <div className={styles.sectionNumberContainer}>
           <NumberContainerComponent
-            number={90}
+            number={115}
             title={__("mainPage.landingSection.numbers.members")}
           />
           <NumberContainerComponent
