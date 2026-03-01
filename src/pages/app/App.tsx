@@ -39,18 +39,13 @@ const App = () => {
       name: __("navbar.projects"),
       url: "/projects",
       component: () => <Projects />,
+    },
+    {
+      name: __("navbar.joinUs"),
+      url: "/join-us",
+      component: () => <JoinUs />,
     }
   ];
-  const storedLang = Cookies.get("i18next") ?? "pl";
-  if(storedLang === "pl") {
-    menuItems.push(
-      {
-        name: __("navbar.joinUs"),
-        url: "/join-us",
-        component: () => <JoinUs />,
-      }
-    );
-  }
 
   menuItems.push(
     {

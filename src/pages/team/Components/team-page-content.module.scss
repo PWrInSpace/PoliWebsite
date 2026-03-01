@@ -10,40 +10,4 @@
   padding: 2rem 0;
 }
 
-.projectsFilter {
-  width: 100%;
-  margin-bottom: 2rem;
-}
 
-.filterHeaderRow {
-  width: 100%;
-  max-width: 1100px;
-  display: flex;
-  justify-content: flex-end;
-  padding: 0 1rem 0.75rem;
-}
-
-.allButton {
-  font-family: $alata;
-  letter-spacing: 0.05rem;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  background: transparent;
-  color: rgba(255, 255, 255, 0.85);
-  padding: 0.5rem 0.9rem;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
-
-  &:hover {
-    border-color: rgba(255, 255, 255, 0.45);
-    color: #ffffff;
-    background: rgba(255, 255, 255, 0.06);
-  }
-}
-
-.allButtonSelected {
-  @extend .allButton;
-  border-color: rgba(255, 255, 255, 0.6);
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.12);
-}

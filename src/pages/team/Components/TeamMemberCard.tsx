@@ -11,7 +11,7 @@ export const TeamMemberCard: React.FC<TeamMemberCardProps> = ({ member }) => {
     <div className={styles.container}>
       <img src={member.image} alt={`${member.name} profile picture`} />
       <div className={styles.name}>{member.name}</div>
-      <div className={styles.role}>{member.role}</div>
+      <div className={styles.role}>{__(member.role)}</div>
     </div>
   );
 };

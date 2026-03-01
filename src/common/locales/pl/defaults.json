@@ -18,7 +18,7 @@
   "mainPage": {
     "meta": {
       "title": "Strona główna - PWr in Space",
-      "description": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej. \nTworzymy zespół 90 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Skontaktuj się z nami przez naszego maila lub social media!"
+      "description": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej. \nTworzymy zespół 115 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Skontaktuj się z nami przez naszego maila lub social media!"
     },
     "landingSection": {
       "title": "PWR IN SPACE",
@@ -38,7 +38,7 @@
     },
     "aboutUs": {
       "header": "O NAS",
-      "text": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej już od 2017 roku.\nTworzymy zespół 90 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Mimo, iż samo koło działa na Wydziale Mechanicznym, dzięki interdyscyplinarności swoich projektów, zrzesza studentów z całej Politechniki Wrocławskiej. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Nasze konstrukcje tworzymy samodzielnie - począwszy od fazy projektowej, przez modelowanie 3D oraz prace warsztatowe, rozwijając przy tym swoją wiedzę i umiejętności techniczne. Do tej pory udało nam się skonstruować 9 głównych rakiet i odbyć 18 udanych lotów. Co roku uczestniczymy w studenckich zawodach rakietowych Spaceport America Cup w Stanach Zjednoczonych i European Rocketry Challenge w Portugalii, by konkurować z drużynami z całego świata.",
+      "text": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej już od 2017 roku.\nTworzymy zespół 115 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Mimo, iż samo koło działa na Wydziale Mechanicznym, dzięki interdyscyplinarności swoich projektów, zrzesza studentów z całej Politechniki Wrocławskiej. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Nasze konstrukcje tworzymy samodzielnie - począwszy od fazy projektowej, przez modelowanie 3D oraz prace warsztatowe, rozwijając przy tym swoją wiedzę i umiejętności techniczne. Do tej pory udało nam się skonstruować 9 głównych rakiet i odbyć 18 udanych lotów. Co roku uczestniczymy w studenckich zawodach rakietowych Spaceport America Cup w Stanach Zjednoczonych i European Rocketry Challenge w Portugalii, by konkurować z drużynami z całego świata.",
       "planet1": "ŁĄCZY",
       "planet2": "NAS",
       "planet3": "PASJA"
@@ -101,7 +101,7 @@
   "contactPage": {
     "meta": {
       "title": "Kontakt - PWr in Space",
-      "description": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej. \nTworzymy zespół 90 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Skontaktuj się z nami przez naszego maila lub social media!"
+      "description": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej. \nTworzymy zespół 115 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Skontaktuj się z nami przez naszego maila lub social media!"
     },
     "header": "KONTAKT",
     "title": "NAPISZ DO NAS!",
@@ -117,21 +117,21 @@
   "sponsorsPage": {
     "meta": {
       "title": "Sponsorzy - PWr in Space",
-      "description": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej. \nTworzymy zespół 90 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Skontaktuj się z nami przez naszego maila lub social media!"
+      "description": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej. \nTworzymy zespół 115 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Skontaktuj się z nami przez naszego maila lub social media!"
     },
     "header": "SPONSORZY"
   },
   "TeamPage": {
     "meta": {
       "title": "Zespół - PWr in Space",
-      "description": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej. \nTworzymy zespół 90 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Skontaktuj się z nami przez naszego maila lub social media!"
+      "description": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej. \nTworzymy zespół 115 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Skontaktuj się z nami przez naszego maila lub social media!"
     },
     "header": "ZESPÓŁ"
   },
   "aboutUsPage": {
     "meta": {
       "title": "O nas - PWr in Space",
-      "description": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej. \nTworzymy zespół 90 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Skontaktuj się z nami przez naszego maila lub social media!"
+      "description": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej. \nTworzymy zespół 115 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Skontaktuj się z nami przez naszego maila lub social media!"
     },
     "header": "O NAS",
     "firstParagraph": {
@@ -177,7 +177,7 @@
   "joinUsPage": {
     "meta": {
       "title": "Dołącz do nas - PWr in Space",
-      "description": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej. \nTworzymy zespół 90 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Skontaktuj się z nami przez naszego maila lub social media!"
+      "description": "PWr in Space to koło naukowe działające przy Politechnice Wrocławskiej. \nTworzymy zespół 115 osób, które łączy wspólne zamiłowanie do rakiet, technologii kosmicznych i poszerzaniu wiedzy o kosmosie. Naszym głównym przedsięwzięciem jest projekt PoliWRocket - zakładający budowę eksperymentalnych rakiet sondujących. Skontaktuj się z nami przez naszego maila lub social media!"
     },
     "header": "DOŁĄCZ DO NAS",
     "departments": {
@@ -224,5 +224,46 @@
     },
     "form": "FORMULARZ",
     "notNow": "Obecnie nie prowadzimy rekrutacji"
-  }
+  },
+  "ProjectsSection": {
+    "header": "PROJEKTY"
+  },
+  "teamDep": {
+    "Zarzad": "Zarząd",
+    "Liderzy": "Liderzy",
+    "EleSoft": "Elektronika i Software",
+    "Marketing": "PR i Marketing",
+    "GS": "Ground Support",
+    "Aero": "Aerodynamika",
+    "Struktura": "Struktura",
+    "Odzysk": "Odzysk",
+    "Payload": "Payload",
+    "Silniki": "Silniki",
+    "ACS": "ACS"
+  },
+"teamRoles": {
+  "ZarzadLead": "Prezes PWr in Space",
+  "ZarzadHR": "Wiceprezes ds. Biznesu & HR",
+  "ZarzadKasa": "Wiceprezes ds. Finansów",
+  "ZarzadProj": "Wiceprezes ds. Projektów",
+  "ZarzadLogist": "Wiceprezes ds. Logistyki",
+  "Lider": "Lider",
+  "marketingLead": "PR i Marketing",
+  "SilnikiLead": "Silniki",
+  "StrukturaLead": "Struktura",
+  "OdzyskLead": "Odzysk",
+  "GSLead": "Ground Support",
+  "PayloadLead": "Payload",
+  "AreoLead": "Areodynamika",
+  "BizLead": "Biznes",
+  "EleLead": "Elektronika i Software",
+  "ACS": "ACS"
+},
+"teamProjectRoles": {
+  "MACKI": "M.A.C.K.I"
+},
+"teamProject": {
+  "MACKI": "M.A.C.K.I"
 }
+}
+

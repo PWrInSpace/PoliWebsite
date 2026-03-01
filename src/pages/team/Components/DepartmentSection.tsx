@@ -16,15 +16,13 @@ export const DepartmentSection: React.FC<DepartmentSectionProps> = ({
 
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>{department.name}</h2>
+      <h2 className={styles.title}>{__(department.name)}</h2>
       <div className={styles.divider}></div>
-      <div className={styles.membersGridWrapper}>
         <div className={styles.membersGrid}>
           {department.members.map((member, index) => (
             <TeamMemberCard key={index} member={member} />
           ))}
         </div>
-      </div>
     </div>
   );
-};
+}

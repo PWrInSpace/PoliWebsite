@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
-import { TeamPageContent } from "./Components/TeamPageContent";
+import { TeamPageContent, TeamPageContentProjects } from "./Components/TeamPageContent";
 import { SubpageWrapper } from "../../components/subpage-wrapper/SubpageWrapper";
 import { HeadComponent } from "../../components/head-component/HeadComponent";
+import styles from "./team-page.module.scss";
 
 export const TeamPage = () => {
   useEffect(() => {
@@ -13,9 +14,15 @@ export const TeamPage = () => {
       image={"../../assets/images/about-us-page/image2.png"}
       title={__("TeamPage.meta.title")}
       description={__("TeamPage.meta.description")}
-    > 
-      <SubpageWrapper title={__("TeamPage.header")} bottomMargin={true}>
-        <TeamPageContent/>
+    >
+      <SubpageWrapper title={__("TeamPage.header")} bottomMargin={false} compact>
+        <TeamPageContent />
+      </SubpageWrapper>
+      <div className={styles.dividerWrapper}>
+        <div className={styles.divider} />
+      </div>
+      <SubpageWrapper title={__("ProjectsSection.header")} upperMargin={false} bottomMargin={true}>
+        <TeamPageContentProjects />
       </SubpageWrapper>
     </HeadComponent>
   );

@@ -8,9 +8,9 @@ import backgroundPlaceholder from "../../../assets/images/backgrounds/background
 import { Countdown } from "../../../components/timer/Countdown";
 
 export const RecrutationData = {
-  isRecrutationSeasson: false,
-  recrutationStart: new Date(Date.UTC(2025, 9, 10, 8, 0, 0)),
-  recrutationEnd: new Date(Date.UTC(2025, 10, 7, 23, 59, 0)), 
+  isRecrutationSeasson: true,
+  recrutationStart: new Date(Date.UTC(2026, 2, 2, 8, 0, 0)),
+  recrutationEnd: new Date(Date.UTC(2026, 2, 15, 23, 59, 0)), 
   isBeforeRecrutationActive: () =>  (+RecrutationData.recrutationStart - +new Date()) > 0,
   isRecrutationActive: () =>(+RecrutationData.recrutationEnd - +new Date()) > 0
 };
@@ -55,7 +55,7 @@ export const LandingSection = () => {
         {RecrutationData.isRecrutationSeasson && <Countdown 
           date={recrutationDate} 
           title={recrutationText}
-          link={RecrutationData.isRecrutationActive() ? "https://forms.gle/WwRqFSxhp69NYikC8" : undefined}
+          link={!RecrutationData.isBeforeRecrutationActive() && RecrutationData.isRecrutationActive() ? "https://forms.gle/W2Nk8wtS6tNr5tJg6" : undefined}
         />}
         <div className={styles.sectionButtons}>
           <Link
@@ -79,7 +79,7 @@ export const LandingSection = () => {
         </div>
         <div className={styles.sectionNumberContainer}>
           <NumberContainerComponent
-            number={90}
+            number={115}
             title={__("mainPage.landingSection.numbers.members")}
           />
           <NumberContainerComponent

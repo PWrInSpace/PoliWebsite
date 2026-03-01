@@ -21,7 +21,12 @@ export const PersonPicture = (props: IProps) => {
       >
         {props.mail}
       </div>
-      <div className={styles.phone}>{props.phone}</div>
+      <div
+        className={styles.phone}
+        onClick={() => (window.location.href = "tel:" + props.phone)}
+      >
+        {props.phone}
+      </div>
     </div>
   );
 };

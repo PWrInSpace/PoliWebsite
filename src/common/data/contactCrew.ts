@@ -1,5 +1,5 @@
-import PR from "../../assets/images/contact/Ewa_Kasprzak.jpg";
-import Prezes from "../../assets/images/contact/Oliwia_Opoń.png";
+import PR from "../../assets/images/Team/Mgmt/EwaKasprzakv2.jpg";
+import Prezes from "../../assets/images/Team/Mgmt/OliwiaOponv2.jpg";
 
 export const Crew = {
   pr: {

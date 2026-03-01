@@ -6,6 +6,8 @@ interface IProps {
   children: React.ReactElement;
   title: string;
   bottomMargin?: boolean;
+  compact?: boolean;
+  upperMargin?: boolean;
 }
 
 export const SubpageWrapper = (props: IProps) => {
@@ -14,6 +16,8 @@ export const SubpageWrapper = (props: IProps) => {
       className={classes(
         styles.container,
         props.bottomMargin && styles.bottomMargin,
+        props.compact && styles.compact,
+        props.upperMargin === false && styles.noUpperMargin,
       )}
     >
       <div className={styles.background}></div>

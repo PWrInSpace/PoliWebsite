@@ -7,9 +7,12 @@ import { HeadComponent } from "../../components/head-component/HeadComponent";
 import { RecrutationData } from "../main-page/components/LandingSection";
 
 export const JoinUs = () => {
-  const buttonVisible = RecrutationData.isRecrutationSeasson && RecrutationData.isRecrutationActive();
+  const buttonVisible =
+    RecrutationData.isRecrutationSeasson &&
+    !RecrutationData.isBeforeRecrutationActive() &&
+    RecrutationData.isRecrutationActive();
   const buttonLink =
-    "https://forms.gle/WwRqFSxhp69NYikC8";
+    "https://forms.gle/W2Nk8wtS6tNr5tJg6";
 
   useEffect(() => {
     window.scrollTo(0, 0);
