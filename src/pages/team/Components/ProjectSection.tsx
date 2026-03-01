@@ -25,4 +25,4 @@ export const ProjectSection: React.FC<ProjectsSectionProps> = ({
         </div>
     </div>
   );
-}
+}; //
