@@ -18,11 +18,11 @@ export const ProjectSection: React.FC<ProjectsSectionProps> = ({
     <div className={styles.container}>
       <h2 className={styles.title}>{__(project.name)}</h2>
       <div className={styles.divider}></div>
-        <div className={styles.membersGrid}>
-          {project.members.map((member, index) => (
-            <TeamMemberCard key={index} member={member} />
-          ))}
-        </div>
+      <div className={styles.membersGrid}>
+        {project.members.map((member, index) => (
+          <TeamMemberCard key={index} member={member} />
+        ))}
+      </div>
     </div>
   );
 }; //
