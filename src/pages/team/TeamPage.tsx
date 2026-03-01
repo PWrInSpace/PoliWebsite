@@ -15,15 +15,17 @@ export const TeamPage = () => {
       title={__("TeamPage.meta.title")}
       description={__("TeamPage.meta.description")}
     >
-      <SubpageWrapper title={__("TeamPage.header")} bottomMargin={false} compact>
-        <TeamPageContent />
-      </SubpageWrapper>
-      <div className={styles.dividerWrapper}>
-        <div className={styles.divider} />
-      </div>
-      <SubpageWrapper title={__("ProjectsSection.header")} upperMargin={false} bottomMargin={true}>
-        <TeamPageContentProjects />
-      </SubpageWrapper>
+      <>
+        <SubpageWrapper title={__("TeamPage.header")} bottomMargin={false} compact>
+          <TeamPageContent />
+        </SubpageWrapper>
+        <div className={styles.dividerWrapper}>
+          <div className={styles.divider} />
+        </div>
+        <SubpageWrapper title={__("ProjectsSection.header")} upperMargin={false} bottomMargin={true}>
+          <TeamPageContentProjects />
+        </SubpageWrapper>
+      </>
     </HeadComponent>
   );
-};
+}; //
