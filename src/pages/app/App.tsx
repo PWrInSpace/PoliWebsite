@@ -11,6 +11,7 @@ import { SponsorsPage } from "../sponsors-page/SponsorsPage";
 import { AboutUs } from "../about-us/AboutUs";
 import "./app.module.scss";
 import { JoinUs } from "../join-us/JoinUs";
+import { TeamPage } from "../team/TeamPage";
 import { NavMenuItem } from "../../common/interfaces/SharedInterfaces";
 import Cookies from "js-cookie";
 import { Projects } from "../projects/Projects";
@@ -30,21 +31,21 @@ const App = () => {
       component: () => <AboutUs />,
     },
     {
+      name: __("navbar.team"),
+      url: "/team",
+      component: () => <TeamPage/>,
+    },
+    {
       name: __("navbar.projects"),
       url: "/projects",
       component: () => <Projects />,
+    },
+    {
+      name: __("navbar.joinUs"),
+      url: "/join-us",
+      component: () => <JoinUs />,
     }
   ];
-  const storedLang = Cookies.get("i18next") ?? "pl";
-  if(storedLang === "pl") {
-    menuItems.push(
-      {
-        name: __("navbar.joinUs"),
-        url: "/join-us",
-        component: () => <JoinUs />,
-      }
-    );
-  }
 
   menuItems.push(
     {

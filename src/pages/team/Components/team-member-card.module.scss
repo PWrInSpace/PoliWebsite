@@ -1,0 +1,64 @@
+@import "../../../assets/styles/breakpoints.module";
+@import "../../../assets/styles/fonts.module";
+@import "../../../assets/styles/variables.module";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.625rem;
+  width: 100%;
+  max-width: 384px;
+  margin: 0 auto;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-5px);
+
+    img {
+      transform: scale(1.02);
+    }
+
+    .name {
+      color: lighten($mainBlue, 10%);
+    }
+
+    .role {
+      opacity: 1;
+    }
+  }
+
+  img {
+    width: 100%;
+    max-width: 384px;
+    height: auto;
+    max-height: 384px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .name {
+    font-family: $alata;
+    font-size: 1rem;
+    color: $mainBlue;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    transition: color 0.3s ease;
+  }
+
+  .role {
+    font-family: $alata;
+    font-size: 0.875rem;
+    color: $mainFont;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+  }
+}

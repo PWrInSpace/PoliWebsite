@@ -1,0 +1,13 @@
+@import "../../../assets/styles/breakpoints.module";
+@import "../../../assets/styles/fonts.module";
+@import "../../../assets/styles/variables.module";
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+
