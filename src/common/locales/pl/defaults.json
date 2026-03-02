@@ -239,7 +239,8 @@
     "Odzysk": "Odzysk",
     "Payload": "Payload",
     "Silniki": "Silniki",
-    "ACS": "ACS"
+    "ACS": "ACS",
+    "Buisness": "Biznes"
   },
 "teamRoles": {
   "ZarzadLead": "Prezes PWr in Space",
@@ -257,13 +258,16 @@
   "AreoLead": "Areodynamika",
   "BizLead": "Biznes",
   "EleLead": "Elektronika i Software",
-  "ACS": "ACS"
+  "ACS": "ACS",
+  "BuisnessLead": "Biznes"
 },
 "teamProjectRoles": {
-  "MACKI": "M.A.C.K.I"
+  "MACKI": "M.A.C.K.I",
+  "Hybrid": "Hybrydy"
 },
 "teamProject": {
-  "MACKI": "M.A.C.K.I"
+  "MACKI": "M.A.C.K.I",
+  "Hybrid": "Hybrydy"
 }
 }
 
