@@ -235,8 +235,9 @@
     "Struktura": "Structure",
     "Odzysk": "Recovery",
     "Payload": "Payload",
-    "Silniki": "Engines",
-    "ACS": "ACS"
+    "Silniki": "Propulsion",
+    "ACS": "ACS",
+    "Buisness": "Buisness"
   },
   "teamRoles": {
     "ZarzadLead": "President of PWr in Space",
@@ -246,7 +247,7 @@
     "ZarzadLogist": "Vice President of Logistics",
     "Lider": "Leader",
     "marketingLead": "Marketing & PR",
-    "SilnikiLead": "Engines",
+    "SilnikiLead": "Propulsion",
     "StrukturaLead": "Structure",
     "OdzyskLead": "Recovery",
     "GSLead": "Ground Support",
@@ -254,12 +255,15 @@
     "AreoLead": "Aerodynamics",
     "BizLead": "Buisness",
     "EleLead": "Electronics & Software",
-    "ACS": "ACS"
+    "ACS": "ACS",
+    "BuisnessLead": "Buisness"
   },
   "teamProject": {
-    "MACKI": "M.A.C.K.I"
+    "MACKI": "M.A.C.K.I",
+    "Hybrid": "Hybrid"
   },
   "teamProjectRoles": {
-    "MACKI": "M.A.C.K.I"
+    "MACKI": "M.A.C.K.I",
+    "Hybrid": "Hybrid"
   }
 }
