@@ -263,11 +263,13 @@
 },
 "teamProjectRoles": {
   "MACKI": "M.A.C.K.I",
-  "Hybrid": "Hybrydy"
+  "Hybrid": "Hybrydy",
+  "Astrium": "Astrium Deluge"
 },
 "teamProject": {
   "MACKI": "M.A.C.K.I",
-  "Hybrid": "Hybrydy"
+  "Hybrid": "Hybrydy",
+  "Astrium": "Astrium Deluge"
 }
 }
 

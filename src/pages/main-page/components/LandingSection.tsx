@@ -8,7 +8,7 @@ import backgroundPlaceholder from "../../../assets/images/backgrounds/background
 import { Countdown } from "../../../components/timer/Countdown";
 
 export const RecrutationData = {
-  isRecrutationSeasson: true,
+  isRecrutationSeasson: false,
   recrutationStart: new Date(Date.UTC(2026, 2, 2, 8, 0, 0)),
   recrutationEnd: new Date(Date.UTC(2026, 2, 15, 23, 59, 0)), 
   isBeforeRecrutationActive: () =>  (+RecrutationData.recrutationStart - +new Date()) > 0,

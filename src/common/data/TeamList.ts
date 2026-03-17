@@ -28,15 +28,17 @@ import member6 from "../../assets/images/Team/Liders/JoannaKrol.jpg"
 import member6v2 from "../../assets/images/Team/Liders/JoannaKrolv2.jpg"
 import member7 from "../../assets/images/Team/Liders/IgorSzuniewicz.jpg"
 import member7v2 from "../../assets/images/Team/Liders/IgorSzuniewiczv2.jpg"
-import member8 from "../../assets/images/Team/PlaceholderMan.jpeg"
+import member8 from "../../assets/images/Team/Liders/BartekKamieniarz.jpg"
 import member9 from "../../assets/images/Team/Liders/JedrzejSzczepankiewicz.jpg"
 import member10 from "../../assets/images/Team/Liders/MikolajKubik.jpg"
 import member10v2 from "../../assets/images/Team/Liders/MikolajKubikv2.jpg"
 import member11 from "../../assets/images/Team/Liders/MajaGrygierczyk.jpg"
 import member12 from "../../assets/images/Team/Liders/AleksandraOlszewska.jpg"
+import member12v2 from "../../assets/images/Team/Liders/AleksandraOlszewskav2.jpg"
 import member13 from "../../assets/images/Team/Liders/TadeuszZieba.jpg"
-import member14 from "../../assets/images/Team/PlaceholderMan.jpeg"
+import member14 from "../../assets/images/Team/Liders/TymekPytko.jpg"
 import member15 from "../../assets/images/Team/Liders/ArkadiuszWilczynski.jpg"
+import member15v2 from "../../assets/images/Team/Liders/ArkadiuszWilczynskiv2.jpg"
 import member16 from "../../assets/images/Team/PlaceholderMan.jpeg"
 import member17 from "../../assets/images/Team/Recovery/NataszaKuras.jpg"
 import member18 from "../../assets/images/Team/Marketing/JuliaLuczak.jpg"
@@ -58,7 +60,7 @@ import member32 from "../../assets/images/Team/EleSoft/KarolBogacz.jpg"
 import member33 from "../../assets/images/Team/EleSoft/MaciejBinczarowski.jpg"
 import member34 from "../../assets/images/Team/PlaceholderMan.jpeg"
 import member35 from "../../assets/images/Team/PlaceholderMan.jpeg"
-import member36 from "../../assets/images/Team/PlaceholderMan.jpeg"
+import member36 from "../../assets/images/Team/EleSoft/MateuszKluczka.jpg"
 import member37 from "../../assets/images/Team/EleSoft/AleksandraGrzela.jpg"
 import member38 from "../../assets/images/Team/EleSoft/PawelMorawski.jpg"
 import member39 from "../../assets/images/Team/EleSoft/MichalGrzebielec.jpg"
@@ -110,8 +112,8 @@ import member84 from "../../assets/images/Team/Engines/JuliaPeczkowska.jpg"
 import member85 from "../../assets/images/Team/Engines/DawidWarelis.jpg"
 import member86 from "../../assets/images/Team/Engines/SzymonJelonkiewicz.jpg"
 import member87 from "../../assets/images/Team/Recovery/MalgorzataLukasik.jpg"
-import member88 from "../../assets/images/Team/PlaceholderMan.jpeg"
-import member89 from "../../assets/images/Team/PlaceholderMan.jpeg"
+import member88 from "../../assets/images/Team/Hybrid/SzymonPliszka.jpg"
+import member89 from "../../assets/images/Team/Engines/PiotrekPolawski.jpg"
 import member90 from "../../assets/images/Team/PlaceholderMan.jpeg"
 import member91 from "../../assets/images/Team/Hybrid/AdrianWilczek.jpg"
 import member92 from "../../assets/images/Team/Engines/JakubLuc.jpg"
@@ -142,6 +144,8 @@ import member117 from "../../assets/images/Team/Hybrid/KarolSpychalski.jpg"
 import member118 from "../../assets/images/Team/PlaceholderMan.jpeg"
 import member119 from "../../assets/images/Team/PlaceholderWoman.jpeg"
 import member120 from "../../assets/images/Team/Business/MateuszJonasz.jpg"
+import member121 from "../../assets/images/Team/Engines/MarcelMuszynski.jpg"
+
 // { image: member1, name: "Imię Nazwisko", role: "..." }
 export const TeamData: Department[] = [
   {
@@ -184,9 +188,8 @@ export const TeamData: Department[] = [
       { image: member24, name: "Sara Kuriata", role: "teamRoles.marketingLead" },
       { image: member25, name: "Gabriela Golbiak", role: "teamRoles.marketingLead" },
       { image: member26, name: "Kinga Jańczak", role: "teamRoles.marketingLead" },
-      { image: member27, name: "Szymon Konarczak", role: "teamRoles.marketingLead" },
     ]
-  },
+  }, // git
   {
     name: "teamDep.EleSoft",
     members: [
@@ -201,15 +204,16 @@ export const TeamData: Department[] = [
       { image: member19v2, name: "Szymon Rzewuski", role: "teamRoles.EleLead" },
       { image: member33, name: "Maciej Binczarowski", role: "teamRoles.EleLead" },
       { image: member34, name: "Michał Kos", role: "teamRoles.EleLead" },
-      { image: member35, name: "Dominik Hnidko", role: "teamRoles.EleLead" },
+      { image: member4v2, name: "Stanisław Posadzki", role: "teamRoles.EleLead"},
       { image: member36, name: "Mateusz Kluczka", role: "teamRoles.EleLead" },
       { image: member37, name: "Aleksandra Grzela", role: "teamRoles.EleLead" },
       { image: member38, name: "Paweł Morawski", role: "teamRoles.EleLead" },
       { image: member39, name: "Michał Grzebielec", role: "teamRoles.EleLead" },
       { image: member40, name: "Mateusz Kłosiński", role: "teamRoles.EleLead" },
       { image: member41, name: "Dominik Burgfeld", role: "teamRoles.EleLead" },
+      { image: member35, name: "Konrad Siudziński", role: "teamRoles.EleLead"},
     ],
-  },
+  }, // git
   {
     name: "teamDep.Aero",
     members: [
@@ -223,7 +227,6 @@ export const TeamData: Department[] = [
       { image: member50, name: "Jakub Markowski", role: "teamRoles.AreoLead" },
       { image: member51, name: "Jerzy Kosterka", role: "teamRoles.AreoLead" },
       { image: member52, name: "Urszula Wasilewska", role: "teamRoles.AreoLead" },
-      { image: member53, name: "Marta Perner", role: "teamRoles.AreoLead" },
       { image: member40, name: "Mateusz Kłosiński", role: "teamRoles.AreoLead" },
       { image: member54, name: "Mikołaj Festo", role: "teamRoles.AreoLead" },
       { image: member55, name: "Kacper Krysiński", role: "teamRoles.AreoLead" },
@@ -276,6 +279,7 @@ export const TeamData: Department[] = [
       { image: member114, name: "Maja Walczak", role: "teamRoles.StrukturaLead" },
       { image: member53, name: "Marta Perner", role: "teamRoles.StrukturaLead" },
       { image: member47, name: "Gosia Michalik", role: "teamRoles.StrukturaLead" },
+      { image: member53, name: "Marta Perner", role: "teamRoles.AreoLead" },
     ],
   },
   {
@@ -291,7 +295,8 @@ export const TeamData: Department[] = [
       { image: member110, name: "Kacper Marciniak", role: "teamRoles.OdzyskLead" },
       { image: member111, name: "Jakub Szostek", role: "teamRoles.OdzyskLead" },
       { image: member112, name: "Jakub Jędrzkiewicz", role: "teamRoles.OdzyskLead" },
-    ],
+      { image: member27, name: "Adam Domachowski", role: "teamRoles.Odzsyklead"},
+    ],  // git
   },
   {
     name: "teamDep.Payload",
@@ -302,7 +307,7 @@ export const TeamData: Department[] = [
       { image: member5, name: "Aleksander Szyszka", role: "teamRoles.PayloadLead" },
       { image: member83, name: "Wiktoria Kaźmierczak", role: "teamRoles.PayloadLead" },
     ],
-  },
+  }, // git
   {
     name: "teamDep.Silniki",
     members: [
@@ -329,6 +334,7 @@ export const TeamData: Department[] = [
       { image: member100, name: "Marcin Kanarszczuk", role: "teamRoles.SilnikiLead" },
       { image: member101, name: "Gabriela Kumorowska", role: "teamRoles.SilnikiLead" },
       { image: member55, name: "Kacper Krysiński", role: "teamRoles.SilnikiLead" },
+      { image: member121, name: "Marcel Muszyński", role: "teamRoles.SilnikiLead"}
     ],
   },
   {
@@ -384,6 +390,18 @@ export const TeamDataProjects: Project[] = [
       { image: member73, name: "Aleksandra Zieleźny", role: "teamProjectRoles.Hybrid" },
       { image: member94, name: "Tymoteusz Mączyński", role: "teamProjectRoles.Hybrid" },
       { image: member44, name: "Zofia Peter", role: "teamProjectRoles.Hybrid" },
+    ],
+  },
+  {
+    name: "teamProject.Astrium",
+    members: [
+      { image: member5, name: "Aleksander Szyszka", role: "teamProjectRoles.Astrium" },
+      { image: member103, name: "Mateusz Pilecki", role: "teamProjectRoles.Astrium" },
+      { image: member116, name: "Julia Mesjasz", role: "teamProjectRoles.Astrium" },
+      { image: member55, name: "Kacper Krysiński", role: "teamProjectRoles.Astrium" },
+      { image: member44, name: "Zofia Peter", role: "teamProjectRoles.Astrium" },
+      { image: member12v2, name: "Aleksandra Olszewska", role: "teamProjectRoles.Astrium" },
+      { image: member15v2, name: "Arkadiusz Wilczyński", role: "teamProjectRoles.Astrium" },
     ],
   },
 ]
