@@ -153,7 +153,7 @@ import member126 from "../../assets/images/Team/PlaceholderMan.jpeg"
 import member127 from "../../assets/images/Team/PlaceholderMan.jpeg"
 import member128 from "../../assets/images/Team/PlaceholderMan.jpeg"
 import member129 from "../../assets/images/Team/PlaceholderMan.jpeg"
-import member130 from "../../assets/images/Team/Gs/MateuszKozyra.jpg"
+import member130 from "../../assets/images/Team/GS/MateuszKozyra.jpg"
 import member131 from "../../assets/images/Team/PlaceholderMan.jpeg"
 
 // { image: member1, name: "Imię Nazwisko", role: "..." }
