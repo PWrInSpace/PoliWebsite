@@ -264,12 +264,16 @@
 "teamProjectRoles": {
   "MACKI": "M.A.C.K.I",
   "Hybrid": "Hybrydy",
-  "Astrium": "Astrium Deluge"
+  "Astrium": "Astrium Deluge",
+  "ASTRA": "ASTRA",
+  "RamJet": "RamJet"
 },
 "teamProject": {
   "MACKI": "M.A.C.K.I",
   "Hybrid": "Hybrydy",
-  "Astrium": "Astrium Deluge"
+  "Astrium": "Astrium Deluge",
+  "ASTRA": "ASTRA",
+  "RamJet": "RamJet"
 }
 }
 

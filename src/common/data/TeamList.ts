@@ -23,7 +23,8 @@ import member3 from "../../assets/images/Team/Mgmt/BiankaNapiorkowska.jpg"
 import member3v2 from "../../assets/images/Team/Mgmt/BiankaNapiorkowskav2.jpg"
 import member4 from "../../assets/images/Team/Mgmt/StanislawPosacki.jpg"
 import member4v2 from "../../assets/images/Team/Mgmt/StanislawPosackiv2.jpg"
-import member5 from "../../assets/images/Team/PlaceholderMan.jpeg"
+import member5 from "../../assets/images/Team/Mgmt/AlexSzyszka.jpg"
+import member5v2 from "../../assets/images/Team/Mgmt/AlexSzyszkav2.jpg"
 import member6 from "../../assets/images/Team/Liders/JoannaKrol.jpg"
 import member6v2 from "../../assets/images/Team/Liders/JoannaKrolv2.jpg"
 import member7 from "../../assets/images/Team/Liders/IgorSzuniewicz.jpg"
@@ -70,7 +71,7 @@ import member42 from "../../assets/images/Team/Aero/ManfredGawlas.jpg"
 import member43 from "../../assets/images/Team/Aero/MateuszWdowiak.jpg"
 import member44 from "../../assets/images/Team/Aero/ZofiaPeter.jpg"
 import member45 from "../../assets/images/Team/Recovery/WojciechJasiak.jpg"
-import member46 from "../../assets/images/Team/PlaceholderMan.jpeg"
+import member46 from "../../assets/images/Team/Aero/KsaweryTyszkiewicz.jpg"
 import member47 from "../../assets/images/Team/PlaceholderWoman.jpeg"
 import member48 from "../../assets/images/Team/Aero/JakubPawlucki.jpg"
 import member49 from "../../assets/images/Team/Aero/ZofiaBiernacka.jpg"
@@ -78,10 +79,10 @@ import member50 from "../../assets/images/Team/PlaceholderMan.jpeg"
 import member51 from "../../assets/images/Team/Aero/JerzyKosterka.jpg"
 import member52 from "../../assets/images/Team/PlaceholderWoman.jpeg"
 import member53 from "../../assets/images/Team/Aero/MartaPerner.jpg"
-import member54 from "../../assets/images/Team/PlaceholderMan.jpeg"
+import member54 from "../../assets/images/Team/Aero/MikolajFesto.jpg"
 import member55 from "../../assets/images/Team/Aero/KacperKrysinski.jpg"
 import member56 from "../../assets/images/Team/GS/LukaszCiorga.jpg"
-import member57 from "../../assets/images/Team/PlaceholderMan.jpeg"
+import member57 from "../../assets/images/Team/Engines/MiloszKozycz.jpg"
 import member58 from "../../assets/images/Team/GS/JuliaSzafron.jpg"
 import member59 from "../../assets/images/Team/GS/PiotrPrabucki.jpg"
 import member60 from "../../assets/images/Team/GS/FranciszekBereza.jpg"
@@ -104,7 +105,7 @@ import member76 from "../../assets/images/Team/Structure/DawidJamer.jpg"
 import member77 from "../../assets/images/Team/Structure/NataliaJachwan.jpg"
 import member78 from "../../assets/images/Team/Structure/LukaszWaldon.jpg"
 import member79 from "../../assets/images/Team/Recovery/Jakub Gienieczko.jpg"
-import member80 from "../../assets/images/Team/PlaceholderMan.jpeg"
+import member80 from "../../assets/images/Team/Recovery/TymoteuszOlech.jpg"
 import member81 from "../../assets/images/Team/Recovery/MarcinSron.jpg"
 import member82 from "../../assets/images/Team/PlaceholderMan.jpeg"
 import member83 from "../../assets/images/Team/Payload/WiktoriaKazmierczak.jpg"
@@ -138,13 +139,22 @@ import member110 from "../../assets/images/Team/PlaceholderMan.jpeg"
 import member111 from "../../assets/images/Team/Recovery/JakubSzostek.jpg"
 import member112 from "../../assets/images/Team/Recovery/JakubJedrzkiewicz.jpg"
 import member114 from "../../assets/images/Team/PlaceholderWoman.jpeg"
-import member115 from "../../assets/images/Team/Liders/DominikJaszczyk.jpg" 
+import member115 from "../../assets/images/Team/Liders/DominikJaszczyk.jpg"
 import member116 from "../../assets/images/Team/PlaceholderWoman.jpeg"
 import member117 from "../../assets/images/Team/Hybrid/KarolSpychalski.jpg"
 import member118 from "../../assets/images/Team/PlaceholderMan.jpeg"
-import member119 from "../../assets/images/Team/PlaceholderWoman.jpeg"
 import member120 from "../../assets/images/Team/Business/MateuszJonasz.jpg"
 import member121 from "../../assets/images/Team/Engines/MarcelMuszynski.jpg"
+import member122 from "../../assets/images/Team/PlaceholderMan.jpeg"
+import member123 from "../../assets/images/Team/ASTRA/KonradFura.jpg"
+import member124 from "../../assets/images/Team/ASTRA/FilipGawlik.jpg"
+import member125 from "../../assets/images/Team/PlaceholderMan.jpeg"
+import member126 from "../../assets/images/Team/PlaceholderMan.jpeg"
+import member127 from "../../assets/images/Team/PlaceholderMan.jpeg"
+import member128 from "../../assets/images/Team/PlaceholderMan.jpeg"
+import member129 from "../../assets/images/Team/PlaceholderMan.jpeg"
+import member130 from "../../assets/images/Team/GS/MateuszKozyra.jpg"
+import member131 from "../../assets/images/Team/PlaceholderMan.jpeg"
 
 // { image: member1, name: "Imię Nazwisko", role: "..." }
 export const TeamData: Department[] = [
@@ -204,14 +214,14 @@ export const TeamData: Department[] = [
       { image: member19v2, name: "Szymon Rzewuski", role: "teamRoles.EleLead" },
       { image: member33, name: "Maciej Binczarowski", role: "teamRoles.EleLead" },
       { image: member34, name: "Michał Kos", role: "teamRoles.EleLead" },
-      { image: member4v2, name: "Stanisław Posadzki", role: "teamRoles.EleLead"},
+      { image: member4v2, name: "Stanisław Posadzki", role: "teamRoles.EleLead" },
       { image: member36, name: "Mateusz Kluczka", role: "teamRoles.EleLead" },
       { image: member37, name: "Aleksandra Grzela", role: "teamRoles.EleLead" },
       { image: member38, name: "Paweł Morawski", role: "teamRoles.EleLead" },
       { image: member39, name: "Michał Grzebielec", role: "teamRoles.EleLead" },
       { image: member40, name: "Mateusz Kłosiński", role: "teamRoles.EleLead" },
       { image: member41, name: "Dominik Burgfeld", role: "teamRoles.EleLead" },
-      { image: member35, name: "Konrad Siudziński", role: "teamRoles.EleLead"},
+      { image: member35, name: "Konrad Siudziński", role: "teamRoles.EleLead" },
     ],
   }, // git
   {
@@ -221,17 +231,19 @@ export const TeamData: Department[] = [
       { image: member42, name: "Manfred Gawlas", role: "teamRoles.AreoLead" },
       { image: member43, name: "Mateusz Wdowiak", role: "teamRoles.AreoLead" },
       { image: member44, name: "Zofia Peter", role: "teamRoles.AreoLead" },
-      { image: member46, name: "Ksawery Tyszkiewicz", role: "teamRoles.AreoLead" },
       { image: member48, name: "Jakub Pawłucki", role: "teamRoles.AreoLead" },
       { image: member49, name: "Zofia Biernacka", role: "teamRoles.AreoLead" },
       { image: member50, name: "Jakub Markowski", role: "teamRoles.AreoLead" },
       { image: member51, name: "Jerzy Kosterka", role: "teamRoles.AreoLead" },
       { image: member52, name: "Urszula Wasilewska", role: "teamRoles.AreoLead" },
-      { image: member40, name: "Mateusz Kłosiński", role: "teamRoles.AreoLead" },
       { image: member54, name: "Mikołaj Festo", role: "teamRoles.AreoLead" },
       { image: member55, name: "Kacper Krysiński", role: "teamRoles.AreoLead" },
+      { image: member128, name: "Franciszek Tomczak", role: "teamRoles.AreoLead" },
+      { image: member125, name: "Piotr Paczkowski", role: "teamRoles.AreoLead" },
+      { image: member131, name: "Michał Surlej", role: "teamRoles.AreoLead" },
+
     ],
-  },
+  }, 
   {
     name: "teamDep.GS",
     members: [
@@ -246,7 +258,6 @@ export const TeamData: Department[] = [
       { image: member59, name: "Piotr Prabucki", role: "teamRoles.GSLead" },
       { image: member6v2, name: "Joanna Król", role: "teamRoles.GSLead" },
       { image: member60, name: "Franciszek Bereza", role: "teamRoles.GSLead" },
-      { image: member40, name: "Mateusz Kłosiński", role: "teamRoles.GSLead" },
       { image: member61, name: "Radosław Pogodziński", role: "teamRoles.GSLead" },
       { image: member4v2, name: "Stanisław Posacki", role: "teamRoles.GSLead" },
       { image: member1v2, name: "Oliwia Opoń", role: "teamRoles.GSLead" },
@@ -257,8 +268,12 @@ export const TeamData: Department[] = [
       { image: member65, name: "Michał Dybka", role: "teamRoles.GSLead" },
       { image: member66, name: "Urszula Wasilewska", role: "teamRoles.GSLead" },
       { image: member67, name: "Christa Guzowska", role: "teamRoles.GSLead" },
+      { image: member45, name: "Wojciech Jasiak", role: "teamRoles.GSLead" },
+      { image: member130, name: "Mateusz Kozyra", role: "teamRoles.GSLead" },
+      { image: member131, name: "Michał Surlej", role: "teamRoles.GSLead" },
+
     ],
-  },
+  },  
   {
     name: "teamDep.Struktura",
     members: [
@@ -278,10 +293,8 @@ export const TeamData: Department[] = [
       { image: member46, name: "Ksawery Tyszkiewicz", role: "teamRoles.AreoLead" },
       { image: member114, name: "Maja Walczak", role: "teamRoles.StrukturaLead" },
       { image: member53, name: "Marta Perner", role: "teamRoles.StrukturaLead" },
-      { image: member47, name: "Gosia Michalik", role: "teamRoles.StrukturaLead" },
-      { image: member53, name: "Marta Perner", role: "teamRoles.AreoLead" },
     ],
-  },
+  }, // git
   {
     name: "teamDep.Odzysk",
     members: [
@@ -295,7 +308,7 @@ export const TeamData: Department[] = [
       { image: member110, name: "Kacper Marciniak", role: "teamRoles.OdzyskLead" },
       { image: member111, name: "Jakub Szostek", role: "teamRoles.OdzyskLead" },
       { image: member112, name: "Jakub Jędrzkiewicz", role: "teamRoles.OdzyskLead" },
-      { image: member27, name: "Adam Domachowski", role: "teamRoles.Odzsyklead"},
+      { image: member27, name: "Adam Domachowski", role: "teamRoles.Odzsyklead" },
     ],  // git
   },
   {
@@ -304,7 +317,7 @@ export const TeamData: Department[] = [
       { image: member15, name: "Arkadiusz Wilczyński", role: "teamRoles.Lider" },
       { image: member82, name: "Jakub Mnich", role: "teamRoles.PayloadLead" },
       { image: member61, name: "Radosław Pogodziński", role: "teamRoles.PayloadLead" },
-      { image: member5, name: "Aleksander Szyszka", role: "teamRoles.PayloadLead" },
+      { image: member5v2, name: "Aleksander Szyszka", role: "teamRoles.PayloadLead" },
       { image: member83, name: "Wiktoria Kaźmierczak", role: "teamRoles.PayloadLead" },
     ],
   }, // git
@@ -333,10 +346,10 @@ export const TeamData: Department[] = [
       { image: member99, name: "Cezary Surmiak", role: "teamRoles.SilnikiLead" },
       { image: member100, name: "Marcin Kanarszczuk", role: "teamRoles.SilnikiLead" },
       { image: member101, name: "Gabriela Kumorowska", role: "teamRoles.SilnikiLead" },
-      { image: member55, name: "Kacper Krysiński", role: "teamRoles.SilnikiLead" },
-      { image: member121, name: "Marcel Muszyński", role: "teamRoles.SilnikiLead"}
+      { image: member121, name: "Marcel Muszyński", role: "teamRoles.SilnikiLead" },
+      { image: member122, name: "Mateusz Grodziński", role: "teamRoles.SilnikiLead" }
     ],
-  },
+  }, // git
   {
     name: "teamDep.ACS",
     members: [
@@ -345,18 +358,23 @@ export const TeamData: Department[] = [
       { image: member29, name: "Jędrzej Maliga", role: "teamRoles.ACS" },
       { image: member42, name: "Manfred Gawlas", role: "teamRoles.ACS" },
       { image: member69, name: "Michał Żywarski", role: "teamRoles.ACS" },
-      { image: member55, name: "Kacper Krysiński", role: "teamRoles.ACS" },
-    ],
+      { image: member104, name: "Jacek Grzegorzewski", role: "teamRoles.ACS" },
+      { image: member125, name: "Piotr Paczkowski", role: "teamRoles.ACS" },
+      { image: member126, name: "Jakub Płuziński", role: "teamRoles.ACS" },
+      { image: member127, name: "Mateusz Duda", role: "teamRoles.ACS" },
+      { image: member128, name: "Franciszek Tomczak", role: "teamRoles.ACS" },
+      { image: member129, name: "Patryk Niczke", role: "teamRoles.ACS" },
+    ], 
   },
   {
     name: "teamDep.Buisness",
     members: [
       { image: member19, name: "Szymon Rzewuski", role: "teamRoles.Lider", },
       { image: member109, name: "Wiktoria Mrowiec", role: "teamRoles.BuisnessLead" },
-      { image: member119, name: "Dominika Stępień", role: "teamRoles.BuisnessLead" },
       { image: member2v2, name: "Ewa Kasprzak", role: "teamRoles.BuisnessLead" },
       { image: member120, name: "Mateusz Jonasz", role: "teamRoles.BuisnessLead" },
-    ],
+      { image: member20, name: "Zuzanna Ignaszak", role: "teamRoles.BuisnessLead" },
+    ], // git
   },
 
 ];
@@ -373,12 +391,12 @@ export const TeamDataProjects: Project[] = [
       { image: member109, name: "Wiktoria Mrowiec", role: "teamProjectRoles.MACKI" },
       { image: member118, name: "Krzysztof Gliwiński", role: "teamProjectRoles.MACKI" },
     ],
-  },
+  }, //git
   {
     name: "teamProject.Hybrid",
     members: [
       { image: member115, name: "Dominik Jaszczyk", role: "teamRoles.Lider" },
-      { image: member88, name: "Szymon Pliszka", role: "teamProjectRoles.Hybrid" },
+      { image: member88, name: "Szymon Pilszka", role: "teamProjectRoles.Hybrid" },
       { image: member91, name: "Adrian Wilczek", role: "teamProjectRoles.Hybrid" },
       { image: member64, name: "Anna Sokołowska", role: "teamProjectRoles.Hybrid" },
       { image: member50, name: "Jakub Markowski", role: "teamProjectRoles.Hybrid" },
@@ -391,17 +409,47 @@ export const TeamDataProjects: Project[] = [
       { image: member94, name: "Tymoteusz Mączyński", role: "teamProjectRoles.Hybrid" },
       { image: member44, name: "Zofia Peter", role: "teamProjectRoles.Hybrid" },
     ],
-  },
+  }, // git
   {
     name: "teamProject.Astrium",
     members: [
-      { image: member5, name: "Aleksander Szyszka", role: "teamProjectRoles.Astrium" },
+      { image: member5v2, name: "Aleksander Szyszka", role: "teamProjectRoles.Astrium" },
       { image: member103, name: "Mateusz Pilecki", role: "teamProjectRoles.Astrium" },
       { image: member116, name: "Julia Mesjasz", role: "teamProjectRoles.Astrium" },
       { image: member55, name: "Kacper Krysiński", role: "teamProjectRoles.Astrium" },
       { image: member44, name: "Zofia Peter", role: "teamProjectRoles.Astrium" },
       { image: member12v2, name: "Aleksandra Olszewska", role: "teamProjectRoles.Astrium" },
       { image: member15v2, name: "Arkadiusz Wilczyński", role: "teamProjectRoles.Astrium" },
+    ],
+  },
+  {
+    name: "teamProject.ASTRA",
+    members: [
+      { image: member19v2, name: "Szymon Rzewuslki", role: "teamProjectRoles.ASTRA" },
+      { image: member69, name: "Michał Żywarski", role: "teamProjectRoles.ASTRA" },
+      { image: member45, name: "Wojciech Jasiak", role: "teamProjectRoles.ASTRA" },
+      { image: member123, name: "Konrad Fura", role: "teamProjectRoles.ASTRA" },
+      { image: member2v2, name: "Ewa Kasprzak", role: "teamProjectRoles.ASTRA" },
+      { image: member20, name: "Zuzanna Ignaszak", role: "teamProjectRoles.ASTRA" },
+      { image: member124, name: "Filip Gawlik", role: "teamProjectRoles.ASTRA" },
+    ],
+  },
+  {
+    name: "teamProject.RamJet",
+    members: [
+      { image: member65, name: "Michał Dybka", role: "teamProjectRoles.RamJet" },
+      { image: member73, name: "Aleksandra Zieleźny", role: "teamProjectRoles.RamJet" },
+      { image: member56, name: "Łukasz Ciorga", role: "teamProjectRoles.RamJet" },
+      { image: member115, name: "Dominik Jaszczyk", role: "teamProjectRoles.RamJet" },
+      { image: member100, name: "Marcin Kanarszczuk", role: "teamProjectRoles.RamJet" },
+      { image: member101, name: "Gabriela Kumorowska", role: "teamProjectRoles.RamJet" },
+      { image: member43, name: "Mateusz Wdowiak", role: "teamProjectRoles.RamJet" },
+      { image: member42, name: "Manfred Gawlas", role: "teamProjectRoles.RamJet" },
+      { image: member69, name: "Michał Żywarski", role: "teamProjectRoles.RamJet" },
+      { image: member130, name: "Mateusz Kozyra", role: "teamProjectRoles.RamJet" },
+      { image: member68, name: "Dariusz Kocur", role: "teamProjectRoles.RamJet" },
+      { image: member92, name: "Jakub Łuc", role: "teamProjectRoles.RamJet" },
+      { image: member128, name: "Franciszek Tomczak", role: "teamProjectRoles.RamJet" },
     ],
   },
 ]
