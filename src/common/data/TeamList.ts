@@ -225,26 +225,6 @@ export const TeamData: Department[] = [
     ],
   }, // git
   {
-    name: "teamDep.Aero",
-    members: [
-      { image: member16, name: "Jakub Jankiewicz", role: "teamRoles.Lider" },
-      { image: member42, name: "Manfred Gawlas", role: "teamRoles.AreoLead" },
-      { image: member43, name: "Mateusz Wdowiak", role: "teamRoles.AreoLead" },
-      { image: member44, name: "Zofia Peter", role: "teamRoles.AreoLead" },
-      { image: member48, name: "Jakub Pawłucki", role: "teamRoles.AreoLead" },
-      { image: member49, name: "Zofia Biernacka", role: "teamRoles.AreoLead" },
-      { image: member50, name: "Jakub Markowski", role: "teamRoles.AreoLead" },
-      { image: member51, name: "Jerzy Kosterka", role: "teamRoles.AreoLead" },
-      { image: member52, name: "Urszula Wasilewska", role: "teamRoles.AreoLead" },
-      { image: member54, name: "Mikołaj Festo", role: "teamRoles.AreoLead" },
-      { image: member55, name: "Kacper Krysiński", role: "teamRoles.AreoLead" },
-      { image: member128, name: "Franciszek Tomczak", role: "teamRoles.AreoLead" },
-      { image: member125, name: "Piotr Paczkowski", role: "teamRoles.AreoLead" },
-      { image: member131, name: "Michał Surlej", role: "teamRoles.AreoLead" },
-
-    ],
-  }, 
-  {
     name: "teamDep.GS",
     members: [
       { image: member13, name: "Tadeusz Zięba", role: "teamRoles.Lider" },
@@ -273,7 +253,7 @@ export const TeamData: Department[] = [
       { image: member131, name: "Michał Surlej", role: "teamRoles.GSLead" },
 
     ],
-  },  
+  },
   {
     name: "teamDep.Struktura",
     members: [
@@ -364,7 +344,7 @@ export const TeamData: Department[] = [
       { image: member127, name: "Mateusz Duda", role: "teamRoles.ACS" },
       { image: member128, name: "Franciszek Tomczak", role: "teamRoles.ACS" },
       { image: member129, name: "Patryk Niczke", role: "teamRoles.ACS" },
-    ], 
+    ],
   },
   {
     name: "teamDep.Buisness",
@@ -450,6 +430,26 @@ export const TeamDataProjects: Project[] = [
       { image: member68, name: "Dariusz Kocur", role: "teamProjectRoles.RamJet" },
       { image: member92, name: "Jakub Łuc", role: "teamProjectRoles.RamJet" },
       { image: member128, name: "Franciszek Tomczak", role: "teamProjectRoles.RamJet" },
+    ],
+  },
+  {
+    name: "teamDep.Aero",
+    members: [
+      { image: member44, name: "Zofia Peter", role: "teamRoles.Lider" },
+      { image: member16, name: "Jakub Jankiewicz", role: "teamRoles.AreoLead" },
+      { image: member42, name: "Manfred Gawlas", role: "teamRoles.AreoLead" },
+      { image: member43, name: "Mateusz Wdowiak", role: "teamRoles.AreoLead" },
+      { image: member48, name: "Jakub Pawłucki", role: "teamRoles.AreoLead" },
+      { image: member49, name: "Zofia Biernacka", role: "teamRoles.AreoLead" },
+      { image: member50, name: "Jakub Markowski", role: "teamRoles.AreoLead" },
+      { image: member51, name: "Jerzy Kosterka", role: "teamRoles.AreoLead" },
+      { image: member52, name: "Urszula Wasilewska", role: "teamRoles.AreoLead" },
+      { image: member54, name: "Mikołaj Festo", role: "teamRoles.AreoLead" },
+      { image: member55, name: "Kacper Krysiński", role: "teamRoles.AreoLead" },
+      { image: member128, name: "Franciszek Tomczak", role: "teamRoles.AreoLead" },
+      { image: member125, name: "Piotr Paczkowski", role: "teamRoles.AreoLead" },
+      { image: member131, name: "Michał Surlej", role: "teamRoles.AreoLead" },
+
     ],
   },
 ]
