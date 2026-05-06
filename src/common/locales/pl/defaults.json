@@ -255,7 +255,7 @@
   "OdzyskLead": "Odzysk",
   "GSLead": "Ground Support",
   "PayloadLead": "Payload",
-  "AreoLead": "Areodynamika",
+  "AreoLead": "Aerodynamika",
   "BizLead": "Biznes",
   "EleLead": "Elektronika i Software",
   "ACS": "ACS",
@@ -264,14 +264,14 @@
 "teamProjectRoles": {
   "MACKI": "M.A.C.K.I",
   "Hybrid": "Hybrydy",
-  "Astrium": "Astrium Deluge",
+  "Astrum": "Astrum Deluge",
   "ASTRA": "ASTRA",
   "RamJet": "RamJet"
 },
 "teamProject": {
   "MACKI": "M.A.C.K.I",
   "Hybrid": "Hybrydy",
-  "Astrium": "Astrium Deluge",
+  "Astrum": "Astrum Deluge",
   "ASTRA": "ASTRA",
   "RamJet": "RamJet"
 }
