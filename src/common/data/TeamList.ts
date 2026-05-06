@@ -179,7 +179,7 @@ export const TeamData: Department[] = [
     { image: member13, name: "Tadeusz Zięba", role: "teamRoles.GSLead", },
     { image: member14, name: "Tymoteusz Pytko", role: "teamRoles.GSLead", },
     { image: member15, name: "Arkadiusz Wilczyński", role: "teamRoles.PayloadLead", },
-    { image: member16, name: "Jakub Jankiewicz", role: "teamRoles.AreoLead", },
+    { image: member44, name: "Zofia Peter", role: "teamRoles.AreoLead", },
     { image: member19, name: "Szymon Rzewuski", role: "teamRoles.BizLead", },
     { image: member103, name: "Mateusz Pilecki", role: "teamRoles.ACS" },
     { image: member115, name: "Dominik Jaszczyk", role: "teamProjectRoles.Hybrid" },
@@ -288,7 +288,7 @@ export const TeamData: Department[] = [
       { image: member110, name: "Kacper Marciniak", role: "teamRoles.OdzyskLead" },
       { image: member111, name: "Jakub Szostek", role: "teamRoles.OdzyskLead" },
       { image: member112, name: "Jakub Jędrzkiewicz", role: "teamRoles.OdzyskLead" },
-      { image: member27, name: "Adam Domachowski", role: "teamRoles.Odzsyklead" },
+      { image: member27, name: "Adam Domachowski", role: "teamRoles.OdzyskLead" },
     ],  // git
   },
   {
@@ -391,15 +391,15 @@ export const TeamDataProjects: Project[] = [
     ],
   }, // git
   {
-    name: "teamProject.Astrium",
+    name: "teamProject.Astrum",
     members: [
-      { image: member5v2, name: "Aleksander Szyszka", role: "teamProjectRoles.Astrium" },
-      { image: member103, name: "Mateusz Pilecki", role: "teamProjectRoles.Astrium" },
-      { image: member116, name: "Julia Mesjasz", role: "teamProjectRoles.Astrium" },
-      { image: member55, name: "Kacper Krysiński", role: "teamProjectRoles.Astrium" },
-      { image: member44, name: "Zofia Peter", role: "teamProjectRoles.Astrium" },
-      { image: member12v2, name: "Aleksandra Olszewska", role: "teamProjectRoles.Astrium" },
-      { image: member15v2, name: "Arkadiusz Wilczyński", role: "teamProjectRoles.Astrium" },
+      { image: member5v2, name: "Aleksander Szyszka", role: "teamProjectRoles.Astrum" },
+      { image: member103, name: "Mateusz Pilecki", role: "teamProjectRoles.Astrum" },
+      { image: member116, name: "Julia Mesjasz", role: "teamProjectRoles.Astrum" },
+      { image: member55, name: "Kacper Krysiński", role: "teamProjectRoles.Astrum" },
+      { image: member44, name: "Zofia Peter", role: "teamProjectRoles.Astrum" },
+      { image: member12v2, name: "Aleksandra Olszewska", role: "teamProjectRoles.Astrum" },
+      { image: member15v2, name: "Arkadiusz Wilczyński", role: "teamProjectRoles.Astrum" },
     ],
   },
   {
@@ -428,7 +428,8 @@ export const TeamDataProjects: Project[] = [
       { image: member69, name: "Michał Żywarski", role: "teamProjectRoles.RamJet" },
       { image: member130, name: "Mateusz Kozyra", role: "teamProjectRoles.RamJet" },
       { image: member68, name: "Dariusz Kocur", role: "teamProjectRoles.RamJet" },
-      { image: member92, name: "Jakub Łuc", role: "teamProjectRoles.RamJet" },
+      { image: member92, name: "Jakub Łuc", role: "teamProjectRoles.RamJet"},
+      { image: member19v2, name: "Szymon Rzewuslki", role: "teamProjectRoles.RamJet" },
       { image: member128, name: "Franciszek Tomczak", role: "teamProjectRoles.RamJet" },
     ],
   },
