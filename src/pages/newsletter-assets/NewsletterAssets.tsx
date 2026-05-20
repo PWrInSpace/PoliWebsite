@@ -29,6 +29,7 @@ export const NewsletterAssets = () => {
       title={__("newsletterAssetsPage.meta.title")}
       description={__("newsletterAssetsPage.meta.description")}
       image={"../../assets/images/Newsletter-images/logo.png"}
+      robots="noindex, nofollow"
     >
       <SubpageWrapper
         title={__("newsletterAssetsPage.header")}
