@@ -15,6 +15,7 @@ import { TeamPage } from "../team/TeamPage";
 import { NavMenuItem } from "../../common/interfaces/SharedInterfaces";
 import Cookies from "js-cookie";
 import { Projects } from "../projects/Projects";
+import { NewsletterAssets } from "../newsletter-assets/NewsletterAssets";
 
 const App = () => {
   initializeI18n();
@@ -67,6 +68,10 @@ const App = () => {
         <SocialMediaComponent />
         <Routes>
           <Route path={"/"} element={<MainPage />} />
+          <Route
+            path={"/newsletter-assets"}
+            element={<NewsletterAssets />}
+          />
           {menuItems.map((item, key) => (
             <Route path={item.url} element={item.component()} key={key} />
           ))}

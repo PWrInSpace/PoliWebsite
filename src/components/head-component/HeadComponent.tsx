@@ -6,6 +6,7 @@ interface IProps {
   title: string;
   description: string;
   image: string;
+  robots?: string;
 }
 
 export const HeadComponent = (props: IProps) => {
@@ -15,6 +16,7 @@ export const HeadComponent = (props: IProps) => {
         <Helmet>
           <title>{props.title}</title>
           <meta name="description" content={props.description} />
+          {props.robots ? <meta name="robots" content={props.robots} /> : null}
           <meta property="og:title" content={props.title} />
           <meta property="og:description" content={props.description} />
           <meta property="og:image" content={props.image} />
