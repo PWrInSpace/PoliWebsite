@@ -274,6 +274,19 @@
   "Astrum": "Astrum Deluge",
   "ASTRA": "ASTRA",
   "RamJet": "RamJet"
+},
+"newsletterAssetsPage": {
+  "meta": {
+    "title": "Zasoby newslettera - PWr in Space",
+    "description": "Obrazy hostowane na stronie oraz gotowy HTML do newslettera PWr in Space."
+  },
+  "header": "ZASOBY NEWSLETTERA",
+  "intro": "",
+  "urlLabel": "Adres URL",
+  "copyUrl": "Kopiuj URL",
+  "copyHtml": "Kopiuj HTML",
+  "copied": "Skopiowano",
+  "download": "Pobierz"
 }
 }
 

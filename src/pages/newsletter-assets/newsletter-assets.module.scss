@@ -1,0 +1,122 @@
+@import "../../assets/styles/breakpoints.module";
+@import "../../assets/styles/variables.module";
+
+.intro {
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 0 2rem;
+  color: $mainFont;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 10rem;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.35);
+
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: 14rem;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+.meta {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+.fileName {
+  margin: 0;
+  color: $mainFont;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.urlInput {
+  width: 100%;
+  padding: 0.5rem 0.65rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.25rem;
+  background: rgba(0, 0, 0, 0.4);
+  color: $mainFont;
+  font-size: 0.8rem;
+  font-family: monospace;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.button,
+.link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 0.25rem;
+  background: transparent;
+  color: $mainFont;
+  font-size: 0.8rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s ease;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.button {
+  font-family: inherit;
+}
+
+@include breakpoint-sm {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
