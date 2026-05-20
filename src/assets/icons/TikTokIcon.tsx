@@ -14,7 +14,7 @@ export const TikTokIcon = (props: IconPropsWithColor) => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       onClick={() =>
-        window.open("https://www.tiktok.com/@poliwrocket", "_blank")
+        window.open("https://www.tiktok.com/@pwrinspace", "_blank")
       }
     >
       <path
