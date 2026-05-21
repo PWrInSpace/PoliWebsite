@@ -112,7 +112,8 @@
     "locations": {
       "workshop": "Nasz warsztat",
       "location": "Nasza lokalizacja"
-    }
+    },
+    "unavailable": "Konakt z Oliwią może być utrudniony z powodu zawodów Far-Out Competition"
   },
   "sponsorsPage": {
     "meta": {
