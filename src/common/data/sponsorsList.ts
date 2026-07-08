@@ -31,6 +31,7 @@ import miwgroup from "../../assets/images/sponsors/miwgroup.png";
 import glm from "../../assets/images/sponsors/glm.png";
 import tarczynski from "../../assets/images/sponsors/tarczynski.png";
 import whiteelectronics from "../../assets/images/sponsors/white-electronics.png";
+import pmi from "../../assets/images/sponsors/PMIoutsorcing.png";
 
 
 
@@ -101,6 +102,11 @@ export const Images: Image[] = [
     src: solidexpert,
     alt: "Solid Expert logo",
     webpage: "https://solidexpert.com/",
+  },
+  {
+    src: pmi,
+    alt: "PMI outsourcing logo",
+    webpage: "https://pmi-outsourcing.pl/",
   },
   {
     src: scanway,
@@ -207,4 +213,5 @@ export const Images: Image[] = [
     alt: "White Electronics logo",
     webpage: "https://whiteelectronics.pl/",
   },
+  
 ];

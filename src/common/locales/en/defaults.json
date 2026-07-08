@@ -108,7 +108,7 @@
     "title": "MESSAGE US!",
     "subtitle": "Contact us through our email or social media!",
     "president": "Board President",
-    "prPresident": "Buisness & HR Vice President",
+    "prPresident": "Business & HR Vice President",
     "findUs": "WHERE TO FIND US?",
     "locations": {
       "workshop": "Our workshop",
@@ -238,11 +238,11 @@
     "Payload": "Payload",
     "Silniki": "Propulsion",
     "ACS": "ACS",
-    "Buisness": "Buisness"
+    "Buisness": "Business"
   },
   "teamRoles": {
     "ZarzadLead": "President of PWr in Space",
-    "ZarzadHR": "Vice President of Buisness & HR",
+    "ZarzadHR": "Vice President of Business & HR",
     "ZarzadKasa": "Vice President of Finance",
     "ZarzadProj": "Vice President of Projects",
     "ZarzadLogist": "Vice President of Logistics",
@@ -257,7 +257,7 @@
     "BizLead": "Buisness",
     "EleLead": "Electronics & Software",
     "ACS": "ACS",
-    "BuisnessLead": "Buisness"
+    "BuisnessLead": "Business"
   },
   "teamProject": {
     "MACKI": "M.A.C.K.I",
