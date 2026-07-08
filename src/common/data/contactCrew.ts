@@ -1,13 +1,13 @@
-import PR from "../../assets/images/Team/Mgmt/EwaKasprzakv2.jpg";
+import PR from "../../assets/images/Team/Mgmt/RadoslawPogodzinski.jpg";
 import Prezes from "../../assets/images/Team/Mgmt/OliwiaOponv2.jpg";
 
 export const Crew = {
   pr: {
     image: PR,
     title: "contactPage.prPresident",
-    name: "Ewa Kasprzak",
-    mail: "ewa.j.kasprzak@gmail.com",
-    phone: "+48 607 577 077"
+    name: "Radosław Pogodziński",
+    mail: "------------",
+    phone: "+48 692 805 489"
   },
   ceo: {
     image: Prezes,
