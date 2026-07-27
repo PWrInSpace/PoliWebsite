@@ -46,9 +46,11 @@ jobs:
           path: ./dist
       
       - name: Connect to PWr GlobalProtect VPN
+        env:
+          VPN_PASS: ${{ secrets.VPN_PASSWORD }}
         run: |
           sudo apt-get update && sudo apt-get install -y openconnect vpnc-scripts
-          echo "${{ secrets.VPN_PASSWORD }}" | sudo openconnect \
+          echo "$VPN_PASS" | sudo openconnect \
             --protocol=gp \
             --user="${{ secrets.VPN_USERNAME }}" \
             --passwd-on-stdin \
