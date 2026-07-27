@@ -44,6 +44,18 @@ jobs:
         with:
           name: production-files
           path: ./dist
+      
+      - name: Connect to PWr GlobalProtect VPN
+        run: |
+          sudo apt-get update && sudo apt-get install -y openconnect vpnc-scripts
+          echo "${{ secrets.VPN_PASSWORD }}" | sudo openconnect \
+            --protocol=gp \
+            --user="${{ secrets.VPN_USERNAME }}" \
+            --passwd-on-stdin \
+            --background \
+            ${{ secrets.VPN_PORTAL }}
+           sleep 5
+
 
       - name: Deploy to server
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
