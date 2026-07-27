@@ -55,7 +55,6 @@ jobs:
             --user="${{ secrets.VPN_USERNAME }}" \
             --usergroup=gateway \
             --passwd-on-stdin \
-            --non-interactive \
             --background \
             ${{ secrets.VPN_PORTAL }}
            sleep 5
