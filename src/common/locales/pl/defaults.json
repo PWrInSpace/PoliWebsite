@@ -112,8 +112,7 @@
     "locations": {
       "workshop": "Nasz warsztat",
       "location": "Nasza lokalizacja"
-    },
-    "unavailable": "Konakt z Oliwią może być utrudniony z powodu zawodów Far-Out Competition"
+    }
   },
   "sponsorsPage": {
     "meta": {
@@ -243,51 +242,50 @@
     "ACS": "ACS",
     "Buisness": "Biznes"
   },
-"teamRoles": {
-  "ZarzadLead": "Prezes PWr in Space",
-  "ZarzadHR": "Wiceprezes ds. Biznesu & HR",
-  "ZarzadKasa": "Wiceprezes ds. Finansów",
-  "ZarzadProj": "Wiceprezes ds. Projektów",
-  "ZarzadLogist": "Wiceprezes ds. Logistyki",
-  "Lider": "Lider",
-  "marketingLead": "PR i Marketing",
-  "SilnikiLead": "Silniki",
-  "StrukturaLead": "Struktura",
-  "OdzyskLead": "Odzysk",
-  "GSLead": "Ground Support",
-  "PayloadLead": "Payload",
-  "AreoLead": "Aerodynamika",
-  "BizLead": "Biznes",
-  "EleLead": "Elektronika i Software",
-  "ACS": "ACS",
-  "BuisnessLead": "Biznes"
-},
-"teamProjectRoles": {
-  "MACKI": "M.A.C.K.I",
-  "Hybrid": "Hybrydy",
-  "Astrum": "Astrum Deluge",
-  "ASTRA": "ASTRA",
-  "RamJet": "RamJet"
-},
-"teamProject": {
-  "MACKI": "M.A.C.K.I",
-  "Hybrid": "Hybrydy",
-  "Astrum": "Astrum Deluge",
-  "ASTRA": "ASTRA",
-  "RamJet": "RamJet"
-},
-"newsletterAssetsPage": {
-  "meta": {
-    "title": "Zasoby newslettera - PWr in Space",
-    "description": "Obrazy hostowane na stronie oraz gotowy HTML do newslettera PWr in Space."
+  "teamRoles": {
+    "ZarzadLead": "Prezes PWr in Space",
+    "ZarzadHR": "Wiceprezes ds. Biznesu & HR",
+    "ZarzadKasa": "Wiceprezes ds. Finansów",
+    "ZarzadProj": "Wiceprezes ds. Projektów",
+    "ZarzadLogist": "Wiceprezes ds. Logistyki",
+    "Lider": "Lider",
+    "marketingLead": "PR i Marketing",
+    "SilnikiLead": "Silniki",
+    "StrukturaLead": "Struktura",
+    "OdzyskLead": "Odzysk",
+    "GSLead": "Ground Support",
+    "PayloadLead": "Payload",
+    "AreoLead": "Aerodynamika",
+    "BizLead": "Biznes",
+    "EleLead": "Elektronika i Software",
+    "ACS": "ACS",
+    "BuisnessLead": "Biznes"
   },
-  "header": "ZASOBY NEWSLETTERA",
-  "intro": "",
-  "urlLabel": "Adres URL",
-  "copyUrl": "Kopiuj URL",
-  "copyHtml": "Kopiuj HTML",
-  "copied": "Skopiowano",
-  "download": "Pobierz"
+  "teamProjectRoles": {
+    "MACKI": "M.A.C.K.I",
+    "Hybrid": "Hybrydy",
+    "Astrum": "Astrum Deluge",
+    "ASTRA": "ASTRA",
+    "RamJet": "RamJet"
+  },
+  "teamProject": {
+    "MACKI": "M.A.C.K.I",
+    "Hybrid": "Hybrydy",
+    "Astrum": "Astrum Deluge",
+    "ASTRA": "ASTRA",
+    "RamJet": "RamJet"
+  },
+  "newsletterAssetsPage": {
+    "meta": {
+      "title": "Zasoby newslettera - PWr in Space",
+      "description": "Obrazy hostowane na stronie oraz gotowy HTML do newslettera PWr in Space."
+    },
+    "header": "ZASOBY NEWSLETTERA",
+    "intro": "",
+    "urlLabel": "Adres URL",
+    "copyUrl": "Kopiuj URL",
+    "copyHtml": "Kopiuj HTML",
+    "copied": "Skopiowano",
+    "download": "Pobierz"
+  }
 }
-}
-
