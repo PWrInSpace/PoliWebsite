@@ -6,6 +6,12 @@ import image5 from "../../assets/images/Newsletter-images/image5.jpg";
 import image6 from "../../assets/images/Newsletter-images/image6.jpg";
 import logo from "../../assets/images/Newsletter-images/logo.png";
 import group87 from "../../assets/images/Newsletter-images/Group 87.svg";
+import dniInfo from "../../assets/images/Newsletter-images/DniInfo.jpg";
+import farOutComp from "../../assets/images/Newsletter-images/FarOutComp.jpg";
+import festynOlesnica from "../../assets/images/Newsletter-images/FestynOlesnica.jpg";
+import kfbLaby from "../../assets/images/Newsletter-images/KFBLaby.jpg";
+import riverCup from "../../assets/images/Newsletter-images/RiverCup.jpg";
+
 
 export interface NewsletterAsset {
   id: string;
@@ -63,4 +69,34 @@ export const newsletterAssets: NewsletterAsset[] = [
     src: image6,
     alt: "Newsletter image 6",
   },
+  {
+    id: "dni-info",
+    fileName: "DniInfo.jpg",
+    src: dniInfo,
+    alt: "Dni Info",
+  },
+  {
+    id: "far-out-comp",
+    fileName: "FarOutComp.jpg",
+    src: farOutComp,
+    alt: "Far Out Comp",
+  },
+  {
+    id: "festyn-olesnica",
+    fileName: "FestynOlesnica.jpg",
+    src: festynOlesnica,
+    alt: "Festyn Olesnica",
+  },
+  {
+    id: "kfb-laby",
+    fileName: "KFBLaby.jpg",
+    src: kfbLaby,
+    alt: "KFB Laby",
+  },
+  {
+    id: "river-cup",
+    fileName: "RiverCup.jpg",
+    src: riverCup,
+    alt: "River Cup",
+  }
 ];
