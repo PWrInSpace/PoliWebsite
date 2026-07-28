@@ -6,7 +6,7 @@ export const Crew = {
     image: PR,
     title: "contactPage.prPresident",
     name: "Radosław Pogodziński",
-    mail: "------------",
+    mail: "pograd024@gmail.com",
     phone: "+48 692 805 489"
   },
   ceo: {

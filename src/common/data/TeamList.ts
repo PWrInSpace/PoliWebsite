@@ -50,7 +50,6 @@ import member20 from "../../assets/images/Team/Marketing/ZuzannaIgnaszak.jpg"
 import member21 from "../../assets/images/Team/Marketing/PiotrMielczarek.jpg"
 import member22 from "../../assets/images/Team/PlaceholderWoman.jpeg"
 import member23 from "../../assets/images/Team/Marketing/MikolajSkiba.jpg"
-import member24 from "../../assets/images/Team/Marketing/SaraKuriata.jpg"
 import member25 from "../../assets/images/Team/Marketing/GabrielaGolbiak.jpg"
 import member26 from "../../assets/images/Team/PlaceholderWoman.jpeg"
 import member27 from "../../assets/images/Team/PlaceholderMan.jpeg"
@@ -61,7 +60,6 @@ import member31 from "../../assets/images/Team/EleSoft/DominikBorowski.jpg"
 import member32 from "../../assets/images/Team/EleSoft/KarolBogacz.jpg"
 import member33 from "../../assets/images/Team/EleSoft/MaciejBinczarowski.jpg"
 import member34 from "../../assets/images/Team/PlaceholderMan.jpeg"
-import member35 from "../../assets/images/Team/PlaceholderMan.jpeg"
 import member36 from "../../assets/images/Team/EleSoft/MateuszKluczka.jpg"
 import member37 from "../../assets/images/Team/EleSoft/AleksandraGrzela.jpg"
 import member38 from "../../assets/images/Team/EleSoft/PawelMorawski.jpg"
@@ -83,7 +81,6 @@ import member53 from "../../assets/images/Team/Aero/MartaPerner.jpg"
 import member54 from "../../assets/images/Team/Aero/MikolajFesto.jpg"
 import member55 from "../../assets/images/Team/Aero/KacperKrysinski.jpg"
 import member56 from "../../assets/images/Team/GS/LukaszCiorga.jpg"
-import member57 from "../../assets/images/Team/Engines/MiloszKozycz.jpg"
 import member58 from "../../assets/images/Team/GS/JuliaSzafron.jpg"
 import member59 from "../../assets/images/Team/GS/PiotrPrabucki.jpg"
 import member60 from "../../assets/images/Team/GS/FranciszekBereza.jpg"
@@ -92,21 +89,15 @@ import member62 from "../../assets/images/Team/GS/AdamSzymanski.jpg"
 import member63 from "../../assets/images/Team/GS/ArturOkuliczKozaryn.jpg"
 import member64 from "../../assets/images/Team/GS/AnnaSokolowska.jpg"
 import member65 from "../../assets/images/Team/GS/MichalDybka.jpg"
-import member66 from "../../assets/images/Team/PlaceholderWoman.jpeg"
-import member67 from "../../assets/images/Team/PlaceholderWoman.jpeg"
 import member68 from "../../assets/images/Team/Structure/DarekKocur.jpg"
 import member69 from "../../assets/images/Team/Structure/MichalZywarski.jpg"
 import member70 from "../../assets/images/Team/Structure/MaciejLiwoch.jpg"
-import member71 from "../../assets/images/Team/Structure/DariaGaszcz.jpg"
 import member72 from "../../assets/images/Team/Structure/AlexZorenko.jpg"
 import member73 from "../../assets/images/Team/Structure/AleksandraZielezny.jpg"
 import member74 from "../../assets/images/Team/Structure/DominikKorzeniowski.jpg"
 import member75 from "../../assets/images/Team/PlaceholderMan.jpeg"
-import member76 from "../../assets/images/Team/Structure/DawidJamer.jpg"
 import member77 from "../../assets/images/Team/Structure/NataliaJachwan.jpg"
-import member78 from "../../assets/images/Team/Structure/LukaszWaldon.jpg"
 import member79 from "../../assets/images/Team/Recovery/Jakub Gienieczko.jpg"
-import member80 from "../../assets/images/Team/Recovery/TymoteuszOlech.jpg"
 import member81 from "../../assets/images/Team/Recovery/MarcinSron.jpg"
 import member82 from "../../assets/images/Team/PlaceholderMan.jpeg"
 import member83 from "../../assets/images/Team/Payload/WiktoriaKazmierczak.jpg"
@@ -139,7 +130,6 @@ import member109 from "../../assets/images/Team/PlaceholderWoman.jpeg"
 import member110 from "../../assets/images/Team/PlaceholderMan.jpeg"
 import member111 from "../../assets/images/Team/Recovery/JakubSzostek.jpg"
 import member112 from "../../assets/images/Team/Recovery/JakubJedrzkiewicz.jpg"
-import member114 from "../../assets/images/Team/PlaceholderWoman.jpeg"
 import member115 from "../../assets/images/Team/Liders/DominikJaszczyk.jpg"
 import member116 from "../../assets/images/Team/PlaceholderWoman.jpeg"
 import member117 from "../../assets/images/Team/Hybrid/KarolSpychalski.jpg"
@@ -150,10 +140,7 @@ import member122 from "../../assets/images/Team/PlaceholderMan.jpeg"
 import member123 from "../../assets/images/Team/ASTRA/KonradFura.jpg"
 import member124 from "../../assets/images/Team/ASTRA/FilipGawlik.jpg"
 import member125 from "../../assets/images/Team/PlaceholderMan.jpeg"
-import member126 from "../../assets/images/Team/PlaceholderMan.jpeg"
-import member127 from "../../assets/images/Team/PlaceholderMan.jpeg"
 import member128 from "../../assets/images/Team/PlaceholderMan.jpeg"
-import member129 from "../../assets/images/Team/PlaceholderMan.jpeg"
 import member130 from "../../assets/images/Team/GS/MateuszKozyra.jpg"
 import member131 from "../../assets/images/Team/PlaceholderMan.jpeg"
 
@@ -171,7 +158,7 @@ export const TeamData: Department[] = [
   {
     name: "teamDep.Liderzy",
     members: [
-    { image: member6, name: "Joanna Król", role: "teamRoles.marketingLead", },
+    { image: member18, name: "Julia Łuczak", role: "teamRoles.marketingLead", },
     { image: member7, name: "Igor Szuniewicz", role: "teamRoles.EleLead", },
     { image: member8, name: "Bartosz Kamieniarz", role: "teamRoles.EleLead", },
     { image: member9, name: "Jędrzej Szczepankiewicz", role: "teamRoles.SilnikiLead", },
@@ -190,9 +177,9 @@ export const TeamData: Department[] = [
   {
     name: "teamDep.Marketing",
     members: [
-      { image: member6, name: "Joanna Król", role: "teamRoles.Lider" },
+      { image: member18, name: "Julia Łuczak", role: "teamRoles.Lider" },
+      { image: member6, name: "Joanna Król", role: "teamRoles.marketingLead" },
       { image: member25, name: "Gabriela Golbiak", role: "teamRoles.marketingLead" },
-      { image: member18, name: "Julia Łuczak", role: "teamRoles.marketingLead" },
       { image: member26, name: "Kinga Jańczak", role: "teamRoles.marketingLead" },
       { image: member16, name: "Md Ali Ashraf Yad", role: "teamRoles.marketingLead" },
       { image: member23, name: "Mikołaj Skiba", role: "teamRoles.marketingLead" },

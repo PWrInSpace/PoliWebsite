@@ -78,7 +78,6 @@ export const ContactPage = () => {
               phone={Crew.ceo.phone}
             />
           </div>
-          <div className={styles.title}>{__("contactPage.unavailable")}</div>
           <div className={styles.title}>{__("contactPage.findUs")}</div>
           <div className={styles.contactLocation}>
             <LocationComponent
