@@ -53,10 +53,10 @@ jobs:
           echo "$VPN_PASS" | sudo openconnect \
             --protocol=gp \
             --user="${{ secrets.VPN_USERNAME }}" \
-            --usergroup=gateway \
+            --usergroup=portal \
             --passwd-on-stdin \
             --background \
-            ${{ secrets.VPN_PORTAL }}
+            https://${{ secrets.VPN_PORTAL }}/global-protect
            sleep 5
 
 
