@@ -57,12 +57,11 @@ jobs:
             --useragent="PAN GlobalProtect App/5.2.6-86" \
             --passwd-on-stdin \
             --non-inter \
+            --dump-http-traffic \
             --background \
             ${{ secrets.VPN_PORTAL }}
           
           sleep 5
-
-
 
       - name: Deploy to server
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
