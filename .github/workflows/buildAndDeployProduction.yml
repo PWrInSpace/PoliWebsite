@@ -53,10 +53,11 @@ jobs:
           echo "$VPN_PASS" | sudo openconnect \
             --protocol=gp \
             --user="${{ secrets.VPN_USERNAME }}" \
-            --usergroup=portal \
+            --os=mac-intel \
+            --user-agent="PAN GlobalProtect App/5.2.6-86" \
             --passwd-on-stdin \
             --background \
-            https://${{ secrets.VPN_PORTAL }}/global-protect
+           ${{ secrets.VPN_PORTAL }}
            sleep 5
 
 
