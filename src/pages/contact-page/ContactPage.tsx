@@ -90,6 +90,7 @@ export const ContactPage = () => {
               header={__(Locations.workshop.header)}
               text={Locations.workshop.text}
               map={Locations.workshop.map}
+              
             />
           </div>
         </>
