@@ -6,11 +6,11 @@ import image5 from "../../assets/images/Newsletter-images/image5.jpg";
 import image6 from "../../assets/images/Newsletter-images/image6.jpg";
 import logo from "../../assets/images/Newsletter-images/logo.png";
 import group87 from "../../assets/images/Newsletter-images/Group 87.svg";
-import dniInfo from "../../assets/images/Newsletter-images/DniInfo.jpg";
-import farOutComp from "../../assets/images/Newsletter-images/FarOutComp.jpg";
-import festynOlesnica from "../../assets/images/Newsletter-images/FestynOlesnica.jpg";
-import kfbLaby from "../../assets/images/Newsletter-images/KFBLaby.jpg";
-import riverCup from "../../assets/images/Newsletter-images/RiverCup.jpg";
+import dniInfo from "../../assets/images/Newsletter-images/IMG_9941.jpg";
+import farOutComp from "../../assets/images/Newsletter-images/IMG_8771.jpg";
+import festynOlesnica from "../../assets/images/Newsletter-images/IMG_6691.jpg";
+import kfbLaby from "../../assets/images/Newsletter-images/KFB.jpg";
+import riverCup from "../../assets/images/Newsletter-images/IMG_7779.jpg";
 
 
 export interface NewsletterAsset {
