@@ -11,6 +11,7 @@ import farOutComp from "../../assets/images/Newsletter-images/IMG_8671.jpg";
 import festynOlesnica from "../../assets/images/Newsletter-images/IMG_6691.jpg";
 import kfbLaby from "../../assets/images/Newsletter-images/KFB.jpg";
 import riverCup from "../../assets/images/Newsletter-images/IMG_7779.jpg";
+import Czeroc from "../../assets/images/Newsletter-images/IMG_1891.jpg";
 
 
 export interface NewsletterAsset {
@@ -99,5 +100,11 @@ export const newsletterAssets: NewsletterAsset[] = [
     fileName: "RiverCup.jpg",
     src: riverCup,
     alt: "River Cup",
+  },
+    {
+    id: "Czeroc",
+    fileName: "Czeroc.jpg",
+    src: Czeroc,
+    alt: "czeroc",
   }
 ];
