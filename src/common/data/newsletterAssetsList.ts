@@ -7,7 +7,7 @@ import image6 from "../../assets/images/Newsletter-images/image6.jpg";
 import logo from "../../assets/images/Newsletter-images/logo.png";
 import group87 from "../../assets/images/Newsletter-images/Group 87.svg";
 import dniInfo from "../../assets/images/Newsletter-images/IMG_9941.jpg";
-import farOutComp from "../../assets/images/Newsletter-images/IMG_8771.jpg";
+import farOutComp from "../../assets/images/Newsletter-images/IMG_8671.jpg";
 import festynOlesnica from "../../assets/images/Newsletter-images/IMG_6691.jpg";
 import kfbLaby from "../../assets/images/Newsletter-images/KFB.jpg";
 import riverCup from "../../assets/images/Newsletter-images/IMG_7779.jpg";
