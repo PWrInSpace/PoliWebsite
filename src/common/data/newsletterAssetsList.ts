@@ -20,6 +20,7 @@ export interface NewsletterAsset {
   alt: string;
 }
 
+
 export const newsletterAssets: NewsletterAsset[] = [
   {
     id: "logo",
