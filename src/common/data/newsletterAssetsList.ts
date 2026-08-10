@@ -12,6 +12,7 @@ import festynOlesnica from "../../assets/images/Newsletter-images/IMG_6691.jpg";
 import kfbLaby from "../../assets/images/Newsletter-images/KFB.jpg";
 import riverCup from "../../assets/images/Newsletter-images/IMG_7779.jpg";
 import Czeroc from "../../assets/images/Newsletter-images/IMG_1891.jpg";
+import ZaproszenieDlaSponsorow from "../../assets/images/Newsletter-images/ZAPROSZENIE_DLA_SPONSOROW.png";
 
 
 export interface NewsletterAsset {
@@ -106,5 +107,11 @@ export const newsletterAssets: NewsletterAsset[] = [
     fileName: "Czeroc.jpg",
     src: Czeroc,
     alt: "czeroc",
+  },
+      {
+    id: "ZaproszenieDlaSponsorow",
+    fileName: "ZaproszenieDlaSponosrow.jpg",
+    src: ZaproszenieDlaSponsorow,
+    alt: "ZaproszenieDlaSponsorow",
   }
 ];
