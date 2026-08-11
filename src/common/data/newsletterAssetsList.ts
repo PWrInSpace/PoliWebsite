@@ -13,7 +13,8 @@ import kfbLaby from "../../assets/images/Newsletter-images/KFB.jpg";
 import riverCup from "../../assets/images/Newsletter-images/IMG_7779.jpg";
 import Czeroc from "../../assets/images/Newsletter-images/IMG_1891.jpg";
 import ZaproszenieDlaSponsorow from "../../assets/images/Newsletter-images/ZAPROSZENIE_DLA_SPONSOROW.png";
-
+import Zaproszenie_Normalne from "../../assets/images/Newsletter-images/Zaproszenie_Normalne.png";
+import Zaproszenie_KO from "../../assets/images/Newsletter-images/Zaproszenie_KO.png";
 
 export interface NewsletterAsset {
   id: string;
@@ -112,6 +113,18 @@ export const newsletterAssets: NewsletterAsset[] = [
     id: "ZaproszenieDlaSponsorow",
     fileName: "ZaproszenieDlaSponosrow.jpg",
     src: ZaproszenieDlaSponsorow,
+    alt: "ZaproszenieDlaSponsorow",
+  },
+        {
+    id: "Zaproszenie_Normalne",
+    fileName: "Zaproszenie_Normalne.jpg",
+    src: Zaproszenie_Normalne,
+    alt: "ZaproszenieDlaSponsorow",
+  },
+        {
+    id: "Zaproszenie_KO",
+    fileName: "Zaproszenie_KO.jpg",
+    src: Zaproszenie_KO,
     alt: "ZaproszenieDlaSponsorow",
   }
 ];
