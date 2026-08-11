@@ -13,8 +13,8 @@ import kfbLaby from "../../assets/images/Newsletter-images/KFB.jpg";
 import riverCup from "../../assets/images/Newsletter-images/IMG_7779.jpg";
 import Czeroc from "../../assets/images/Newsletter-images/IMG_1891.jpg";
 import ZaproszenieDlaSponsorow from "../../assets/images/Newsletter-images/ZAPROSZENIE_DLA_SPONSOROW.png";
-import Zaproszenie_Normalne from "../../assets/images/Newsletter-images/Zaproszenie_Normalne.png";
-import Zaproszenie_KO from "../../assets/images/Newsletter-images/Zaproszenie_KO.png";
+import Zaproszenie_Normalne from "../../assets/images/Newsletter-images/ZAPROSZENIE_NORMALNE.png";
+import Zaproszenie_KO from "../../assets/images/Newsletter-images/ZAPROSZENIE_NORMALNE.png";
 
 export interface NewsletterAsset {
   id: string;
