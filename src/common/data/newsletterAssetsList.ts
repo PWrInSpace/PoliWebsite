@@ -14,7 +14,7 @@ import riverCup from "../../assets/images/Newsletter-images/IMG_7779.jpg";
 import Czeroc from "../../assets/images/Newsletter-images/IMG_1891.jpg";
 import ZaproszenieDlaSponsorow from "../../assets/images/Newsletter-images/ZAPROSZENIE_DLA_SPONSOROW.png";
 import Zaproszenie_Normalne from "../../assets/images/Newsletter-images/ZAPROSZENIE_NORMALNE.png";
-import Zaproszenie_KO from "../../assets/images/Newsletter-images/ZAPROSZENIE_NORMALNE.png";
+import Zaproszenie_KO from "../../assets/images/Newsletter-images/ZAPROSZENIE_DLA_KO.png";
 
 export interface NewsletterAsset {
   id: string;
