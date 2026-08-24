@@ -15,6 +15,8 @@ import Czeroc from "../../assets/images/Newsletter-images/IMG_1891.jpg";
 import ZaproszenieDlaSponsorow from "../../assets/images/Newsletter-images/ZAPROSZENIE_DLA_SPONSOROW.png";
 import Zaproszenie_Normalne from "../../assets/images/Newsletter-images/ZAPROSZENIE_NORMALNE.png";
 import Zaproszenie_KO from "../../assets/images/Newsletter-images/ZAPROSZENIE_DLA_KO.png";
+import ZAPROSZENIE_28 from "../../assets/images/Newsletter-images/ZAPROSZENIE_28.08.png";
+
 
 export interface NewsletterAsset {
   id: string;
@@ -126,5 +128,11 @@ export const newsletterAssets: NewsletterAsset[] = [
     fileName: "Zaproszenie_KO.jpg",
     src: Zaproszenie_KO,
     alt: "ZaproszenieDlaSponsorow",
+  },
+        {
+    id: "ZAPROSZENIE_28.08.png",
+    fileName: "ZAPROSZENIE_28.08.png",
+    src: ZAPROSZENIE_28,
+    alt: "ZAPROSZENIE_28.08.png",
   }
 ];
