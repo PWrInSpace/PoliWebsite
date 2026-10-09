@@ -8,9 +8,10 @@ import backgroundPlaceholder from "../../../assets/images/backgrounds/background
 import { Countdown } from "../../../components/timer/Countdown";
 
 export const RecrutationData = {
-  isRecrutationSeasson: false,
-  recrutationStart: new Date(Date.UTC(2026, 2, 2, 8, 0, 0)),
-  recrutationEnd: new Date(Date.UTC(2026, 2, 15, 23, 59, 0)), 
+  isRecrutationSeasson: true,
+  recrutationStart: new Date(Date.UTC(2026, 9, 1, 0, 0, 0)),
+  recrutationEnd: new Date(Date.UTC(2026, 10, 8, 22, 59, 0)),
+  formLink: "https://forms.gle/buQbMmCXqQzTiVTu7",
   isBeforeRecrutationActive: () =>  (+RecrutationData.recrutationStart - +new Date()) > 0,
   isRecrutationActive: () =>(+RecrutationData.recrutationEnd - +new Date()) > 0
 };
@@ -55,7 +56,7 @@ export const LandingSection = () => {
         {RecrutationData.isRecrutationSeasson && <Countdown 
           date={recrutationDate} 
           title={recrutationText}
-          link={!RecrutationData.isBeforeRecrutationActive() && RecrutationData.isRecrutationActive() ? "https://forms.gle/W2Nk8wtS6tNr5tJg6" : undefined}
+          link={!RecrutationData.isBeforeRecrutationActive() && RecrutationData.isRecrutationActive() ? RecrutationData.formLink : undefined}
         />}
         <div className={styles.sectionButtons}>
           <Link

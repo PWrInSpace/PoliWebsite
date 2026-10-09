@@ -5,14 +5,14 @@ import { Departments } from "../../common/data/departmentsList";
 import { SubpageWrapper } from "../../components/subpage-wrapper/SubpageWrapper";
 import { HeadComponent } from "../../components/head-component/HeadComponent";
 import { RecrutationData } from "../main-page/components/LandingSection";
+import { Countdown } from "../../components/timer/Countdown";
 
 export const JoinUs = () => {
   const buttonVisible =
     RecrutationData.isRecrutationSeasson &&
     !RecrutationData.isBeforeRecrutationActive() &&
     RecrutationData.isRecrutationActive();
-  const buttonLink =
-    "https://forms.gle/W2Nk8wtS6tNr5tJg6";
+  const buttonLink = RecrutationData.formLink;
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -41,12 +41,18 @@ export const JoinUs = () => {
       <SubpageWrapper title={__("joinUsPage.header")}>
         <>
           {buttonVisible ? (
-            <button
-              className={styles.button}
-              onClick={() => window.open(buttonLink, "_blank")}
-            >
-              {__("joinUsPage.form")}
-            </button>
+            <div className={styles.recrutation}>
+              <Countdown
+                date={RecrutationData.recrutationEnd}
+                title={__("joinUsPage.recrutationEnds")}
+              />
+              <button
+                className={styles.button}
+                onClick={() => window.open(buttonLink, "_blank")}
+              >
+                {__("joinUsPage.form")}
+              </button>
+            </div>
           ) : (
             <div className={styles.notNow}>{__("joinUsPage.notNow")}</div>
           )}
