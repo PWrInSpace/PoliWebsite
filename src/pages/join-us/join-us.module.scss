@@ -2,6 +2,17 @@
 @import "../../assets/styles/fonts.module";
 @import "../../assets/styles/variables.module";
 
+.recrutation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+
+  .button {
+    margin-bottom: 0;
+  }
+}
+
 .button {
   font-family: $alata;
   font-size: 1.2rem;
