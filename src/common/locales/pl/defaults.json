@@ -223,7 +223,8 @@
       }
     },
     "form": "FORMULARZ",
-    "notNow": "Obecnie nie prowadzimy rekrutacji"
+    "notNow": "Obecnie nie prowadzimy rekrutacji",
+    "recrutationEnds": "Rekrutacja kończy się za:"
   },
   "ProjectsSection": {
     "header": "PROJEKTY"
