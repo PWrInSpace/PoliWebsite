@@ -1,61 +1,107 @@
-# PoliWebsite
+# Solvro Next.js template
 
-## Environment
+## Welcome to the repository of Solvro Next.js template
 
-### Required
+A standardized Next.js template maintained by Solvro Science Club at Wrocław University of Science and Technology. This template incorporates our best practices, coding standards, and recommended project structure for web development projects. It serves as a starting point for new Solvro members and projects, ensuring consistency and quality across our initiatives.
 
-- Node.js v18.13.0
-- yarn
+## Technologies used
 
-### Formatting
+- Next.js
+- React.js
+- TypeScript
+- Tailwind CSS
+- Shadcn/ui
+- Tanstack Query
 
-- Prettier
-- ESLint
+## Links
 
-## Install
+[![docs.solvro.pl](https://i.imgur.com/fuV0gra.png)](https://docs.solvro.pl)
 
-Run `yarn install` in root project directory to download packages.
+## Development
 
-## Scripts
+### 1. Use this template
 
-Available scripts:
+![Homepage](https://i.imgur.com/RXm10f8.png)
 
-#### `yarn dev`
+### 2. Install Dependencies
 
-Runs the app in the development mode on http://localhost:5173/.
+```bash
+cd web-template
+pnpm install
+```
 
-- The page will reload on code edits.
-- Linter errors will be printed in the console.
+### 3. Run the Project
 
-#### `yarn dev-host`
+```bash
+pnpm dev
+```
 
-Same as `yarn dev`, but exposes the app on the local network.
+### 5. View the Application
 
-#### `yarn build`
+Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
 
-Builds the app for production in the `dist` folder.
+## Working with git
 
-#### `npx serve -s dist`
+### Github Solvro Handbook
 
-Runs the app in the production mode on http://localhost:3000/.
+<https://docs.solvro.pl/guides/github>
 
-## Repository
+### SSH
 
-### Rules
+If you are a Windows user, follow this [tutorial](https://www.youtube.com/watch?v=vExsOTgIOGw) to connect via SSH
 
-- `main` branch is for the production running version,
-- `develop` is a development branch,
-- All tasks related branches must base on the `develop` and should have a name that indicates the task.
-- Tasks related branches can be merged to the `develop` only after code review is made by another developer.
+### Building a new feature
 
-## CI/CD
+1. Checkout and update main branch
 
-### Builds
+```bash
+   git checkout main
+   git pull origin main
+   git fetch
+```
 
-- On every merge request to `main` and `develop`.
-- On every push to `main` and `develop`.
+2. Create new feature branch
 
-### Deployments
+```bash
+   git checkout -b feat/x_my_feature_branch
+```
 
-- From `develop` to GitHub Pages on every push to `develop`.
-- From `main` to `production` on every push to `main`.
+> 'x' stands for issue number; this command will create and checkout a new branch named feat/x_my_feature_branch
+
+3. Commit your changes:
+
+```bash
+   git add .
+   git commit -m "<description>"
+```
+
+4. Push to remote:
+
+```bash
+   git push origin feat/x_my_feature_branch
+```
+
+5. Create a Pull Request on GitHub and wait for a review
+
+### ⚠️ Important ⚠️
+
+- Do not push directly to main branch!
+- Please remember to commit before checking out to a different branch
+- Clean up after a successful merge
+
+  ```bash
+  git branch -d feat/x_my_feature_branch
+  git push origin --delete feat/x_my_feature_branch
+  ```
+
+## Contact
+
+For questions or suggestions, please reach out to us:
+
+- ✉️ Email: <kn.solvro@pwr.edu.pl>
+- 🌐 Website: [solvro.pwr.edu.pl](https://solvro.pwr.edu.pl/)
+- 📘 Facebook: [KN Solvro](https://www.facebook.com/knsolvro)
+
+---
+
+Thank you for reading! Stay tuned for more updates!
